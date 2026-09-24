@@ -1,0 +1,37 @@
+{
+ "jobPostingInfo": {
+  "id": "d5b8e28887be101cdf0b77147a0d0000",
+  "title": "Practical Hardware Electronics Test Engineer",
+  "jobDescription": "<p>Our Lab team in Israel Yokneam seeks a Practical Hardware Electronics/Test Engineer to join the IC Product Engineering Group. The team leads the development of networking infrastructure for NVIDIA next-generation data centers focusing on accelerated performance while enabling optimized end to end GPU connectivity. We are looking for a hands-on and diligent Practical Engineer with strong lab skills, who enjoys working in a dynamic, multidisciplinary environment.</p><p></p><p><b>What you&#39;ll be doing:</b></p><ul><li>Perform, execute and track stress flow, units’ acceptance, visual inspection, flow validation, debugging activities in the lab, document results, and clearly communicate findings with engineering teams</li><li>Document stress/test failures and communicate findings clearly to engineering teams</li><li>Operate and characterize lab equipment such as testers, environmental stress, HTOL ovens, oscilloscopes, power supplies, logic/spectrum analyzers, and multi-meters</li><li>Run ATE test program on tester, perform first line debug (like 2D Shmoo)</li><li>Address setup issues and troubleshoot these issues&#39; resolution like sockets cleaning, pressure adjustments etc.</li><li>Perform HW acceptance, bring-up, validation, and problem-solving efforts within the testing environment</li><li>Demonstrate good understanding of LB schematics and design to aid debug.</li><li>Actively participate with multi-functional teams including Product Development Engineering to efficiently debug product failures and implement optimal solutions.</li></ul><p></p><p><b>What we need to see:</b></p><ul><li>Practical Engineer Diploma or Technician in Electronics or other technical Diploma or equivalent experience and proven experience</li><li>At least 3 years of hands-on experience in a hardware or reliability lab environment</li><li>Proven experience with lab equipment and board-level debugging</li><li>Good technical English for reading datasheets and writing reports</li><li>Strong problem-solving skills and teamwork approach</li></ul><p></p><p><b>Ways to stand out from the crowd:</b></p><ul><li>Experience working with high-speed interfaces (PCIe, Ethernet, SerDes)</li><li>Familiarity with thermal/mechanical test setups</li><li>Experience with test automation</li><li>Ability to understand schematics and PCB layout</li><li>Proven “can do” approach and hands on problem solving</li></ul><p></p><p>NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most talented and forward-thinking individuals in the world working for us. If you&#39;re creative and autonomous, we want to hear from you! NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>",
+  "location": "Israel, Yokneam",
+  "postedOn": "Posted Today",
+  "startDate": "2026-08-02",
+  "timeType": "Full time",
+  "jobReqId": "JR2021705",
+  "jobPostingId": "Practical-Hardware-Electronics-Test-Engineer_JR2021705",
+  "jobPostingSiteId": "NVIDIAExternalCareerSite",
+  "country": {
+   "descriptor": "Israel",
+   "id": "084562884af243748dad7c84c304d89a"
+  },
+  "canApply": true,
+  "posted": true,
+  "includeResumeParsing": true,
+  "jobRequisitionLocation": {
+   "descriptor": "Israel, Yokneam",
+   "country": {
+    "descriptor": "Israel",
+    "id": "084562884af243748dad7c84c304d89a",
+    "alpha2Code": "IL"
+   }
+  },
+  "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Practical-Hardware-Electronics-Test-Engineer_JR2021705",
+  "questionnaireId": "2f2764b3a82910064296831695150000"
+ },
+ "hiringOrganization": {
+  "name": "IL00 Mellanox Technologies, Ltd.",
+  "url": ""
+ },
+ "similarJobs": [],
+ "userAuthenticated": false
+}

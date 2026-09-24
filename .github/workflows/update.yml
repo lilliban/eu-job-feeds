@@ -1,0 +1,70 @@
+name: Update dataset
+
+# Every six hours. Job adverts do not change faster than that, the diffs stay
+# readable, and the request load on the providers stays defensible if anyone
+# looks. See docs/DECISIONS.md #12.
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Restrict to a provider or provider:slug"
+        required: false
+        type: string
+
+concurrency:
+  # Two runs writing the same files would race on the commit. A queued run is
+  # pointless anyway: the next one reads the same feeds.
+  group: update-dataset
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Run the collector
+        id: collect
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            python -m eu_job_feeds.cli update --only "${{ inputs.only }}"
+          else
+            python -m eu_job_feeds.cli update
+          fi
+
+      - name: Validate the dataset against the contract
+        # A malformed file must never reach the consumer. This is the last gate
+        # before the commit.
+        run: python -m eu_job_feeds.cli validate
+
+      - name: Commit only if something actually changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data registry
+          if git diff --cached --quiet; then
+            echo "No changes; nothing to commit."
+            echo "- No dataset changes this run." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          # Line counts give the run's size at a glance in the history.
+          changed=$(git diff --cached --name-only | wc -l)
+          git commit -m "data: refresh dataset ($changed file(s))"
+          # A concurrent prune-history run may have moved the branch under us.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push

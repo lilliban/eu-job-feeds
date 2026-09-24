@@ -1,0 +1,448 @@
+{
+  "generated_at": "2026-09-24T20:40:34+00:00",
+  "company_count": 44,
+  "job_count": 15145,
+  "open_job_count": 15145,
+  "companies": [
+    {
+      "company_name": "Alan",
+      "source_board": "ashby",
+      "slug": "alan",
+      "job_count": 118,
+      "open_job_count": 118,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "ashby/alan.json"
+    },
+    {
+      "company_name": "Doctolib",
+      "source_board": "ashby",
+      "slug": "doctolib",
+      "job_count": 148,
+      "open_job_count": 148,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "ashby/doctolib.json"
+    },
+    {
+      "company_name": "Mollie",
+      "source_board": "ashby",
+      "slug": "mollie",
+      "job_count": 40,
+      "open_job_count": 40,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "ashby/mollie.json"
+    },
+    {
+      "company_name": "Qonto",
+      "source_board": "ashby",
+      "slug": "qonto",
+      "job_count": 41,
+      "open_job_count": 41,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "ashby/qonto.json"
+    },
+    {
+      "company_name": "Ramp",
+      "source_board": "ashby",
+      "slug": "ramp",
+      "job_count": 205,
+      "open_job_count": 205,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "ashby/ramp.json"
+    },
+    {
+      "company_name": "Adyen",
+      "source_board": "greenhouse",
+      "slug": "adyen",
+      "job_count": 212,
+      "open_job_count": 212,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/adyen.json"
+    },
+    {
+      "company_name": "Celonis",
+      "source_board": "greenhouse",
+      "slug": "celonis",
+      "job_count": 251,
+      "open_job_count": 251,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/celonis.json"
+    },
+    {
+      "company_name": "Contentful",
+      "source_board": "greenhouse",
+      "slug": "contentful",
+      "job_count": 19,
+      "open_job_count": 19,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/contentful.json"
+    },
+    {
+      "company_name": "Datadog",
+      "source_board": "greenhouse",
+      "slug": "datadog",
+      "job_count": 621,
+      "open_job_count": 621,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/datadog.json"
+    },
+    {
+      "company_name": "Doctolib",
+      "source_board": "greenhouse",
+      "slug": "doctolib",
+      "job_count": 151,
+      "open_job_count": 151,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/doctolib.json"
+    },
+    {
+      "company_name": "GetYourGuide",
+      "source_board": "greenhouse",
+      "slug": "getyourguide",
+      "job_count": 53,
+      "open_job_count": 53,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/getyourguide.json"
+    },
+    {
+      "company_name": "HelloFresh",
+      "source_board": "greenhouse",
+      "slug": "hellofresh",
+      "job_count": 435,
+      "open_job_count": 435,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/hellofresh.json"
+    },
+    {
+      "company_name": "N26",
+      "source_board": "greenhouse",
+      "slug": "n26",
+      "job_count": 71,
+      "open_job_count": 71,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/n26.json"
+    },
+    {
+      "company_name": "On Running",
+      "source_board": "greenhouse",
+      "slug": "onrunning",
+      "job_count": 249,
+      "open_job_count": 249,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/onrunning.json"
+    },
+    {
+      "company_name": "Scandit",
+      "source_board": "greenhouse",
+      "slug": "scandit",
+      "job_count": 9,
+      "open_job_count": 9,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/scandit.json"
+    },
+    {
+      "company_name": "Typeform",
+      "source_board": "greenhouse",
+      "slug": "typeform",
+      "job_count": 17,
+      "open_job_count": 17,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "greenhouse/typeform.json"
+    },
+    {
+      "company_name": "BlaBlaCar",
+      "source_board": "lever",
+      "slug": "blablacar",
+      "job_count": 12,
+      "open_job_count": 12,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "lever/blablacar.json"
+    },
+    {
+      "company_name": "Plaid",
+      "source_board": "lever",
+      "slug": "plaid",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "lever/plaid.json"
+    },
+    {
+      "company_name": "Qonto",
+      "source_board": "lever",
+      "slug": "qonto",
+      "job_count": 41,
+      "open_job_count": 41,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "lever/qonto.json"
+    },
+    {
+      "company_name": "Spotify",
+      "source_board": "lever",
+      "slug": "spotify",
+      "job_count": 159,
+      "open_job_count": 159,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "lever/spotify.json"
+    },
+    {
+      "company_name": "Personio",
+      "source_board": "personio",
+      "slug": "personio",
+      "job_count": 1,
+      "open_job_count": 1,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "personio/personio.json"
+    },
+    {
+      "company_name": "Channable",
+      "source_board": "recruitee",
+      "slug": "channable",
+      "job_count": 16,
+      "open_job_count": 16,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "recruitee/channable.json"
+    },
+    {
+      "company_name": "Swisscom",
+      "source_board": "recruitee",
+      "slug": "swisscom",
+      "job_count": 15,
+      "open_job_count": 15,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "recruitee/swisscom.json"
+    },
+    {
+      "company_name": "Bosch Group",
+      "source_board": "smartrecruiters",
+      "slug": "BoschGroup",
+      "job_count": 7301,
+      "open_job_count": 7301,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "smartrecruiters/BoschGroup.json"
+    },
+    {
+      "company_name": "Delivery Hero",
+      "source_board": "smartrecruiters",
+      "slug": "deliveryhero",
+      "job_count": 960,
+      "open_job_count": 960,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "smartrecruiters/deliveryhero.json"
+    },
+    {
+      "company_name": "SmartRecruiters",
+      "source_board": "smartrecruiters",
+      "slug": "SmartRecruiters",
+      "job_count": 9,
+      "open_job_count": 9,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "smartrecruiters/SmartRecruiters.json"
+    },
+    {
+      "company_name": "Wise",
+      "source_board": "smartrecruiters",
+      "slug": "wise",
+      "job_count": 414,
+      "open_job_count": 414,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "smartrecruiters/wise.json"
+    },
+    {
+      "company_name": "Adyen",
+      "source_board": "workable",
+      "slug": "adyen",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/adyen.json"
+    },
+    {
+      "company_name": "Amazing Care Home Health Services",
+      "source_board": "workable",
+      "slug": "amazingcarecareers",
+      "job_count": 340,
+      "open_job_count": 340,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/amazingcarecareers.json"
+    },
+    {
+      "company_name": "BlaBlaCar",
+      "source_board": "workable",
+      "slug": "blablacar",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/blablacar.json"
+    },
+    {
+      "company_name": "Celonis",
+      "source_board": "workable",
+      "slug": "celonis",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/celonis.json"
+    },
+    {
+      "company_name": "Doctolib",
+      "source_board": "workable",
+      "slug": "doctolib",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/doctolib.json"
+    },
+    {
+      "company_name": "GetYourGuide",
+      "source_board": "workable",
+      "slug": "getyourguide",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/getyourguide.json"
+    },
+    {
+      "company_name": "HelloFresh",
+      "source_board": "workable",
+      "slug": "hellofresh",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/hellofresh.json"
+    },
+    {
+      "company_name": "Logitech",
+      "source_board": "workable",
+      "slug": "logitech",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/logitech.json"
+    },
+    {
+      "company_name": "N26",
+      "source_board": "workable",
+      "slug": "n26",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/n26.json"
+    },
+    {
+      "company_name": "Qonto",
+      "source_board": "workable",
+      "slug": "qonto",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/qonto.json"
+    },
+    {
+      "company_name": "Revolut",
+      "source_board": "workable",
+      "slug": "revolut",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/revolut.json"
+    },
+    {
+      "company_name": "Scandit",
+      "source_board": "workable",
+      "slug": "scandit",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/scandit.json"
+    },
+    {
+      "company_name": "Temenos",
+      "source_board": "workable",
+      "slug": "temenos",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/temenos.json"
+    },
+    {
+      "company_name": "TravelPerk",
+      "source_board": "workable",
+      "slug": "travelperk",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/travelperk.json"
+    },
+    {
+      "company_name": "Typeform",
+      "source_board": "workable",
+      "slug": "typeform",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/typeform.json"
+    },
+    {
+      "company_name": "Zalando",
+      "source_board": "workable",
+      "slug": "zalando",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workable/zalando.json"
+    },
+    {
+      "company_name": "NVIDIA",
+      "source_board": "workday",
+      "slug": "nvidia",
+      "job_count": 3237,
+      "open_job_count": 3237,
+      "updated_at": "2026-09-24T00:00:00+00:00",
+      "last_read_complete": true,
+      "path": "workday/nvidia.json"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "company_name": "Personio",
+  "source_board": "personio",
+  "slug": "personio",
+  "job_count": 1,
+  "open_job_count": 1,
+  "updated_at": "2026-09-24T00:00:00+00:00",
+  "jobs": [
+    {
+      "content_hash": "257a18fa3b78191bda3f2f246283663dd866df912d6931b6bed02ed465c9cac7",
+      "title": "Staff Software Engineer, Data Platform",
+      "company_name": "Personio",
+      "source_url": "https://personio.jobs.personio.de/job/1834171",
+      "source_board": "personio",
+      "source_kind": "ats",
+      "external_id": "1834171",
+      "description": null,
+      "requirements_raw": null,
+      "location": "Munich, Berlin",
+      "contract_type": "Full-time",
+      "contract_type_norm": "full_time",
+      "work_mode": null,
+      "seniority": "Experienced",
+      "department": "Product and Tech",
+      "min_years_exp": 7,
+      "max_years_exp": 10,
+      "languages": [],
+      "city": "Munich",
+      "country_code": "DE",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2024-11-13T14:10:41+00:00",
+      "first_seen_at": "2026-08-02T00:00:00+00:00",
+      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    }
+  ]
+}

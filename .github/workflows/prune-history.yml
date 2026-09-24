@@ -1,0 +1,74 @@
+name: Prune history
+
+# Four commits a day against a dataset of this size makes a repository that is
+# slow to clone within a year, and the cost of deciding this later is far higher
+# than deciding it now. Once a month the branch is rebuilt as a single commit.
+#
+# Before that happens, the current dataset is published as a Release asset, so
+# the point-in-time snapshots survive even though the commits do not.
+# See docs/DECISIONS.md #11.
+on:
+  schedule:
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+concurrency:
+  # Must never overlap with `update`, which pushes to the same branch.
+  group: update-dataset
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build the snapshot
+        id: snapshot
+        run: |
+          stamp=$(date -u +%Y-%m)
+          echo "stamp=$stamp" >> "$GITHUB_OUTPUT"
+          tar -czf "eu-job-feeds-${stamp}.tar.gz" data registry
+          echo "Snapshot size: $(du -h eu-job-feeds-${stamp}.tar.gz | cut -f1)"
+
+      - name: Publish the snapshot as a Release
+        # This is what makes the history disposable: the data is still
+        # retrievable after the commits that produced it are gone.
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: snapshot-${{ steps.snapshot.outputs.stamp }}
+          name: Dataset snapshot ${{ steps.snapshot.outputs.stamp }}
+          body: |
+            Point-in-time snapshot of `data/` and `registry/`, taken before the
+            branch history was collapsed to a single commit.
+          files: eu-job-feeds-${{ steps.snapshot.outputs.stamp }}.tar.gz
+
+      - name: Collapse the branch to one commit
+        run: |
+          branch="${GITHUB_REF_NAME}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # An orphan branch has no parent, so the new history is exactly one
+          # commit holding the current tree.
+          git checkout --orphan pruned-history
+          git add -A
+          git commit -m "Collapse history at $(date -u +%Y-%m-%d) (snapshot: snapshot-${{ steps.snapshot.outputs.stamp }})"
+          git branch -M "$branch"
+          git push --force origin "$branch"
+
+      - name: Report
+        run: |
+          {
+            echo "## History pruned"
+            echo ""
+            echo "- Branch \`${GITHUB_REF_NAME}\` collapsed to a single commit."
+            echo "- Prior state archived as release \`snapshot-${{ steps.snapshot.outputs.stamp }}\`."
+            echo "- Repository size now: $(du -sh .git | cut -f1)"
+          } >> "$GITHUB_STEP_SUMMARY"

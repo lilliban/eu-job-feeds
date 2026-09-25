@@ -227,15 +227,25 @@ class TestSmartRecruiters:
 class TestWorkday:
     TARGET = WorkdayTarget("nvidia", "wd5", "NVIDIAExternalCareerSite")
 
+    #: Used as the verification page after `total` (3) has already been met.
+    EMPTY_PAGE = '{"total": 3, "jobPostings": []}'
+    #: A board with genuinely zero open roles reports its own total as 0.
+    NO_ROLES = '{"total": 0, "jobPostings": []}'
+
     async def test_parses_list_and_detail(self) -> None:
+        """Reaching `total` costs one extra, empty-page request to confirm it."""
         client = FakeClient({
-            "/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs": (200, load_fixture("workday_list.json")),
+            "/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs": [
+                (200, load_fixture("workday_list.json")),
+                (200, self.EMPTY_PAGE),
+            ],
             "/job/": (200, load_fixture("workday_detail.json")),
         })
         outcome = await WorkdayConnector().fetch(client, self.TARGET)
 
         assert outcome.complete is True
         assert outcome.slug == "nvidia"
+        assert len(outcome.jobs) == 3
         job = outcome.jobs[0]
         assert job.description_html
         # `postedOn` is relative text ("Posted Today"); `startDate` is the date.
@@ -254,3 +264,32 @@ class TestWorkday:
         outcome = await WorkdayConnector().fetch(client, self.TARGET)
         assert outcome.complete is False
         assert outcome.jobs == []
+
+    async def test_a_capped_index_that_keeps_answering_past_total_is_not_complete(self) -> None:
+        """The NVIDIA case: `total` said 2000, the real board held 3237.
+
+        Every offset past `total` kept answering with a full page of postings
+        instead of the empty one a genuinely exhausted walk gives. Trusting
+        `total` there reported `complete=True` on a fraction of the real
+        board, and the lifecycle went on to close postings that were simply
+        never reachable.
+        """
+        client = FakeClient({
+            "/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs": [
+                (200, load_fixture("workday_list.json")),
+                (200, load_fixture("workday_list.json")),
+            ],
+        })
+        outcome = await WorkdayConnector().fetch(client, self.TARGET)
+        assert outcome.complete is False
+        assert "undercounts" in outcome.error
+
+    async def test_a_board_with_zero_roles_needs_no_verification_request(self) -> None:
+        """A page that comes back empty is unambiguous; no `total` to second-guess."""
+        client = FakeClient({
+            "/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs": (200, self.NO_ROLES),
+        })
+        outcome = await WorkdayConnector().fetch(client, self.TARGET)
+        assert outcome.complete is True
+        assert outcome.jobs == []
+        assert len(client.calls) == 1

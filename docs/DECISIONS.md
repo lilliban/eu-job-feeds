@@ -395,3 +395,46 @@ data, then regex, then nothing.
 unauditable, non-deterministic between runs (breaking the byte-stability in #11),
 and dependent on a paid API, which the zero-cost constraint forbids. A null is
 honest; a plausible invention is not.
+
+---
+
+## 17. Workday's `total` is not trusted as proof a walk is complete
+
+**Context.** Found on NVIDIA, the only Workday tenant registered: `total` on
+the list endpoint reported 2000 while the tenant's real catalogue held 3237.
+Every offset past 2000 kept answering with a full, non-empty page — never the
+empty page a genuinely exhausted walk gives — just recycling postings already
+collected. The connector took `len(postings) >= total` as proof the walk was
+done, reported `complete=True` on 2000 of 3237 postings, and the lifecycle
+(#3) went on to close the other 1237 across two runs as if they no longer
+existed. Verified live: a "closed" posting's own URL answered `200`, and its
+`externalPath` was absent from every page the connector could reach, capped or
+not — the index behind the endpoint was silently capping its own result
+window below what `total` claimed.
+
+**Alternatives.** (a) Trust `total` as before. (b) Stop paginating only on an
+empty page, ignoring `total` entirely. (c) Trust `total`, but confirm it with
+exactly one extra request once reached.
+
+**Decision.** (c). Once the walk believes `len(postings) >= total`, `fetch`
+sends one more page request. An empty answer confirms `total` was honest,
+`complete=True`. A non-empty answer means the index is capping results below
+the real catalogue, and the outcome is reported `complete=False` — per #3, an
+incomplete read leaves the archive untouched rather than closing what the walk
+could not reach.
+
+**Consequences.** (b) would work but pays for it on every one of the many
+small Workday tenants that terminate cleanly via `total`, re-fetching pages
+that add nothing new until an empty one finally shows up. (c) costs exactly
+one extra request, only on tenants where `len(postings)` reaches `total` at
+all. The real cost is that a tenant this large, once capped, can never be
+walked to completion through this endpoint: NVIDIA's dataset is honestly stuck
+at whatever the index will still hand back, correct but permanently partial,
+until a facet-partitioned walk (splitting the query by `jobFamilyGroup`, each
+slice its own sub-2000 window) is built — not done here, and out of scope for
+the single tenant it would currently matter for.
+
+The 1237 postings wrongly marked closed by this bug, in the two runs before
+the fix, were corrected by hand in `data/workday/nvidia.json` once found:
+`is_closed` and `consecutive_misses` reset, since the lifecycle itself cannot
+retroactively undo a closure it was wrongly told to make.

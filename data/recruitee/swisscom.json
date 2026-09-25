@@ -4,7 +4,7 @@
   "slug": "swisscom",
   "job_count": 15,
   "open_job_count": 15,
-  "updated_at": "2026-09-24T00:00:00+00:00",
+  "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
       "content_hash": "257d9797d1ecd93c20d4615bdb656d6bbf4515576243134047282f2d29b6c3a3",
@@ -34,7 +34,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-17T12:54:04+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -66,7 +66,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-07-30T12:45:33+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -98,7 +98,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-08-05T11:22:49+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -130,7 +130,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:22:37+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -162,7 +162,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:20:35+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -194,7 +194,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-08-27T12:59:07+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -224,7 +224,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-07-21T10:41:02+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -256,7 +256,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-14T12:32:52+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -286,7 +286,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-24T12:54:58+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -318,7 +318,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:17:46+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -350,7 +350,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:51:12+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -382,7 +382,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:21:28+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -414,7 +414,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:18:40+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -446,7 +446,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:52:36+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -478,7 +478,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-22T08:19:47+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     }

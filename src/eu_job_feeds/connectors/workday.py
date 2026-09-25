@@ -85,6 +85,9 @@ class WorkdayConnector:
         postings: list[dict] = []
         offset = 0
         total: int | None = None
+        #: True once a page has been fetched purely to verify `total`, after the
+        #: walk believed it was already done. Only ever set for one extra request.
+        verifying = False
 
         while True:
             body = {
@@ -108,14 +111,35 @@ class WorkdayConnector:
             if not isinstance(payload, dict) or not isinstance(payload.get("jobPostings"), list):
                 return self._failed(target, "unexpected payload shape")
 
-            page = payload["jobPostings"]
-            postings.extend(p for p in page if isinstance(p, dict))
+            page = [p for p in payload["jobPostings"] if isinstance(p, dict)]
             if total is None and isinstance(payload.get("total"), int):
                 total = payload["total"]
 
-            offset += PAGE_SIZE
-            if not page or (total is not None and len(postings) >= total):
+            if verifying:
+                # This page exists only to check that `total` was honest. A
+                # search index sitting behind the endpoint can cap its own
+                # result window below what `total` reports — observed on
+                # NVIDIA: `total` said 2000, the real board holds 3237, and
+                # every offset past 2000 kept answering with a full page
+                # instead of the empty one a genuinely exhausted walk gives.
+                # Trusting `total` there reported `complete=True` on 2000 of
+                # 3237 postings, and the lifecycle went on to close the other
+                # 1237 as if they no longer existed.
+                if page:
+                    return self._failed(
+                        target,
+                        f"total ({total}) undercounts the catalogue: offset {offset} "
+                        "still answered with postings",
+                    )
                 break
+
+            postings.extend(page)
+            offset += PAGE_SIZE
+            if not page:
+                break
+            if total is not None and len(postings) >= total:
+                verifying = True
+                continue
             if offset > 20_000:
                 return self._failed(target, "pagination exceeded 20000 postings")
 

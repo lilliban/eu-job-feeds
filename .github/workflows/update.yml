@@ -40,6 +40,10 @@ jobs:
 
       - name: Run the collector
         id: collect
+        env:
+          # Optional. Unset until job_matcher hands us an endpoint — the
+          # collector runs identically either way (see src/eu_job_feeds/notify.py).
+          JOB_MATCHER_WEBHOOK_URL: ${{ secrets.JOB_MATCHER_WEBHOOK_URL }}
         run: |
           if [ -n "${{ inputs.only }}" ]; then
             python -m eu_job_feeds.cli update --only "${{ inputs.only }}"

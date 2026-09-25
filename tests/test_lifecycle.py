@@ -44,6 +44,17 @@ class TestFirstSighting:
         assert len(postings) == 2
         assert all(p.consecutive_misses == 0 and not p.is_closed for p in postings)
 
+    def test_new_postings_list_matches_the_count(self) -> None:
+        """A consumer notifying on new adverts needs the postings, not just `new`."""
+        postings, stats = merge([], complete_read(raw("1"), raw("2")), company_name=COMPANY)
+        assert {p.external_id for p in stats.new_postings} == {"1", "2"}
+        assert stats.new_postings == [p for p in postings]
+
+    def test_a_still_open_posting_is_not_in_the_new_list(self) -> None:
+        stored = first_run(raw("1"))
+        _, stats = merge(stored, complete_read(raw("1")), company_name=COMPANY)
+        assert stats.new_postings == []
+
     def test_canonical_name_is_used_not_the_slug(self) -> None:
         postings = first_run(raw("1"))
         assert postings[0].company_name == COMPANY

@@ -10,7 +10,8 @@ from pathlib import Path
 from .connectors import CONNECTORS, WorkdayConnector
 from .http import RateLimitedClient
 from .lifecycle import MergeStats, already_detailed_ids, merge
-from .models import FetchOutcome, seen_stamp
+from .models import FetchOutcome, JobPosting, seen_stamp
+from .notify import notify_new_postings
 from .registry import CompanyEntry, Registry
 from .store import DATA_DIR, company_relpath, load_company, write_company, write_index
 
@@ -113,6 +114,11 @@ async def run_update(
     owned_client = client is None
     http = client or RateLimitedClient()
     gate = asyncio.Semaphore(concurrency)
+    #: Postings first seen on this run, across every company. Populated inside
+    #: `one()`; safe to share across the concurrent tasks below because nothing
+    #: awaits between the read and the append (see `RateLimitedClient` for the
+    #: same reasoning applied to `index.append`).
+    new_postings: list[JobPosting] = []
 
     async def one(entry: CompanyEntry) -> None:
         async with gate:
@@ -132,6 +138,7 @@ async def run_update(
             stored, outcome, company_name=entry.name, seen_at=stamp
         )
         summary.record(entry, stats)
+        new_postings.extend(stats.new_postings)
 
         changed = write_company(
             entry.provider,
@@ -159,6 +166,7 @@ async def run_update(
 
     try:
         await asyncio.gather(*(one(e) for e in entries))
+        await notify_new_postings(http, new_postings)
     finally:
         if owned_client:
             await http.aclose()

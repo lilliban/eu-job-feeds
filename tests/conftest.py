@@ -36,20 +36,33 @@ class FakeResponse:
 class FakeClient:
     """Stands in for `RateLimitedClient`, serving canned responses by URL.
 
-    `routes` maps a URL substring to `(status, body)`. Unmatched URLs raise, so a
-    connector that builds an unexpected URL fails loudly instead of silently
-    returning nothing.
+    `routes` maps a URL substring to `(status, body)`, or to a `[(status,
+    body), ...]` sequence for a connector that hits the same URL more than
+    once and expects a different answer each time (e.g. Workday pagination) —
+    each call consumes the next entry, and the last one repeats once
+    exhausted. Unmatched URLs raise, so a connector that builds an unexpected
+    URL fails loudly instead of silently returning nothing.
     """
 
-    def __init__(self, routes: dict[str, tuple[int, str]]) -> None:
+    def __init__(
+        self, routes: dict[str, tuple[int, str] | list[tuple[int, str]]]
+    ) -> None:
         self.routes = routes
         self.calls: list[str] = []
+        #: `(url, json_body)` for every `post_json` call, in order.
+        self.posted: list[tuple[str, object]] = []
+        self._sequence_index: dict[str, int] = {}
 
     def _match(self, url: str) -> tuple[int, str]:
         self.calls.append(url)
         for fragment, response in self.routes.items():
-            if fragment in url:
-                return response
+            if fragment not in url:
+                continue
+            if isinstance(response, list):
+                idx = min(self._sequence_index.get(fragment, 0), len(response) - 1)
+                self._sequence_index[fragment] = idx + 1
+                return response[idx]
+            return response
         raise AssertionError(f"unexpected URL requested: {url}")
 
     async def request(self, method: str, url: str, **kwargs: object) -> FakeResponse:
@@ -66,6 +79,7 @@ class FakeClient:
     async def post_json(
         self, url: str, json_body: object, **kwargs: object
     ) -> tuple[int, object | None]:
+        self.posted.append((url, json_body))
         status, body = self._match(url)
         try:
             return status, json.loads(body)

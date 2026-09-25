@@ -4,7 +4,7 @@
   "slug": "personio",
   "job_count": 1,
   "open_job_count": 1,
-  "updated_at": "2026-09-24T00:00:00+00:00",
+  "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
       "content_hash": "257a18fa3b78191bda3f2f246283663dd866df912d6931b6bed02ed465c9cac7",
@@ -32,7 +32,7 @@
       "salary_currency": null,
       "posted_date": "2024-11-13T14:10:41+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     }

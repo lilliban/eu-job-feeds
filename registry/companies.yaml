@@ -11,6 +11,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
   enabled: true
+- name: Frontify
+  provider: ashby
+  slug: frontify
+  source: curated
+  added_at: '2026-09-25T04:42:11+00:00'
+  enabled: true
 - name: Mollie
   provider: ashby
   slug: mollie
@@ -28,6 +34,12 @@ companies:
   slug: ramp
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
+  enabled: true
+- name: Smallpdf
+  provider: ashby
+  slug: smallpdf
+  source: curated
+  added_at: '2026-09-24T22:22:46+00:00'
   enabled: true
 - name: Adyen
   provider: greenhouse
@@ -89,6 +101,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:24:40+00:00'
   enabled: true
+- name: Squirro
+  provider: greenhouse
+  slug: squirro
+  source: curated
+  added_at: '2026-09-24T22:23:01+00:00'
+  enabled: true
 - name: Typeform
   provider: greenhouse
   slug: typeform
@@ -100,6 +118,12 @@ companies:
   slug: blablacar
   source: curated
   added_at: '2026-09-24T20:23:27+00:00'
+  enabled: true
+- name: Frontify
+  provider: lever
+  slug: frontify
+  source: curated
+  added_at: '2026-09-25T04:42:11+00:00'
   enabled: true
 - name: Plaid
   provider: lever
@@ -131,6 +155,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
   enabled: true
+- name: Climeworks
+  provider: recruitee
+  slug: climeworks
+  source: curated
+  added_at: '2026-09-24T22:22:14+00:00'
+  enabled: true
 - name: Swisscom
   provider: recruitee
   slug: swisscom
@@ -148,6 +178,12 @@ companies:
   slug: deliveryhero
   source: curated
   added_at: '2026-09-24T20:20:27+00:00'
+  enabled: true
+- name: Nexthink
+  provider: smartrecruiters
+  slug: nexthink
+  source: curated
+  added_at: '2026-09-24T22:21:41+00:00'
   enabled: true
 - name: SmartRecruiters
   provider: smartrecruiters
@@ -185,11 +221,23 @@ companies:
   source: curated
   added_at: '2026-09-24T20:21:10+00:00'
   enabled: true
+- name: Climeworks
+  provider: workable
+  slug: climeworks
+  source: curated
+  added_at: '2026-09-24T22:22:14+00:00'
+  enabled: true
 - name: Doctolib
   provider: workable
   slug: doctolib
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
+  enabled: true
+- name: Frontify
+  provider: workable
+  slug: frontify
+  source: curated
+  added_at: '2026-09-25T04:42:11+00:00'
   enabled: true
 - name: GetYourGuide
   provider: workable
@@ -215,6 +263,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:16:03+00:00'
   enabled: true
+- name: Nexthink
+  provider: workable
+  slug: nexthink
+  source: curated
+  added_at: '2026-09-24T22:21:41+00:00'
+  enabled: true
 - name: Qonto
   provider: workable
   slug: qonto
@@ -232,6 +286,18 @@ companies:
   slug: scandit
   source: curated
   added_at: '2026-09-24T20:24:40+00:00'
+  enabled: true
+- name: Smallpdf
+  provider: workable
+  slug: smallpdf
+  source: curated
+  added_at: '2026-09-24T22:22:46+00:00'
+  enabled: true
+- name: Squirro
+  provider: workable
+  slug: squirro
+  source: curated
+  added_at: '2026-09-24T22:23:01+00:00'
   enabled: true
 - name: Temenos
   provider: workable

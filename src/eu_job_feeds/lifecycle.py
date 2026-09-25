@@ -41,6 +41,9 @@ class MergeStats:
     newly_closed: int = 0
     total: int = 0
     errors: list[str] = field(default_factory=list)
+    #: The postings behind `new` — a consumer notifying on new adverts needs the
+    #: postings themselves, not just a count.
+    new_postings: list[JobPosting] = field(default_factory=list)
 
 
 def identity(provider: str, external_id: str) -> str:
@@ -101,6 +104,7 @@ def merge(
 
         if previous is None:
             stats.new += 1
+            stats.new_postings.append(built)
             result.append(built)
             continue
 

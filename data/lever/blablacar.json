@@ -4,7 +4,7 @@
   "slug": "blablacar",
   "job_count": 12,
   "open_job_count": 12,
-  "updated_at": "2026-09-24T00:00:00+00:00",
+  "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
       "content_hash": "08956518433855f732d81dbfb8dc222c43c5cfae2608181dee41bad396b88119",
@@ -32,7 +32,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-23T08:04:35+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -64,7 +64,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-11T15:30:50+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -96,7 +96,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-01T12:25:00+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -128,7 +128,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-28T16:28:09+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -161,7 +161,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-23T09:13:08+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -193,7 +193,7 @@
       "salary_currency": null,
       "posted_date": "2026-06-05T14:24:36+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -225,7 +225,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-02T12:11:43+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -260,7 +260,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-06T07:34:39+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -293,7 +293,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-29T11:56:18+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -325,7 +325,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-30T15:37:37+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -355,7 +355,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-08-05T14:31:31+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -388,7 +388,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-17T06:35:11+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     }

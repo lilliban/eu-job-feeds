@@ -3,8 +3,8 @@
   "source_board": "lever",
   "slug": "spotify",
   "job_count": 159,
-  "open_job_count": 159,
-  "updated_at": "2026-09-24T00:00:00+00:00",
+  "open_job_count": 81,
+  "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
       "content_hash": "00c3b0019d7b3ef6aa3d5fe30db6f9b15cf35179830a3a0d5b0ab63f654e6531",
@@ -33,8 +33,8 @@
       "posted_date": "2026-06-09T10:12:58+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "017d01e4e5dc422f62cc13d63c1925777d5f3c5cc3524adfcd9f73d4dbf343ec",
@@ -63,8 +63,8 @@
       "posted_date": "2026-04-06T16:48:51+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "02b61b381cb3d6a939c8155c3a76697e2babb5f9f381b5b23858fddee02d2f3b",
@@ -93,8 +93,8 @@
       "posted_date": "2026-06-17T18:18:40+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "04a7010bc16dcc446a849c72aa64aee7e856931170737a35580e76ff64bfbf87",
@@ -122,7 +122,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-04-29T12:40:29+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -152,7 +152,7 @@
       "salary_currency": null,
       "posted_date": "2026-04-28T08:45:37+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -183,8 +183,8 @@
       "posted_date": "2026-05-27T14:36:29+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "092e64c927378df0ceae0f012f8ca03b20402e1de28f3e20c8227d0e6cb0f38f",
@@ -216,8 +216,8 @@
       "posted_date": "2026-04-17T05:42:18+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "0a543d0ca17374f99da8a8b09b4814492eee07284b7fadbe57ab5d942aa37251",
@@ -246,8 +246,8 @@
       "posted_date": "2026-05-20T07:52:20+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "0b0346fdebc5bdd334b73c2a632d2a42e15a84b0337af038e2fea6d01d5bcf7f",
@@ -275,7 +275,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-21T13:57:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -306,8 +306,8 @@
       "posted_date": "2026-07-10T15:53:26+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "1329847f45d90e609efccb2eddb51981205b018f8a15ac57206a9dca8a7d71ee",
@@ -335,7 +335,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-05-04T07:58:49+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -366,8 +366,8 @@
       "posted_date": "2026-05-12T20:51:25+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "145ce9d4073eee3018c00a3fe6b34ebd3b09dcad509978935ed3be494daa29c4",
@@ -396,8 +396,8 @@
       "posted_date": "2026-03-20T19:54:14+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "145ce9d4073eee3018c00a3fe6b34ebd3b09dcad509978935ed3be494daa29c4",
@@ -426,8 +426,8 @@
       "posted_date": "2026-03-20T19:51:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "145ce9d4073eee3018c00a3fe6b34ebd3b09dcad509978935ed3be494daa29c4",
@@ -456,8 +456,8 @@
       "posted_date": "2026-06-15T15:31:57+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "1503f62be923fe6e03d6e5d7da3c9b7afaf2b2f358f1562f8befa082bf539957",
@@ -486,8 +486,8 @@
       "posted_date": "2026-06-08T20:01:03+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "15e9fb3fb25e9d5f87ea262a83989c961e3c073fd2b1d644a92740110592a39b",
@@ -519,8 +519,8 @@
       "posted_date": "2026-04-24T15:05:41+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "161b8ab83926ff70038a520f0a9db4d59a28fc67025d9dc4828da2dc6eb540e2",
@@ -549,8 +549,8 @@
       "posted_date": "2026-05-13T15:09:09+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "17f5b8dbe9ec819f238d8c66c28935d8be8efa231dac9a6614da421485514d6f",
@@ -578,7 +578,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-07-27T14:59:18+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -609,8 +609,8 @@
       "posted_date": "2026-04-22T03:48:56+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "188403fcfe14254fb45857260af3426bd726f9525ce264d5cd8c82ca47f98d4b",
@@ -639,8 +639,8 @@
       "posted_date": "2026-05-08T14:48:55+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "1b722c71f57ea04f80879f4e65c0f52513799f01a5a00361b9c6f408bbd2f876",
@@ -668,7 +668,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-02T16:36:42+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -699,8 +699,8 @@
       "posted_date": "2026-05-14T20:08:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "1e71bed090949498214526a8bb866de1db152980baa33c99715f84dc6c6bd949",
@@ -728,7 +728,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-10T14:12:04+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -758,7 +758,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-07-23T13:04:11+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -789,8 +789,8 @@
       "posted_date": "2026-05-15T14:14:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "2305c7f14b48bcbf225c79175f602474dee009312d4012d2b3b0675175ca864a",
@@ -818,7 +818,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-08T13:34:30+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -851,8 +851,8 @@
       "posted_date": "2026-07-30T05:45:01+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "244372928b6d744cca5f45535eebb76e27c531d7776a9e2f146ec4751466fec6",
@@ -882,7 +882,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-17T13:06:03+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -912,7 +912,7 @@
       "salary_currency": null,
       "posted_date": "2025-12-10T16:27:05+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -942,7 +942,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-24T16:44:19+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -973,8 +973,8 @@
       "posted_date": "2026-05-06T11:24:27+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "2be68c6510bd0c8f7561d5e10bd53d892aad012545fa267be84ebec9f396d517",
@@ -1006,7 +1006,7 @@
       "salary_currency": null,
       "posted_date": "2026-05-14T12:00:17+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1039,8 +1039,8 @@
       "posted_date": "2026-07-16T09:33:30+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "2e8372cba8b37d7491a7bfe7b4b2c8a78fcc5c8275421d409f2b438eb07915b1",
@@ -1068,7 +1068,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-06T11:59:02+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1098,7 +1098,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-06-23T18:54:13+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1129,8 +1129,8 @@
       "posted_date": "2026-05-22T05:30:11+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "3020cdf82b84f3fb7a320bc079c7f9ccce9a9c53eb8aa1d7dd7587c7c22112f5",
@@ -1158,7 +1158,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-28T13:45:09+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1188,7 +1188,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-16T08:05:41+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1219,8 +1219,8 @@
       "posted_date": "2026-05-28T20:49:06+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "362727446cbb80c3c7813545e820f485243ac4683f2f69b49935369885743484",
@@ -1248,7 +1248,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-21T17:40:30+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1278,7 +1278,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-21T17:37:41+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1312,8 +1312,8 @@
       "posted_date": "2026-03-02T23:52:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "3dc57ec2bd2e0f0fe749d39e7300764e4f5bfd4af0db1989132009f7015a616f",
@@ -1345,8 +1345,8 @@
       "posted_date": "2026-07-16T05:29:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "3ef824993c3e9308dd513303c921ec2a6c1a04597f030eabebbd3de4316407f9",
@@ -1375,8 +1375,8 @@
       "posted_date": "2025-12-19T12:21:21+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "3fc76d5e6ee046c5867b1e5c155d636a4410faf5529316ea2b9cd5d59501dc0d",
@@ -1405,8 +1405,8 @@
       "posted_date": "2026-06-30T13:37:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "42d17c1f7d3eb26b236f416ee4d1bfbd01fa432f64dcfa0b0ca1695ddd86f3ed",
@@ -1434,7 +1434,7 @@
       "salary_currency": null,
       "posted_date": "2026-04-13T20:28:19+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1464,7 +1464,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-18T14:27:56+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1494,7 +1494,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-31T19:43:11+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1525,8 +1525,8 @@
       "posted_date": "2026-04-29T13:13:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "4a626b991948d018d2b6b479b98623d140d1a01bf6eaaa461fbecc2ce8d8dd71",
@@ -1555,8 +1555,8 @@
       "posted_date": "2026-05-06T12:27:43+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "4d88efc77714fa089ac7aeb08975b3d98223a15b6fb65c7b65a1ca04ccc969eb",
@@ -1584,7 +1584,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-06-24T04:05:40+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1617,8 +1617,8 @@
       "posted_date": "2026-06-08T20:24:12+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "4e771ec0f1ee14d54027d7c7940ad60d2dd824e3866b0a1bb0555edb09ac7684",
@@ -1646,7 +1646,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-24T16:44:31+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1677,8 +1677,8 @@
       "posted_date": "2026-06-15T18:33:05+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "53695b22a84a3a4f94fdaaa30c524474d9de6c3968ce0012c3dab298bca74d8d",
@@ -1706,7 +1706,7 @@
       "salary_currency": null,
       "posted_date": "2026-06-23T11:29:45+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1738,7 +1738,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-27T03:43:07+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1768,7 +1768,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-09T11:01:39+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1802,8 +1802,8 @@
       "posted_date": "2026-06-30T16:50:14+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "5c9fddd70dff69ba3663ea426a26b08b28f02050aa83e2aee5ab1b4f90ca17fa",
@@ -1832,8 +1832,8 @@
       "posted_date": "2026-03-18T18:07:05+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "5da0c30a66c36773ae89e62e31d2a0ca77f63109e9d92706a52a2ca205a6a81e",
@@ -1861,7 +1861,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-23T08:16:55+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1891,7 +1891,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-26T19:25:02+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1922,8 +1922,8 @@
       "posted_date": "2025-08-26T20:02:52+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "614567bc7fca5bf0bafb9c193dc15b0afaba4b668507f226054abaccfb58d7cb",
@@ -1951,7 +1951,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-07-10T14:40:46+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -1981,7 +1981,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-10T14:40:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2011,7 +2011,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-12T15:06:09+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2044,8 +2044,8 @@
       "posted_date": "2026-06-26T10:23:39+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "64d55312296442fd8e64ef89dd4cdcaa145bfad9a5f503b1ce9b9446466be856",
@@ -2073,7 +2073,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-07-09T14:55:35+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2104,8 +2104,8 @@
       "posted_date": "2026-07-24T05:54:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "69689c4471a7baad373ca7e260ffe9b62bebbc014cb4ec199aadb4938aca0fa8",
@@ -2133,7 +2133,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-04T10:48:02+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2163,7 +2163,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-22T08:36:16+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2194,8 +2194,8 @@
       "posted_date": "2026-07-24T15:00:23+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "6d70aba2df902959c8e7d2781f99abfdb81b1ac5bc9155b6317073ac6312e54c",
@@ -2223,7 +2223,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-24T16:44:03+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2254,8 +2254,8 @@
       "posted_date": "2026-04-24T14:41:43+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "70022d42cbeee70bb620ec7bc4dcc8c6cc825dd41a4448ef83a7d21bdcdc1375",
@@ -2285,7 +2285,7 @@
       "salary_currency": null,
       "posted_date": "2026-01-15T02:53:50+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2315,7 +2315,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-16T11:37:36+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2345,7 +2345,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-22T15:57:52+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2378,7 +2378,7 @@
       "salary_currency": null,
       "posted_date": "2026-04-16T13:42:42+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2409,8 +2409,8 @@
       "posted_date": "2026-07-10T20:19:23+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "789f4982d5d22b497e0baafc1839a34b3b87921558e3d100b834d84ce48938f5",
@@ -2439,8 +2439,8 @@
       "posted_date": "2026-06-18T19:55:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "7a03d3f7723b179f56e247ca016eab9d2e8746b04183458177b69467e7c02e04",
@@ -2469,8 +2469,8 @@
       "posted_date": "2026-06-30T12:08:34+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "7b6449813fab754298af4cb32a50c6dd1c694f4fc4c1abadb8fe9b092e2330b6",
@@ -2498,7 +2498,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-21T17:45:52+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2528,7 +2528,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-21T17:45:56+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2562,7 +2562,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-12T17:18:58+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2593,8 +2593,8 @@
       "posted_date": "2026-05-28T12:29:37+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "8371b536b4ac44a82f7985000a76f562ba56181a2084f56c7e76d2bac868b186",
@@ -2623,8 +2623,8 @@
       "posted_date": "2026-05-28T12:32:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "840d3b207549f5b4020662b5c0dfd22f002cd5095458c3111b7255b00a50780b",
@@ -2652,7 +2652,7 @@
       "salary_currency": null,
       "posted_date": "2026-02-26T17:01:11+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2683,8 +2683,8 @@
       "posted_date": "2026-07-28T14:32:49+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "86660cbbf0253f70ac5de21cee61805723142258815d90c598a3164fc5733127",
@@ -2713,8 +2713,8 @@
       "posted_date": "2026-07-06T15:51:01+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "867a2ae55dd9bd69ec3e2ca088acbc19b48e83d926c2325169975b0168394de6",
@@ -2743,8 +2743,8 @@
       "posted_date": "2026-07-21T02:07:48+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "8719a7ea1d10cc7c6a0c8e303b16030c9ac37338216742d21912811dca616042",
@@ -2775,8 +2775,8 @@
       "posted_date": "2026-03-17T17:00:10+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "87891143c6249311252dff8255d4ae724852023ada35413d75dcec32c49abd1e",
@@ -2808,7 +2808,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-24T13:56:25+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2838,7 +2838,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-10T20:25:45+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2868,7 +2868,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-06T09:48:16+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -2899,8 +2899,8 @@
       "posted_date": "2026-05-05T15:01:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "90c71ec893fe6716ee385ad262bc7fa5c5e6953f23df6091be7e923bd8441388",
@@ -2929,8 +2929,8 @@
       "posted_date": "2026-05-05T15:35:42+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "94537c8da202cfc76ac2f0ae9f7b24366549aa934f65b904df352fe2a491c97c",
@@ -2959,8 +2959,8 @@
       "posted_date": "2026-07-10T21:46:55+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "98b0173ac00d41cf7fa1a74a8627d4b5e064af2df09566ac234aa6ede2cb4b43",
@@ -2989,8 +2989,8 @@
       "posted_date": "2026-05-15T02:33:13+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "9ac87e6890166b3d70e0014962fda664d45560af8c90500cdc88e11f78813f6c",
@@ -3018,7 +3018,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-01T14:33:04+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3049,8 +3049,8 @@
       "posted_date": "2026-07-22T17:32:35+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "9e0c4b3ccb65f302c918c8208ae4c6fcf2ce0691a1247c46b8a31cac8db564fa",
@@ -3078,7 +3078,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-08T19:57:03+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3108,7 +3108,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-04T13:41:05+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3139,8 +3139,8 @@
       "posted_date": "2026-04-09T14:59:54+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "ac136ea7dc0b223359ad7ef85b2861a7b4d60d640d6a23aa2eab2d9eda3d8c25",
@@ -3168,7 +3168,7 @@
       "salary_currency": null,
       "posted_date": "2026-05-08T14:29:46+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3199,8 +3199,8 @@
       "posted_date": "2026-07-20T16:29:56+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b2af9517d1d828b1071baa626fcfcbd29595e1d9ebd0b36c89cd0ef957498c9b",
@@ -3229,8 +3229,8 @@
       "posted_date": "2026-05-13T15:23:52+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b2bc0da69750074ac05a28ea8c7f3950ad23f2427547d82bed46a0cf2a160be2",
@@ -3259,8 +3259,8 @@
       "posted_date": "2026-06-30T07:46:16+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b32cd236c354f7cd6492d06f82337ae9c5f4b98d108c90dc2a81630e73607de8",
@@ -3288,7 +3288,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-02T13:37:50+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3322,8 +3322,8 @@
       "posted_date": "2026-03-03T02:01:23+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b6d57e47815c3668fe774485ed5fa37920d94cc8bffbe40e4a9e14e1cee5b6a7",
@@ -3356,8 +3356,8 @@
       "posted_date": "2026-07-28T10:23:31+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b7909f94c4df9eeb0a03465bc95428c8f45dda239a78347ca2eb31faa45e97db",
@@ -3386,8 +3386,8 @@
       "posted_date": "2026-05-13T15:26:40+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b899d0c3b12f30d0d5befb073a5fd44461524b449bdc531840bbb540fb03376b",
@@ -3416,8 +3416,8 @@
       "posted_date": "2026-03-19T13:22:19+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b900f4d3ddd07aa56bf151b6bf8fd684b9e011d3a70675626d41df5341f04550",
@@ -3445,7 +3445,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-18T13:16:05+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3476,8 +3476,8 @@
       "posted_date": "2026-07-14T15:14:35+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "bb17f3108b22b789805fe19fdc0545d773e74749f0310927dbba6e65aa561f39",
@@ -3509,8 +3509,8 @@
       "posted_date": "2026-05-19T11:27:39+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "bc8e2b83ab3eb9836fa498443cbc65b8db54e018303fd88295c4dd900ded0ee3",
@@ -3538,7 +3538,7 @@
       "salary_currency": null,
       "posted_date": "2025-10-24T16:32:01+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3569,8 +3569,8 @@
       "posted_date": "2026-07-27T17:30:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "bed92687dc97fcd09dcbf47dfa5aa1a0a5614f13281dd3319930dea39b925a37",
@@ -3600,7 +3600,7 @@
       "salary_currency": null,
       "posted_date": "2026-03-13T08:52:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3630,7 +3630,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-19T14:19:57+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3660,7 +3660,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-17T15:11:49+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3690,7 +3690,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-17T12:01:21+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3722,7 +3722,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-09T15:11:06+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3752,7 +3752,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-04T15:25:52+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3782,7 +3782,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-10T10:56:59+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3813,8 +3813,8 @@
       "posted_date": "2026-07-17T12:05:12+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "c839a524d6fac0298dbe5f70d344df2d90fb2ae9e1e52f050e406f21824b07a6",
@@ -3842,7 +3842,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-07-30T20:55:39+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3872,7 +3872,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-07-15T10:34:50+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3903,8 +3903,8 @@
       "posted_date": "2026-07-17T07:43:37+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "cfa43a8172c6fc542e7c31316b05d0cc1c70f22dc6b69b0e6d946ffd4e5e6e0e",
@@ -3932,7 +3932,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-13T18:12:43+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3965,8 +3965,8 @@
       "posted_date": "2026-07-08T18:56:35+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "d193e1388eb7666272c2977e0a5ae5d6803fdecc62e28da5309e1d4ef71214fb",
@@ -3995,8 +3995,8 @@
       "posted_date": "2026-06-30T12:12:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "d397d0ff4f3f9e0a42e05190f7b7f809607dfede42e218e073ea10a89698e3d6",
@@ -4024,7 +4024,7 @@
       "salary_currency": null,
       "posted_date": "2026-04-14T09:50:37+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4054,7 +4054,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-17T17:23:54+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4084,7 +4084,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-17T18:01:44+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4114,7 +4114,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-10T13:13:31+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4144,7 +4144,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-04-29T15:21:11+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4174,7 +4174,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-24T18:52:39+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4205,8 +4205,8 @@
       "posted_date": "2026-05-07T13:42:39+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "d714a24dac0466d8dfd516e6034887275e209d593d54211e12f1c67ad5f28a7c",
@@ -4235,8 +4235,8 @@
       "posted_date": "2026-07-30T18:31:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "d7eb55d5201ae95ae2b3ae8eea1bb6e7dfc12b4ce3c7c4566202800d9484bd67",
@@ -4264,7 +4264,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-29T15:08:17+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4294,7 +4294,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-25T10:31:14+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4327,7 +4327,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-03T02:24:29+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4357,7 +4357,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-06-22T17:14:00+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4388,8 +4388,8 @@
       "posted_date": "2026-05-14T09:51:13+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "e535bfd79cd1be18dcfe565099ca612859237d4a563b2d76e9655496f3ee7dab",
@@ -4417,7 +4417,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-04-17T16:27:38+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4448,8 +4448,8 @@
       "posted_date": "2026-07-20T17:49:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "e73dc2f839ce8b0d4e28d833ffe08ac1ec381a9fa3f16b1c7e0753e7d72df918",
@@ -4478,8 +4478,8 @@
       "posted_date": "2026-04-20T19:31:08+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "e7aa5ca3b5f0199c1cc2ec54e8d10b358f6ad50753d5575f0711b74900085c18",
@@ -4509,7 +4509,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-24T10:18:27+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4539,7 +4539,7 @@
       "salary_currency": null,
       "posted_date": "2026-07-21T13:42:41+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4572,8 +4572,8 @@
       "posted_date": "2026-03-03T08:31:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "f0db954b00b2a1a3c7eaffbd4cb75283fd6d58184c39d299e0629f2a2cec1f4b",
@@ -4602,8 +4602,8 @@
       "posted_date": "2026-06-26T14:27:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "f25dcb67f61129d0026b0f9e19b7af2f59f96a9406a053a739af72981377e742",
@@ -4631,7 +4631,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-26T14:45:54+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4661,7 +4661,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-17T11:58:04+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4692,8 +4692,8 @@
       "posted_date": "2026-05-04T02:22:02+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "faa9f58486ff9776dd50e05009e9306c6845731f8af69b0b272a22e32a75c5e7",
@@ -4722,8 +4722,8 @@
       "posted_date": "2026-05-06T12:16:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "fd8ef7358aa3d54ccc6f3474d5c5aa75e5dc3e4b6e846e0daf62e2fc60c8d1a8",
@@ -4753,7 +4753,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-16T15:02:27+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4783,7 +4783,7 @@
       "salary_currency": null,
       "posted_date": "2026-09-24T16:44:25+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -4814,8 +4814,8 @@
       "posted_date": "2026-06-18T15:31:45+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "ff7031737c01b2ebb2dae21ecac9415d4375db51b22046fdc965b5dd15244eaf",
@@ -4844,8 +4844,8 @@
       "posted_date": "2026-05-20T14:29:27+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     }
   ]
 }

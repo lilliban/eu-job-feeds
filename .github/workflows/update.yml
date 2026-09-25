@@ -65,15 +65,15 @@ jobs:
           JOB_MATCHER_WEBHOOK_URL: ${{ secrets.JOB_MATCHER_WEBHOOK_URL }}
         run: |
           if [ -n "${{ inputs.only }}" ]; then
-            python -m eu_job_feeds.cli update --db state/jobs.sqlite --only "${{ inputs.only }}"
+            python -m eu_job_feeds.cli update --only "${{ inputs.only }}"
           else
-            python -m eu_job_feeds.cli update --db state/jobs.sqlite
+            python -m eu_job_feeds.cli update
           fi
 
       - name: Validate the dataset against the contract
         # A malformed row must never reach the consumer. This is the last gate
         # before publishing.
-        run: python -m eu_job_feeds.cli validate --db state/jobs.sqlite
+        run: python -m eu_job_feeds.cli validate
 
       - name: Commit registry and stats only
         # The postings themselves are published as a release asset below, not

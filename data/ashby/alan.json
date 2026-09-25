@@ -2,8 +2,8 @@
   "company_name": "Alan",
   "source_board": "ashby",
   "slug": "alan",
-  "job_count": 118,
-  "open_job_count": 118,
+  "job_count": 119,
+  "open_job_count": 119,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -725,6 +725,36 @@
       "is_closed": false
     },
     {
+      "content_hash": "3d562f590080cdb3d8c2bf5fc59fee4d8662a9ef2ca1accc0ca1681ea2755ff0",
+      "title": "Senior Engineering Manager (Hands-on) - Offer",
+      "company_name": "Alan",
+      "source_url": "https://jobs.ashbyhq.com/alan/88c0bbe1-ec12-4d7b-97f1-cff384e4208f",
+      "source_board": "ashby",
+      "source_kind": "ats",
+      "external_id": "88c0bbe1-ec12-4d7b-97f1-cff384e4208f",
+      "description": "HEALTH CAN’T WAIT. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture https://alan.com/en/careers. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n\n🤖 THE OFFER AREA\n\nWe’re the engine that decides what Alan sells, at what price, and on what terms.\n\nEvery Alan member, from a 3-person startup to a public administration body with 200K+ collaborators is covered by an offer that our area designed, priced, contracted and renews every year.\n\nWe own the whole offer lifecycle for several kind of services (health insurance, life & disability insurance, employee benefits) across 4 countries. We manage an incredible business complexity and diversity in a scalable way, and most importantly, we empower others to act autonomously on it:\n\n - Offer creation: Enabling Sales to build compliant and relevant offers themselves in minutes, with a real-time pricer and AI assistance, without waiting days for an actuary.\n\n - Contract Lifecycle: Not only signing a contract in one go and writing the settings that become the source of truth for the rest of Alan, but also providing Business Ops with the tools they need to pilot over the years a portfolio of 100K+ contracts\n\n - Enabling growth: We’re at the root of Alan’s Insurance stack. Our technical decisions have a long reach: Claims, Billing and many other teams depends on us. We are key to lift blockers and enable the opening of new segments or markets.\n\n\n🚀 WHAT YOU'LL BUILD AND WHO YOU'LL WORK WITH\n\n - 🌍 One insurance stack for every country. We're replacing country-by-country code with a shared \"Core Stack\": one set of shared rules, with room for local differences. Spain already runs on it, and we’re now tackling France. The architecture decisions you make will shape how Alan sells insurance for the next 10 years. (How we made our offer builder global https://medium.com/alan/how-we-refactored-one-of-our-most-used-data-models-33cadaf31313)\n\n - 🤖 AI-native underwriting. Insurance is complex, and most insurers need actuaries on every quote. We empower our Sales to build compliant and relevant offers themselves in minutes. AI-assisted smart alternatives, price explanations, pitching and more are already in the Sales hands, and there’s much more to build.\n\n - 🛡️ Life & Disability as a first-class product: We’re bringing this historically smaller product at Alan to the same level of maturity as Health, with first class member XP, Ops and enabling access to a much wider population.\n\n - 🧑‍🚀 A growing team. You'll hire it, shape it, and decide what it works on. Talent density, onboarding, feedback, and the mix of skills the area needs are yours to own.\n\n - 🛡️ Technical direction and operational excellence. Architecture calls, quality standards and shaping the organization and incident response as we scale to more countries. And you stay hands-on: at Alan, engineering leaders are expected to build.\n\n\n⚡ WHY THIS ROLE IS SPECIAL\n\n - Dual impact: Shape both technical excellence and team growth, engineers become better while building better products\n\n - Leadership growth: Influence engineering culture, mentor future leaders, and drive technical strategy that shapes the future of healthcare delivery\n\n - Your users sit next to you: Hundred of Alaners use what your team ships every day. The feedback loop between building and impact is very short, which allows you to iterate and move quickly.\n\n - Complex domain, simple software: Regulated domain, many countries, many segments… The job is to model a messy real world into a stack that stays simple and easy to extend.\n\n - Direct business impact. We own pricing, contract lifecycle and Sales tooling. We have a direct impact on Alan’s margin and growth.\n\n\n🔍 WHAT WE'RE LOOKING FOR\n\nWe're looking for an engineering leader who gets excited about building state-of-the-art AI systems and applying them to real-world, high-stakes problems in healthcare.\n\n\nLEADERSHIP EXPERIENCE\n\n - 3+ years leading engineering teams, with a track record of building high performers.\n\n - You partner with other product functions as a true equal: you shape the roadmap, name trade-offs honestly, and help the team commit to what it can actually deliver.\n\n\nTECHNICAL FOUNDATIONS\n\n - Experience establishing engineering excellence standards, with the ability to guide architectural decisions.\n\n - First-hand experience shipping AI or LLM products to production is a big plus.\n\n - You're excited and eager to keep writing code. You still review it, and you still ship some yourself.\n\n - Comfortable with modern development practices and AI-assisted development tools.\n\n\nWHAT WE VALUE\n\n - Curious, self-starting, humble, collaborative, and eager to grow.\n\n - You develop people as much as you develop products.\n\n - Ex-founders are typically a great fit in our team.\n\n\nMISSION ALIGNMENT\n\n - Healthcare technology and innovation excite you\n\n - You understand that great engineering teams are built on psychological safety and continuous learning\n\nBut above all, we are looking for high potential and curiosity: make sure to show us this when you apply!\n\n\n\n\n🎯 IMPORTANT NOTE: WE HIRE PEOPLE, NOT ROLES.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nIf you identify yourself as a woman: Did you know that research shows women often apply only when meeting 100% of requirements?\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan https://alan.com/about and Career https://alan.com/careers pages, as well as our Medium https://medium.com/alan, blog https://blog.alan.com/ and Glassdoor page https://www.glassdoor.com/Overview/Working-at-Alan-EI_IE1696043.11,15.htm for more info.",
+      "requirements_raw": null,
+      "location": "Paris, France",
+      "contract_type": "FullTime",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Lead",
+      "department": "Engineering",
+      "min_years_exp": 3,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "Paris",
+      "country_code": "FR",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-09-25T10:07:54.494+00:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
       "content_hash": "3f04296c01804b6b7db98f1d975762f94e4d861cd7f7699024551539a7a6327e",
       "title": "Operations Coordinator - Belgian Market",
       "company_name": "Alan",
@@ -1284,7 +1314,7 @@
       "posted_date": "2026-09-21T07:10:56.765+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -1401,7 +1431,7 @@
       "contract_type_norm": "full_time",
       "work_mode": "hybrid",
       "seniority": null,
-      "department": "Health Practitioners",
+      "department": "Health Practioners",
       "min_years_exp": null,
       "max_years_exp": null,
       "languages": [
@@ -2903,7 +2933,7 @@
       "posted_date": "2026-09-21T07:11:45.179+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {

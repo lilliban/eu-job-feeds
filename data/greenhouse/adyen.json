@@ -2,8 +2,8 @@
   "company_name": "Adyen",
   "source_board": "greenhouse",
   "slug": "adyen",
-  "job_count": 212,
-  "open_job_count": 212,
+  "job_count": 213,
+  "open_job_count": 213,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -2646,6 +2646,36 @@
       "posted_date": "2026-07-09T09:55:27-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 1,
+      "is_closed": false
+    },
+    {
+      "content_hash": "63985c99c3f3d4de27aef42ebc657681f389f55d3e110b9fe30487c724578067",
+      "title": "APAC AML/CFT Compliance Lead",
+      "company_name": "Adyen",
+      "source_url": "https://job-boards.greenhouse.io/adyen/jobs/8009789",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8009789",
+      "description": "This is Adyen\n\nAdyen is the financial technology platform of choice for leading companies. By providing end-to-end payments capabilities, data-driven insights, and financial products in a single global solution, Adyen helps businesses achieve their ambitions faster. With offices around the world, Adyen works with the likes of Facebook, Uber, H&M, eBay, and Microsoft. To maintain our momentum, we need people to join us in finding new ways of solving our unique challenges - people like you.\n\nFor our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster.\n\nAPAC AML/CFT Compliance Lead\n\nA key part of building our business is ensuring we do it with sustainable outcomes, compliant with regulations. Trust from all stakeholders is a key enabling factor to make Adyen successful in the long term. To achieve this, Adyen has organized a mature Second Line function that partners with the business to cut through financial crime risk complexities and power sustainable growth. Our Anti-Money Laundering (AML) Compliance team and framework are at the core of this.\n\nWithin the global AML Compliance team, we are looking for an experienced professional located in Singapore and with a proven track record in AML Compliance. This role is created to help build Adyen’s business operations in Singapore and the rest of the Asia-Pacific (APAC) region. In this role, you will be responsible for managing Adyen’s internal and external regulatory compliance obligations for the Singapore Branch. The successful candidate will also act as the Money Laundering Reporting Officer for Singapore, serving as the point of contact for regulators and authorities.\n\nMoreover, we expect this role to step up and coordinate the AML Compliance activities across the APAC region, working closely with the local AML Compliance officers for the jurisdictions in which Adyen acts as a regulated entity. This means that beyond the scope of the Singapore MLRO itself, also an enabling function over the other APAC jurisdictions will potentially be part of the mandate.\n\nWhat you’ll do\n\n- Maintain and continuously improve the local regulatory compliance frameworks to ensure that all regulatory requirements in Singapore, including the various Monetary Authority of Singapore (MAS) guidances, are embedded in local policies and procedures in a practical and scalable way\n\n- Lead regulatory engagements and manage relationships with regulators and supervisors in Singapore around financial crime and sanctions risks to achieve Adyen’s strategic opportunities;\n\n- Represent the Adyen AML Compliance function on a variety of work streams and industry bodies to develop regulatory strategies that align with global objectives and ensure controlled and compliant growth;\n\n- Oversee the day-to-day operations of Adyen Singapore AML/CFT and Sanctions programme, including the implementation of the training programme, (oversee) filing of reports to STRO, as well as responding to enquiries made by regulators or law enforcement;\n\n- Act as a direct Compliance counterpart to the business, enabling the growth of the local portfolio as a collaborative effort;\n\n- Report on the Adyen Singapore AML/CFT and Sanctions Programme to the local Adyen Management Board, and prepare and submit external regulatory reporting on AML/CFT;\n\n- Determine the overall strategic AML Compliance objectives and needs for the APAC region together with the AML Compliance regional officers, and form plans of execution.\n\n- Work with the global AML Compliance teams to support new product launches through risk assessments, AML Compliance framework adjustments and process implementations;\n\n- Further develop your Second Line role in drafting and reviewing AML Compliance procedures, guidelines, and risk assessments for the APAC region;\n\n- Coach and mentor fellow members of the team to support them in their personal and professional growth.",
+      "requirements_raw": "Who you are\n\n- You have at least 8 years of experience in a regulatory and/or compliance function within the payments-, financial services- and/or fintech industry;\n\n- A minimum of 2 years of leadership experience, which includes mentoring- and developing team members, drive the team’s performance and provide feedback and support as needed;\n\n- Your knowledge of the APAC AML/CFT regulatory landscape and best practices is well established, preferably in a recent comparable role in a Singapore financial institution. This includes deep understanding of the Payment Services Act (PS Act), MAS AML/CFT/CPF Notices, and STRO reporting mechanisms (SONAR);\n\n- You have strong interpersonal and communication skills as well as experience in managing the relationship with regulators or supervisors and internal stakeholders across multiple jurisdictions;\n\n- You have a natural sense of initiative, independence and ability to take ownership over complex matters;\n\n- Being tech savvy, hands-on and solution oriented will help you to be successful in a growing FinTech;\n\n- You have excellent organizational skills and know how to manage a project from conception to launch;\n\n- Ability to adapt to a changing environment and handle multiple priorities and projects simultaneously;\n\n- Passionate and driven about building a well-functioning and motivated team and mentoring and encouraging team members to continuously develop and grow.\n\nReady to meet us?\n\nIf you are excited about this role, apply by clicking the link below. We can’t wait to meet you!\n\nOur Diversity, Equity and Inclusion commitments\n\nOur unique approach is a product of our diverse perspectives. This diversity of backgrounds and cultures is essential in helping us maintain our momentum. Our business and technical challenges are unique, and we need as many different voices as possible to join us in solving them - voices like yours. No matter who you are or where you’re from, we welcome you to be your true self at Adyen.\n\nStudies show that women and members of underrepresented communities apply for jobs only if they meet 100% of the qualifications. Does this sound like you? If so, Adyen encourages you to reconsider and apply. We look forward to your application!\n\nWhat’s next?\n\nEnsuring a smooth and enjoyable candidate experience is critical for us. We aim to get back to you regarding your application within 5 business days. Our interview process tends to take about 4 weeks to complete, but may fluctuate depending on the role. Learn more about our hiring process here. Don’t be afraid to let us know if you need more flexibility.\n\nThis role is based out of our Singapore office. We are an office-first company and value in-person collaboration; we do not offer remote-only roles.",
+      "location": "Singapore",
+      "contract_type": null,
+      "contract_type_norm": null,
+      "work_mode": "remote",
+      "seniority": "Lead",
+      "department": "Compliance",
+      "min_years_exp": 8,
+      "max_years_exp": null,
+      "languages": [],
+      "city": null,
+      "country_code": "SG",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-07-28T05:25:38-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -3075,7 +3105,7 @@
       "posted_date": "2026-05-13T10:45:25-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -3561,7 +3591,7 @@
       "posted_date": "2026-09-21T01:12:26-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -4848,7 +4878,7 @@
       "posted_date": "2025-07-07T04:11:19-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {

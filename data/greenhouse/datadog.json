@@ -2,8 +2,8 @@
   "company_name": "Datadog",
   "source_board": "greenhouse",
   "slug": "datadog",
-  "job_count": 621,
-  "open_job_count": 448,
+  "job_count": 623,
+  "open_job_count": 449,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -33,7 +33,7 @@
       "posted_date": "2026-07-28T13:25:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -63,7 +63,7 @@
       "posted_date": "2026-06-16T11:08:05-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -125,7 +125,7 @@
       "posted_date": "2026-04-09T09:48:37-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -337,7 +337,7 @@
       "posted_date": "2026-01-15T12:21:42-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -404,7 +404,7 @@
       "posted_date": "2025-05-08T10:22:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -434,7 +434,7 @@
       "posted_date": "2026-04-10T16:55:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -526,7 +526,7 @@
       "posted_date": "2026-07-01T11:08:26-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -739,7 +739,7 @@
       "posted_date": "2026-07-07T10:51:33-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -772,7 +772,7 @@
       "posted_date": "2026-07-01T23:26:56-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -802,7 +802,7 @@
       "posted_date": "2026-02-19T09:23:43-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -864,7 +864,7 @@
       "posted_date": "2026-07-23T06:51:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -986,7 +986,7 @@
       "posted_date": "2026-06-17T16:19:10-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -1048,7 +1048,7 @@
       "posted_date": "2026-06-23T22:36:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -1228,7 +1228,7 @@
       "posted_date": "2026-05-28T10:08:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -1777,7 +1777,7 @@
       "posted_date": "2026-06-29T14:19:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -1809,7 +1809,7 @@
       "posted_date": "2026-06-22T16:36:59-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -1869,7 +1869,7 @@
       "posted_date": "2026-07-29T09:02:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2019,7 +2019,7 @@
       "posted_date": "2026-07-27T13:44:34-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2173,7 +2173,7 @@
       "posted_date": "2026-06-25T15:21:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2263,7 +2263,7 @@
       "posted_date": "2026-07-22T05:19:50-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2323,7 +2323,7 @@
       "posted_date": "2025-12-02T12:57:32-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2539,7 +2539,7 @@
       "posted_date": "2025-08-25T10:04:08-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2569,7 +2569,7 @@
       "posted_date": "2026-06-12T10:26:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2599,7 +2599,7 @@
       "posted_date": "2026-06-22T11:56:04-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2629,7 +2629,7 @@
       "posted_date": "2026-06-24T22:32:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2809,7 +2809,7 @@
       "posted_date": "2025-08-27T09:32:15-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2839,7 +2839,7 @@
       "posted_date": "2025-07-29T04:44:54-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2869,7 +2869,7 @@
       "posted_date": "2026-06-15T18:05:39-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -2899,7 +2899,7 @@
       "posted_date": "2026-04-15T02:53:16-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3142,7 +3142,7 @@
       "posted_date": "2026-07-14T15:07:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3172,7 +3172,7 @@
       "posted_date": "2026-08-10T14:29:25-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -3234,7 +3234,7 @@
       "posted_date": "2026-04-10T02:07:42-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3266,7 +3266,7 @@
       "posted_date": "2026-04-10T02:07:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3298,7 +3298,7 @@
       "posted_date": "2026-07-01T21:51:35-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3328,7 +3328,7 @@
       "posted_date": "2024-09-11T12:51:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3388,7 +3388,7 @@
       "posted_date": "2025-01-21T14:21:58-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3448,7 +3448,7 @@
       "posted_date": "2025-01-29T12:38:15-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3868,7 +3868,7 @@
       "posted_date": "2026-07-07T11:47:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -3898,7 +3898,7 @@
       "posted_date": "2025-02-13T23:29:56-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4018,7 +4018,7 @@
       "posted_date": "2026-06-23T09:24:12-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4048,7 +4048,7 @@
       "posted_date": "2026-06-01T15:59:45-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4198,7 +4198,7 @@
       "posted_date": "2026-06-26T10:29:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4408,7 +4408,7 @@
       "posted_date": "2026-03-19T03:56:33-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4471,7 +4471,7 @@
       "posted_date": "2025-11-06T21:47:48-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4621,7 +4621,7 @@
       "posted_date": "2026-07-01T05:09:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4871,7 +4871,7 @@
       "posted_date": "2026-05-28T08:54:30-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -4961,7 +4961,7 @@
       "posted_date": "2026-07-31T14:46:58-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -5231,7 +5231,7 @@
       "posted_date": "2026-04-14T08:07:28-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -5295,7 +5295,7 @@
       "posted_date": "2026-05-22T16:55:07-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -5447,7 +5447,7 @@
       "posted_date": "2026-04-20T21:33:03-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -5599,7 +5599,7 @@
       "posted_date": "2026-05-01T05:45:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -5659,7 +5659,7 @@
       "posted_date": "2026-04-24T13:01:16-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -5961,7 +5961,7 @@
       "posted_date": "2025-08-05T09:39:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -6297,7 +6297,7 @@
       "posted_date": "2026-07-30T16:48:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -6417,7 +6417,7 @@
       "posted_date": "2026-03-23T13:40:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -6537,7 +6537,7 @@
       "posted_date": "2026-06-15T20:31:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -6567,8 +6567,8 @@
       "posted_date": "2026-08-31T21:44:20-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-24T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "50a05df5e7fc102436f39a9dcdc3c9eb12c2395359b473617da51e67379ef490",
@@ -6869,7 +6869,7 @@
       "posted_date": "2026-01-27T07:44:42-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -6899,7 +6899,7 @@
       "posted_date": "2026-06-30T11:58:07-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -6959,7 +6959,7 @@
       "posted_date": "2026-07-23T10:11:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7019,7 +7019,7 @@
       "posted_date": "2026-07-06T10:34:49-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7049,7 +7049,7 @@
       "posted_date": "2026-06-10T20:56:12-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7079,7 +7079,7 @@
       "posted_date": "2026-06-10T20:56:13-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7109,7 +7109,7 @@
       "posted_date": "2026-04-13T02:15:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7139,7 +7139,7 @@
       "posted_date": "2025-02-06T05:38:20-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7259,7 +7259,7 @@
       "posted_date": "2026-03-06T06:12:40-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7319,7 +7319,7 @@
       "posted_date": "2026-06-10T10:04:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7348,6 +7348,36 @@
       "salary_currency": null,
       "posted_date": "2026-07-08T10:56:14-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
+      "content_hash": "5a9daba2b0b91f7f717ede90bb0f2130726d3e6cad6621166ffc69a04863de96",
+      "title": "Manager 2, Technical Enablement Management",
+      "company_name": "Datadog",
+      "source_url": "https://careers.datadoghq.com/detail/8226522/?gh_jid=8226522",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8226522",
+      "description": "We are Datadog's in-house product experts. The Technical Enablement Management (TEM) team empowers customers through technical training sessions, ensuring they maximize the value of Datadog. We combine deep technical knowledge with a consultative approach, demonstrating best practices and tailoring training to specific use cases.\n\nAs a Manager on this team, you will play a critical role in strengthening our relationships with Sales and Customer Success teams across APJ, developing and coaching the Technical Enablement Managers (TEMs) who report to you, and evolving our enablement programs to better support customer adoption and success. You will lead a distributed team of Technical Enablement Managers covering markets across Asia and ANZ. Manager 2 leaders at Datadog are people-first managers, trusted collaborators, and operational owners. In APJ you will also be the most senior enablement voice in the region, so you will spend as much time building awareness and credibility with Sales and Customer Success as you do managing delivery.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You'll Do:\n\n- Own the positioning and enablement strategy for Sales and Customer Success teams in APJ, driving attach rates by positioning training as a value-added service and increasing consumption of complimentary offerings\n\n- Build demand upstream: engage Sales and Customer Success teams across the region at scale, keep positioning and materials current, and drive consistent use of the request process\n\n- Act as the quality gate for incoming work, scoping requests to the right offering, focusing broad asks into targeted sessions, and aligning demand to business need\n\n- Analyze customer training adoption and feedback, evaluating programs for ROI to inform which offerings to scale, evolve, or retire\n\n- Develop sales tools and enablement resources that help internal teams confidently position and sell training to customers\n\n- Drive consistency in training delivery, content utilization and reporting across the team, evaluating delivery quality and distinguishing facilitation gaps from content gaps\n\n- Build and maintain the intake and capacity-planning mechanisms the team runs on, including pre-session questionnaires, triage, prioritisation frameworks and accurate time tracking, and continuously iterate on tooling and processes to improve efficiency and scalability\n\n- Lead, coach and mentor a team of TEMs across APJ, conducting regular 1:1s, performance evaluations and session shadowing, identifying performance gaps early and managing performance formally when coaching alone is not enough\n\n- Proactively monitor team KPIs (utilization, CSAT, productivity, session delivery against demand, and attendance rates), diagnosing trends and gaps, and assign workload so that TEMs achieve an 80% productivity target while balancing training delivery, content creation and enablement activities\n\n- Champion the use of AI tools within the team to improve productivity from content creation and session prep through to reporting and QA, coach TEMs on effective and responsible use, and identify opportunities to apply AI to scale enablement delivery and improve program ROI\n\n- Actively participate in recruiting, hiring and onboarding across the team and the broader organization\n\n- Collaborate with Technical Solutions leadership, Sales, Customer Success, Engineering and Product teams to address urgent needs and implement process improvements",
+      "requirements_raw": "Who You Are:\n\n- An experienced people manager, results-driven, with a strong focus on executing strategies that drive measurable business impact and revenue growth\n\n- A strong coach and mentor who invests in career development and builds inclusive, high-performing teams, and who has authored the things that let a team scale: career progression frameworks, structured onboarding and a consistent coaching cadence\n\n- Has built demand for a services or enablement function by going out to Sales and Customer Success rather than waiting for inbound requests, and can point to a measurable before and after\n\n- A clear communicator who can influence without authority and align stakeholders around common goals\n\n- Energised by bringing a service to new internal audiences, and able to make the case as compellingly on the twentieth telling as on the first\n\n- Able to hold priorities firmly when demands compete, renegotiating scope with partner teams while keeping the relationship strong\n\n- Deliberate about priorities, with a track record of choosing what not to take on and delegating rather than absorbing\n\n- Culturally adaptable across Japan, Korea, Southeast Asia and ANZ, adjusting approach per market rather than applying one style everywhere\n\n- Direct and transparent, setting clear expectations and healthy boundaries, and calm when plans change at short notice\n\n- Exceptionally self-organised, owning their own scheduling, follow-up and administrative rhythm\n\n- A strategic thinker who balances customer needs with business goals, evaluates program ROI and drives cross-functional alignment, with a track record of implementing scalable enablement programs in a growing company\n\n- Data-driven, comfortable using metrics and KPIs to inform decisions and optimize performance\n\n- Demonstrated capability of utilizing AI tooling and scaling it, with a growth mindset of embracing change and being curious\n\n- Technically proficient, with knowledge of modern infrastructure, monitoring solutions, and cloud technologies\n\n- Experienced (5+ years) in Training, Presales, Post-Sales, Consulting, or another customer-facing role, with a history of success\n\n- Educated in Computer Science, Engineering, or equivalent experience\n\n- Requires up to 25% travel across the APJ region, primarily to drive and promote enablement adoption with Sales and Customer Success along with team development and cross-functional planning\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you're passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits and Growth:\n\n- Best-in-breed onboarding\n\n- Generous global benefits\n\n- Intra-departmental mentor and buddy program for in-house networking\n\n- New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n\n- Continuous professional development, product training, and career pathing\n\n- An inclusive company culture, able to join our Community Guilds and Inclusion Talks\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\n#LI-Hybrid\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
+      "location": "Seoul, South Korea; Sydney, Australia; Tokyo, Japan",
+      "contract_type": "Full time",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Lead",
+      "department": "Technical Post Sales",
+      "min_years_exp": 5,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "Seoul",
+      "country_code": "JP",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-09-25T02:25:50-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
@@ -7806,7 +7836,7 @@
       "posted_date": "2026-07-29T15:01:03-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7836,7 +7866,7 @@
       "posted_date": "2026-07-08T06:13:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7896,7 +7926,7 @@
       "posted_date": "2026-06-30T10:31:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -7926,7 +7956,7 @@
       "posted_date": "2026-05-15T02:35:32-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8018,7 +8048,7 @@
       "posted_date": "2026-06-11T00:56:00-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8048,7 +8078,7 @@
       "posted_date": "2026-04-30T13:05:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8078,7 +8108,7 @@
       "posted_date": "2021-06-09T14:19:58-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8138,7 +8168,7 @@
       "posted_date": "2026-06-26T14:29:34-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8200,7 +8230,7 @@
       "posted_date": "2026-04-30T08:59:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8230,7 +8260,7 @@
       "posted_date": "2026-04-09T11:37:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8380,7 +8410,7 @@
       "posted_date": "2026-03-02T07:38:59-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8592,7 +8622,7 @@
       "posted_date": "2026-07-16T12:13:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8652,7 +8682,7 @@
       "posted_date": "2026-05-20T22:46:44-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8804,7 +8834,7 @@
       "posted_date": "2026-05-21T09:12:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -8894,7 +8924,7 @@
       "posted_date": "2026-01-23T14:40:53-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9107,7 +9137,7 @@
       "posted_date": "2026-06-01T15:53:48-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9319,7 +9349,7 @@
       "posted_date": "2026-06-24T16:08:29-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9349,7 +9379,7 @@
       "posted_date": "2026-06-04T15:13:05-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -9379,7 +9409,7 @@
       "posted_date": "2026-03-11T17:08:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9439,7 +9469,7 @@
       "posted_date": "2025-08-18T16:51:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9651,7 +9681,7 @@
       "posted_date": "2026-06-25T09:42:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9681,7 +9711,7 @@
       "posted_date": "2026-03-25T15:57:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9773,7 +9803,7 @@
       "posted_date": "2026-07-09T04:13:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9833,7 +9863,7 @@
       "posted_date": "2026-07-14T15:25:00-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -9953,7 +9983,7 @@
       "posted_date": "2026-06-23T04:20:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -10077,7 +10107,7 @@
       "posted_date": "2025-05-25T21:27:39-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -10137,7 +10167,7 @@
       "posted_date": "2025-12-21T22:29:12-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -10169,6 +10199,36 @@
       "salary_currency": null,
       "posted_date": "2026-07-24T05:01:11-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
+      "content_hash": "7fd87473db45cd76de79030cc120a4be8e73d5f2579919503bb88a3e36e1deaa",
+      "title": "Senior Application Security Engineer",
+      "company_name": "Datadog",
+      "source_url": "https://careers.datadoghq.com/detail/8230663/?gh_jid=8230663",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8230663",
+      "description": "As a Senior Security Engineer within Application Security at Datadog, you will help secure emerging application architectures where established security patterns may not yet exist, including agentic applications, LLM-enabled products, protocol-driven tool use, and untrusted execution environments. You will establish and validate security models, requirements, and controls while partnering with product and platform teams to develop secure-by-default approaches. Your work will address evolving trust boundaries, agent identity, data access, tool permissions, and runtime behavior through threat modeling, security solutions, and practical implementation. You will have the opportunity to shape how Datadog safely supports new application paradigms and address emerging security risks before they become systemic.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Define security models, requirements, and guardrails for emerging application architectures where established patterns are incomplete or do not yet exist.\n\n- Design, implement, and validate practical security controls that reduce risk in emerging architectures and high-risk system behaviors.\n\n- Shape how emerging systems authenticate, authorize actions, isolate workloads, and access data, applying least-privilege principles throughout.\n\n- Partner with product, platform, Infrastructure Security, and other engineering teams to identify security gaps and embed secure-by-default requirements from early design through production.\n\n- Lead threat modeling and security assessments for new and existing products, focusing on evolving threats, unfamiliar trust boundaries, and new interaction patterns.\n\n- Prioritize and drive remediation of emerging security risks, including continuous security testing where it provides durable coverage, and refine security approaches as architectures and threats evolve.",
+      "requirements_raw": "Who You Are:\n\n- You have 5+ years of experience in software engineering or development in a collaborative environment, with Go, Rust, or Python experience preferred.\n\n- You have experience in security and/or infrastructure/platform engineering, with exposure to distributed systems, application platforms, or agent-based architectures.\n\n- You have designed or implemented security controls within application infrastructure, such as authentication, authorization, API security, zero-trust networking, workload protection, sandboxing, or runtime hardening.\n\n- You understand common application security vulnerabilities and mitigation techniques, including those relevant to LLM applications and agentic systems; familiarity with LLM frameworks and protocols such as MCP or A2A is a plus.\n\n- You bring strong problem-solving skills and can work independently and collaboratively in ambiguous or rapidly evolving problem spaces.\n\n- You have successfully driven security initiatives with engineering and leadership stakeholders and are committed to staying current with security practices, emerging technologies, and evolving threats.\n\nDatadog values people from all walks of life. We know not everyone will meet all the above qualifications on day one. That’s okay. If you’re passionate about technology and want to grow your experience, we encourage you to apply.\n\nBenefits and Growth:\n\n- New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n\n- Continuous professional development, product training, and career pathing\n\n- Intradepartmental mentor and buddy program for in-house networking\n\n- An inclusive company culture, ability to join our Community Guilds (Datadog employee resource groups)\n\n- Access to Inclusion Talks, our internal panel discussions\n\n- Free, global mental health benefits for employees and dependents age 6+\n\n- Competitive global benefits\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\n#LI-Hybrid\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
+      "location": "Paris, France",
+      "contract_type": "Full time",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Senior",
+      "department": "Security",
+      "min_years_exp": 5,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "Paris",
+      "country_code": "FR",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-09-25T03:44:47-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
@@ -10260,7 +10320,7 @@
       "posted_date": "2026-04-21T08:13:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -10290,7 +10350,7 @@
       "posted_date": "2026-02-11T16:47:21-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -10320,7 +10380,7 @@
       "posted_date": "2026-03-26T13:17:26-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -10440,7 +10500,7 @@
       "posted_date": "2026-07-09T05:17:10-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -10590,7 +10650,7 @@
       "posted_date": "2026-06-30T05:18:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11077,7 +11137,7 @@
       "posted_date": "2026-07-31T03:41:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11139,7 +11199,7 @@
       "posted_date": "2026-06-29T13:58:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11291,7 +11351,7 @@
       "posted_date": "2026-07-09T06:06:48-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11351,7 +11411,7 @@
       "posted_date": "2026-06-11T07:09:56-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11381,7 +11441,7 @@
       "posted_date": "2026-06-11T07:09:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11471,7 +11531,7 @@
       "posted_date": "2026-07-15T10:17:39-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11711,7 +11771,7 @@
       "posted_date": "2026-06-08T23:27:58-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11861,7 +11921,7 @@
       "posted_date": "2026-07-23T11:00:48-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11891,7 +11951,7 @@
       "posted_date": "2026-07-27T10:39:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -11921,7 +11981,7 @@
       "posted_date": "2026-07-27T10:39:54-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12163,7 +12223,7 @@
       "posted_date": "2026-07-21T04:15:09-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12285,7 +12345,7 @@
       "posted_date": "2026-07-07T10:51:26-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12345,7 +12405,7 @@
       "posted_date": "2026-07-23T14:08:11-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12437,7 +12497,7 @@
       "posted_date": "2026-04-21T11:22:00-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12467,7 +12527,7 @@
       "posted_date": "2026-06-24T09:54:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12497,7 +12557,7 @@
       "posted_date": "2026-04-06T17:11:35-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12527,7 +12587,7 @@
       "posted_date": "2025-12-10T16:14:38-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12587,7 +12647,7 @@
       "posted_date": "2026-04-24T13:06:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12709,7 +12769,7 @@
       "posted_date": "2026-07-14T14:10:06-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12801,7 +12861,7 @@
       "posted_date": "2026-06-04T15:47:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -12988,7 +13048,7 @@
       "posted_date": "2026-04-16T05:22:47-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13411,7 +13471,7 @@
       "posted_date": "2026-05-07T17:16:15-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13503,7 +13563,7 @@
       "posted_date": "2026-06-26T11:53:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13593,7 +13653,7 @@
       "posted_date": "2026-03-27T16:00:14-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13653,7 +13713,7 @@
       "posted_date": "2026-07-13T03:27:20-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13683,7 +13743,7 @@
       "posted_date": "2026-06-15T18:05:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13866,7 +13926,7 @@
       "posted_date": "2026-03-30T10:06:45-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13956,7 +14016,7 @@
       "posted_date": "2026-06-09T04:17:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -13986,7 +14046,7 @@
       "posted_date": "2026-06-15T13:00:36-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14016,7 +14076,7 @@
       "posted_date": "2026-07-21T10:07:06-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14106,7 +14166,7 @@
       "posted_date": "2026-07-31T11:44:18-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14318,7 +14378,7 @@
       "posted_date": "2026-05-19T14:37:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14588,7 +14648,7 @@
       "posted_date": "2026-06-30T08:35:55-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14680,7 +14740,7 @@
       "posted_date": "2026-06-22T12:32:16-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14710,7 +14770,7 @@
       "posted_date": "2026-06-04T15:29:41-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14830,7 +14890,7 @@
       "posted_date": "2026-05-26T13:15:04-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -14920,7 +14980,7 @@
       "posted_date": "2026-06-18T07:13:04-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15072,7 +15132,7 @@
       "posted_date": "2026-03-12T07:29:44-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15102,7 +15162,7 @@
       "posted_date": "2026-06-26T15:08:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15166,7 +15226,7 @@
       "posted_date": "2026-07-17T16:02:54-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15196,7 +15256,7 @@
       "posted_date": "2026-07-23T10:44:55-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15346,7 +15406,7 @@
       "posted_date": "2026-07-02T15:30:42-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15406,7 +15466,7 @@
       "posted_date": "2026-04-15T02:53:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15526,7 +15586,7 @@
       "posted_date": "2026-05-22T15:17:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15556,7 +15616,7 @@
       "posted_date": "2025-03-06T22:27:51-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15586,7 +15646,7 @@
       "posted_date": "2026-01-13T20:57:45-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15676,7 +15736,7 @@
       "posted_date": "2026-07-08T02:54:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15828,7 +15888,7 @@
       "posted_date": "2026-01-05T04:43:45-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15858,7 +15918,7 @@
       "posted_date": "2026-06-01T21:16:07-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -15890,7 +15950,7 @@
       "posted_date": "2023-02-15T09:19:11-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16013,7 +16073,7 @@
       "posted_date": "2026-07-10T05:05:42-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16043,7 +16103,7 @@
       "posted_date": "2026-07-21T10:24:30-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16073,7 +16133,7 @@
       "posted_date": "2026-07-29T15:59:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16133,7 +16193,7 @@
       "posted_date": "2026-04-24T04:04:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16465,7 +16525,7 @@
       "posted_date": "2026-05-11T14:45:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16585,7 +16645,7 @@
       "posted_date": "2026-06-18T14:28:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16615,7 +16675,7 @@
       "posted_date": "2026-01-20T21:53:44-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16735,7 +16795,7 @@
       "posted_date": "2025-12-14T22:24:07-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16885,7 +16945,7 @@
       "posted_date": "2026-05-27T13:59:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16915,7 +16975,7 @@
       "posted_date": "2026-07-16T11:22:41-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -16945,7 +17005,7 @@
       "posted_date": "2026-06-09T14:27:06-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17007,7 +17067,7 @@
       "posted_date": "2025-07-11T15:31:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17037,7 +17097,7 @@
       "posted_date": "2025-07-04T10:02:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17067,7 +17127,7 @@
       "posted_date": "2026-07-10T12:41:03-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17097,7 +17157,7 @@
       "posted_date": "2025-05-25T21:27:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17247,7 +17307,7 @@
       "posted_date": "2026-02-05T16:16:32-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17337,7 +17397,7 @@
       "posted_date": "2026-02-04T10:55:02-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17367,7 +17427,7 @@
       "posted_date": "2026-03-09T13:52:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -17972,7 +18032,7 @@
       "posted_date": "2026-06-23T13:03:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18002,7 +18062,7 @@
       "posted_date": "2026-06-23T13:03:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18032,7 +18092,7 @@
       "posted_date": "2026-05-07T13:59:37-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18304,7 +18364,7 @@
       "posted_date": "2026-04-06T13:19:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18364,7 +18424,7 @@
       "posted_date": "2026-05-21T10:33:21-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18424,7 +18484,7 @@
       "posted_date": "2026-06-09T09:27:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18454,7 +18514,7 @@
       "posted_date": "2026-07-24T14:31:21-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18544,7 +18604,7 @@
       "posted_date": "2025-03-06T22:27:52-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -18669,7 +18729,7 @@
       "posted_date": "2026-03-18T06:08:14-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {

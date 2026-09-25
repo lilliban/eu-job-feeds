@@ -2,8 +2,8 @@
   "company_name": "On Running",
   "source_board": "greenhouse",
   "slug": "onrunning",
-  "job_count": 249,
-  "open_job_count": 249,
+  "job_count": 250,
+  "open_job_count": 250,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -3965,7 +3965,7 @@
       "posted_date": "2026-07-08T16:06:16-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -6368,6 +6368,36 @@
       "is_closed": false
     },
     {
+      "content_hash": "de5cd532990c377f07063f7e153ebb181e8b5c7fc95931ac7344e0debb8116a4",
+      "title": "Retail - Store Advisor, Regent Street (Part time)",
+      "company_name": "On Running",
+      "source_url": "https://boards.greenhouse.io/onrunning/jobs/7673613?gh_jid=7673613",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "7673613",
+      "description": "In Short\n\nAs a Store Advisor, you will be a key player in providing exceptional customer service and driving sales performance in our retail store. You will leverage your expertise to enhance the customer experience by guiding customers through their shopping journey, maintaining optimal stock levels, and executing visual merchandising plans. Join us to make a significant impact, grow your career, and help shape the future of our retail environment.\n\nYour Mission\n\n- Respond to customer inquiries and resolve issues effectively, ensuring a positive shopping experience.\n- Assist with unpacking, back-stocking, and organizing deliveries to ensure inventory is efficiently managed.\n- Help maintain a clean, organized, and safe work environment, adhering to Health & Safety (H&S) standards.\n- Support daily operational tasks such as restocking shelves, updating displays, and managing product flow.\n- Contribute ideas for in-store events, community engagement, and other activities to boost customer interaction and store presence.\n\nEmbrace Company Values\n\nThe Team Spirit: Foster a collaborative and positive team environment.\n\nThe Positive Spirit: Demonstrate a strong commitment to providing exceptional customer service.\n\nThe Explorer Spirit: Embrace new ideas and initiatives to drive store success.\n\nThe Athlete Spirit: Uphold high standards of integrity and professionalism in all actions.\n\nYour Story\n\n- You have 1+ years of relevant experience in retail or customer service\n- You have an understanding of customer service excellence, with the ability to engage customers, address their needs, and provide effective solutions.\n- You possess organizational skills and attention to detail\n- Excellent communication skills and the ability to provide constructive feedback to improve store processes and customer service levels.\n- Ability to work weekends, evenings and holidays as needed.\n\nMeet the team\n\nIn this role, you will be part of a dynamic and passionate team dedicated to driving store success. You will work closely with fellow advisors to ensure our retail environment is welcoming, efficient, and aligned with our brand values. Your role will be instrumental in fostering a positive, team-oriented culture. Join our team and contribute to a supportive and innovative retail community.\n\nWhat we offer\n\nOn is a place that is centered around growth and progress. We offer an environment designed to give people the tools to develop holistically – to stay active, to learn, explore and innovate. Our distinctive approach combines a supportive, team-oriented atmosphere, with access to personal self-care for both physical and mental well-being, so each person is led by purpose.\n\nOn is an Equal Opportunity Employer. We are committed to creating a work environment that is fair and inclusive, where all decisions related to recruitment, advancement, and retention are free of discrimination.",
+      "requirements_raw": null,
+      "location": "London",
+      "contract_type": "Full-time",
+      "contract_type_norm": "full_time",
+      "work_mode": null,
+      "seniority": null,
+      "department": "On Flagship Store London Regent Street",
+      "min_years_exp": 1,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "London",
+      "country_code": "GB",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-03-03T12:58:55-05:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
       "content_hash": "df96305363da432d5489d72ffbd5149f305e81fddcc94df0091ac2dab0386444",
       "title": "Associate Store Leader, Jing'an Kerry Center",
       "company_name": "On Running",
@@ -7422,7 +7452,7 @@
       "posted_date": "2026-07-22T05:44:22-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {

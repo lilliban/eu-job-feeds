@@ -438,3 +438,51 @@ The 1237 postings wrongly marked closed by this bug, in the two runs before
 the fix, were corrected by hand in `data/workday/nvidia.json` once found:
 `is_closed` and `consecutive_misses` reset, since the lifecycle itself cannot
 retroactively undo a closure it was wrongly told to make.
+
+---
+
+## 18. The postings archive moved from git-committed JSON to a SQLite Release asset
+
+**Context.** One file per company (#11) was chosen to keep commits small, but
+the dataset still committed to `main` four times a day, every day. `registry/`
+changes rarely; the postings themselves change on nearly every run. A separate
+mechanism already existed for publishing the whole dataset as a Release asset
+(`prune-history.yml`, monthly) — the precedent for treating a Release, not
+git, as where bulk data lives.
+
+**Alternatives.** (a) Keep committing JSON, rely on the monthly prune alone.
+(b) Write both JSON (to git) and SQLite (to a Release), keeping two
+representations in sync. (c) Stop committing postings to git entirely; publish
+`jobs.sqlite` to a continuously-updated `latest` Release asset instead, and
+read it back at the start of the next run as the only source of prior state.
+
+**Decision.** (c). `sqlite_store.py` rebuilds `state/jobs.sqlite` from scratch
+every run (same reasoning as #11's whole-file rewrite: reconciling row-level
+diffs against postings that can close and reopen is exactly the bug class this
+project avoids by staying simple), gzips it, and the `update.yml` workflow
+uploads it — plus `state/changes.json`, the run's new/closed postings — to the
+Release tagged exactly `latest`. Git keeps only `registry/` and
+`data/index.json` (`store.py` now writes only the latter). `changes.json` is
+overwritten every run, with no historical trail beyond the last one.
+
+The table's primary key is `(source_board, slug, row_key)`, where `row_key` is
+`external_id` (or `source_url` when blank) — not just `(source_board,
+row_key)`, which is all `lifecycle.identity` needs when every company has its
+own file. The file boundary used to be what kept two companies on the same
+board from colliding on `external_id`; one shared table has to make that
+boundary explicit, or two Greenhouse orgs with numerically-overlapping ids
+would silently overwrite each other's rows. This is a genuine strengthening of
+#4's identity scheme, not a restatement of it.
+
+**Consequences.** Per-commit history of the postings is gone entirely, not
+merely compacted monthly (b) would have kept it in git while adding a second
+representation to keep consistent for no clear benefit, and was rejected on
+that basis. `jobs.sqlite` itself carries no dated history beyond what
+`prune-history.yml` now also attaches to its monthly snapshot releases (added
+in the same change, so the monthly full-dataset backup does not silently
+disappear). A consumer wanting "what changed three runs ago" cannot get it
+from `changes.json` — only from re-diffing snapshot releases by hand. The
+`latest` tag must always be addressed explicitly (`gh release view/download/
+upload latest`); omitting it resolves to GitHub's most-recently-published
+release, which after a `prune-history.yml` run would silently be the wrong,
+dated `snapshot-YYYY-MM` one instead.

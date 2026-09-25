@@ -12,19 +12,19 @@ from __future__ import annotations
 
 import argparse
 import asyncio
-import json
 import logging
 import os
 import sys
 from pathlib import Path
 
+from . import sqlite_store
 from .connectors import CONNECTORS, PROVIDERS
 from .discovery import discover, load_negative_cache, save_negative_cache
 from .http import RateLimitedClient
 from .models import FIELD_ORDER, JobPosting
 from .pipeline import run_update
 from .registry import CompanyEntry, Registry, load_registry, save_registry
-from .store import DATA_DIR, load_company
+from .store import DATA_DIR
 
 log = logging.getLogger("eu_job_feeds")
 
@@ -54,9 +54,11 @@ def _filter_registry(registry: Registry, only: list[str] | None) -> Registry:
 
 async def _cmd_update(args: argparse.Namespace) -> int:
     registry = _filter_registry(load_registry(Path(args.registry)), args.only)
+    db_path = Path(args.db)
     summary = await run_update(
-        registry, data_dir=Path(args.data_dir), concurrency=args.concurrency
+        registry, data_dir=Path(args.data_dir), db_path=db_path, concurrency=args.concurrency
     )
+    sqlite_store.compress(db_path)
 
     report = summary.as_markdown()
     print(report)
@@ -133,31 +135,19 @@ async def _cmd_probe(args: argparse.Namespace) -> int:
 
 def _cmd_validate(args: argparse.Namespace) -> int:
     """Re-parse every stored posting against the model. Non-zero on any failure."""
-    data_dir = Path(args.data_dir)
     problems = 0
     checked = 0
 
-    for provider_dir in sorted(p for p in data_dir.iterdir() if p.is_dir()) if data_dir.exists() else []:
-        for path in sorted(provider_dir.glob("*.json")):
-            try:
-                raw = json.loads(path.read_text(encoding="utf-8"))
-            except json.JSONDecodeError as exc:
-                print(f"{path}: not valid JSON ({exc})")
+    for (provider, slug), postings in sqlite_store.load_all(Path(args.db)).items():
+        for posting in postings:
+            checked += 1
+            missing = [
+                f for f in ("content_hash", "title", "company_name", "source_url")
+                if not getattr(posting, f)
+            ]
+            if missing:
+                print(f"{provider}/{slug}: posting missing required values: {', '.join(missing)}")
                 problems += 1
-                continue
-            for entry in raw.get("jobs", []):
-                checked += 1
-                try:
-                    JobPosting.model_validate(entry)
-                except Exception as exc:
-                    print(f"{path}: invalid posting ({exc})")
-                    problems += 1
-                    break
-                missing = [f for f in ("content_hash", "title", "company_name", "source_url") if not entry.get(f)]
-                if missing:
-                    print(f"{path}: posting missing required values: {', '.join(missing)}")
-                    problems += 1
-                    break
 
     print(f"validated {checked} postings; {problems} problem(s)")
     return 1 if problems else 0
@@ -169,14 +159,9 @@ def _cmd_stats(args: argparse.Namespace) -> int:
     Prints what is actually there, so the README can be written from measurement
     rather than from hope.
     """
-    data_dir = Path(args.data_dir)
-    registry = load_registry(Path(args.registry))
     per_provider: dict[str, list[JobPosting]] = {}
-
-    for entry in registry.companies:
-        postings = load_company(entry.provider, entry.key, data_dir)
-        if postings:
-            per_provider.setdefault(entry.provider, []).extend(postings)
+    for (provider, _slug), postings in sqlite_store.load_all(Path(args.db)).items():
+        per_provider.setdefault(provider, []).extend(postings)
 
     if not per_provider:
         print("no data on disk yet; run `update` first")
@@ -202,6 +187,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("-v", "--verbose", action="store_true")
     parser.add_argument("--registry", default="registry/companies.yaml")
     parser.add_argument("--data-dir", default=str(DATA_DIR))
+    parser.add_argument("--db", default=str(sqlite_store.DB_PATH), help="postings database")
     sub = parser.add_subparsers(dest="command", required=True)
 
     update = sub.add_parser("update", help="read every registered company and write changes")

@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# eu-job-feeds: local pipeline state (jobs.sqlite, changes.json), downloaded
+# from / published to the "latest" GitHub Release — never committed.
+# See docs/DECISIONS.md #18.
+state/

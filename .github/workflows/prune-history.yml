@@ -46,8 +46,25 @@ jobs:
           name: Dataset snapshot ${{ steps.snapshot.outputs.stamp }}
           body: |
             Point-in-time snapshot of `data/` and `registry/`, taken before the
-            branch history was collapsed to a single commit.
+            branch history was collapsed to a single commit. The postings
+            themselves (`jobs.sqlite.gz`, if attached below) come from the
+            `latest` release — see docs/DECISIONS.md #18.
           files: eu-job-feeds-${{ steps.snapshot.outputs.stamp }}.tar.gz
+
+      - name: Attach the current jobs.sqlite.gz to this snapshot, if available
+        # `data/` now holds only index.json; the postings live in `jobs.sqlite`
+        # on the continuously-updated `latest` release. Without this step the
+        # monthly snapshot would silently stop being a full dataset backup.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release download latest --repo "$GITHUB_REPOSITORY" \
+              --pattern 'jobs.sqlite.gz' --dir . --clobber; then
+            gh release upload "snapshot-${{ steps.snapshot.outputs.stamp }}" jobs.sqlite.gz \
+              --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            echo "No 'latest' release yet; snapshot has no jobs.sqlite.gz."
+          fi
 
       - name: Collapse the branch to one commit
         run: |

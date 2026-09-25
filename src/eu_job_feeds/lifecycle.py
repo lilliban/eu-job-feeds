@@ -44,6 +44,8 @@ class MergeStats:
     #: The postings behind `new` — a consumer notifying on new adverts needs the
     #: postings themselves, not just a count.
     new_postings: list[JobPosting] = field(default_factory=list)
+    #: The postings behind `newly_closed`, for the same reason.
+    closed_postings: list[JobPosting] = field(default_factory=list)
 
 
 def identity(provider: str, external_id: str) -> str:
@@ -127,11 +129,11 @@ def merge(
         # Absent from a complete read: this one counts.
         misses = previous.consecutive_misses + 1
         closed = misses >= MISSES_BEFORE_CLOSED
+        updated = previous.model_copy(update={"consecutive_misses": misses, "is_closed": closed})
         if closed and not previous.is_closed:
             stats.newly_closed += 1
-        result.append(
-            previous.model_copy(update={"consecutive_misses": misses, "is_closed": closed})
-        )
+            stats.closed_postings.append(updated)
+        result.append(updated)
 
     stats.total = len(result)
     return result, stats

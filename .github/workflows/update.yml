@@ -27,6 +27,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
+    env:
+      GH_TOKEN: ${{ github.token }}
+
     steps:
       - uses: actions/checkout@v4
 
@@ -38,6 +41,22 @@ jobs:
       - name: Install
         run: pip install -e .
 
+      - name: Download the previous dataset from the "latest" release
+        # `jobs.sqlite` is the only durable state between runs now that
+        # per-company files are no longer committed to git — see
+        # docs/DECISIONS.md #18. The tag `latest` is always explicit, never
+        # GitHub's "most recently published release" resolution, which after
+        # prune-history.yml runs would resolve to a dated snapshot-YYYY-MM.
+        run: |
+          mkdir -p state
+          if gh release view latest --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release download latest --repo "$GITHUB_REPOSITORY" \
+              --pattern 'jobs.sqlite.gz' --dir state --clobber
+            gzip -dk -f state/jobs.sqlite.gz
+          else
+            echo "No 'latest' release yet; starting with an empty database."
+          fi
+
       - name: Run the collector
         id: collect
         env:
@@ -46,29 +65,45 @@ jobs:
           JOB_MATCHER_WEBHOOK_URL: ${{ secrets.JOB_MATCHER_WEBHOOK_URL }}
         run: |
           if [ -n "${{ inputs.only }}" ]; then
-            python -m eu_job_feeds.cli update --only "${{ inputs.only }}"
+            python -m eu_job_feeds.cli update --db state/jobs.sqlite --only "${{ inputs.only }}"
           else
-            python -m eu_job_feeds.cli update
+            python -m eu_job_feeds.cli update --db state/jobs.sqlite
           fi
 
       - name: Validate the dataset against the contract
-        # A malformed file must never reach the consumer. This is the last gate
-        # before the commit.
-        run: python -m eu_job_feeds.cli validate
+        # A malformed row must never reach the consumer. This is the last gate
+        # before publishing.
+        run: python -m eu_job_feeds.cli validate --db state/jobs.sqlite
 
-      - name: Commit only if something actually changed
+      - name: Commit registry and stats only
+        # The postings themselves are published as a release asset below, not
+        # committed to git — see docs/DECISIONS.md #18. This step must not
+        # exit early when there is nothing to commit: the release publish
+        # below has to run on every invocation, since `jobs.sqlite` changes
+        # on nearly every run even when the registry does not.
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data registry
+          git add registry data/index.json
           if git diff --cached --quiet; then
-            echo "No changes; nothing to commit."
-            echo "- No dataset changes this run." >> "$GITHUB_STEP_SUMMARY"
-            exit 0
+            echo "No registry/stats changes this run."
+            echo "- No registry/stats changes this run." >> "$GITHUB_STEP_SUMMARY"
+          else
+            changed=$(git diff --cached --name-only | wc -l)
+            git commit -m "data: refresh registry/stats ($changed file(s))"
+            # A concurrent prune-history run may have moved the branch under us.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
           fi
-          # Line counts give the run's size at a glance in the history.
-          changed=$(git diff --cached --name-only | wc -l)
-          git commit -m "data: refresh dataset ($changed file(s))"
-          # A concurrent prune-history run may have moved the branch under us.
-          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
-          git push
+
+      - name: Publish jobs.sqlite and changes.json to the "latest" release
+        run: |
+          if gh release view latest --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload latest state/jobs.sqlite.gz state/changes.json \
+              --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create latest state/jobs.sqlite.gz state/changes.json \
+              --repo "$GITHUB_REPOSITORY" --title "Latest dataset" \
+              --notes "Continuously updated. See docs/DECISIONS.md #18." \
+              --target "${GITHUB_REF_NAME}"
+          fi

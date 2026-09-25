@@ -102,6 +102,15 @@ class TestClosing:
         assert postings[0].is_closed is True
         assert stats.newly_closed == 1
 
+    def test_closed_postings_lists_what_newly_closed_counts(self) -> None:
+        """A consumer publishing the run's diff (`changes.py`) needs the
+        postings themselves, not just a count — same reasoning as `new_postings`."""
+        stored = first_run(raw("1"))
+        stored, _ = merge(stored, complete_read(), company_name=COMPANY)
+        _, stats = merge(stored, complete_read(), company_name=COMPANY)
+
+        assert [p.external_id for p in stats.closed_postings] == ["1"]
+
     def test_closing_is_reported_only_once(self) -> None:
         stored = first_run(raw("1"))
         for _ in range(2):

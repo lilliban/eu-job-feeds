@@ -3,8 +3,8 @@
   "source_board": "recruitee",
   "slug": "channable",
   "job_count": 16,
-  "open_job_count": 16,
-  "updated_at": "2026-09-24T00:00:00+00:00",
+  "open_job_count": 11,
+  "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
       "content_hash": "3f176feaea02ea0ecdc51ab746c0c5bd91c8716057239cb7fa511d61c37f22f8",
@@ -36,8 +36,8 @@
       "posted_date": "2026-04-21T15:51:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "47ff754f1bedc6116aac57175b07d59476c061fa755a91c1739314618d427261",
@@ -65,7 +65,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-06-02T10:10:41+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -96,8 +96,8 @@
       "posted_date": "2026-04-28T08:45:01+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "4976af5214ff613ee4c50b901a639cc1c186c5470e85a502fe1f862fe27dd981",
@@ -125,7 +125,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-07-16T10:59:08+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -158,7 +158,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-18T13:27:28+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -188,7 +188,7 @@
       "salary_currency": null,
       "posted_date": "2021-09-07T08:26:19+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -218,7 +218,7 @@
       "salary_currency": null,
       "posted_date": "2026-08-03T10:39:54+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -248,7 +248,7 @@
       "salary_currency": null,
       "posted_date": "2023-02-23T11:55:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -278,7 +278,7 @@
       "salary_currency": null,
       "posted_date": "2023-02-23T11:57:05+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -312,8 +312,8 @@
       "posted_date": "2026-07-14T07:03:25+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "ac450ec0cac5403265e8831363678e367a411fd6089d3911dbea3351741e60d3",
@@ -345,8 +345,8 @@
       "posted_date": "2026-07-27T11:03:09+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "b55c0b3f5d76518bffc6148b47f8ea716d75d13f099228956a850aa1847f4920",
@@ -376,7 +376,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-04-02T08:13:02+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -409,7 +409,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-09-11T15:16:33+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -439,7 +439,7 @@
       "salary_currency": "EUR",
       "posted_date": "2026-07-28T07:21:13+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     },
@@ -473,8 +473,8 @@
       "posted_date": "2026-07-27T11:34:25+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "f4e99a7ed05269e5a9e666538300242cb94257f345343b561ebef4427363c842",
@@ -502,7 +502,7 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-06T16:09:53+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
     }

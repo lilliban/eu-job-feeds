@@ -446,7 +446,7 @@
       "posted_date": "2026-08-26T09:28:38.938+00:00",
       "first_seen_at": "2026-09-25T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {

@@ -2,8 +2,8 @@
   "company_name": "Adyen",
   "source_board": "greenhouse",
   "slug": "adyen",
-  "job_count": 213,
-  "open_job_count": 213,
+  "job_count": 216,
+  "open_job_count": 212,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -1165,6 +1165,38 @@
       "is_closed": false
     },
     {
+      "content_hash": "2b530087a4c910b2a1e991b26cdf8d2edaf6c97d0a5f5febc7b39fec2eddc372",
+      "title": "Software Engineer II (Kotlin) - Core Experience",
+      "company_name": "Adyen",
+      "source_url": "https://job-boards.greenhouse.io/adyen/jobs/8210671",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8210671",
+      "description": "This is Adyen\n\nAdyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.\n\nFor our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster.\n\nAdyen is looking for full-time Kotlin Engineers to help us develop our in-person payments solution. We have a large and varied fleet of payment terminals and payment SDKs in the field, which we are continuously improving by adding new features and payment methods. Kotlin development plays a vital role in this effort, as your code will be deployed across our various solutions using Kotlin Multiplatform.\n\nWhat you’ll do\n\nAs a Kotlin Engineer you will work on solutions for our payment terminals and payment SDKs featuring many capabilities, such as:\n\n- Accepting payments using credit cards and debit cards, Apple Pay or Google Pay on mobile phones or accepting payments through QR codes\n\n- Building and maintaining payment features for global merchants\n\n- Integration with a variety of cash registers using state of the art standards\n\nYou will be working on developing our main business logic in Kotlin, which will be deployed on both Android and Linux based payment terminals, and on our backend. You will also be contributing to C++ libraries that are central to our payment business logic.\n\nYour code is tested using a variety of testing methods. These methods range from unit testing to complete product testing via automated programmable robots in order to offer a stable and feature rich solution to all of our merchants.",
+      "requirements_raw": "Who you are:\n\n- A motivated, enthusiastic team player: collaborate with other engineers, product designers, and business stakeholders\n\n- Able to provide reliable and clearly understandable code\n\n- Willing to learn and improve\n\n- Flexible, open to new ideas\n\n- Have a keen eye for detail\n\n- Able to debug and solve problems within the Android application and collaborate effectively on cross-functional issues\n\n- Proactive in bringing great ideas to improve our solution\n\n- Enthusiastic to investigate new technical possibilities, yet able to work within existing frameworks\n\n- Self-disciplined and enjoy working at a fast pace while managing and prioritizing goals\n\nMust have qualifications:\n\n- +5 years of experience writing code in Kotlin.\n\n- Proficiency in building software for the Android platform.\n\n- Experience in development of enterprise level SDKs.\n\n- Expert level knowledge of Kotlin, Android SDK, Jetpack Compose, Coroutines, Gradle, Dependency Injection\n\n- Experience writing and maintaining a comprehensive suite of automated unit and integration tests\n\n- A high level of personal accountability and a blend of strong technical skills, creative problem-solving, and a collaborative spirit\n\n- Ability and desire to mentor and grow other engineers through code reviews, design reviews, and over-the-shoulder debugging\n\n- Excellent verbal and written communication skills in English.\n\nGood to know:\n\n- Experience in another non-JVM language, such as C or C++\n\n- Experience with building libraries used by other engineers\n\n- Knowledge about security best practices and standards\n\n- Experience working with Bluetooth-connected devices\n\n- Experience working in payment industry (This is a plus, not a must)\n\n- The annual base salary range for this role is $154,000.00 - $200,000.00; to learn more about our compensation philosophy, please click here.\n\nThis role is based out of our Chicago office. We are an office-first company and value in-person collaboration; we do not offer remote-only roles.\n\nOur Diversity, Equity and Inclusion commitments\n\nOur unique approach is a product of our diverse perspectives. This diversity of backgrounds and cultures is essential in helping us maintain our momentum. Our business and technical challenges are unique, and we need as many different voices as possible to join us in solving them - voices like yours. No matter who you are or where you’re from, we welcome you to be your true self at Adyen.\n\nStudies show that women and members of underrepresented communities apply for jobs only if they meet 100% of the qualifications. Does this sound like you? If so, Adyen encourages you to reconsider and apply. We look forward to your application!\n\nWhat’s next?\n\nEnsuring a smooth and enjoyable candidate experience is critical for us. We aim to get back to you regarding your application within 5 business days. Our interview process tends to take about 4 weeks to complete, but may fluctuate depending on the role. Learn more about our hiring process here. Don’t be afraid to let us know if you need more flexibility.\n\nThis role is based out of our Chicago office. We are an office-first company and value in-person collaboration; we do not offer remote-only roles.",
+      "location": "Chicago",
+      "contract_type": null,
+      "contract_type_norm": null,
+      "work_mode": "remote",
+      "seniority": null,
+      "department": "Development",
+      "min_years_exp": 5,
+      "max_years_exp": null,
+      "languages": [
+        "english"
+      ],
+      "city": "Chicago",
+      "country_code": "US",
+      "salary_min": 154000,
+      "salary_max": 200000,
+      "salary_currency": "USD",
+      "posted_date": "2026-09-25T09:52:45-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
       "content_hash": "2b8019fa8d76f7757ed492f4bc1319993809f02612254a1a02d5cc971ffb7429",
       "title": "Senior AI Governance Counsel",
       "company_name": "Adyen",
@@ -1190,6 +1222,38 @@
       "salary_currency": "USD",
       "posted_date": "2026-08-18T19:44:20-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
+      "content_hash": "2b8998f72d9957a9e0c7dea67d36654b331c6d048c5b7148a4df411da3d8d47f",
+      "title": "Senior Procurement Manager - Data Centers",
+      "company_name": "Adyen",
+      "source_url": "https://job-boards.greenhouse.io/adyen/jobs/8220257",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8220257",
+      "description": "This is Adyen\n\nAdyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.\n\nFor our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster.\n\nSenior Procurement Manager - Data Centers\n\nWe are looking for a fast learner and hands-on Procurement Manager to join Adyen's Procurement team, a dynamic global team within our Finance function. The goal of the team is to contribute to Adyen’s 10x ambition through sustainable commercial decisions, risk mitigation, contract and vendor management, ultimately empowering stakeholders to deliver their strategies. You will work in the data center category, alongside another category manager and a supply chain manager, but as Adyen grows, and the Procurement team with it, this scope might change and increase in the future.\n\nWhat you'll do\n\n- Act as a business partner to stakeholders such as Infrastructure, Data Center Engineering, Legal and Sustainability, delivering value and enabling their strategies.\n\n- Lead and initiate commercial negotiations, including but not limited to contract renewals and setting up new agreements.\n\n- Be responsible for the supplier selection process, RFx and screening.\n\n- Work with the Infrastructure team on roadmaps, including our DC expansion plans.\n\n- Do vendor monitoring on performance and contractual agreements.\n\n- Be tracking and reporting on industry trends.\n\n- Build and maintain relationships with key vendors.",
+      "requirements_raw": "Who you are\n\n- 7+ years of relevant experience, including category management or sourcing.\n\n- Deep knowledge and experience of and within the Data Center space, hardware and services.\n\n- Well-organized and like to solve problems with a pragmatic approach.\n\n- Data driven with an analytical mindset.\n\n- A natural networker, great in stakeholder management and negotiations.\n\n- Proficient in English; fluency in another language is an added advantage.\n\n- Have a global mindset, and are able to work across time zones and cultures.\n\n- Have project management skills, are resourceful, and able to work independently.\n\nOur Diversity, Equity and Inclusion commitments\n\nOur unique approach is a product of our diverse perspectives. This diversity of backgrounds and cultures is essential in helping us maintain our momentum. Our business and technical challenges are unique, and we need as many different voices as possible to join us in solving them - voices like yours. No matter who you are or where you’re from, we welcome you to be your true self at Adyen.\n\nStudies show that women and members of underrepresented communities apply for jobs only if they meet 100% of the qualifications. Does this sound like you? If so, Adyen encourages you to reconsider and apply. We look forward to your application!\n\nWhat’s next?\n\nEnsuring a smooth and enjoyable candidate experience is critical for us. We aim to get back to you regarding your application within 5 business days. Our interview process tends to take about 4 weeks to complete, but may fluctuate depending on the role. Learn more about our hiring process here. Don’t be afraid to let us know if you need more flexibility.\n\nThis role is based out of our Amsterdam office. We are an office-first company and value in-person collaboration; we do not offer remote-only roles.",
+      "location": "Amsterdam",
+      "contract_type": null,
+      "contract_type_norm": null,
+      "work_mode": "remote",
+      "seniority": "Lead",
+      "department": "Procurement",
+      "min_years_exp": 7,
+      "max_years_exp": null,
+      "languages": [
+        "english"
+      ],
+      "city": "Amsterdam",
+      "country_code": "NL",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-09-25T10:54:53-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
@@ -2646,8 +2710,8 @@
       "posted_date": "2026-07-09T09:55:27-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "63985c99c3f3d4de27aef42ebc657681f389f55d3e110b9fe30487c724578067",
@@ -3105,8 +3169,8 @@
       "posted_date": "2026-05-13T10:45:25-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "7bc27a05d1badd88e15c068fba6d80680c41c869171aec6c62abd5e132a0a004",
@@ -3591,8 +3655,8 @@
       "posted_date": "2026-09-21T01:12:26-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "91745bfd8488528c4c1538990c0604a00d233d3655018394c4d4455de007f303",
@@ -3875,7 +3939,7 @@
       "posted_date": "2025-11-17T07:58:55-05:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -4878,8 +4942,8 @@
       "posted_date": "2025-07-07T04:11:19-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "bd0b471ec5ddab98242f1ccb26ed2f2fff91c381b822593eb0280c51d660340c",
@@ -6456,6 +6520,36 @@
       "salary_currency": null,
       "posted_date": "2026-08-31T03:52:33-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
+      "content_hash": "f6923181af4fa4b9481f3ae85a9999ee4c9bfbfc37602dc3f2946c8e2e05f3b4",
+      "title": "Payment Terminal Certification Expert (L2)",
+      "company_name": "Adyen",
+      "source_url": "https://job-boards.greenhouse.io/adyen/jobs/8147372",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8147372",
+      "description": "This is Adyen\n\nAdyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.\n\nFor our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster.\n\nTerminal (POS) Certification Expert\n\nThe IPP Security & Certifications team owns the certification portfolio that keeps Adyen's in-person payments infrastructure compliant and approved to operate. That spans PCI certifications across our hardware and software, and EMV certification of the payment kernels and applications running on our terminals worldwide.\n\nThis role sits at the center of our Level 2 certification work. Adyen develops its own L2 kernels (contact & contactless), and you will own their certification end to end: coordinating type approval testing with our external certification lab, analyzing test results, and translating findings into clear, actionable reports for our kernel developers to work from. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster.\n\nWhat you will do\n\nAdyen develops its own L2 payment kernels, which sit at the core of every in-person transaction we process.\n\n- You will own the technical preparation and execution of Level 2 kernel certification, ensuring our kernels meet EMVCo type approval requirements as well as the contact and contactless specifications of Visa, Mastercard, Amex, Discover, JCB, UnionPay, existing local payment method & planned future payment method expansions as Adyen's In-Person Payment business expands.\n\n- You will sit directly between our external certification lab and our engineering teams. That means owning the lab relationship end to end, and translating what comes back from testing into something engineers can act on.\n\n- When a test fails, you investigate at the APDU and transaction-flow level, identify the root cause, and guide the kernel developers toward the fix rather than simply handing over a failure report.\n\n- You will own the certification calendar: managing your own time and the wider timeline so submissions land when they need to, and so delta certifications triggered by kernel changes or expiring approvals never become a surprise.",
+      "requirements_raw": "Who you are\n\n- You have at least 2 years of hands-on experience performing Level 2 certifications for contact and contactless kernels.\n\n- Experience with EMV Level 3 brand certification is a significant plus, as it gives you visibility into how kernel behavior surfaces in end-to-end scheme testing.\n\n- You have strong EMV knowledge at the kernel level: EMVCo contact and contactless specifications, terminal application flow, CVM processing, and cryptogram generation.\n\n- You are comfortable working with EMV test tooling and card simulators, and reading APDU traces to diagnose exactly where a transaction went wrong.\n\n- You are an excellent communicator. You can explain a certification failure to an engineer in terms they can act on, and you can hold a productive technical conversation with an external lab and engage directly with payment schemes when needed, whether that's clarifying a test requirement or navigating a waiver request.\n\n- You drive for results with a strong output mindset. Certifications have hard external dates, and you plan backward from them, keeping stakeholders aligned and the timeline visible without being chased.\n\n- You take initiative. You spot problems before they escalate, own your own way of working, and don't wait to be told how to organize a certification cycle.\n\n- You are as comfortable driving a project as you are analyzing a test result. This role is a genuine hybrid: you'll be the connective link between engineering, our certification lab, and the payment schemes, and keeping that moving takes structure and follow-through, not just technical understanding.\n\n- Detail-oriented: you stay current with evolving EMVCo specifications, scheme bulletins, and test plan updates.\n\nDiversity, Equity, and Inclusion at Adyen\n\nWe actively seek different perspectives to sharpen our ideas. Our unique culture is a product of our diverse backgrounds and experiences. No matter who you are or where you’re from, you’re welcome to be your true self at Adyen.\n\nIf you need accommodations or support during the recruitment process to perform at your best, you’ll have the opportunity to let our team know in your application. We encourage people from all backgrounds and abilities to apply.\n\nWhat’s next?\n\nEnsuring a smooth and enjoyable candidate experience is critical for us. We aim to get back to you regarding your application within 5 business days. Our interview process tends to take about 4 weeks to complete, but may fluctuate depending on the role. Learn more about our hiring process here. Don’t be afraid to let us know if you need more flexibility.\n\nThis role is based out of our Amsterdam office. We are an office-first company and value in-person collaboration; we do not offer remote-only roles. We offer visa and relocation support within the EU for this role.",
+      "location": "Amsterdam",
+      "contract_type": null,
+      "contract_type_norm": null,
+      "work_mode": "hybrid",
+      "seniority": null,
+      "department": "Development",
+      "min_years_exp": 2,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "Amsterdam",
+      "country_code": "NL",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-09-03T09:57:25-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false

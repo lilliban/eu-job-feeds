@@ -93,7 +93,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -333,7 +333,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -723,7 +723,7 @@
       "posted_date": "2026-09-16",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -903,7 +903,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -963,7 +963,7 @@
       "posted_date": "2026-07-07",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1533,7 +1533,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1686,7 +1686,7 @@
       "posted_date": "2026-06-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1716,7 +1716,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1866,7 +1866,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1926,7 +1926,7 @@
       "posted_date": "2026-06-16",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2228,7 +2228,7 @@
       "posted_date": "2025-11-24",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2408,7 +2408,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2558,7 +2558,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2678,7 +2678,7 @@
       "posted_date": "2026-04-09",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2918,7 +2918,7 @@
       "posted_date": "2026-07-13",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3254,7 +3254,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3284,7 +3284,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3344,7 +3344,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3404,7 +3404,7 @@
       "posted_date": "2026-05-18",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3464,7 +3464,7 @@
       "posted_date": "2026-07-06",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3494,7 +3494,7 @@
       "posted_date": "2026-07-06",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3524,7 +3524,7 @@
       "posted_date": "2026-07-06",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3557,7 +3557,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3587,7 +3587,7 @@
       "posted_date": "2026-06-09",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3677,7 +3677,7 @@
       "posted_date": "2026-05-18",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3707,7 +3707,7 @@
       "posted_date": "2026-05-18",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3887,7 +3887,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3950,7 +3950,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4010,7 +4010,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4130,7 +4130,7 @@
       "posted_date": "2026-06-09",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4160,7 +4160,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4250,7 +4250,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4313,7 +4313,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4703,7 +4703,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4733,7 +4733,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4763,7 +4763,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4943,7 +4943,7 @@
       "posted_date": "2026-03-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5063,7 +5063,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5093,7 +5093,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5123,7 +5123,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5153,7 +5153,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5363,7 +5363,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5393,7 +5393,7 @@
       "posted_date": "2026-07-23",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5423,7 +5423,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5513,7 +5513,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5753,7 +5753,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5903,7 +5903,7 @@
       "posted_date": "2026-04-14",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5963,7 +5963,7 @@
       "posted_date": "2026-06-30",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6203,7 +6203,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6604,7 +6604,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6784,7 +6784,7 @@
       "posted_date": "2026-07-06",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6814,7 +6814,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6844,7 +6844,7 @@
       "posted_date": "2026-07-06",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6964,7 +6964,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7234,7 +7234,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7294,7 +7294,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7324,7 +7324,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7354,7 +7354,7 @@
       "posted_date": "2026-07-29",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7474,7 +7474,7 @@
       "posted_date": "2026-07-31",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7564,7 +7564,7 @@
       "posted_date": "2026-06-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7594,7 +7594,7 @@
       "posted_date": "2026-07-07",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7624,7 +7624,7 @@
       "posted_date": "2026-07-06",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7774,7 +7774,7 @@
       "posted_date": "2026-07-14",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7804,7 +7804,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7864,7 +7864,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7897,7 +7897,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7957,7 +7957,7 @@
       "posted_date": "2026-01-07",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7987,7 +7987,7 @@
       "posted_date": "2026-07-05",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8407,7 +8407,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8437,7 +8437,7 @@
       "posted_date": "2026-03-30",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8557,7 +8557,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8587,7 +8587,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8617,7 +8617,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9157,7 +9157,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9190,7 +9190,7 @@
       "posted_date": "2026-05-12",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9400,7 +9400,7 @@
       "posted_date": "2026-08-28",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -10030,7 +10030,7 @@
       "posted_date": "2026-09-16",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -10090,7 +10090,7 @@
       "posted_date": "2026-07-20",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10120,7 +10120,7 @@
       "posted_date": "2026-09-16",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -10150,7 +10150,7 @@
       "posted_date": "2026-07-16",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {

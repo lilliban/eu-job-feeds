@@ -2,8 +2,8 @@
   "company_name": "GetYourGuide",
   "source_board": "greenhouse",
   "slug": "getyourguide",
-  "job_count": 53,
-  "open_job_count": 53,
+  "job_count": 54,
+  "open_job_count": 54,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -162,7 +162,7 @@
       "posted_date": "2026-07-22T08:44:58-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -1662,6 +1662,39 @@
       "salary_currency": null,
       "posted_date": "2026-07-31T06:25:17-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
+      "content_hash": "fe0fbbd1b0e4dced9729cdacfbc9aee6bfacd4990680137c685a14209b036efd",
+      "title": "Account Executive LATAM",
+      "company_name": "GetYourGuide",
+      "source_url": "https://job-boards.greenhouse.io/getyourguide/jobs/8225770",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8225770",
+      "description": "Change the way the world travels\n\nBe part of the GetYourGuide journey and connect people with unforgettable travel experiences worldwide. Since 2009, millions of travelers have booked unique activities with us in over 12,000 cities. Our headquarters in Berlin is supported by local offices across the globe, from New York to Bangkok.\n\nReady to join a diverse community of over 850 fellow explorers dedicated to revolutionizing the travel experience industry? Check out getyourguide.careers to learn more.\n\nThe role\n\nWe’re looking for a driven, resilient, and results-oriented Account Executive to strengthen our expert Sales Team in Mexico City. In this role, you will play a pivotal part in our growth by acquiring the best and most popular things to do in travel destinations. You will focus on building and managing a high-performing sales pipeline, negotiating optimal terms, and driving supplier acquisition in LATAM. This is a unique opportunity to directly impact millions of travelers while advancing GetYourGuide’s position in the experience industry..\n\nYour mission\n\n- Identify and onboard new suppliers, primarily tour and experience providers, as well as attractions.\n\n- Effectively manage the entire sales funnel, including outreach, negotiation, closing, and onboarding, to consistently hit and exceed quota.\n\n- Collaborate with internal teams to align supplier acquisition with broader business goals, ensuring sustainable growth.\n\n- Represent GetYourGuide at relevant industry events to drive acquisition and establish credibility.\n\n- Regularly travel (up to 25%) to build strong relationships with suppliers in destination and create long-term partnerships\n\nYour toolkit\n\n- You have 3+ years of experience in B2B sales, with a proven track record of exceeding sales targets, running a disciplined, data-driven process, and confidently using sales tools and software — including CRM (e.g., Salesforce) and sales enablement tools.\n\n- You are resilient, hungry for success, and thrive under pressure, consistently raising the bar for yourself.\n\n- You speak Spanish at a native level as well as proficiency in English.\n\n- You excel at handling objections, reframing conversations with insights, and creating constructive tension to close challenging deals.\n\n- You bring strong problem-solving skills, using data to prioritize actions and inform decisions.\n\n- You are an excellent communicator, able to articulate value propositions clearly to diverse audiences, adapting your approach for maximum impact.\n\n- You collaborate with peers, share best practices, and lift the team to new heights.\n\nWe want your journey with us to be extraordinary\n\n- Annual personal growth budget and mentorship programs for continuous learning and development\n\n- Work from anywhere in the world for 30 days per year\n\n- A hybrid working approach with three days of in office collaboration (Mon, Tue, Thur) and two days of optional at home focus time.\n\n- Opportunities to collaborate and socialize with team members through quarterly team events and yearly company-wide events\n\n- Monthly transportation and fitness budget\n\n- Discounts for you, your friends, and family on GetYourGuide activities\n\n- Language reimbursement program\n\n- Health and wellness benefits\n\n- And more…\n\nHow to apply\n\nSubmit your CV/resume in English using the form below. For tips and insights into our hiring process and culture, check out ‘how we hire’ and ‘life at GetYourGuide’. If you have any further questions, please don’t hesitate to get in touch at jobs@getyourguide.com.\n\nWe’re an equal opportunities employer\n\nOur commitment is that every qualified person will be evaluated according to their skills regardless of age, gender identity, ethnicity, sexual orientation, disability status, or religion. Please refrain from including your picture and age with your application.\n\n#LI-Hybrid",
+      "requirements_raw": null,
+      "location": "Mexico City",
+      "contract_type": null,
+      "contract_type_norm": null,
+      "work_mode": "hybrid",
+      "seniority": null,
+      "department": "Sales",
+      "min_years_exp": 3,
+      "max_years_exp": null,
+      "languages": [
+        "english",
+        "spanish"
+      ],
+      "city": "Mexico City",
+      "country_code": "MX",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-09-25T10:40:42-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false

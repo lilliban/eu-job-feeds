@@ -2,8 +2,8 @@
   "company_name": "Doctolib",
   "source_board": "greenhouse",
   "slug": "doctolib",
-  "job_count": 153,
-  "open_job_count": 153,
+  "job_count": 154,
+  "open_job_count": 152,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -1147,8 +1147,8 @@
       "posted_date": "2026-08-14T03:00:11-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "3e08d773f3d7588619e48a26fc45a46ccfc58f25d255cf60c408c91bbabe2b78",
@@ -2636,8 +2636,8 @@
       "posted_date": "2026-09-17T07:50:18-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "869b8904a13bbfedcb3f50256bc87af5570973b91c4cce37f9558af101bdc39d",
@@ -3881,6 +3881,39 @@
       "salary_currency": null,
       "posted_date": "2026-06-30T07:08:01-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 1,
+      "is_closed": false
+    },
+    {
+      "content_hash": "c41317993b61a58b3e47b825998a2eb46118dec3a4b865fe2d4aff6e3c2614aa",
+      "title": "Werkstudent Customer Success (x/f/m)",
+      "company_name": "Doctolib",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8004289003",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8004289003",
+      "description": "Gemeinsam gestalten wir die Gesundheitsversorgung der Zukunft\n\nDoctolib sucht Dich ab sofort als Werkstudent:in im Bereich Customer Success für unseren Standort in Berlin.\n\nDas Customer Success Team bei Doctolib ist verantwortlich für die allgemeine Kundenzufriedenheit und eine langfristig erfolgreiche Zusammenarbeit mit kleinen bis mittelgroßen Praxen. Wir begleiten unsere Kund:innen im Alltag, unterstützen sie bei der optimalen Nutzung unserer digitalen Lösungen und stehen ihnen bei Fragen oder Herausforderungen zuverlässig zur Seite. Wir tragen dazu bei, dass Praxen das volle Potenzial von Doctolib ausschöpfen können und so gemeinsam mit uns die Zukunft des Gesundheitswesens gestalten.\n\nDeine Aufgaben\n\nAls Werkstudent:in unterstützt Du uns dabei in folgenden Aufgabenbereichen:\n\n- Du koordinierst interne Aufgaben, indem du eingehende Anfragen auf das Team verteilst und für einen guten Informationsfluss sorgst\n\n- Du stehst im direkten Kontakt mit unseren Kund:innen – sowohl schriftlich als auch telefonisch – bearbeitest deren Anliegen, begleitest strukturelle Änderungen und informierst proaktiv über Produktneuheiten oder zusätzliche Angebote\n\n- Du unterstützt das Team und die Teamleitung bei administrativen Prozessen und sorgst dafür, dass der Arbeitsalltag reibungslos läuft\n\n- Du bringst dich aktiv in Projekte zur internen Prozessoptimierung ein und unterstützt bei der Dokumentation sowie Aufbereitung von Lerninhalten für das Team\n\nWährend Deiner Tätigkeit bei uns wirst Du lernen:\n\n- Den Aufbau einer Customer Success Organisation kennenlernen und Verständnis für die Customer Journey von Kunden im SaaS-Umfeld entwickeln\n\n- Lernen, Prozesse zu analysieren und fundierte Kenntnisse im Umgang mit der Bearbeitung von Tickets im CRM-System Salesforce erwerben\n\n- Verständnis entwickeln, wie nachhaltige Kundenbeziehungen aufgebaut und Kundenzufriedenheit langfristig gesichert werden",
+      "requirements_raw": "Dein Profil\n\nDu bist der festen Überzeugung, dass Du genau das mitbringst, was es für die Position braucht? Dann ermutigen wir Dich, Dich zu bewerben. Selbst wenn Du nicht jede Anforderung erfüllst, bist Du vielleicht genau die/der richtige zukünftige Doctoliber:in für diese oder andere Stellen!\n\nUm Teil unseres Teams zu werden, bringst Du Folgendes mit:\n\n- Du bist in Vollzeit an einer Hochschule immatrikuliert\n\n- Du interessierst Dich für den Bereich Digitalisierung, insbesondere im Gesundheitswesen, und bringst Deine kommunikative Art gerne in der Zusammenarbeit mit Kunden ein\n\n- Du hast Freude an administrativen Tätigkeiten, arbeitest gerne lösungs- und detailorientiert und bringst technische Affinität mit\n\n- Du verfügst über eine selbständige und proaktive Arbeitsweise und hast Spaß an der Zusammenarbeit im Team\n\n- Du verfügst über Deutschkenntnisse auf C1-Niveau sowie gute Englischkenntnisse in Wort und Schrift\n\nBesonders interessant sind für uns außerdem:\n\n- Du hast bereits in der Kundenbetreuung oder im Sales gearbeitet\n\n- Du hast bereits erste Erfahrung in einer SaaS Firma oder im Gesundheitswesen gesammelt\n\nWas wir Dir bieten\n\n- Ein strukturiertes und individuelles Onboarding im Rahmen unserer Doctolib Academy sowie ein breites Angebot an internen Trainingsprogrammen\n\n- Ein von Doctolib gesponsertes Deutschlandticket oder die Übernahme Deines Semestertickets\n\n- 28 Urlaubstage im Jahr (anteilig auf Deine Arbeitszeiten berechnet)\n\n- Die Möglichkeit, 10 Tage im Jahr aus dem Ausland zu arbeiten (nach 6 Monaten)\n\n- Eine betriebliche Krankenversicherung mit vielen Zusatzleistungen und Bezuschussungen (nach 6 Monaten)\n\n- Ein flexibles Arbeitsmodell, das hybrides und Office-basiertes Arbeiten ermöglicht\n\n- Regelmäßige Frühstücksangebote im Büro sowie Bezuschussungen zu Deinem Lebensmitteleinkauf\n\n- Ein gefördertes Sportangebot mit unserem Partner Urban Sports Club\n\nDer Interview-Prozess\n\n- Interview mit Deiner Managerin (60´)\n\n- Offer\n\nJob Details\n\n- Tätigkeit als Werkstudent:in (20 Std./Woche)\n\n- Tätigkeitsdauer: min. 1 Jahr\n\n- Arbeitsort: Berlin\n\n- Gehalt: 15 €/Std.\n\n- Startdatum: zum nächstmöglichen Zeitpunkt\n\n- Arbeitsmodus: Hybrid (3 Tage Office/Woche)\n\nWir verfolgen die Vision, die Gesundheit aller zu verbessern. Dies spiegelt sich auch im Recruiting wider. Wir evaluieren Bewerbungen ausschließlich auf der Grundlage von Qualifikation und Motivation. Diskriminierung wird bei uns nicht toleriert.\n\nJe diverser unser Team und die Ideen sind, desto mehr wird unser Produkt die Gesundheit unserer Nutzer:innen verbessern können. Deshalb laden wir Dich ein, Dich bei uns zu bewerben, unabhängig von Geschlecht, Religion, Alter, sexueller Orientierung, ethnischer Herkunft oder Behinderung.\n\nUm Chancengleichheit zu gewährleisten, kannst Du in Deiner Bewerbung auf Angaben wie Fotos, Alter, etc. verzichten. Lass uns bitte wissen, welche Vorkehrungen wir treffen können, um Dich bestmöglich zu unterstützen. Wir freuen uns, mit Dir das Gesundheitswesen zu digitalisieren!\n\nAlle bereitgestellten Informationen werden von Doctolib für das Bewerbungsmanagement verarbeitet. Für Details zur Datenverarbeitung klicke bitte hier. Bei Fragen oder wenn Du Deine Rechte wahrnehmen möchtest, wende Dich bitte an hr.dataprivacy(at)doctolib.com.",
+      "location": "Berlin, Berlin, Germany",
+      "contract_type": "Working Student",
+      "contract_type_norm": "internship",
+      "work_mode": "hybrid",
+      "seniority": "Internship",
+      "department": "Operations",
+      "min_years_exp": null,
+      "max_years_exp": null,
+      "languages": [
+        "english",
+        "german"
+      ],
+      "city": "Berlin",
+      "country_code": "DE",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-09-25T09:41:31-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false

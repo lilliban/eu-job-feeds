@@ -3,7 +3,7 @@
   "source_board": "greenhouse",
   "slug": "onrunning",
   "job_count": 250,
-  "open_job_count": 250,
+  "open_job_count": 248,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -3965,8 +3965,8 @@
       "posted_date": "2026-07-08T16:06:16-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "962ed2c191543ba230dacdc5847ad5c20b0f166d0fec613d4a06d4e533224849",
@@ -7452,8 +7452,8 @@
       "posted_date": "2026-07-22T05:44:22-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "feeea54b4f003cfc1909f6a32110eb5cea99e8c0381e4f6d5719354b4589ece3",

@@ -2,7 +2,7 @@
   "company_name": "Datadog",
   "source_board": "greenhouse",
   "slug": "datadog",
-  "job_count": 623,
+  "job_count": 625,
   "open_job_count": 449,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
@@ -33,7 +33,7 @@
       "posted_date": "2026-07-28T13:25:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -63,7 +63,7 @@
       "posted_date": "2026-06-16T11:08:05-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -125,7 +125,7 @@
       "posted_date": "2026-04-09T09:48:37-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -337,7 +337,7 @@
       "posted_date": "2026-01-15T12:21:42-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -404,7 +404,7 @@
       "posted_date": "2025-05-08T10:22:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -434,7 +434,7 @@
       "posted_date": "2026-04-10T16:55:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -526,7 +526,7 @@
       "posted_date": "2026-07-01T11:08:26-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -739,7 +739,7 @@
       "posted_date": "2026-07-07T10:51:33-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -772,7 +772,7 @@
       "posted_date": "2026-07-01T23:26:56-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -802,7 +802,7 @@
       "posted_date": "2026-02-19T09:23:43-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -864,7 +864,7 @@
       "posted_date": "2026-07-23T06:51:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -986,7 +986,7 @@
       "posted_date": "2026-06-17T16:19:10-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1048,7 +1048,7 @@
       "posted_date": "2026-06-23T22:36:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1228,7 +1228,7 @@
       "posted_date": "2026-05-28T10:08:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1777,7 +1777,7 @@
       "posted_date": "2026-06-29T14:19:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1809,7 +1809,7 @@
       "posted_date": "2026-06-22T16:36:59-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1869,7 +1869,7 @@
       "posted_date": "2026-07-29T09:02:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2019,7 +2019,7 @@
       "posted_date": "2026-07-27T13:44:34-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2173,7 +2173,7 @@
       "posted_date": "2026-06-25T15:21:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2263,7 +2263,7 @@
       "posted_date": "2026-07-22T05:19:50-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2323,7 +2323,7 @@
       "posted_date": "2025-12-02T12:57:32-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2539,7 +2539,7 @@
       "posted_date": "2025-08-25T10:04:08-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2569,7 +2569,7 @@
       "posted_date": "2026-06-12T10:26:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2599,7 +2599,7 @@
       "posted_date": "2026-06-22T11:56:04-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2629,7 +2629,7 @@
       "posted_date": "2026-06-24T22:32:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2809,7 +2809,7 @@
       "posted_date": "2025-08-27T09:32:15-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2839,7 +2839,7 @@
       "posted_date": "2025-07-29T04:44:54-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2869,7 +2869,7 @@
       "posted_date": "2026-06-15T18:05:39-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2899,7 +2899,7 @@
       "posted_date": "2026-04-15T02:53:16-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3142,7 +3142,7 @@
       "posted_date": "2026-07-14T15:07:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3172,8 +3172,8 @@
       "posted_date": "2026-08-10T14:29:25-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "248fd94b1cd41ea371a51adfdb90c764b11f82e77f09f787bf3ca2c66cd40741",
@@ -3234,7 +3234,7 @@
       "posted_date": "2026-04-10T02:07:42-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3266,7 +3266,7 @@
       "posted_date": "2026-04-10T02:07:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3298,7 +3298,7 @@
       "posted_date": "2026-07-01T21:51:35-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3328,7 +3328,7 @@
       "posted_date": "2024-09-11T12:51:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3388,7 +3388,7 @@
       "posted_date": "2025-01-21T14:21:58-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3448,7 +3448,7 @@
       "posted_date": "2025-01-29T12:38:15-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3868,7 +3868,7 @@
       "posted_date": "2026-07-07T11:47:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3898,7 +3898,7 @@
       "posted_date": "2025-02-13T23:29:56-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4018,7 +4018,7 @@
       "posted_date": "2026-06-23T09:24:12-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4048,7 +4048,7 @@
       "posted_date": "2026-06-01T15:59:45-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4198,7 +4198,7 @@
       "posted_date": "2026-06-26T10:29:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4408,7 +4408,7 @@
       "posted_date": "2026-03-19T03:56:33-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4471,7 +4471,7 @@
       "posted_date": "2025-11-06T21:47:48-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4621,7 +4621,7 @@
       "posted_date": "2026-07-01T05:09:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4871,7 +4871,7 @@
       "posted_date": "2026-05-28T08:54:30-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4961,7 +4961,7 @@
       "posted_date": "2026-07-31T14:46:58-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5231,7 +5231,7 @@
       "posted_date": "2026-04-14T08:07:28-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5295,7 +5295,7 @@
       "posted_date": "2026-05-22T16:55:07-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5447,7 +5447,7 @@
       "posted_date": "2026-04-20T21:33:03-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5599,7 +5599,7 @@
       "posted_date": "2026-05-01T05:45:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5659,7 +5659,7 @@
       "posted_date": "2026-04-24T13:01:16-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -5961,7 +5961,7 @@
       "posted_date": "2025-08-05T09:39:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6297,7 +6297,7 @@
       "posted_date": "2026-07-30T16:48:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6417,7 +6417,7 @@
       "posted_date": "2026-03-23T13:40:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6537,7 +6537,7 @@
       "posted_date": "2026-06-15T20:31:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6567,7 +6567,7 @@
       "posted_date": "2026-08-31T21:44:20-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-24T00:00:00+00:00",
-      "consecutive_misses": 2,
+      "consecutive_misses": 3,
       "is_closed": true
     },
     {
@@ -6869,7 +6869,7 @@
       "posted_date": "2026-01-27T07:44:42-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6899,7 +6899,7 @@
       "posted_date": "2026-06-30T11:58:07-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -6959,7 +6959,7 @@
       "posted_date": "2026-07-23T10:11:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7019,7 +7019,7 @@
       "posted_date": "2026-07-06T10:34:49-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7049,7 +7049,7 @@
       "posted_date": "2026-06-10T20:56:12-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7079,7 +7079,7 @@
       "posted_date": "2026-06-10T20:56:13-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7109,7 +7109,7 @@
       "posted_date": "2026-04-13T02:15:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7139,7 +7139,7 @@
       "posted_date": "2025-02-06T05:38:20-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7259,7 +7259,7 @@
       "posted_date": "2026-03-06T06:12:40-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7319,7 +7319,7 @@
       "posted_date": "2026-06-10T10:04:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7836,7 +7836,7 @@
       "posted_date": "2026-07-29T15:01:03-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7866,7 +7866,7 @@
       "posted_date": "2026-07-08T06:13:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7900,6 +7900,36 @@
       "is_closed": false
     },
     {
+      "content_hash": "600cabf5d0dcfb1d44537dcf3707463d0523a1bff6f21bda4c2fc30920984f26",
+      "title": "Principal Growth Marketing Manager - SEO/GEO",
+      "company_name": "Datadog",
+      "source_url": "https://careers.datadoghq.com/detail/8180681/?gh_jid=8180681",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8180681",
+      "description": "Datadog is seeking a strategic and data-driven Principal, Growth Marketing Manager – SEO/GEO to lead our organic growth through content and off-page strategy. This role is centered on defining what content we create, where it lives, and how it drives discovery across both traditional search engines and emerging AI/LLM platforms. You will partner closely with Website Experience, Product Marketing, and Engineering to identify and execute on content opportunities that drive measurable traffic and pipeline impact, while relying on Web Experience for technical SEO execution. This is a senior individual contributor role for someone who wakes up thinking about content ecosystems, audience intent, and how to win in organic discovery at scale.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Own Datadog’s content-led SEO/GEO strategy, defining the topics, formats, and ecosystems that drive measurable growth in traffic and pipeline\n\n- Lead, coach, and develop a high-performing team\n\n- Identify and prioritize high-impact content opportunities across product areas and influence cross-functional teams to bring that content to life\n\n- Map and optimize Datadog’s presence across the full ecosystem of LLM-ingested content (e.g., YouTube, Reddit, review sites) to improve AI-driven discoverability\n\n- Design and execute a comprehensive off-page strategy, including link acquisition, digital PR, and authority-building initiatives\n\n- Partner closely with the Website Experience team, who owns technical SEO, to ensure content is effectively surfaced, indexed, and performant\n\n- Create and contribute to high-impact content (e.g., flagship pieces, new formats, or experimental channels), setting the standard for quality and SEO performance\n\n- Evaluate emerging trends in search, AI, content consumption, and digital discovery, translating market shifts into strategic opportunities for Datadog",
+      "requirements_raw": "Who You Are:\n\n- 10+ years of SEO/Growth Marketing experience in a B2B or high-growth tech environment\n\n- Proven track record of growing qualified organic traffic and visibility through content strategy, not just technical SEO improvements\n\n- Highly analytical and comfortable working in large datasets (SQL skills a plus) to identify trends, diagnose performance shifts, and quantify opportunity\n\n- Hands-on experience using enterprise SEO tools such as Conductor and Profound to drive strategy\n\n- Strong understanding and perspective of how traditional search is evolving\n\n- Experience marketing to developers, DevOps engineers, IT operations, or security practitioners, including writing content, is strongly preferred\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits & Growth:\n\n- Generous and competitive benefits package\n\n- New hire stock equity (RSUs) and employee stock purchase plan\n\n- Continuous career development and pathing opportunities\n\n- Employee-focused best in class onboarding\n\n- Internal mentor and cross-departmental buddy program\n\n- Friendly and inclusive workplace culture\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\n#LI-Hybrid\n\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\n\nThe reasonably estimated yearly salary for this role at Datadog is:\n\n$143,000—$190,000 USD\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
+      "location": "New York, New York, USA; San Francisco, California, USA",
+      "contract_type": "Full time",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Principal",
+      "department": "Demand Generation",
+      "min_years_exp": 10,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "New York",
+      "country_code": "US",
+      "salary_min": 143000,
+      "salary_max": 190000,
+      "salary_currency": "USD",
+      "posted_date": "2026-09-25T08:29:47-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
       "content_hash": "6011345a9f4074ff8bdf1bf9552671e359120799bdd92478cf4513f8efd839fe",
       "title": "Enterprise IT Support Technician I",
       "company_name": "Datadog",
@@ -7926,7 +7956,7 @@
       "posted_date": "2026-06-30T10:31:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -7956,7 +7986,7 @@
       "posted_date": "2026-05-15T02:35:32-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8048,7 +8078,7 @@
       "posted_date": "2026-06-11T00:56:00-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8078,7 +8108,7 @@
       "posted_date": "2026-04-30T13:05:27-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8108,7 +8138,7 @@
       "posted_date": "2021-06-09T14:19:58-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8168,7 +8198,7 @@
       "posted_date": "2026-06-26T14:29:34-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8230,7 +8260,7 @@
       "posted_date": "2026-04-30T08:59:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8260,7 +8290,7 @@
       "posted_date": "2026-04-09T11:37:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8410,7 +8440,7 @@
       "posted_date": "2026-03-02T07:38:59-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8622,7 +8652,7 @@
       "posted_date": "2026-07-16T12:13:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8682,7 +8712,7 @@
       "posted_date": "2026-05-20T22:46:44-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8834,7 +8864,7 @@
       "posted_date": "2026-05-21T09:12:02-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -8924,7 +8954,7 @@
       "posted_date": "2026-01-23T14:40:53-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9137,7 +9167,7 @@
       "posted_date": "2026-06-01T15:53:48-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9293,36 +9323,6 @@
       "is_closed": false
     },
     {
-      "content_hash": "73ca3fb3fa43eb1985412a69c53054232c797a97f5b41e15a50ebe6af1bf33ca",
-      "title": "Technical Account Manager 3 - Madrid",
-      "company_name": "Datadog",
-      "source_url": "https://careers.datadoghq.com/detail/7982225/?gh_jid=7982225",
-      "source_board": "greenhouse",
-      "source_kind": "ats",
-      "external_id": "7982225",
-      "description": "We are Datadog's in-house product experts. The technical solutions team enables Datadog's worldwide growth by educating potential clients and ensuring that existing customers are happy and successful. A Technical Account Manager (TAM) will continue to provide hands-on technical services to our largest customers by supporting, adopting and providing guidance over the comprehensive suite of products and features available at Datadog. A TAM is held in high regard as an expert and trusted advisor for how IT Operations translates to business value.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Advise on technical support and product adoption for customers in line with pre-sales, post-sales and the renewal processes\n\n- Analyze customer’s IT Operations environment on a regular basis and provide recommendations that will maximize Datadog’s value.\n\n- Be the customer’s advocate by knowing their goals and use cases then suggesting process changes, product adoption, configuration and additional features to meet their requirements\n\n- Participate and prepare for Monthly and Quarterly Business Reviews with customers\n\n- Collaborate with Datadog’s product management, engineering and technical services teams to help identify new features and products\n\n- Continuously evolve best practice to technical product adoption and customer success",
-      "requirements_raw": "Who You Are:\n\n- Someone with a solid technical grounding and hands-on experience of IT Operations\n\n- Confident in your hands on experience AWS, Azure or GCP\n\n- Comfortable scripting languages like Python, Javascript, Ruby, Perl, Go, PHP, or Chef/Puppet etc.\n\n- Skilled in using CI/CD tools e.g. Jenkins, Gitlab etc.\n\n- Knowledgeable about Containerization tools e.g. Docker, Kubernetes or Rancher etc.\n\n- Able to sit up to 4 hours, traveling to and from client sites\n\n- Able to travel via auto, train or air up to 30% of the time\n\n- Previous experience working as a TAM supporting mid-market and/or Enterprise customers in the cloud space\n\n- Experienced using Datadog and/or other cloud monitoring tools\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits and Growth:\n\n- Best-in-breed onboarding\n\n- Generous global benefits\n\n- Intra-departmental mentor and buddy program for in-house networking\n\n- New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n\n- Continuous professional development, product training, and career pathing\n\n- An inclusive company culture, able to join our Community Guilds and Inclusion Talks\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
-      "location": "Madrid, Spain",
-      "contract_type": "Full time",
-      "contract_type_norm": "full_time",
-      "work_mode": "hybrid",
-      "seniority": "Lead",
-      "department": "Technical Post Sales",
-      "min_years_exp": null,
-      "max_years_exp": null,
-      "languages": [],
-      "city": "Madrid",
-      "country_code": "ES",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
-      "posted_date": "2026-06-09T04:50:51-04:00",
-      "first_seen_at": "2026-08-02T00:00:00+00:00",
-      "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
-      "is_closed": false
-    },
-    {
       "content_hash": "741e649bac3060c24ef18bd7fe47ffe75a85ea5cc180161d1548c5800d3d11b5",
       "title": "Director, Engineering - Detection Platform",
       "company_name": "Datadog",
@@ -9349,7 +9349,7 @@
       "posted_date": "2026-06-24T16:08:29-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9379,8 +9379,8 @@
       "posted_date": "2026-06-04T15:13:05-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "742df4aabb38e8f6047b7cb6865cf9abc898a5e6c6bfd78874d25393e77b4e2c",
@@ -9409,7 +9409,7 @@
       "posted_date": "2026-03-11T17:08:19-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9469,7 +9469,7 @@
       "posted_date": "2025-08-18T16:51:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9681,7 +9681,7 @@
       "posted_date": "2026-06-25T09:42:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9711,7 +9711,7 @@
       "posted_date": "2026-03-25T15:57:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9803,7 +9803,7 @@
       "posted_date": "2026-07-09T04:13:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9863,7 +9863,7 @@
       "posted_date": "2026-07-14T15:25:00-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -9983,7 +9983,7 @@
       "posted_date": "2026-06-23T04:20:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10107,7 +10107,7 @@
       "posted_date": "2025-05-25T21:27:39-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10167,7 +10167,7 @@
       "posted_date": "2025-12-21T22:29:12-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10320,7 +10320,7 @@
       "posted_date": "2026-04-21T08:13:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10350,7 +10350,7 @@
       "posted_date": "2026-02-11T16:47:21-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10380,7 +10380,7 @@
       "posted_date": "2026-03-26T13:17:26-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10500,7 +10500,7 @@
       "posted_date": "2026-07-09T05:17:10-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -10650,7 +10650,7 @@
       "posted_date": "2026-06-30T05:18:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11137,7 +11137,7 @@
       "posted_date": "2026-07-31T03:41:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11199,7 +11199,7 @@
       "posted_date": "2026-06-29T13:58:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11228,6 +11228,36 @@
       "salary_currency": null,
       "posted_date": "2026-08-19T23:56:22-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
+      "content_hash": "8ed03fabd56b31ef15c80679ea206b8fd20145da28d10793903ea2d2578a5a4f",
+      "title": "Technical Account Manager - East",
+      "company_name": "Datadog",
+      "source_url": "https://careers.datadoghq.com/detail/8046392/?gh_jid=8046392",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8046392",
+      "description": "We are Datadog's in-house product experts. The technical solutions team enables Datadog's worldwide growth by educating potential clients and ensuring that existing customers are happy and successful. A Technical Account Manager (TAM) will continue to provide hands-on technical services to our largest customers by supporting, adopting and providing guidance over the comprehensive suite of products and features available at Datadog. A TAM is held in high regard as an expert and trusted advisor for how IT Operations translates to business value.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Advise on technical support and product adoption for customers in line with pre-sales, post-sales and the renewal processes\n\n- Analyze customer’s IT Operations environment on a regular basis and provide recommendations that will maximize Datadog’s value.\n\n- Be the customer’s advocate by knowing their goals and use cases then suggesting process changes, product adoption, configuration and additional features to meet their requirements\n\n- Participate and prepare for Monthly and Quarterly Business Reviews with customers\n\n- Collaborate with Datadog’s product management, engineering and technical services teams to help identify new features and products\n\n- Continuously evolve best practice to technical product adoption and customer success",
+      "requirements_raw": "Who You Are:\n\n- Someone with a solid technical grounding and hands-on experience of IT Operations\n\n- Confident in your hands on experience AWS, Azure or GCP\n\n- Comfortable scripting languages like Python, Javascript, Ruby, Perl, Go, PHP, or Chef/Puppet etc.\n\n- Skilled in using CI/CD tools e.g. Jenkins, Gitlab etc.\n\n- Knowledgeable about Containerization tools e.g. Docker, Kubernetes or Rancher etc.\n\n- Able to sit up to 4 hours, traveling to and from client sites\n\n- Able to travel via auto, train or air up to 30% of the time\n\n- Previous experience working as a TAM supporting mid-market and/or Enterprise customers in the cloud space\n\n- Experienced using Datadog and/or other cloud monitoring tools\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits and Growth:\n\n- Best-in-breed onboarding\n\n- Generous global benefits\n\n- Intra-departmental mentor and buddy program for in-house networking\n\n- New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n\n- Continuous professional development, product training, and career pathing\n\n- An inclusive company culture, able to join our Community Guilds and Inclusion Talks\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\n\nThe reasonably estimated yearly salary for this role at Datadog is:\n\n$124,000—$165,000 USD\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "contract_type": "Full time",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Lead",
+      "department": "Technical Post Sales",
+      "min_years_exp": null,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "Boston",
+      "country_code": "US",
+      "salary_min": 124000,
+      "salary_max": 165000,
+      "salary_currency": "USD",
+      "posted_date": "2026-07-06T13:33:15-04:00",
+      "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
@@ -11351,7 +11381,7 @@
       "posted_date": "2026-07-09T06:06:48-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11411,7 +11441,7 @@
       "posted_date": "2026-06-11T07:09:56-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11441,7 +11471,7 @@
       "posted_date": "2026-06-11T07:09:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11531,7 +11561,7 @@
       "posted_date": "2026-07-15T10:17:39-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11771,7 +11801,7 @@
       "posted_date": "2026-06-08T23:27:58-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11921,7 +11951,7 @@
       "posted_date": "2026-07-23T11:00:48-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11951,7 +11981,7 @@
       "posted_date": "2026-07-27T10:39:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -11981,7 +12011,7 @@
       "posted_date": "2026-07-27T10:39:54-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12167,6 +12197,36 @@
       "is_closed": false
     },
     {
+      "content_hash": "9f2e8e9b0f96c8c29c01bdce00ea0b31154e0e18dc9b3d1dc5ffdc01d8f290f6",
+      "title": "Developer Engagement Lead",
+      "company_name": "Datadog",
+      "source_url": "https://careers.datadoghq.com/detail/8103045/?gh_jid=8103045",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "8103045",
+      "description": "Developer Engagement Lead\n\nReports to: Head of Developer Growth · New York, NY\n\nNOTE: This is not a traditional social media or community management role. It’s a developer growth role that sits within the Product org.\n\nDevelopers are already talking about Datadog - on Reddit, Discord, Hacker News, GitHub, X, LinkedIn, YouTube, forums, and places we probably haven’t found yet.\n\nWe’re hiring a Developer Engagement Lead to make sure we’re part of those conversations.\n\nYou’ll own how Datadog listens, responds, and participates across developer channels. That means running our existing developer social accounts, building our presence in new communities, creating the monitoring and response systems that help us find relevant conversations quickly, and connecting developers with the right people inside Datadog.\n\nThis is a builder role. We’re not looking for someone to manage a content calendar or simply moderate a community. We want someone who can build the operating model for developer engagement at scale.\n\nWhat you'll own\n\n- Build our developer listening and engagement system. Create the tooling and workflows to monitor conversations about Datadog, our products, our competitors, and the problems developers are trying to solve across Reddit, Hacker News, Discord, GitHub, X, LinkedIn, Stack Overflow, YouTube, and other relevant platforms.\n\n- Turn monitoring into action. Build a process for identifying conversations worth joining, determining when Datadog should respond, and routing questions or feedback to the right engineer, PM, DevRel, support, or product expert.\n\n- Own our developer channels. Run @datadogdevs on X and Datadog Developers on LinkedIn, including publishing, engagement, replies, and experimentation.\n\n- Expand where Datadog participates. Establish and grow our presence in places where developers already spend time. That may include launching Discord, creating a stronger Reddit strategy, building participation models for Hacker News or GitHub, or identifying entirely new channels.\n\n- Make Datadog more responsive. Define response guidelines, escalation paths, ownership models, and expectations so developer conversations don’t disappear into screenshots and Slack threads.\n\n- Participate directly. Know when to respond as Datadog, when to pull in an expert, when an engineer should answer under their own name, and when the best response is simply to listen.\n\n- Create feedback loops into Product. Surface recurring questions, pain points, objections, competitive mentions, product feedback, and emerging developer conversations to Product, Engineering, Developer Growth, and other relevant teams.\n\n- Get more technical voices into the conversation. Make it easy for Datadog engineers, PMs, researchers, and other experts to participate directly in developer conversations instead of relying exclusively on brand accounts.\n\n- Turn shipped work into conversations. Find compelling ways to bring releases, changelogs, technical content, demos, events, and engineering work into the places developers are already talking.\n\n- Build measurement that matters. Define how we measure developer engagement beyond follower counts and impressions. Track things like conversations joined, response coverage, sentiment and recurring themes, participation from technical teams, traffic, product discovery, trials, and signups.\n\n- Run experiments. Test new platforms, formats, tooling, workflows, response models, and engagement programs with a clear hypothesis and readout. Keep what works and move quickly past what doesn’t.",
+      "requirements_raw": "Who you are\n\nYou understand how developers behave online.\n\nYou’ve built an audience, community, engagement program, developer program, or similar function, and can point to outcomes you changed.\n\nYou have strong judgment about when a company should join a conversation and when it shouldn’t.\n\nYou are naturally curious. If developers suddenly start discussing something relevant to Datadog, your instinct is to understand why, find the thread, and figure out whether we should participate.\n\nYou think in systems. If ten people are manually forwarding Reddit posts into Slack, you want to build something better.\n\nYou’re comfortable with tooling, automation, monitoring platforms, APIs, AI, and lightweight workflows. You don’t necessarily need to be an engineer, but you should be comfortable working closely with engineers and technical products.\n\nYou can create structure where none exists: monitoring rules, triage processes, response playbooks, escalation paths, reporting, and measurement.\n\nYou know how to earn participation from internal experts rather than simply assigning them another marketing task.\n\nYou move quickly, have strong judgment, and know what can ship immediately versus what needs another set of eyes.\n\nYou have opinions about developer culture, platforms, formats, and internet behavior — and you update those opinions when the evidence changes.\n\nYour background\n\nYou may come from Growth,Developer Marketing, Audience Development, Product, Media, Social, Technical Communications, or somewhere entirely different.\n\nWhat matters most is that you can show us how you’ve built participation around an audience, created systems that scale engagement, and turned what people were saying into action.\n\nExperience working with a technical or enthusiast audience is especially valuable.\n\nBonus points for:\n\n- Experience building social listening or community-monitoring systems\n\n- Deep familiarity with Reddit, Discord, Hacker News, GitHub, Stack Overflow, X, or similar developer platforms\n\n- Experience launching or operating a Discord or other owned developer space\n\n- Experience creating triage, escalation, or response workflows across large organizations\n\n- Familiarity with developer tools, infrastructure, observability, security, AI, or open source\n\n- Experience using automation or AI to scale monitoring and engagement\n\n- An existing developer audience or active participation in technical communities\n\n- Strong instincts around short-form technical content and video\n\n#LI-Hybrid\n\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\n\nThe reasonably estimated yearly salary for this role at Datadog is:\n\n$139,000—$164,000 USD\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
+      "location": "New York, New York, USA",
+      "contract_type": "Full time",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Lead",
+      "department": "Community",
+      "min_years_exp": null,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "New York",
+      "country_code": "US",
+      "salary_min": 139000,
+      "salary_max": 164000,
+      "salary_currency": "USD",
+      "posted_date": "2026-08-03T11:55:01-04:00",
+      "first_seen_at": "2026-09-24T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
       "content_hash": "9f86eed8078abe7f2accd753a9c3301b4899189b24aa25422356207797b2a7b0",
       "title": "Enterprise Customer Success Manager",
       "company_name": "Datadog",
@@ -12223,7 +12283,7 @@
       "posted_date": "2026-07-21T04:15:09-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12345,7 +12405,7 @@
       "posted_date": "2026-07-07T10:51:26-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12405,7 +12465,7 @@
       "posted_date": "2026-07-23T14:08:11-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12497,7 +12557,7 @@
       "posted_date": "2026-04-21T11:22:00-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12527,7 +12587,7 @@
       "posted_date": "2026-06-24T09:54:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12557,7 +12617,7 @@
       "posted_date": "2026-04-06T17:11:35-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12587,7 +12647,7 @@
       "posted_date": "2025-12-10T16:14:38-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12647,7 +12707,7 @@
       "posted_date": "2026-04-24T13:06:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12769,7 +12829,7 @@
       "posted_date": "2026-07-14T14:10:06-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -12861,7 +12921,7 @@
       "posted_date": "2026-06-04T15:47:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -13020,6 +13080,36 @@
       "is_closed": false
     },
     {
+      "content_hash": "ac4f97a484be35e82a30c940e750e5b7ffb7670d308d9c5b33f05cc047a89aee",
+      "title": "Technical Account Manager 2 - Madrid",
+      "company_name": "Datadog",
+      "source_url": "https://careers.datadoghq.com/detail/7982225/?gh_jid=7982225",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "7982225",
+      "description": "We are Datadog's in-house product experts. The technical solutions team enables Datadog's worldwide growth by educating potential clients and ensuring that existing customers are happy and successful. A Technical Account Manager (TAM) will continue to provide hands-on technical services to our largest customers by supporting, adopting and providing guidance over the comprehensive suite of products and features available at Datadog. A TAM is held in high regard as an expert and trusted advisor for how IT Operations translates to business value.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Advise on technical support and product adoption for customers in line with pre-sales, post-sales and the renewal processes\n\n- Analyze customer’s IT Operations environment on a regular basis and provide recommendations that will maximize Datadog’s value.\n\n- Be the customer’s advocate by knowing their goals and use cases then suggesting process changes, product adoption, configuration and additional features to meet their requirements\n\n- Participate and prepare for Monthly and Quarterly Business Reviews with customers\n\n- Collaborate with Datadog’s product management, engineering and technical services teams to help identify new features and products\n\n- Continuously evolve best practice to technical product adoption and customer success",
+      "requirements_raw": "Who You Are:\n\n- Someone with a solid technical grounding and hands-on experience of IT Operations\n\n- Confident in your hands on experience AWS, Azure or GCP\n\n- Comfortable scripting languages like Python, Javascript, Ruby, Perl, Go, PHP, or Chef/Puppet etc.\n\n- Skilled in using CI/CD tools e.g. Jenkins, Gitlab etc.\n\n- Knowledgeable about Containerization tools e.g. Docker, Kubernetes or Rancher etc.\n\n- Able to sit up to 4 hours, traveling to and from client sites\n\n- Able to travel via auto, train or air up to 30% of the time\n\n- Previous experience working as a TAM supporting mid-market and/or Enterprise customers in the cloud space\n\n- Experienced using Datadog and/or other cloud monitoring tools\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits and Growth:\n\n- Best-in-breed onboarding\n\n- Generous global benefits\n\n- Intra-departmental mentor and buddy program for in-house networking\n\n- New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n\n- Continuous professional development, product training, and career pathing\n\n- An inclusive company culture, able to join our Community Guilds and Inclusion Talks\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
+      "location": "Madrid, Spain",
+      "contract_type": "Full time",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Lead",
+      "department": "Technical Post Sales",
+      "min_years_exp": null,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "Madrid",
+      "country_code": "ES",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "posted_date": "2026-06-09T04:50:51-04:00",
+      "first_seen_at": "2026-08-02T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
       "content_hash": "acaa62e4a53db254acf64a2189594ede381abbe29ea266fc8ca5abcd3388f7e1",
       "title": "Principal Partner Manager - Channels (UKI Security)",
       "company_name": "Datadog",
@@ -13048,7 +13138,7 @@
       "posted_date": "2026-04-16T05:22:47-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -13471,7 +13561,7 @@
       "posted_date": "2026-05-07T17:16:15-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -13563,7 +13653,7 @@
       "posted_date": "2026-06-26T11:53:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -13653,7 +13743,7 @@
       "posted_date": "2026-03-27T16:00:14-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -13713,7 +13803,7 @@
       "posted_date": "2026-07-13T03:27:20-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -13743,7 +13833,7 @@
       "posted_date": "2026-06-15T18:05:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -13926,7 +14016,7 @@
       "posted_date": "2026-03-30T10:06:45-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14016,7 +14106,7 @@
       "posted_date": "2026-06-09T04:17:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14046,7 +14136,7 @@
       "posted_date": "2026-06-15T13:00:36-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14076,7 +14166,7 @@
       "posted_date": "2026-07-21T10:07:06-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14166,7 +14256,7 @@
       "posted_date": "2026-07-31T11:44:18-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14378,7 +14468,7 @@
       "posted_date": "2026-05-19T14:37:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14532,36 +14622,6 @@
       "is_closed": false
     },
     {
-      "content_hash": "bea4f94503236e3d42de05dd455f4c11ad6dfb9784ed12ed594e58b36bb613a1",
-      "title": "Social Media Lead, Developer Audience",
-      "company_name": "Datadog",
-      "source_url": "https://careers.datadoghq.com/detail/8103045/?gh_jid=8103045",
-      "source_board": "greenhouse",
-      "source_kind": "ats",
-      "external_id": "8103045",
-      "description": "Social Media Lead, Developer Audience\n\nReports to: Head of Developer Growth · New York, NY\n\nNOTE: This is not a traditional marketing role, it's a growth role that reports into the Product org.\n\nWe're hiring someone to speak to, and interact with, our developer audience the way the best consumer brands build audiences, with a real voice, a point of view, and the speed to act on both. You'll own where and how we show up in the places developers actually spend time, run our developer social channels, expand into new ones, and build the tooling and measurement behind it.\n\nThis is a builder role, not simply a coordination role.\n\nWhat you'll own\n\n-\n\nOwn the voice, editorial standard, and publishing cadence for Datadog's developer channels (@datadogdevs on X, Datadog Developers on LinkedIn)\n\n-\n\nExpand into the places developers actually spend time: Reddit, YouTube, Discord, Bluesky, http://dev.to , Hacker News, and whatever you make the case for.\n\n-\n\nTurn shipped engineering work into things people want to read and watch. Releases, changelogs, topical industry news, and more.\n\n-\n\nBuild the attribution model connecting what you publish to trials and signups\n\n-\n\nRun real experiments: a hypothesis, a readout, and the willingness to move forward if something doesn’t work out as expected\n\n-\n\nLead the developer content engine around events\n\n-\n\nGet other people posting - Datadog engineers under their own names, and developers outside the company. Hear from real peers in the space.\n\n-\n\nTrack what developers are saying about us and our competitors, and route it back to product and growth",
-      "requirements_raw": "Who you are\n\n-\n\nYou've grown an audience\n\n-\n\nYou can point to outcomes your content moved, not just reach\n\n-\n\nYou're a strong writer with a distinctive voice, and you know the difference between writing about an audience and writing for one\n\n-\n\nYou have opinions about formats, platforms, and pacing, and you change them when the algorithms demand it\n\n-\n\nYou know what ships now and what needs a second set of eyes\n\n-\n\nYou're a vibe poster (or coder) and you know how to build hype\n\n-\n\nYou're comfortable with tools and automation, and you'd rather build a workflow than repeat a task\n\nBackground is open. Tech, consumer, sports, entertainment, media. It doesn't matter whether you came from engineering, growth, marketing, B2C, or something unrelated. Show us what you shipped and what it moved.\n\nPreferred: short-form video you produced yourself, an existing audience of your own, prior work with a technical or enthusiast audience, comfort on camera, and ideas about what to build with other teams, partners, and integrations.\n\nWhat we provide\n\nThis role sits in the Product org, so you'll have product and engineering peers, the flexibility to make asks, move quickly, and work directly with the audience we're trying to reach.\n\n#LI-Hybrid\n\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\n\nThe reasonably estimated yearly salary for this role at Datadog is:\n\n$139,000—$164,000 USD\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
-      "location": "New York, New York, USA",
-      "contract_type": "Full time",
-      "contract_type_norm": "full_time",
-      "work_mode": "hybrid",
-      "seniority": "Lead",
-      "department": "Community",
-      "min_years_exp": null,
-      "max_years_exp": null,
-      "languages": [],
-      "city": "New York",
-      "country_code": "US",
-      "salary_min": 139000,
-      "salary_max": 164000,
-      "salary_currency": "USD",
-      "posted_date": "2026-08-03T11:55:01-04:00",
-      "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
-      "is_closed": false
-    },
-    {
       "content_hash": "bed033b84436e2ec3d3d5da570abe8cee30a67d310b48df975b8726b4ba8864f",
       "title": "Senior Manager, Sponsorship Sales — Global Conferences",
       "company_name": "Datadog",
@@ -14571,7 +14631,7 @@
       "external_id": "8214090",
       "description": "The Senior Manager, Sponsorship Sales will own the strategy, sales, and execution of the sponsorship program for DASH, Datadog’s flagship annual conference, while also supporting sponsorship strategy and sales for global Datadog Summits. You will manage the full sponsorship sales cycle, from developing packages and prospecting through negotiation, closing, renewal, and partner experience. This role carries a sponsorship revenue target and partners closely with Events, Partner Marketing, Community, Sales, Finance, and leadership to build a scalable sponsorship program. You will have the opportunity to shape how Datadog packages, positions, and grows sponsorship offerings across its global conference portfolio.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Build and manage the sponsorship revenue plan, pipeline, and forecast for DASH, reporting progress against targets to Events and Marketing leadership while supporting sponsorship strategy and sales for global Datadog Summits.\n\n- Develop and evolve tiered sponsorship packages across branding, speaking opportunities, booth space, digital assets, lead generation, and other offerings based on sponsor needs and event capacity.\n\n- Manage the full consultative sales cycle, including prospecting, qualification, pitching, negotiation, closing, renewals, and expansion with new and existing sponsors, while maintaining accurate CRM and sales activity reporting.\n\n- Serve as the primary commercial relationship owner for sponsors from contract through onsite delivery, orchestrating the end-to-end partner journey while Event Marketing and agency partners manage fulfillment.\n\n- Collaborate with Events, Marketing, Sales, Partner Marketing, Community, and Finance on event inventory and logistics, sponsorship positioning, account strategy, invoicing, and revenue planning.\n\n- Represent DASH and the sponsorship program in sponsor meetings, at industry events, and onsite at conferences while identifying opportunities to improve sponsorship products, pricing, and sales processes.",
       "requirements_raw": "Who You Are:\n\n- You have 5+ years of experience in sponsorship, media, advertising, or B2B partnership sales, ideally supporting technology events or conferences.\n\n- You have a demonstrated track record of owning and achieving significant sponsorship or partnership revenue targets, ideally including portfolios of $2M+.\n\n- You have experience managing a consultative sales cycle from prospecting through close with senior marketing, partnership, or business stakeholders.\n\n- You have experience developing and pricing sponsorship packages rather than solely selling from an established rate card.\n\n- You bring strong CRM, pipeline management, forecasting, written communication, and executive-level presentation skills.\n\n- You are willing to travel and work onsite during DASH and global Datadog Summit events; established relationships across relevant technology partner ecosystems are a plus.\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits & Growth:\n\n- Generous and competitive benefits package\n\n- New hire stock equity (RSUs) and employee stock purchase plan\n\n- Continuous career development and pathing opportunities\n\n- Employee-focused best in class onboarding\n\n- Internal mentor and cross-departmental buddy program\n\n- Friendly and inclusive workplace culture\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\n#LI-Hybrid\n\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\n\nThe reasonably estimated yearly salary for this role at Datadog is:\n\n$149,000—$199,000 USD\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
-      "location": "New York, New York, USA",
+      "location": "New York, New York, USA; San Francisco, California, USA",
       "contract_type": "Full time",
       "contract_type_norm": "full_time",
       "work_mode": "hybrid",
@@ -14648,7 +14708,7 @@
       "posted_date": "2026-06-30T08:35:55-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14740,7 +14800,7 @@
       "posted_date": "2026-06-22T12:32:16-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14770,7 +14830,7 @@
       "posted_date": "2026-06-04T15:29:41-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14890,7 +14950,7 @@
       "posted_date": "2026-05-26T13:15:04-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -14980,7 +15040,7 @@
       "posted_date": "2026-06-18T07:13:04-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15132,7 +15192,7 @@
       "posted_date": "2026-03-12T07:29:44-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15162,7 +15222,7 @@
       "posted_date": "2026-06-26T15:08:53-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15226,7 +15286,7 @@
       "posted_date": "2026-07-17T16:02:54-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15256,7 +15316,7 @@
       "posted_date": "2026-07-23T10:44:55-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15406,7 +15466,7 @@
       "posted_date": "2026-07-02T15:30:42-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15466,7 +15526,7 @@
       "posted_date": "2026-04-15T02:53:17-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15586,7 +15646,7 @@
       "posted_date": "2026-05-22T15:17:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15616,7 +15676,7 @@
       "posted_date": "2025-03-06T22:27:51-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15646,7 +15706,7 @@
       "posted_date": "2026-01-13T20:57:45-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15736,7 +15796,7 @@
       "posted_date": "2026-07-08T02:54:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15888,7 +15948,7 @@
       "posted_date": "2026-01-05T04:43:45-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15918,7 +15978,7 @@
       "posted_date": "2026-06-01T21:16:07-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -15950,7 +16010,7 @@
       "posted_date": "2023-02-15T09:19:11-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16073,7 +16133,7 @@
       "posted_date": "2026-07-10T05:05:42-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16103,7 +16163,7 @@
       "posted_date": "2026-07-21T10:24:30-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16133,7 +16193,7 @@
       "posted_date": "2026-07-29T15:59:57-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16193,7 +16253,7 @@
       "posted_date": "2026-04-24T04:04:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16525,7 +16585,7 @@
       "posted_date": "2026-05-11T14:45:52-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16645,7 +16705,7 @@
       "posted_date": "2026-06-18T14:28:23-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16675,7 +16735,7 @@
       "posted_date": "2026-01-20T21:53:44-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16795,7 +16855,7 @@
       "posted_date": "2025-12-14T22:24:07-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16945,7 +17005,7 @@
       "posted_date": "2026-05-27T13:59:51-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -16975,7 +17035,7 @@
       "posted_date": "2026-07-16T11:22:41-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17005,7 +17065,7 @@
       "posted_date": "2026-06-09T14:27:06-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17067,7 +17127,7 @@
       "posted_date": "2025-07-11T15:31:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17097,7 +17157,7 @@
       "posted_date": "2025-07-04T10:02:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17127,7 +17187,7 @@
       "posted_date": "2026-07-10T12:41:03-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17157,7 +17217,7 @@
       "posted_date": "2025-05-25T21:27:38-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17307,7 +17367,7 @@
       "posted_date": "2026-02-05T16:16:32-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17397,7 +17457,7 @@
       "posted_date": "2026-02-04T10:55:02-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17427,7 +17487,7 @@
       "posted_date": "2026-03-09T13:52:24-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -17486,36 +17546,6 @@
       "salary_currency": "USD",
       "posted_date": "2026-09-02T16:47:17-04:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
-      "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
-      "is_closed": false
-    },
-    {
-      "content_hash": "e6c7d6b15f0c6d9860b1e084a534b774ddbc073da8bf0e4810d0326985611634",
-      "title": "Technical Account Manager 3 - East",
-      "company_name": "Datadog",
-      "source_url": "https://careers.datadoghq.com/detail/8046392/?gh_jid=8046392",
-      "source_board": "greenhouse",
-      "source_kind": "ats",
-      "external_id": "8046392",
-      "description": "We are Datadog's in-house product experts. The technical solutions team enables Datadog's worldwide growth by educating potential clients and ensuring that existing customers are happy and successful. A Technical Account Manager (TAM) will continue to provide hands-on technical services to our largest customers by supporting, adopting and providing guidance over the comprehensive suite of products and features available at Datadog. A TAM is held in high regard as an expert and trusted advisor for how IT Operations translates to business value.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Advise on technical support and product adoption for customers in line with pre-sales, post-sales and the renewal processes\n\n- Analyze customer’s IT Operations environment on a regular basis and provide recommendations that will maximize Datadog’s value.\n\n- Be the customer’s advocate by knowing their goals and use cases then suggesting process changes, product adoption, configuration and additional features to meet their requirements\n\n- Participate and prepare for Monthly and Quarterly Business Reviews with customers\n\n- Collaborate with Datadog’s product management, engineering and technical services teams to help identify new features and products\n\n- Continuously evolve best practice to technical product adoption and customer success",
-      "requirements_raw": "Who You Are:\n\n- Someone with a solid technical grounding and hands-on experience of IT Operations\n\n- Confident in your hands on experience AWS, Azure or GCP\n\n- Comfortable scripting languages like Python, Javascript, Ruby, Perl, Go, PHP, or Chef/Puppet etc.\n\n- Skilled in using CI/CD tools e.g. Jenkins, Gitlab etc.\n\n- Knowledgeable about Containerization tools e.g. Docker, Kubernetes or Rancher etc.\n\n- Able to sit up to 4 hours, traveling to and from client sites\n\n- Able to travel via auto, train or air up to 30% of the time\n\n- Previous experience working as a TAM supporting mid-market and/or Enterprise customers in the cloud space\n\n- Experienced using Datadog and/or other cloud monitoring tools\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits and Growth:\n\n- Best-in-breed onboarding\n\n- Generous global benefits\n\n- Intra-departmental mentor and buddy program for in-house networking\n\n- New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n\n- Continuous professional development, product training, and career pathing\n\n- An inclusive company culture, able to join our Community Guilds and Inclusion Talks\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\n\nThe reasonably estimated yearly salary for this role at Datadog is:\n\n$124,000—$165,000 USD\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
-      "location": "Boston, Massachusetts, USA; New York, New York, USA",
-      "contract_type": "Full time",
-      "contract_type_norm": "full_time",
-      "work_mode": "hybrid",
-      "seniority": "Lead",
-      "department": "Technical Post Sales",
-      "min_years_exp": null,
-      "max_years_exp": null,
-      "languages": [],
-      "city": "Boston",
-      "country_code": "US",
-      "salary_min": 124000,
-      "salary_max": 165000,
-      "salary_currency": "USD",
-      "posted_date": "2026-07-06T13:33:15-04:00",
-      "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
       "consecutive_misses": 0,
       "is_closed": false
@@ -18032,7 +18062,7 @@
       "posted_date": "2026-06-23T13:03:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18062,7 +18092,7 @@
       "posted_date": "2026-06-23T13:03:40-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18092,7 +18122,7 @@
       "posted_date": "2026-05-07T13:59:37-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18364,7 +18394,7 @@
       "posted_date": "2026-04-06T13:19:22-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18424,7 +18454,7 @@
       "posted_date": "2026-05-21T10:33:21-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18484,7 +18514,7 @@
       "posted_date": "2026-06-09T09:27:43-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18514,7 +18544,7 @@
       "posted_date": "2026-07-24T14:31:21-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18604,7 +18634,7 @@
       "posted_date": "2025-03-06T22:27:52-05:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -18703,6 +18733,36 @@
       "is_closed": false
     },
     {
+      "content_hash": "fda58373e96f50ddda5c5106a673f14255c17ac301dea8b9b16606182d6d1ddd",
+      "title": "Senior People Business Partner - NYC",
+      "company_name": "Datadog",
+      "source_url": "https://careers.datadoghq.com/detail/7341691/?gh_jid=7341691",
+      "source_board": "greenhouse",
+      "source_kind": "ats",
+      "external_id": "7341691",
+      "description": "Datadog is seeking a Senior People Business Partner (PBP) to work closely with leadership and our People team to help support our growing global organization. This role will support our Go to Market department. This position will work closely to support the specific needs of the group’s employees while working strategically on all People programs and initiatives. Datadog has had exponential growth year-over-year and has no plans to stop - so there is a lot to learn from and contribute to our rapidly scaling team.\n\nAt Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.\n\nWhat You’ll Do:\n\n- Represent our global PBP team to partner on the front line with all employees and leadership\n\n- Advise, coach, and influence management on all things people-related, including: performance management, coaching, career pathing, employee relations, compensation, organizational development and scaling, training, culture, diversity & inclusion, and employee engagement\n\n- Partner with the appropriate Center of Excellence (COE) team when designing programs in support of enhancing the employee experience\n\n- Advise and consult on People policies, guidelines, and programs, in collaboration with COE colleagues\n\n- Provide analysis and consulting to leadership to drive data-driven people decisions and implementation of best practices\n\n- Assess employee development needs, make recommendations, and implement appropriate solutions aligned with the organization’s broader strategy\n\n- Handle complex global employee relations issues, working with leadership to implement best practices and approach\n\n- Mentor and develop other Generalists while working collaboratively with a team of global People Business Partners",
+      "requirements_raw": "Who You Are:\n\n- Experienced in 8+ years as an HRBP or in a related HR role, preferably with experience in fast-growing technology companies\n\n- Able to adapt your approach and pivot your skillset from strategic, high level program implementation to granular day-to-day needs of a fast paced business\n\n- Strong in your analytical & reporting skills; solid experience with HRIS (Workday is a bonus!)\n\n- Experienced in working across business functions with first line and senior leadership\n\n- A master in your project management and organizational skills, with a proven ability to design clear processes, and a very detail-oriented yet flexible approach to problem solving\n\n- Experienced in employee relations and knowledge of global employment practices\n\n- Someone with a clear, direct, approachable, and friendly communication style and strong customer service orientation\n\n- Strong in your interpersonal and communication skills and able to build relationships and trust at all levels of the organization\n\nDatadog values people from all walks of life. We understand not everyone will meet all the above qualifications on day one. That's okay. If you’re passionate about technology and want to grow your skills, we encourage you to apply.\n\nBenefits and Growth:\n\n- Generous and competitive benefits package\n\n- New hire stock equity (RSUs) and employee stock purchase plan (ESPP)\n\n- Continuous career development opportunities\n\n- Product training to develop understanding of our product and space\n\n- Best in breed onboarding\n\n- Internal mentor and buddy program cross-departmentally\n\n- Friendly and inclusive workplace culture\n\nBenefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.\n\n#LI-Hybrid\n\nDatadog offers a competitive salary and equity package, and may include variable compensation. Actual compensation is based on factors such as the candidate's skills, qualifications, and experience. In addition, Datadog offers a wide range of best in class, comprehensive and inclusive employee benefits for this role including healthcare, dental, parental planning, and mental health benefits, a 401(k) plan and match, paid time off, fitness reimbursements, and a discounted employee stock purchase plan.\n\nThe reasonably estimated yearly salary for this role at Datadog is:\n\n$143,000—$191,000 USD\n\nAbout Datadog:\n\nDatadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on Instagram, LinkedIn, and Datadog Learning Center.\n\nEqual Opportunity at Datadog:\n\nDatadog is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our Candidate Legal Notices for your reference.\n\nDatadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete this form. This form is for accommodation requests only and cannot be used to inquire about the status of applications.\n\nPrivacy and AI Guidelines:\n\nAny information you submit to Datadog as part of your application will be processed in accordance with Datadog’s Applicant and Candidate Privacy Notice. For information on our AI policy, please visit Interviewing at Datadog AI Guidelines.",
+      "location": "New York, New York, USA",
+      "contract_type": "Full time",
+      "contract_type_norm": "full_time",
+      "work_mode": "hybrid",
+      "seniority": "Senior",
+      "department": "People",
+      "min_years_exp": 8,
+      "max_years_exp": null,
+      "languages": [],
+      "city": "New York",
+      "country_code": "US",
+      "salary_min": 143000,
+      "salary_max": 191000,
+      "salary_currency": "USD",
+      "posted_date": "2025-10-20T11:37:36-04:00",
+      "first_seen_at": "2026-09-25T00:00:00+00:00",
+      "last_seen_at": "2026-09-25T00:00:00+00:00",
+      "consecutive_misses": 0,
+      "is_closed": false
+    },
+    {
       "content_hash": "fe26c3156f981a9e43b5b53aaf2d9c9b50fa4ba227c28d8f323caa8227417161",
       "title": "Senior Software Engineer (AI)",
       "company_name": "Datadog",
@@ -18729,7 +18789,7 @@
       "posted_date": "2026-03-18T06:08:14-04:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {

@@ -3,7 +3,7 @@
   "source_board": "lever",
   "slug": "spotify",
   "job_count": 159,
-  "open_job_count": 81,
+  "open_job_count": 80,
   "updated_at": "2026-09-25T00:00:00+00:00",
   "jobs": [
     {
@@ -33,7 +33,7 @@
       "posted_date": "2026-06-09T10:12:58+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -63,7 +63,7 @@
       "posted_date": "2026-04-06T16:48:51+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -93,7 +93,7 @@
       "posted_date": "2026-06-17T18:18:40+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -183,7 +183,7 @@
       "posted_date": "2026-05-27T14:36:29+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -216,7 +216,7 @@
       "posted_date": "2026-04-17T05:42:18+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -246,7 +246,7 @@
       "posted_date": "2026-05-20T07:52:20+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -306,7 +306,7 @@
       "posted_date": "2026-07-10T15:53:26+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -366,7 +366,7 @@
       "posted_date": "2026-05-12T20:51:25+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -396,7 +396,7 @@
       "posted_date": "2026-03-20T19:54:14+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -426,7 +426,7 @@
       "posted_date": "2026-03-20T19:51:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -456,7 +456,7 @@
       "posted_date": "2026-06-15T15:31:57+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -486,7 +486,7 @@
       "posted_date": "2026-06-08T20:01:03+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -519,7 +519,7 @@
       "posted_date": "2026-04-24T15:05:41+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -549,7 +549,7 @@
       "posted_date": "2026-05-13T15:09:09+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -609,7 +609,7 @@
       "posted_date": "2026-04-22T03:48:56+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -639,7 +639,7 @@
       "posted_date": "2026-05-08T14:48:55+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -699,7 +699,7 @@
       "posted_date": "2026-05-14T20:08:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -789,7 +789,7 @@
       "posted_date": "2026-05-15T14:14:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -851,7 +851,7 @@
       "posted_date": "2026-07-30T05:45:01+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -973,7 +973,7 @@
       "posted_date": "2026-05-06T11:24:27+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1039,7 +1039,7 @@
       "posted_date": "2026-07-16T09:33:30+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1129,7 +1129,7 @@
       "posted_date": "2026-05-22T05:30:11+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1219,7 +1219,7 @@
       "posted_date": "2026-05-28T20:49:06+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1312,7 +1312,7 @@
       "posted_date": "2026-03-02T23:52:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1345,7 +1345,7 @@
       "posted_date": "2026-07-16T05:29:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1375,7 +1375,7 @@
       "posted_date": "2025-12-19T12:21:21+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1405,7 +1405,7 @@
       "posted_date": "2026-06-30T13:37:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1525,7 +1525,7 @@
       "posted_date": "2026-04-29T13:13:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1555,7 +1555,7 @@
       "posted_date": "2026-05-06T12:27:43+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1617,7 +1617,7 @@
       "posted_date": "2026-06-08T20:24:12+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1677,7 +1677,7 @@
       "posted_date": "2026-06-15T18:33:05+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1802,7 +1802,7 @@
       "posted_date": "2026-06-30T16:50:14+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1832,7 +1832,7 @@
       "posted_date": "2026-03-18T18:07:05+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -1922,7 +1922,7 @@
       "posted_date": "2025-08-26T20:02:52+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2044,7 +2044,7 @@
       "posted_date": "2026-06-26T10:23:39+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2104,7 +2104,7 @@
       "posted_date": "2026-07-24T05:54:44+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2194,7 +2194,7 @@
       "posted_date": "2026-07-24T15:00:23+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2254,7 +2254,7 @@
       "posted_date": "2026-04-24T14:41:43+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2327,7 +2327,7 @@
       "source_board": "lever",
       "source_kind": "ats",
       "external_id": "d1efc30c-4e8f-488e-86ad-068117c6f25c",
-      "description": "The Podcast Mission develops strategies and builds products that serve creators and listeners interested in podcast and video content. As the #1 podcast platform in the world, we look to continue improving and scaling the experience of podcasts on Spotify. We build and maintain products like Spotify for Podcasters, Megaphone, and Chartable, and are always eager to provide creators with easy ways to increase their audiences on Spotify and give them new innovative means for monetization.\n\nWe’re looking for a Creator Partner Manager to join our Podcast team in Mexico. You’ll build meaningful relationships with creators at different stages of their journey, from emerging talent to established voices, and help them get the most from Spotify.\n\nYou’ll manage a portfolio of creator partnerships, help creators use Spotify’s tools and monetization programs, and bring insights from the Mexican creator community back to teams across Spotify. This role brings together relationship management, creator strategy, data and a strong understanding of Mexico’s evolving content landscape.\n\nWhat You'll Do\n\n- Build and grow long-term relationships with a portfolio of podcast creators and other emerging creator formats.\n\n- Help new and existing creators make effective use of Spotify for Creators, analytics, audience development tools and monetization programs.\n\n- Develop creator engagement strategies that support content creation, consumption and audience growth on Spotify.\n\n- Work closely with business development, marketing, PR, analytics, product and editorial teams to deliver creator initiatives and go-to-market plans.\n\n- Use platform data and insights to help creators understand content performance, audience behavior and opportunities for growth.\n\n- Listen to creator feedback, identify common needs and share actionable insights with Spotify’s product teams.\n\n- Develop creator programs, training sessions and community events that help creators learn, connect and grow.\n\n- Stay close to changes in Mexico’s creator landscape, including emerging talent, formats, audience behaviors and industry developments, and turn those insights into opportunities for Spotify.",
+      "description": "We’re looking for a Creator Partner Manager to join our Podcast team in Mexico. You’ll build meaningful relationships with creators at different stages of their journey, from emerging talent to established voices, and help them get the most from Spotify.\n\nYou’ll manage a portfolio of creator partnerships, help creators use Spotify’s tools and monetization programs, and bring insights from the Mexican creator community back to teams across Spotify. This role brings together relationship management, creator strategy, data and a strong understanding of Mexico’s evolving content landscape.\n\nWhat You'll Do\n\n- Build and grow long-term relationships with a portfolio of podcast creators and other emerging creator formats.\n\n- Help new and existing creators make effective use of Spotify for Creators, analytics, audience development tools and monetization programs.\n\n- Develop creator engagement strategies that support content creation, consumption and audience growth on Spotify.\n\n- Work closely with business development, marketing, PR, analytics, product and editorial teams to deliver creator initiatives and go-to-market plans.\n\n- Use platform data and insights to help creators understand content performance, audience behavior and opportunities for growth.\n\n- Listen to creator feedback, identify common needs and share actionable insights with Spotify’s product teams.\n\n- Develop creator programs, training sessions and community events that help creators learn, connect and grow.\n\n- Stay close to changes in Mexico’s creator landscape, including emerging talent, formats, audience behaviors and industry developments, and turn those insights into opportunities for Spotify.",
       "requirements_raw": "Who You Are\n\n- You have experience working in creator or talent partnerships, content strategy, media, digital platforms or a related field.\n\n- You understand Mexico’s creator ecosystem, including podcasts, creators, agencies, production companies and relevant cultural and audience trends.\n\n- You know how to build trusted relationships with creators, talent, media partners or other external partners.\n\n- You’re comfortable using data and insights to shape a strategy, identify opportunities and communicate a clear story.\n\n- You communicate clearly in Spanish and English, both in writing and conversation.\n\n- You enjoy working across teams and can bring people together around shared creator and business goals.\n\n- You’re comfortable taking ownership of your work, setting priorities and making progress in an evolving environment.\n\n- You stay curious about how younger audiences discover and engage with content and understand how creator formats and behaviors continue to evolve.\n\nWhere You'll Be\n\n- This role is based in Mexico City\n\n- We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home.\n\nSpotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have represented and amplified in our business, the more we will all thrive, contribute, and be forward-thinking! So bring us your personal experience, your perspectives, and your background. It’s in our differences that we will find the power to keep revolutionizing the way the world listens.\n\nAt Spotify, we are passionate about inclusivity and making sure our entire recruitment process is accessible to everyone. We have ways to request reasonable accommodations during the interview process and help assist in what you need. If you need accommodations at any stage of the application or interview process, please let us know - we’re here to support you in any way we can.",
       "location": "Mexico City",
       "contract_type": "Permanent",
@@ -2409,7 +2409,7 @@
       "posted_date": "2026-07-10T20:19:23+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2439,7 +2439,7 @@
       "posted_date": "2026-06-18T19:55:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2469,7 +2469,7 @@
       "posted_date": "2026-06-30T12:08:34+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2510,7 +2510,7 @@
       "source_board": "lever",
       "source_kind": "ats",
       "external_id": "a4c49acb-a095-4452-ad9e-69e4b778c256",
-      "description": "he Personalization team makes deciding what to play next easier and more enjoyable for every listener. From Blend to Discover Weekly, we're behind some of Spotify's most-loved features. We built them by understanding the world of music and podcasts better than anyone else. Join us and you'll keep millions of users listening by making great recommendations to each and every one of them.\n\nWithin Personalization, the Speak Team owns the development of Spotify's state-of-the-art speech models, contributing to speech recognition, speech synthesis, and speech-to-speech models. We craft voice models that match human-level emotional expressiveness, so we can deeply engage our listeners and support creators at scale. Our groundbreaking work on speech synthesis relies on state-of-the-art deep learning methods and evaluation techniques, highly efficient data processing and model serving, and capturing audio of outstanding quality from our voice talent pool.\n\nWe're looking for a senior applied research scientist with experience in developing novel ML techniques and architectures and with a strong interest in working across a full production pipeline to produce state-of-the-art generative conversational speech-to-speech models. You'll collaborate with our engineering teams to help develop our production pipelines, explore new ideas and methods to improve quality, understanding and realism, as well as push the frontiers of what is possible with our speech technology.\n\nWhat You'll Do\n\n- Develop and experiment with new methods for speech synthesis and speech recognition, along with end-to-end approaches, building on the latest research and ideas.\n\n- Work towards the expansion of our speech use-cases targeting different markets and products.\n\n- Be part of a highly motivated research team dedicated to building and creating models at scale to power the Spotify platform.\n\n- Champion best practices for research and development, sharing your knowledge and experience with other researchers within Speak.\n\n- Collaborate with our engineering and data teams on ideas requiring new infrastructure or new high-quality data, as well as to help improve our speech recognition and speech synthesis pipelines, and help turn proven ideas into scalable products.",
+      "description": "The Personalization team makes deciding what to play next easier and more enjoyable for every listener. From Blend to Discover Weekly, we're behind some of Spotify's most-loved features. We built them by understanding the world of music and podcasts better than anyone else. Join us and you'll keep millions of users listening by making great recommendations to each and every one of them.\n\nWithin Personalization, the Speak Team owns the development of Spotify's state-of-the-art speech models, contributing to speech recognition, speech synthesis, and speech-to-speech models. We craft voice models that match human-level emotional expressiveness, so we can deeply engage our listeners and support creators at scale. Our groundbreaking work on speech synthesis relies on state-of-the-art deep learning methods and evaluation techniques, highly efficient data processing and model serving, and capturing audio of outstanding quality from our voice talent pool.\n\nWe're looking for a senior applied research scientist with experience in developing novel ML techniques and architectures and with a strong interest in working across a full production pipeline to produce state-of-the-art generative conversational speech-to-speech models. You'll collaborate with our engineering teams to help develop our production pipelines, explore new ideas and methods to improve quality, understanding and realism, as well as push the frontiers of what is possible with our speech technology.\n\nWhat You'll Do\n\n- Develop and experiment with new methods for speech synthesis and speech recognition, along with end-to-end approaches, building on the latest research and ideas.\n\n- Work towards the expansion of our speech use-cases targeting different markets and products.\n\n- Be part of a highly motivated research team dedicated to building and creating models at scale to power the Spotify platform.\n\n- Champion best practices for research and development, sharing your knowledge and experience with other researchers within Speak.\n\n- Collaborate with our engineering and data teams on ideas requiring new infrastructure or new high-quality data, as well as to help improve our speech recognition and speech synthesis pipelines, and help turn proven ideas into scalable products.",
       "requirements_raw": "Who You Are\n\n- You have a strong background in ML (PhD degree on top of professional experience), and\n\n- experience in working with any of the following: transformers, GANs, diffusion models, flow matching, VAEs, audio codecs.\n\n- You have experience in developing generative models for speech synthesis, speech recognition, audio/music, natural language processing, or computer vision.\n\n- You have strong experience with Python, particularly PyTorch.\n\n- You have strong communication skills and the ability to explain technical ideas with clarity to technical and non-technical people alike.\n\n- You have experience in an academic or professional setting conducting high-quality research.\n\nWhere You'll Be\n\n- This role is based in London or Stockholm.\n\n- We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home\n\nSpotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have represented and amplified in our business, the more we will all thrive, contribute, and be forward-thinking! So bring us your personal experience, your perspectives, and your background. It’s in our differences that we will find the power to keep revolutionizing the way the world listens.\n\nAt Spotify, we are passionate about inclusivity and making sure our entire recruitment process is accessible to everyone. We have ways to request reasonable accommodations during the interview process and help assist in what you need. If you need accommodations at any stage of the application or interview process, please let us know - we’re here to support you in any way we can.",
       "location": "London, Stockholm",
       "contract_type": "Permanent",
@@ -2593,7 +2593,7 @@
       "posted_date": "2026-05-28T12:29:37+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2623,7 +2623,7 @@
       "posted_date": "2026-05-28T12:32:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2683,7 +2683,7 @@
       "posted_date": "2026-07-28T14:32:49+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2713,7 +2713,7 @@
       "posted_date": "2026-07-06T15:51:01+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2743,7 +2743,7 @@
       "posted_date": "2026-07-21T02:07:48+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2775,7 +2775,7 @@
       "posted_date": "2026-03-17T17:00:10+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2869,8 +2869,8 @@
       "posted_date": "2026-08-06T09:48:16+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 1,
-      "is_closed": false
+      "consecutive_misses": 2,
+      "is_closed": true
     },
     {
       "content_hash": "90c71ec893fe6716ee385ad262bc7fa5c5e6953f23df6091be7e923bd8441388",
@@ -2899,7 +2899,7 @@
       "posted_date": "2026-05-05T15:01:24+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2929,7 +2929,7 @@
       "posted_date": "2026-05-05T15:35:42+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2959,7 +2959,7 @@
       "posted_date": "2026-07-10T21:46:55+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -2989,7 +2989,7 @@
       "posted_date": "2026-05-15T02:33:13+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3049,7 +3049,7 @@
       "posted_date": "2026-07-22T17:32:35+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3139,7 +3139,7 @@
       "posted_date": "2026-04-09T14:59:54+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3199,7 +3199,7 @@
       "posted_date": "2026-07-20T16:29:56+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3229,7 +3229,7 @@
       "posted_date": "2026-05-13T15:23:52+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3259,7 +3259,7 @@
       "posted_date": "2026-06-30T07:46:16+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3322,7 +3322,7 @@
       "posted_date": "2026-03-03T02:01:23+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3356,7 +3356,7 @@
       "posted_date": "2026-07-28T10:23:31+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3386,7 +3386,7 @@
       "posted_date": "2026-05-13T15:26:40+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3416,7 +3416,7 @@
       "posted_date": "2026-03-19T13:22:19+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3476,7 +3476,7 @@
       "posted_date": "2026-07-14T15:14:35+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3509,7 +3509,7 @@
       "posted_date": "2026-05-19T11:27:39+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3569,7 +3569,7 @@
       "posted_date": "2026-07-27T17:30:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3813,7 +3813,7 @@
       "posted_date": "2026-07-17T12:05:12+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3903,7 +3903,7 @@
       "posted_date": "2026-07-17T07:43:37+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3965,7 +3965,7 @@
       "posted_date": "2026-07-08T18:56:35+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -3995,7 +3995,7 @@
       "posted_date": "2026-06-30T12:12:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4205,7 +4205,7 @@
       "posted_date": "2026-05-07T13:42:39+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4235,7 +4235,7 @@
       "posted_date": "2026-07-30T18:31:15+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4388,7 +4388,7 @@
       "posted_date": "2026-05-14T09:51:13+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4448,7 +4448,7 @@
       "posted_date": "2026-07-20T17:49:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4478,7 +4478,7 @@
       "posted_date": "2026-04-20T19:31:08+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4572,7 +4572,7 @@
       "posted_date": "2026-03-03T08:31:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4602,7 +4602,7 @@
       "posted_date": "2026-06-26T14:27:00+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4632,7 +4632,7 @@
       "posted_date": "2026-08-26T14:45:54+00:00",
       "first_seen_at": "2026-09-24T00:00:00+00:00",
       "last_seen_at": "2026-09-25T00:00:00+00:00",
-      "consecutive_misses": 0,
+      "consecutive_misses": 1,
       "is_closed": false
     },
     {
@@ -4692,7 +4692,7 @@
       "posted_date": "2026-05-04T02:22:02+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4722,7 +4722,7 @@
       "posted_date": "2026-05-06T12:16:59+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4814,7 +4814,7 @@
       "posted_date": "2026-06-18T15:31:45+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     },
     {
@@ -4844,7 +4844,7 @@
       "posted_date": "2026-05-20T14:29:27+00:00",
       "first_seen_at": "2026-08-02T00:00:00+00:00",
       "last_seen_at": "2026-08-02T00:00:00+00:00",
-      "consecutive_misses": 3,
+      "consecutive_misses": 4,
       "is_closed": true
     }
   ]

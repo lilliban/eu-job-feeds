@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T05:02:57+00:00",
+  "generated_at": "2026-09-26T11:30:01+00:00",
   "company_count": 55,
-  "job_count": 15485,
-  "open_job_count": 12388,
+  "job_count": 15487,
+  "open_job_count": 12383,
   "companies": [
     {
       "company_name": "Alan",
@@ -54,7 +54,7 @@
       "source_board": "ashby",
       "slug": "ramp",
       "job_count": 212,
-      "open_job_count": 160,
+      "open_job_count": 157,
       "updated_at": "2026-09-26T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -81,7 +81,7 @@
       "source_board": "greenhouse",
       "slug": "celonis",
       "job_count": 259,
-      "open_job_count": 251,
+      "open_job_count": 252,
       "updated_at": "2026-09-26T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -261,7 +261,7 @@
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
       "job_count": 7416,
-      "open_job_count": 4806,
+      "open_job_count": 4805,
       "updated_at": "2026-09-26T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -269,8 +269,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 987,
-      "open_job_count": 962,
+      "job_count": 989,
+      "open_job_count": 964,
       "updated_at": "2026-09-26T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -297,7 +297,7 @@
       "source_board": "smartrecruiters",
       "slug": "wise",
       "job_count": 431,
-      "open_job_count": 419,
+      "open_job_count": 415,
       "updated_at": "2026-09-26T00:00:00+00:00",
       "last_read_complete": true
     },

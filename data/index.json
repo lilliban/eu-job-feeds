@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T17:06:30+00:00",
+  "generated_at": "2026-09-27T21:31:46+00:00",
   "company_count": 269,
-  "job_count": 24826,
+  "job_count": 24828,
   "open_job_count": 21707,
   "companies": [
     {
@@ -1242,7 +1242,7 @@
       "source_board": "lever",
       "slug": "spotify",
       "job_count": 160,
-      "open_job_count": 79,
+      "open_job_count": 80,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1331,7 +1331,7 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 7419,
+      "job_count": 7420,
       "open_job_count": 4802,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
@@ -1367,8 +1367,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 993,
-      "open_job_count": 966,
+      "job_count": 994,
+      "open_job_count": 967,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1449,7 +1449,7 @@
       "source_board": "smartrecruiters",
       "slug": "wise",
       "job_count": 433,
-      "open_job_count": 416,
+      "open_job_count": 414,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },

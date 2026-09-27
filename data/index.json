@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T12:12:08+00:00",
+  "generated_at": "2026-09-27T17:06:30+00:00",
   "company_count": 269,
-  "job_count": 24823,
-  "open_job_count": 21706,
+  "job_count": 24826,
+  "open_job_count": 21707,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -665,8 +665,8 @@
       "company_name": "Databricks",
       "source_board": "greenhouse",
       "slug": "databricks",
-      "job_count": 887,
-      "open_job_count": 887,
+      "job_count": 888,
+      "open_job_count": 888,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -774,7 +774,7 @@
       "source_board": "greenhouse",
       "slug": "hellofresh",
       "job_count": 457,
-      "open_job_count": 444,
+      "open_job_count": 443,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1332,7 +1332,7 @@
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
       "job_count": 7419,
-      "open_job_count": 4803,
+      "open_job_count": 4802,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1367,8 +1367,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 992,
-      "open_job_count": 965,
+      "job_count": 993,
+      "open_job_count": 966,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1448,8 +1448,8 @@
       "company_name": "Wise",
       "source_board": "smartrecruiters",
       "slug": "wise",
-      "job_count": 432,
-      "open_job_count": 415,
+      "job_count": 433,
+      "open_job_count": 416,
       "updated_at": "2026-09-27T00:00:00+00:00",
       "last_read_complete": true
     },

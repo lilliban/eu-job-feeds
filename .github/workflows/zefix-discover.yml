@@ -1,0 +1,77 @@
+name: Discover Zefix companies
+
+# Daily batch. ~543k candidate companies is a backlog that is worked through
+# gradually, forever — never a brute-force sweep (see docs/DECISIONS.md #8 for
+# why that line matters, and #19 for the batch-size reasoning). A different
+# time of day than update.yml so the two don't add up.
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "How many companies to probe this run"
+        required: false
+        type: string
+
+concurrency:
+  group: update-dataset
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Download the Zefix snapshot from the "latest" release
+        run: |
+          mkdir -p state
+          gh release download latest --repo "$GITHUB_REPOSITORY" \
+            --pattern 'zefix.sqlite.gz' --dir state --clobber
+          gzip -dk -f state/zefix.sqlite.gz
+
+      - name: Probe the next batch for an ATS board
+        run: |
+          if [ -n "${{ inputs.batch_size }}" ]; then
+            python -m eu_job_feeds.cli zefix-discover --batch-size "${{ inputs.batch_size }}"
+          else
+            python -m eu_job_feeds.cli zefix-discover
+          fi
+
+      - name: Commit the registry
+        # Same pattern as update.yml: only registry/ is committed, never the
+        # Zefix snapshot itself — that stays a release asset (docs/DECISIONS.md #19).
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add registry
+          if git diff --cached --quiet; then
+            echo "No new companies this run."
+          else
+            changed=$(git diff --cached --name-only | wc -l)
+            git commit -m "registry: zefix batch ($changed file(s))"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      - name: Publish the updated snapshot to the "latest" release
+        run: |
+          gh release upload latest state/zefix.sqlite.gz \
+            --repo "$GITHUB_REPOSITORY" --clobber

@@ -486,3 +486,97 @@ from `changes.json` — only from re-diffing snapshot releases by hand. The
 upload latest`); omitting it resolves to GitHub's most-recently-published
 release, which after a `prune-history.yml` run would silently be the wrong,
 dated `snapshot-YYYY-MM` one instead.
+
+---
+
+## 19. Zefix seeds discovery; SA/GmbH only, batched forever, added without review
+
+**Context.** The registry held 55 hand-added companies. Growing it by pasting
+names into a chat does not scale. Zefix — the Swiss central commercial
+register — lists every active legal entity and is queryable for free, without
+an account, via SPARQL on `https://lindas.admin.ch/query` (graph
+`https://lindas.admin.ch/foj/zefix`, refreshed daily). Measured live against
+the real endpoint while building this: **794,210** active entities. Two facts
+that only showed up by querying it, not by reading documentation:
+
+- `schema:identifier` is not one-to-one with a company — most carry two or
+  three identifier URIs (UID, CHID, a legacy register number). Joining on it
+  without filtering to the UID-shaped one (`FILTER(CONTAINS(STR(?idUri),
+  "/UID/"))`) triples every row: 1,629,570 rows vs 543,190 distinct companies,
+  confirmed by comparing `COUNT` against `COUNT(DISTINCT ...)`.
+- Zefix carries **no employee count or any size signal**. The eCH-0097 legal
+  form is the only available proxy for "a real company" — and it is a weak
+  one: AG/SA (`0106`, 251,133) plus GmbH/Sagl (`0107`, 292,057) alone is
+  543,190, well over half of every active entity in the register.
+
+**Alternatives considered.**
+1. *Scale of the sweep* — (a) probe all 794,210 entities against every ATS
+   provider, (b) filter to a legal-form subset first, (c) do (b) and never
+   attempt a complete sweep, treating the backlog as permanent.
+2. *Priority within the filtered set* — (a) rank by an inferred size signal,
+   (b) no ranking, stable batches in UID order.
+3. *Registry entry trust* — (a) require human confirmation before a
+   Zefix-sourced hit is added, (b) add automatically like a `discover --write`
+   hit, (c) add automatically with its own `source` value and Zefix's own
+   legal name.
+
+**Decision.** 1c, 2b, 3c. Probing all 794,210 entities against 7 providers is
+on the order of 5.5 million requests — the same shape of abuse the project
+already refused for Workday (#8), just at a different scale. SA/GmbH narrows
+the field to 543,190, still worked through in daily batches
+(`zefix-discover.yml`, `--batch-size` default 200) that never finish and are
+not meant to: new companies get incorporated continuously, so this is a
+standing background process, not a one-off migration.
+
+No ranking beyond the legal-form cut: there is no size signal in the data to
+rank by, and inventing one (e.g. treating AG as "bigger" than GmbH) would be a
+guess dressed up as a measurement — worse than admitting the limitation.
+Companies already in the registry are always skipped first (`_already_known`
+in `cli.py`, matching on name or on `discovery.candidate_slugs`), so the
+batches spend their budget on genuinely new ground.
+
+Zefix-sourced hits are added to the registry with `source="zefix"` and no
+human review — a deliberate, narrow exception to #2 ("adding a company is a
+manual step"). The exception is safe specifically because the *name* is no
+longer a guess: it comes from `schema:legalName` in an authoritative
+government register, not a slug or an ATS's inconsistent display name. Volume
+makes manual review impractical at this scale, and `enabled: false` already
+exists as the correction mechanism for anything wrong.
+
+**Consequences.** A weekly `zefix-sync.yml` snapshot (`state/zefix.sqlite`,
+published the same way as `jobs.sqlite.gz` on the `latest` release, per #18)
+is the source of truth for what is pending; a company's row keeps
+`processed_at IS NULL` until a daily batch reaches it, so coverage grows by
+about 200/day — reaching the full 543,190 once takes years, and that is
+accepted, not a bug to fix later. `write_snapshot` is an **upsert**, unlike
+`sqlite_store.write_database`'s full rebuild: a company still active on a
+re-sync must keep whatever `processed_at` it already has, or every weekly
+sync would silently re-open the discovery queue for the entire register.
+Wikidata/OpenStreetMap enrichment and Common Crawl page-linking, both named in
+the original brief for this phase, are deliberately **not** built here: they
+resolve a company to its website, which has no consumer until the career-page
+crawler (a later phase) exists to use it. The cost of the automatic-add
+exception: a wrong entry (a name collision, a slug that happens to answer for
+the wrong company) sits in the registry until a person notices and disables
+it — there is no automatic correctness check beyond "the ATS provider
+answered for this slug".
+
+**Addendum, measured on the first real batch.** `discovery.candidate_slugs`
+includes a bare-first-word fallback for a multi-word name (`"inter"` for
+"Inter-Skript AG in Liquidation") — reasonable when a person reviews the hit
+(`eu-job-feeds discover`), not when it goes straight into the registry
+unreviewed. The first 20-company batch hit this exactly: 2 of 5 automatic
+adds were false positives, both via that fallback — "Inter-Skript AG in
+Liquidation" (a Swiss company **in liquidation**) matched an unrelated
+Brazilian company's Greenhouse board via the generic slug "inter"; "Art
+Contacts Sàrl" matched an unrelated German company's Personio board via
+"art". `zefix_discover`'s automatic path now calls
+`zefix.safe_candidate_slugs`, which drops that fallback and tries only
+candidates that encode the whole name. This also loses true positives whose real slug happens to be the first word
+alone (e.g. "ALSO Holding AG" -> `also`, found correctly in the same batch)
+— accepted, since a collision on an entire company name is far rarer than on
+one common word of it. The company is not lost forever: it is marked
+processed and will not be retried by `zefix-discover` again, but remains
+reachable through a manual `eu-job-feeds discover "Company Name"` (a human
+reviews the hit before it is added) or through a later phase that resolves a
+company to its actual domain instead of guessing from its name.

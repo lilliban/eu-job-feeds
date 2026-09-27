@@ -6,6 +6,8 @@
     eu-job-feeds probe greenhouse datadog
     eu-job-feeds validate            check the dataset against the contract
     eu-job-feeds stats               field coverage, honestly measured
+    eu-job-feeds zefix-sync          pull active AG/GmbH companies from Zefix
+    eu-job-feeds zefix-discover      probe the next batch for an ATS board
 """
 
 from __future__ import annotations
@@ -17,11 +19,11 @@ import os
 import sys
 from pathlib import Path
 
-from . import sqlite_store
+from . import sqlite_store, zefix, zefix_store
 from .connectors import CONNECTORS, PROVIDERS
-from .discovery import discover, load_negative_cache, save_negative_cache
+from .discovery import candidate_slugs, discover, load_negative_cache, save_negative_cache
 from .http import RateLimitedClient
-from .models import FIELD_ORDER, JobPosting
+from .models import FIELD_ORDER, JobPosting, utcnow_iso
 from .pipeline import run_update
 from .registry import CompanyEntry, Registry, load_registry, save_registry
 from .store import DATA_DIR
@@ -117,6 +119,86 @@ async def _cmd_discover(args: argparse.Namespace) -> int:
     return 0
 
 
+async def _cmd_zefix_sync(args: argparse.Namespace) -> int:
+    """Pull every active AG/SA and GmbH/Sagl from Zefix; upsert the snapshot."""
+    zefix_db = Path(args.zefix_db)
+    async with RateLimitedClient() as client:
+        companies = {company.uid: company async for company in zefix.fetch_all(client)}
+
+    stats = zefix_store.write_snapshot(companies, zefix_db, at=utcnow_iso())
+    sqlite_store.compress(zefix_db)
+    print(
+        f"zefix-sync: {len(companies)} aziende attive (AG/SA + GmbH/Sagl) — "
+        f"+{stats.added} nuove, -{stats.removed} non più attive, {stats.unchanged} invariate"
+    )
+    return 0
+
+
+def _already_known(registry: Registry, legal_name: str) -> bool:
+    """True if `legal_name` (or an obvious slug match) is already registered.
+
+    Not a full fuzzy match — an exact name match, or a candidate slug
+    (`discovery.candidate_slugs`, the same guesses `discover()` itself would
+    try) that already belongs to a registry entry. Good enough to skip
+    re-probing companies already curated by hand or found in a prior batch;
+    misses are not costly, since `discover()` would find nothing new either.
+    """
+    normalized = legal_name.strip().lower()
+    if any(entry.name.strip().lower() == normalized for entry in registry.companies):
+        return True
+    candidates = {slug.lower() for slug in candidate_slugs(legal_name)}
+    return any(entry.key.lower() in candidates for entry in registry.companies)
+
+
+async def _cmd_zefix_discover(args: argparse.Namespace) -> int:
+    """Probe the next batch of not-yet-tried Zefix companies for an ATS board."""
+    zefix_db = Path(args.zefix_db)
+    registry = load_registry(Path(args.registry))
+    cache = load_negative_cache(Path(args.cache))
+    cache.purge_expired()
+
+    batch = zefix_store.next_batch(zefix_db, size=args.batch_size)
+    if not batch:
+        print("zefix-discover: nothing pending in the queue")
+        return 0
+
+    processed_uids: list[str] = []
+    already_known = added = ambiguous = 0
+    async with RateLimitedClient() as client:
+        for company in batch:
+            processed_uids.append(company.uid)
+            if _already_known(registry, company.legal_name):
+                already_known += 1
+                continue
+            safe_slugs = zefix.safe_candidate_slugs(company.legal_name)
+            for hit in await discover(client, company.legal_name, cache=cache, slugs=safe_slugs):
+                if hit.result.value == "ambiguous":
+                    ambiguous += 1
+                    continue
+                if registry.upsert(
+                    CompanyEntry(
+                        name=company.legal_name,
+                        provider=hit.provider,
+                        slug=hit.slug,
+                        source="zefix",
+                    )
+                ):
+                    added += 1
+
+    zefix_store.mark_processed(zefix_db, processed_uids, at=utcnow_iso())
+    save_registry(registry, Path(args.registry))
+    save_negative_cache(cache, Path(args.cache))
+    sqlite_store.compress(zefix_db)
+
+    queue = zefix_store.queue_stats(zefix_db)
+    print(
+        f"zefix-discover: {len(batch)} processate ({already_known} già note, "
+        f"{added} aggiunte, {ambiguous} ambigue) — coda: {queue['pending']} in attesa "
+        f"su {queue['total']}"
+    )
+    return 0
+
+
 async def _cmd_probe(args: argparse.Namespace) -> int:
     connector = CONNECTORS.get(args.provider)
     if connector is None:
@@ -188,6 +270,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--registry", default="registry/companies.yaml")
     parser.add_argument("--data-dir", default=str(DATA_DIR))
     parser.add_argument("--db", default=str(sqlite_store.DB_PATH), help="postings database")
+    parser.add_argument(
+        "--zefix-db", default=str(zefix_store.DB_PATH), help="Zefix snapshot/queue database"
+    )
     sub = parser.add_subparsers(dest="command", required=True)
 
     update = sub.add_parser("update", help="read every registered company and write changes")
@@ -214,6 +299,14 @@ def build_parser() -> argparse.ArgumentParser:
     sub.add_parser("validate", help="check the stored dataset against the contract")
     sub.add_parser("stats", help="field coverage per provider")
 
+    sub.add_parser("zefix-sync", help="pull active AG/SA and GmbH/Sagl companies from Zefix")
+
+    zdisc = sub.add_parser(
+        "zefix-discover", help="probe the next batch of Zefix companies for an ATS board"
+    )
+    zdisc.add_argument("--batch-size", type=int, default=200)
+    zdisc.add_argument("--cache", default="registry/negative.json")
+
     return parser
 
 
@@ -231,6 +324,10 @@ def main(argv: list[str] | None = None) -> int:
         return _cmd_validate(args)
     if args.command == "stats":
         return _cmd_stats(args)
+    if args.command == "zefix-sync":
+        return asyncio.run(_cmd_zefix_sync(args))
+    if args.command == "zefix-discover":
+        return asyncio.run(_cmd_zefix_discover(args))
     raise SystemExit(f"unknown command {args.command!r}")
 
 

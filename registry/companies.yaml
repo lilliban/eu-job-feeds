@@ -1,9 +1,105 @@
 companies:
+- name: Airbyte
+  provider: ashby
+  slug: airbyte
+  source: discovered
+  added_at: '2026-09-26T17:25:36+00:00'
+  enabled: true
+- name: Airtable
+  provider: ashby
+  slug: airtable
+  source: discovered
+  added_at: '2026-09-26T17:20:01+00:00'
+  enabled: true
 - name: Alan
   provider: ashby
   slug: alan
   source: curated
   added_at: '2026-09-24T20:23:40+00:00'
+  enabled: true
+- name: Aleph Alpha
+  provider: ashby
+  slug: alephalpha
+  source: discovered
+  added_at: '2026-09-26T17:17:49+00:00'
+  enabled: true
+- name: Anomalo
+  provider: ashby
+  slug: anomalo
+  source: discovered
+  added_at: '2026-09-26T17:33:55+00:00'
+  enabled: true
+- name: Astronomer
+  provider: ashby
+  slug: astronomer
+  source: discovered
+  added_at: '2026-09-26T17:26:12+00:00'
+  enabled: true
+- name: Boomi
+  provider: ashby
+  slug: boomi
+  source: discovered
+  added_at: '2026-09-26T17:25:13+00:00'
+  enabled: true
+- name: Bubble
+  provider: ashby
+  slug: bubble
+  source: discovered
+  added_at: '2026-09-26T17:25:07+00:00'
+  enabled: true
+- name: Bynder
+  provider: ashby
+  slug: bynder
+  source: discovered
+  added_at: '2026-09-26T17:21:13+00:00'
+  enabled: true
+- name: ClickHouse
+  provider: ashby
+  slug: clickhouse
+  source: discovered
+  added_at: '2026-09-26T17:26:42+00:00'
+  enabled: true
+- name: Cohere
+  provider: ashby
+  slug: cohere
+  source: discovered
+  added_at: '2026-09-26T17:17:27+00:00'
+  enabled: true
+- name: Confluent
+  provider: ashby
+  slug: confluent
+  source: discovered
+  added_at: '2026-09-26T17:16:50+00:00'
+  enabled: true
+- name: Count
+  provider: ashby
+  slug: count
+  source: discovered
+  added_at: '2026-09-26T17:32:46+00:00'
+  enabled: true
+- name: Cube Dev
+  provider: ashby
+  slug: cube
+  source: discovered
+  added_at: '2026-09-26T17:33:08+00:00'
+  enabled: true
+- name: Deel
+  provider: ashby
+  slug: deel
+  source: discovered
+  added_at: '2026-09-26T17:20:50+00:00'
+  enabled: true
+- name: DeepL
+  provider: ashby
+  slug: deepl
+  source: discovered
+  added_at: '2026-09-26T17:15:24+00:00'
+  enabled: true
+- name: Deepnote
+  provider: ashby
+  slug: deepnote
+  source: discovered
+  added_at: '2026-09-26T17:32:46+00:00'
   enabled: true
 - name: Doctolib
   provider: ashby
@@ -11,11 +107,89 @@ companies:
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
   enabled: true
+- name: ElevenLabs
+  provider: ashby
+  slug: elevenlabs
+  source: discovered
+  added_at: '2026-09-26T17:17:56+00:00'
+  enabled: true
 - name: Frontify
   provider: ashby
   slug: frontify
   source: curated
   added_at: '2026-09-25T04:42:11+00:00'
+  enabled: true
+- name: FullStory
+  provider: ashby
+  slug: fullstory
+  source: discovered
+  added_at: '2026-09-26T17:23:34+00:00'
+  enabled: true
+- name: Gainsight
+  provider: ashby
+  slug: gainsight
+  source: discovered
+  added_at: '2026-09-26T17:24:01+00:00'
+  enabled: true
+- name: GoodData
+  provider: ashby
+  slug: gooddata
+  source: discovered
+  added_at: '2026-09-26T17:18:31+00:00'
+  enabled: true
+- name: Hex Technologies
+  provider: ashby
+  slug: hex
+  source: discovered
+  added_at: '2026-09-26T17:32:45+00:00'
+  enabled: true
+- name: Hightouch
+  provider: ashby
+  slug: hightouch
+  source: discovered
+  added_at: '2026-09-26T17:34:08+00:00'
+  enabled: true
+- name: LaunchDarkly
+  provider: ashby
+  slug: launchdarkly
+  source: discovered
+  added_at: '2026-09-26T17:19:44+00:00'
+  enabled: true
+- name: Lightspeed
+  provider: ashby
+  slug: lightspeed
+  source: discovered
+  added_at: '2026-09-26T17:21:12+00:00'
+  enabled: true
+- name: Linear
+  provider: ashby
+  slug: linear
+  source: discovered
+  added_at: '2026-09-26T17:20:11+00:00'
+  enabled: true
+- name: Loom
+  provider: ashby
+  slug: loom
+  source: discovered
+  added_at: '2026-09-26T17:24:12+00:00'
+  enabled: true
+- name: Materialize
+  provider: ashby
+  slug: materialize
+  source: discovered
+  added_at: '2026-09-26T17:26:31+00:00'
+  enabled: true
+- name: Mercury
+  provider: ashby
+  slug: mercury
+  source: discovered
+  added_at: '2026-09-26T17:21:06+00:00'
+  enabled: true
+- name: Miro
+  provider: ashby
+  slug: miro
+  source: discovered
+  added_at: '2026-09-26T17:16:44+00:00'
   enabled: true
 - name: Mollie
   provider: ashby
@@ -23,11 +197,71 @@ companies:
   source: curated
   added_at: '2026-09-24T20:16:58+00:00'
   enabled: true
+- name: Monte Carlo Data
+  provider: ashby
+  slug: montecarlodata
+  source: discovered
+  added_at: '2026-09-26T17:33:14+00:00'
+  enabled: true
+- name: n8n
+  provider: ashby
+  slug: n8n
+  source: discovered
+  added_at: '2026-09-26T17:25:10+00:00'
+  enabled: true
+- name: Neon Switzerland
+  provider: ashby
+  slug: neon
+  source: discovered
+  added_at: '2026-09-26T17:18:19+00:00'
+  enabled: true
+- name: Notion
+  provider: ashby
+  slug: notion
+  source: discovered
+  added_at: '2026-09-26T17:16:43+00:00'
+  enabled: true
+- name: Paddle
+  provider: ashby
+  slug: paddle
+  source: discovered
+  added_at: '2026-09-26T17:21:11+00:00'
+  enabled: true
+- name: Pinecone
+  provider: ashby
+  slug: pinecone
+  source: discovered
+  added_at: '2026-09-26T17:21:48+00:00'
+  enabled: true
+- name: Plaid
+  provider: ashby
+  slug: plaid
+  source: discovered
+  added_at: '2026-09-26T17:21:08+00:00'
+  enabled: true
+- name: PostHog
+  provider: ashby
+  slug: posthog
+  source: discovered
+  added_at: '2026-09-26T17:19:51+00:00'
+  enabled: true
+- name: Prefect
+  provider: ashby
+  slug: prefect
+  source: discovered
+  added_at: '2026-09-26T17:26:00+00:00'
+  enabled: true
 - name: Qonto
   provider: ashby
   slug: qonto
   source: curated
   added_at: '2026-09-24T20:23:13+00:00'
+  enabled: true
+- name: Railway
+  provider: ashby
+  slug: railway
+  source: discovered
+  added_at: '2026-09-26T17:22:42+00:00'
   enabled: true
 - name: Ramp
   provider: ashby
@@ -35,11 +269,83 @@ companies:
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
   enabled: true
+- name: Redis
+  provider: ashby
+  slug: redis
+  source: discovered
+  added_at: '2026-09-26T17:22:09+00:00'
+  enabled: true
+- name: Render
+  provider: ashby
+  slug: render
+  source: discovered
+  added_at: '2026-09-26T17:22:40+00:00'
+  enabled: true
+- name: Runway
+  provider: ashby
+  slug: runway
+  source: discovered
+  added_at: '2026-09-26T17:17:55+00:00'
+  enabled: true
+- name: Sentry
+  provider: ashby
+  slug: sentry
+  source: discovered
+  added_at: '2026-09-26T17:23:10+00:00'
+  enabled: true
+- name: Sisense
+  provider: ashby
+  slug: sisense
+  source: discovered
+  added_at: '2026-09-26T17:17:03+00:00'
+  enabled: true
+- name: Sisu Data
+  provider: ashby
+  slug: sisu
+  source: discovered
+  added_at: '2026-09-26T17:32:39+00:00'
+  enabled: true
 - name: Smallpdf
   provider: ashby
   slug: smallpdf
   source: curated
   added_at: '2026-09-24T22:22:46+00:00'
+  enabled: true
+- name: Snowflake
+  provider: ashby
+  slug: snowflake
+  source: discovered
+  added_at: '2026-09-26T17:15:41+00:00'
+  enabled: true
+- name: Supabase
+  provider: ashby
+  slug: supabase
+  source: discovered
+  added_at: '2026-09-26T17:22:32+00:00'
+  enabled: true
+- name: Temporal
+  provider: ashby
+  slug: temporal
+  source: discovered
+  added_at: '2026-09-26T17:22:50+00:00'
+  enabled: true
+- name: Vercel
+  provider: ashby
+  slug: vercel
+  source: discovered
+  added_at: '2026-09-26T17:16:53+00:00'
+  enabled: true
+- name: Weaviate
+  provider: ashby
+  slug: weaviate
+  source: discovered
+  added_at: '2026-09-26T17:21:56+00:00'
+  enabled: true
+- name: Zapier
+  provider: ashby
+  slug: zapier
+  source: discovered
+  added_at: '2026-09-26T17:25:08+00:00'
   enabled: true
 - name: Adyen
   provider: greenhouse
@@ -47,11 +353,77 @@ companies:
   source: curated
   added_at: '2026-09-24T20:16:45+00:00'
   enabled: true
+- name: Airbnb
+  provider: greenhouse
+  slug: airbnb
+  source: discovered
+  added_at: '2026-09-26T17:16:45+00:00'
+  enabled: true
+- name: Airtable
+  provider: greenhouse
+  slug: airtable
+  source: discovered
+  added_at: '2026-09-26T17:20:01+00:00'
+  enabled: true
+- name: Algolia
+  provider: greenhouse
+  slug: algolia
+  source: discovered
+  added_at: '2026-09-26T17:21:46+00:00'
+  enabled: true
+- name: Amplitude
+  provider: greenhouse
+  slug: amplitude
+  source: discovered
+  added_at: '2026-09-26T17:16:59+00:00'
+  enabled: true
+- name: Asana
+  provider: greenhouse
+  slug: asana
+  source: discovered
+  added_at: '2026-09-26T17:20:13+00:00'
+  enabled: true
+- name: Attentive
+  provider: greenhouse
+  slug: attentive
+  source: discovered
+  added_at: '2026-09-26T17:35:01+00:00'
+  enabled: true
+- name: Braze
+  provider: greenhouse
+  slug: braze
+  source: discovered
+  added_at: '2026-09-26T17:34:43+00:00'
+  enabled: true
+- name: Brex
+  provider: greenhouse
+  slug: brex
+  source: discovered
+  added_at: '2026-09-26T17:20:57+00:00'
+  enabled: true
+- name: Calendly
+  provider: greenhouse
+  slug: calendly
+  source: discovered
+  added_at: '2026-09-26T17:24:03+00:00'
+  enabled: true
+- name: Celigo
+  provider: greenhouse
+  slug: celigo
+  source: discovered
+  added_at: '2026-09-26T17:25:12+00:00'
+  enabled: true
 - name: Celonis
   provider: greenhouse
   slug: celonis
   source: curated
   added_at: '2026-09-24T20:21:10+00:00'
+  enabled: true
+- name: Cloudflare
+  provider: greenhouse
+  slug: cloudflare
+  source: discovered
+  added_at: '2026-09-26T17:16:54+00:00'
   enabled: true
 - name: Contentful
   provider: greenhouse
@@ -59,11 +431,29 @@ companies:
   source: curated
   added_at: '2026-09-24T20:21:27+00:00'
   enabled: true
+- name: Customer.io
+  provider: greenhouse
+  slug: customerio
+  source: discovered
+  added_at: '2026-09-26T17:34:51+00:00'
+  enabled: true
+- name: Databricks
+  provider: greenhouse
+  slug: databricks
+  source: discovered
+  added_at: '2026-09-26T17:15:40+00:00'
+  enabled: true
 - name: Datadog
   provider: greenhouse
   slug: datadog
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
+  enabled: true
+- name: Dataiku
+  provider: greenhouse
+  slug: dataiku
+  source: discovered
+  added_at: '2026-09-26T17:15:36+00:00'
   enabled: true
 - name: Doctolib
   provider: greenhouse
@@ -71,11 +461,53 @@ companies:
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
   enabled: true
+- name: Dremio
+  provider: greenhouse
+  slug: dremio
+  source: discovered
+  added_at: '2026-09-26T17:27:04+00:00'
+  enabled: true
+- name: Elastic
+  provider: greenhouse
+  slug: elastic
+  source: discovered
+  added_at: '2026-09-26T17:16:48+00:00'
+  enabled: true
+- name: Figma
+  provider: greenhouse
+  slug: figma
+  source: discovered
+  added_at: '2026-09-26T17:16:41+00:00'
+  enabled: true
+- name: Fivetran
+  provider: greenhouse
+  slug: fivetran
+  source: discovered
+  added_at: '2026-09-26T17:25:34+00:00'
+  enabled: true
 - name: GetYourGuide
   provider: greenhouse
   slug: getyourguide
   source: curated
   added_at: '2026-09-24T20:20:53+00:00'
+  enabled: true
+- name: GitLab
+  provider: greenhouse
+  slug: gitlab
+  source: discovered
+  added_at: '2026-09-26T17:16:38+00:00'
+  enabled: true
+- name: Grafana Labs
+  provider: greenhouse
+  slug: grafanalabs
+  source: discovered
+  added_at: '2026-09-26T17:23:08+00:00'
+  enabled: true
+- name: Gusto
+  provider: greenhouse
+  slug: gusto
+  source: discovered
+  added_at: '2026-09-26T17:20:55+00:00'
   enabled: true
 - name: HelloFresh
   provider: greenhouse
@@ -83,11 +515,107 @@ companies:
   source: curated
   added_at: '2026-09-24T20:20:41+00:00'
   enabled: true
+- name: Hex Technologies
+  provider: greenhouse
+  slug: hextechnologies
+  source: discovered
+  added_at: '2026-09-26T17:32:45+00:00'
+  enabled: true
+- name: Hightouch
+  provider: greenhouse
+  slug: hightouch
+  source: discovered
+  added_at: '2026-09-26T17:34:08+00:00'
+  enabled: true
+- name: HubSpot
+  provider: greenhouse
+  slug: hubspot
+  source: discovered
+  added_at: '2026-09-26T17:20:34+00:00'
+  enabled: true
+- name: Imply
+  provider: greenhouse
+  slug: imply
+  source: discovered
+  added_at: '2026-09-26T17:26:49+00:00'
+  enabled: true
+- name: Intercom
+  provider: greenhouse
+  slug: intercom
+  source: discovered
+  added_at: '2026-09-26T17:20:47+00:00'
+  enabled: true
+- name: Iterable
+  provider: greenhouse
+  slug: iterable
+  source: discovered
+  added_at: '2026-09-26T17:34:41+00:00'
+  enabled: true
+- name: Klaviyo
+  provider: greenhouse
+  slug: klaviyo
+  source: discovered
+  added_at: '2026-09-26T17:34:59+00:00'
+  enabled: true
+- name: Labelbox
+  provider: greenhouse
+  slug: labelbox
+  source: discovered
+  added_at: '2026-09-26T17:17:16+00:00'
+  enabled: true
+- name: LaunchDarkly
+  provider: greenhouse
+  slug: launchdarkly
+  source: discovered
+  added_at: '2026-09-26T17:19:44+00:00'
+  enabled: true
+- name: Make
+  provider: greenhouse
+  slug: make
+  source: discovered
+  added_at: '2026-09-26T17:25:09+00:00'
+  enabled: true
+- name: Mercury
+  provider: greenhouse
+  slug: mercury
+  source: discovered
+  added_at: '2026-09-26T17:21:06+00:00'
+  enabled: true
+- name: Mixpanel
+  provider: greenhouse
+  slug: mixpanel
+  source: discovered
+  added_at: '2026-09-26T17:17:01+00:00'
+  enabled: true
+- name: MongoDB
+  provider: greenhouse
+  slug: mongodb
+  source: discovered
+  added_at: '2026-09-26T17:16:49+00:00'
+  enabled: true
 - name: N26
   provider: greenhouse
   slug: n26
   source: curated
   added_at: '2026-09-24T20:16:03+00:00'
+  enabled: true
+- name: Neo4j
+  provider: greenhouse
+  slug: neo4j
+  source: discovered
+  added_at: '2026-09-26T17:22:00+00:00'
+  enabled: true
+- name: New Relic
+  provider: greenhouse
+  slug: newrelic
+  source: discovered
+  added_at: '2026-09-26T17:23:24+00:00'
+  enabled: true
+- name: Okta
+  provider: greenhouse
+  slug: okta
+  source: discovered
+  added_at: '2026-09-26T17:16:56+00:00'
   enabled: true
 - name: On Running
   provider: greenhouse
@@ -95,11 +623,53 @@ companies:
   source: curated
   added_at: '2026-09-24T20:27:08+00:00'
   enabled: true
+- name: PagerDuty
+  provider: greenhouse
+  slug: pagerduty
+  source: discovered
+  added_at: '2026-09-26T17:23:11+00:00'
+  enabled: true
+- name: Pendo
+  provider: greenhouse
+  slug: pendo
+  source: discovered
+  added_at: '2026-09-26T17:24:00+00:00'
+  enabled: true
+- name: PlanetScale
+  provider: greenhouse
+  slug: planetscale
+  source: discovered
+  added_at: '2026-09-26T17:22:21+00:00'
+  enabled: true
+- name: Postscript
+  provider: greenhouse
+  slug: postscript
+  source: discovered
+  added_at: '2026-09-26T17:35:08+00:00'
+  enabled: true
+- name: Remote.com
+  provider: greenhouse
+  slug: remotecom
+  source: discovered
+  added_at: '2026-09-26T17:20:53+00:00'
+  enabled: true
+- name: Scale AI
+  provider: greenhouse
+  slug: scaleai
+  source: discovered
+  added_at: '2026-09-26T17:17:15+00:00'
+  enabled: true
 - name: Scandit
   provider: greenhouse
   slug: scandit
   source: curated
   added_at: '2026-09-24T20:24:40+00:00'
+  enabled: true
+- name: Sigma Computing
+  provider: greenhouse
+  slug: sigmacomputing
+  source: discovered
+  added_at: '2026-09-26T17:18:25+00:00'
   enabled: true
 - name: Squirro
   provider: greenhouse
@@ -107,11 +677,71 @@ companies:
   source: curated
   added_at: '2026-09-24T22:23:01+00:00'
   enabled: true
+- name: Stability AI
+  provider: greenhouse
+  slug: stabilityai
+  source: discovered
+  added_at: '2026-09-26T17:17:54+00:00'
+  enabled: true
+- name: Starburst
+  provider: greenhouse
+  slug: starburst
+  source: discovered
+  added_at: '2026-09-26T17:26:54+00:00'
+  enabled: true
+- name: Storyblok
+  provider: greenhouse
+  slug: storyblok
+  source: discovered
+  added_at: '2026-09-26T17:21:33+00:00'
+  enabled: true
+- name: Stripe
+  provider: greenhouse
+  slug: stripe
+  source: discovered
+  added_at: '2026-09-26T17:16:47+00:00'
+  enabled: true
+- name: Twilio
+  provider: greenhouse
+  slug: twilio
+  source: discovered
+  added_at: '2026-09-26T17:16:58+00:00'
+  enabled: true
 - name: Typeform
   provider: greenhouse
   slug: typeform
   source: curated
   added_at: '2026-09-24T20:24:26+00:00'
+  enabled: true
+- name: Vercel
+  provider: greenhouse
+  slug: vercel
+  source: discovered
+  added_at: '2026-09-26T17:16:53+00:00'
+  enabled: true
+- name: Webflow
+  provider: greenhouse
+  slug: webflow
+  source: discovered
+  added_at: '2026-09-26T17:25:03+00:00'
+  enabled: true
+- name: Workato
+  provider: greenhouse
+  slug: workato
+  source: discovered
+  added_at: '2026-09-26T17:25:11+00:00'
+  enabled: true
+- name: Yotpo
+  provider: greenhouse
+  slug: yotpo
+  source: discovered
+  added_at: '2026-09-26T17:35:15+00:00'
+  enabled: true
+- name: Aleph Alpha
+  provider: lever
+  slug: aleph
+  source: discovered
+  added_at: '2026-09-26T17:17:49+00:00'
   enabled: true
 - name: BlaBlaCar
   provider: lever
@@ -119,11 +749,65 @@ companies:
   source: curated
   added_at: '2026-09-24T20:23:27+00:00'
   enabled: true
+- name: Contentsquare
+  provider: lever
+  slug: contentsquare
+  source: discovered
+  added_at: '2026-09-26T17:15:35+00:00'
+  enabled: true
+- name: Freshworks
+  provider: lever
+  slug: freshworks
+  source: discovered
+  added_at: '2026-09-26T17:20:48+00:00'
+  enabled: true
 - name: Frontify
   provider: lever
   slug: frontify
   source: curated
   added_at: '2026-09-25T04:42:11+00:00'
+  enabled: true
+- name: Labelbox
+  provider: lever
+  slug: labelbox
+  source: discovered
+  added_at: '2026-09-26T17:17:16+00:00'
+  enabled: true
+- name: LogRocket
+  provider: lever
+  slug: logrocket
+  source: discovered
+  added_at: '2026-09-26T17:23:27+00:00'
+  enabled: true
+- name: Metabase
+  provider: lever
+  slug: metabase
+  source: discovered
+  added_at: '2026-09-26T17:18:30+00:00'
+  enabled: true
+- name: Mistral AI
+  provider: lever
+  slug: mistral
+  source: discovered
+  added_at: '2026-09-26T17:17:33+00:00'
+  enabled: true
+- name: Neon Switzerland
+  provider: lever
+  slug: neon
+  source: discovered
+  added_at: '2026-09-26T17:18:19+00:00'
+  enabled: true
+- name: Palantir Technologies
+  provider: lever
+  slug: palantir
+  source: discovered
+  added_at: '2026-09-26T17:16:36+00:00'
+  enabled: true
+- name: Pipedrive
+  provider: lever
+  slug: pipedrive
+  source: discovered
+  added_at: '2026-09-26T17:20:26+00:00'
   enabled: true
 - name: Plaid
   provider: lever
@@ -161,6 +845,36 @@ companies:
   source: curated
   added_at: '2026-09-24T22:22:14+00:00'
   enabled: true
+- name: DeepL
+  provider: recruitee
+  slug: deepl
+  source: discovered
+  added_at: '2026-09-26T17:15:24+00:00'
+  enabled: true
+- name: LogRocket
+  provider: recruitee
+  slug: logrocket
+  source: discovered
+  added_at: '2026-09-26T17:23:27+00:00'
+  enabled: true
+- name: Make
+  provider: recruitee
+  slug: make
+  source: discovered
+  added_at: '2026-09-26T17:25:09+00:00'
+  enabled: true
+- name: Personio
+  provider: recruitee
+  slug: personio
+  source: discovered
+  added_at: '2026-09-26T17:20:49+00:00'
+  enabled: true
+- name: Sisu Data
+  provider: recruitee
+  slug: sisu
+  source: discovered
+  added_at: '2026-09-26T17:32:39+00:00'
+  enabled: true
 - name: Swisscom
   provider: recruitee
   slug: swisscom
@@ -173,17 +887,65 @@ companies:
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
   enabled: true
+- name: Canva
+  provider: smartrecruiters
+  slug: canva
+  source: discovered
+  added_at: '2026-09-26T17:16:40+00:00'
+  enabled: true
+- name: Crealogix
+  provider: smartrecruiters
+  slug: crealogix
+  source: discovered
+  added_at: '2026-09-26T17:18:01+00:00'
+  enabled: true
+- name: Dataiku
+  provider: smartrecruiters
+  slug: dataiku
+  source: discovered
+  added_at: '2026-09-26T17:15:36+00:00'
+  enabled: true
 - name: Delivery Hero
   provider: smartrecruiters
   slug: deliveryhero
   source: curated
   added_at: '2026-09-24T20:20:27+00:00'
   enabled: true
+- name: Freshworks
+  provider: smartrecruiters
+  slug: freshworks
+  source: discovered
+  added_at: '2026-09-26T17:20:48+00:00'
+  enabled: true
+- name: Gainsight
+  provider: smartrecruiters
+  slug: gainsight
+  source: discovered
+  added_at: '2026-09-26T17:24:01+00:00'
+  enabled: true
+- name: Glean
+  provider: smartrecruiters
+  slug: glean
+  source: discovered
+  added_at: '2026-09-26T17:17:57+00:00'
+  enabled: true
+- name: New Relic
+  provider: smartrecruiters
+  slug: newrelic
+  source: discovered
+  added_at: '2026-09-26T17:23:24+00:00'
+  enabled: true
 - name: Nexthink
   provider: smartrecruiters
   slug: nexthink
   source: curated
   added_at: '2026-09-24T22:21:41+00:00'
+  enabled: true
+- name: Palantir Technologies
+  provider: smartrecruiters
+  slug: palantir
+  source: discovered
+  added_at: '2026-09-26T17:16:36+00:00'
   enabled: true
 - name: SmartRecruiters
   provider: smartrecruiters
@@ -191,11 +953,23 @@ companies:
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
   enabled: true
+- name: Swissquote
+  provider: smartrecruiters
+  slug: swissquote
+  source: discovered
+  added_at: '2026-09-26T17:17:59+00:00'
+  enabled: true
 - name: Wise
   provider: smartrecruiters
   slug: wise
   source: curated
   added_at: '2026-09-24T20:16:28+00:00'
+  enabled: true
+- name: Workato
+  provider: smartrecruiters
+  slug: workato
+  source: discovered
+  added_at: '2026-09-26T17:25:11+00:00'
   enabled: true
 - name: Adyen
   provider: workable
@@ -203,11 +977,53 @@ companies:
   source: curated
   added_at: '2026-09-24T20:16:45+00:00'
   enabled: true
+- name: Airbnb
+  provider: workable
+  slug: airbnb
+  source: discovered
+  added_at: '2026-09-26T17:16:45+00:00'
+  enabled: true
+- name: Airbyte
+  provider: workable
+  slug: airbyte
+  source: discovered
+  added_at: '2026-09-26T17:25:36+00:00'
+  enabled: true
+- name: Aleph Alpha
+  provider: workable
+  slug: aleph
+  source: discovered
+  added_at: '2026-09-26T17:17:49+00:00'
+  enabled: true
+- name: Algolia
+  provider: workable
+  slug: algolia
+  source: discovered
+  added_at: '2026-09-26T17:21:46+00:00'
+  enabled: true
+- name: ALSO Holding AG
+  provider: workable
+  slug: also
+  source: zefix
+  added_at: '2026-09-26T17:45:46+00:00'
+  enabled: true
+- name: Alteryx
+  provider: workable
+  slug: alteryx
+  source: discovered
+  added_at: '2026-09-26T17:17:06+00:00'
+  enabled: true
 - name: Amazing Care Home Health Services
   provider: workable
   slug: amazingcarecareers
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
+  enabled: true
+- name: Asana
+  provider: workable
+  slug: asana
+  source: discovered
+  added_at: '2026-09-26T17:20:13+00:00'
   enabled: true
 - name: BlaBlaCar
   provider: workable
@@ -215,11 +1031,41 @@ companies:
   source: curated
   added_at: '2026-09-24T20:23:27+00:00'
   enabled: true
+- name: Bubble
+  provider: workable
+  slug: bubble
+  source: discovered
+  added_at: '2026-09-26T17:25:07+00:00'
+  enabled: true
+- name: Canva
+  provider: workable
+  slug: canva
+  source: discovered
+  added_at: '2026-09-26T17:16:40+00:00'
+  enabled: true
+- name: Celigo
+  provider: workable
+  slug: celigo
+  source: discovered
+  added_at: '2026-09-26T17:25:12+00:00'
+  enabled: true
 - name: Celonis
   provider: workable
   slug: celonis
   source: curated
   added_at: '2026-09-24T20:21:10+00:00'
+  enabled: true
+- name: Chargebee
+  provider: workable
+  slug: chargebee
+  source: discovered
+  added_at: '2026-09-26T17:21:08+00:00'
+  enabled: true
+- name: Chartio
+  provider: workable
+  slug: chartio
+  source: discovered
+  added_at: '2026-09-26T17:33:00+00:00'
   enabled: true
 - name: Climeworks
   provider: workable
@@ -227,11 +1073,101 @@ companies:
   source: curated
   added_at: '2026-09-24T22:22:14+00:00'
   enabled: true
+- name: Cloudera
+  provider: workable
+  slug: cloudera
+  source: discovered
+  added_at: '2026-09-26T17:27:35+00:00'
+  enabled: true
+- name: Cohere
+  provider: workable
+  slug: cohere
+  source: discovered
+  added_at: '2026-09-26T17:17:27+00:00'
+  enabled: true
+- name: Confluent
+  provider: workable
+  slug: confluent
+  source: discovered
+  added_at: '2026-09-26T17:16:50+00:00'
+  enabled: true
+- name: Contentsquare
+  provider: workable
+  slug: contentsquare
+  source: discovered
+  added_at: '2026-09-26T17:15:35+00:00'
+  enabled: true
+- name: Cube Dev
+  provider: workable
+  slug: cube
+  source: discovered
+  added_at: '2026-09-26T17:33:08+00:00'
+  enabled: true
+- name: Datadog
+  provider: workable
+  slug: datadog
+  source: discovered
+  added_at: '2026-09-26T17:23:12+00:00'
+  enabled: true
+- name: Dataiku
+  provider: workable
+  slug: dataiku
+  source: discovered
+  added_at: '2026-09-26T17:15:36+00:00'
+  enabled: true
+- name: DataRobot
+  provider: workable
+  slug: datarobot
+  source: discovered
+  added_at: '2026-09-26T17:17:08+00:00'
+  enabled: true
+- name: Deel
+  provider: workable
+  slug: deel
+  source: discovered
+  added_at: '2026-09-26T17:20:50+00:00'
+  enabled: true
 - name: Doctolib
   provider: workable
   slug: doctolib
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
+  enabled: true
+- name: Elastic
+  provider: workable
+  slug: elastic
+  source: discovered
+  added_at: '2026-09-26T17:16:48+00:00'
+  enabled: true
+- name: Ergon Informatik
+  provider: workable
+  slug: ergon
+  source: discovered
+  added_at: '2026-09-26T17:18:09+00:00'
+  enabled: true
+- name: Explo
+  provider: workable
+  slug: explo
+  source: discovered
+  added_at: '2026-09-26T17:32:40+00:00'
+  enabled: true
+- name: Figma
+  provider: workable
+  slug: figma
+  source: discovered
+  added_at: '2026-09-26T17:16:41+00:00'
+  enabled: true
+- name: Fivetran
+  provider: workable
+  slug: fivetran
+  source: discovered
+  added_at: '2026-09-26T17:25:34+00:00'
+  enabled: true
+- name: Freshworks
+  provider: workable
+  slug: freshworks
+  source: discovered
+  added_at: '2026-09-26T17:20:48+00:00'
   enabled: true
 - name: Frontify
   provider: workable
@@ -239,11 +1175,59 @@ companies:
   source: curated
   added_at: '2026-09-25T04:42:11+00:00'
   enabled: true
+- name: FUJIFILM (Switzerland) AG
+  provider: workable
+  slug: fujifilm
+  source: zefix
+  added_at: '2026-09-26T17:44:12+00:00'
+  enabled: true
+- name: FullStory
+  provider: workable
+  slug: fullstory
+  source: discovered
+  added_at: '2026-09-26T17:23:34+00:00'
+  enabled: true
+- name: Gainsight
+  provider: workable
+  slug: gainsight
+  source: discovered
+  added_at: '2026-09-26T17:24:01+00:00'
+  enabled: true
 - name: GetYourGuide
   provider: workable
   slug: getyourguide
   source: curated
   added_at: '2026-09-24T20:20:53+00:00'
+  enabled: true
+- name: GitLab
+  provider: workable
+  slug: gitlab
+  source: discovered
+  added_at: '2026-09-26T17:16:38+00:00'
+  enabled: true
+- name: GoodData
+  provider: workable
+  slug: gooddata
+  source: discovered
+  added_at: '2026-09-26T17:18:31+00:00'
+  enabled: true
+- name: Grafana Labs
+  provider: workable
+  slug: grafana
+  source: discovered
+  added_at: '2026-09-26T17:23:08+00:00'
+  enabled: true
+- name: Gusto
+  provider: workable
+  slug: gusto
+  source: discovered
+  added_at: '2026-09-26T17:20:55+00:00'
+  enabled: true
+- name: HashiCorp
+  provider: workable
+  slug: hashicorp
+  source: discovered
+  added_at: '2026-09-26T17:16:52+00:00'
   enabled: true
 - name: HelloFresh
   provider: workable
@@ -251,11 +1235,95 @@ companies:
   source: curated
   added_at: '2026-09-24T20:20:41+00:00'
   enabled: true
+- name: Hex Technologies
+  provider: workable
+  slug: hex-technologies
+  source: discovered
+  added_at: '2026-09-26T17:32:45+00:00'
+  enabled: true
+- name: Holistics
+  provider: workable
+  slug: holistics
+  source: discovered
+  added_at: '2026-09-26T17:33:02+00:00'
+  enabled: true
+- name: Hugging Face
+  provider: workable
+  slug: huggingface
+  source: discovered
+  added_at: '2026-09-26T17:17:26+00:00'
+  enabled: true
+- name: Intercom
+  provider: workable
+  slug: intercom
+  source: discovered
+  added_at: '2026-09-26T17:20:47+00:00'
+  enabled: true
+- name: Klaviyo
+  provider: workable
+  slug: klaviyo
+  source: discovered
+  added_at: '2026-09-26T17:34:59+00:00'
+  enabled: true
+- name: Lightspeed
+  provider: workable
+  slug: lightspeed
+  source: discovered
+  added_at: '2026-09-26T17:21:12+00:00'
+  enabled: true
 - name: Logitech
   provider: workable
   slug: logitech
   source: curated
   added_at: '2026-09-24T20:28:05+00:00'
+  enabled: true
+- name: Make
+  provider: workable
+  slug: make
+  source: discovered
+  added_at: '2026-09-26T17:25:09+00:00'
+  enabled: true
+- name: Meilisearch
+  provider: workable
+  slug: meilisearch
+  source: discovered
+  added_at: '2026-09-26T17:21:47+00:00'
+  enabled: true
+- name: Mercury
+  provider: workable
+  slug: mercury
+  source: discovered
+  added_at: '2026-09-26T17:21:06+00:00'
+  enabled: true
+- name: Metabase
+  provider: workable
+  slug: metabase
+  source: discovered
+  added_at: '2026-09-26T17:18:30+00:00'
+  enabled: true
+- name: Miro
+  provider: workable
+  slug: miro
+  source: discovered
+  added_at: '2026-09-26T17:16:44+00:00'
+  enabled: true
+- name: Mode Analytics
+  provider: workable
+  slug: mode
+  source: discovered
+  added_at: '2026-09-26T17:32:52+00:00'
+  enabled: true
+- name: MongoDB
+  provider: workable
+  slug: mongodb
+  source: discovered
+  added_at: '2026-09-26T17:16:49+00:00'
+  enabled: true
+- name: MuleSoft
+  provider: workable
+  slug: mulesoft
+  source: discovered
+  added_at: '2026-09-26T17:25:21+00:00'
   enabled: true
 - name: N26
   provider: workable
@@ -263,11 +1331,95 @@ companies:
   source: curated
   added_at: '2026-09-24T20:16:03+00:00'
   enabled: true
+- name: n8n
+  provider: workable
+  slug: n8n
+  source: discovered
+  added_at: '2026-09-26T17:25:10+00:00'
+  enabled: true
+- name: Neon Switzerland
+  provider: workable
+  slug: neon
+  source: discovered
+  added_at: '2026-09-26T17:18:19+00:00'
+  enabled: true
+- name: Netcetera
+  provider: workable
+  slug: netcetera
+  source: discovered
+  added_at: '2026-09-26T17:18:02+00:00'
+  enabled: true
+- name: New Relic
+  provider: workable
+  slug: new-relic
+  source: discovered
+  added_at: '2026-09-26T17:23:24+00:00'
+  enabled: true
 - name: Nexthink
   provider: workable
   slug: nexthink
   source: curated
   added_at: '2026-09-24T22:21:41+00:00'
+  enabled: true
+- name: Notion
+  provider: workable
+  slug: notion
+  source: discovered
+  added_at: '2026-09-26T17:16:43+00:00'
+  enabled: true
+- name: Okta
+  provider: workable
+  slug: okta
+  source: discovered
+  added_at: '2026-09-26T17:16:56+00:00'
+  enabled: true
+- name: Paddle
+  provider: workable
+  slug: paddle
+  source: discovered
+  added_at: '2026-09-26T17:21:11+00:00'
+  enabled: true
+- name: PagerDuty
+  provider: workable
+  slug: pagerduty
+  source: discovered
+  added_at: '2026-09-26T17:23:11+00:00'
+  enabled: true
+- name: Pendo
+  provider: workable
+  slug: pendo
+  source: discovered
+  added_at: '2026-09-26T17:24:00+00:00'
+  enabled: true
+- name: Personio
+  provider: workable
+  slug: personio
+  source: discovered
+  added_at: '2026-09-26T17:20:49+00:00'
+  enabled: true
+- name: Plaid
+  provider: workable
+  slug: plaid
+  source: discovered
+  added_at: '2026-09-26T17:21:08+00:00'
+  enabled: true
+- name: Prefect
+  provider: workable
+  slug: prefect
+  source: discovered
+  added_at: '2026-09-26T17:26:00+00:00'
+  enabled: true
+- name: Presto
+  provider: workable
+  slug: presto
+  source: discovered
+  added_at: '2026-09-26T17:27:05+00:00'
+  enabled: true
+- name: Qdrant
+  provider: workable
+  slug: qdrant
+  source: discovered
+  added_at: '2026-09-26T17:21:59+00:00'
   enabled: true
 - name: Qonto
   provider: workable
@@ -275,11 +1427,53 @@ companies:
   source: curated
   added_at: '2026-09-24T20:23:13+00:00'
   enabled: true
+- name: Railway
+  provider: workable
+  slug: railway
+  source: discovered
+  added_at: '2026-09-26T17:22:42+00:00'
+  enabled: true
+- name: Recurly
+  provider: workable
+  slug: recurly
+  source: discovered
+  added_at: '2026-09-26T17:21:10+00:00'
+  enabled: true
+- name: Redpanda
+  provider: workable
+  slug: redpanda
+  source: discovered
+  added_at: '2026-09-26T17:26:30+00:00'
+  enabled: true
+- name: Render
+  provider: workable
+  slug: render
+  source: discovered
+  added_at: '2026-09-26T17:22:40+00:00'
+  enabled: true
 - name: Revolut
   provider: workable
   slug: revolut
   source: curated
   added_at: '2026-09-24T20:15:51+00:00'
+  enabled: true
+- name: Rippling
+  provider: workable
+  slug: rippling
+  source: discovered
+  added_at: '2026-09-26T17:20:54+00:00'
+  enabled: true
+- name: Runway
+  provider: workable
+  slug: runway
+  source: discovered
+  added_at: '2026-09-26T17:17:55+00:00'
+  enabled: true
+- name: Scale AI
+  provider: workable
+  slug: scale
+  source: discovered
+  added_at: '2026-09-26T17:17:15+00:00'
   enabled: true
 - name: Scandit
   provider: workable
@@ -287,11 +1481,47 @@ companies:
   source: curated
   added_at: '2026-09-24T20:24:40+00:00'
   enabled: true
+- name: Segment
+  provider: workable
+  slug: segment
+  source: discovered
+  added_at: '2026-09-26T17:16:58+00:00'
+  enabled: true
+- name: Sentry
+  provider: workable
+  slug: sentry
+  source: discovered
+  added_at: '2026-09-26T17:23:10+00:00'
+  enabled: true
+- name: Sigma Computing
+  provider: workable
+  slug: sigma-computing
+  source: discovered
+  added_at: '2026-09-26T17:18:25+00:00'
+  enabled: true
+- name: Sisense
+  provider: workable
+  slug: sisense
+  source: discovered
+  added_at: '2026-09-26T17:17:03+00:00'
+  enabled: true
+- name: Sisu Data
+  provider: workable
+  slug: sisu
+  source: discovered
+  added_at: '2026-09-26T17:32:39+00:00'
+  enabled: true
 - name: Smallpdf
   provider: workable
   slug: smallpdf
   source: curated
   added_at: '2026-09-24T22:22:46+00:00'
+  enabled: true
+- name: Soda Data
+  provider: workable
+  slug: soda
+  source: discovered
+  added_at: '2026-09-26T17:33:21+00:00'
   enabled: true
 - name: Squirro
   provider: workable
@@ -299,11 +1529,29 @@ companies:
   source: curated
   added_at: '2026-09-24T22:23:01+00:00'
   enabled: true
+- name: Stability AI
+  provider: workable
+  slug: stability
+  source: discovered
+  added_at: '2026-09-26T17:17:54+00:00'
+  enabled: true
+- name: Stripe
+  provider: workable
+  slug: stripe
+  source: discovered
+  added_at: '2026-09-26T17:16:47+00:00'
+  enabled: true
 - name: Temenos
   provider: workable
   slug: temenos
   source: curated
   added_at: '2026-09-24T20:27:37+00:00'
+  enabled: true
+- name: ThoughtSpot
+  provider: workable
+  slug: thoughtspot
+  source: discovered
+  added_at: '2026-09-26T17:17:02+00:00'
   enabled: true
 - name: TravelPerk
   provider: workable
@@ -311,17 +1559,53 @@ companies:
   source: curated
   added_at: '2026-09-24T20:24:14+00:00'
   enabled: true
+- name: Twilio
+  provider: workable
+  slug: twilio
+  source: discovered
+  added_at: '2026-09-26T17:16:58+00:00'
+  enabled: true
 - name: Typeform
   provider: workable
   slug: typeform
   source: curated
   added_at: '2026-09-24T20:24:26+00:00'
   enabled: true
+- name: UserTesting
+  provider: workable
+  slug: usertesting
+  source: discovered
+  added_at: '2026-09-26T17:24:02+00:00'
+  enabled: true
+- name: Whimsical
+  provider: workable
+  slug: whimsical
+  source: discovered
+  added_at: '2026-09-26T17:24:42+00:00'
+  enabled: true
+- name: Workato
+  provider: workable
+  slug: workato
+  source: discovered
+  added_at: '2026-09-26T17:25:11+00:00'
+  enabled: true
 - name: Zalando
   provider: workable
   slug: zalando
   source: curated
   added_at: '2026-09-24T20:19:38+00:00'
+  enabled: true
+- name: Zapier
+  provider: workable
+  slug: zapier
+  source: discovered
+  added_at: '2026-09-26T17:25:08+00:00'
+  enabled: true
+- name: Zendesk
+  provider: workable
+  slug: zendesk
+  source: discovered
+  added_at: '2026-09-26T17:20:46+00:00'
   enabled: true
 - name: NVIDIA
   provider: workday

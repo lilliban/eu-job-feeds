@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T23:24:09+00:00",
+  "generated_at": "2026-09-29T05:54:04+00:00",
   "company_count": 269,
-  "job_count": 25199,
-  "open_job_count": 21806,
+  "job_count": 25250,
+  "open_job_count": 21611,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -10,7 +10,7 @@
       "slug": "airbyte",
       "job_count": 12,
       "open_job_count": 12,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -19,7 +19,7 @@
       "slug": "airtable",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -28,7 +28,7 @@
       "slug": "alan",
       "job_count": 123,
       "open_job_count": 117,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -37,7 +37,7 @@
       "slug": "alephalpha",
       "job_count": 1,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -46,7 +46,7 @@
       "slug": "anomalo",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -55,7 +55,7 @@
       "slug": "astronomer",
       "job_count": 22,
       "open_job_count": 21,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -64,7 +64,7 @@
       "slug": "boomi",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -73,7 +73,7 @@
       "slug": "bubble",
       "job_count": 8,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -82,7 +82,7 @@
       "slug": "bynder",
       "job_count": 21,
       "open_job_count": 21,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -90,8 +90,8 @@
       "source_board": "ashby",
       "slug": "clickhouse",
       "job_count": 191,
-      "open_job_count": 191,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 186,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -100,7 +100,7 @@
       "slug": "cohere",
       "job_count": 148,
       "open_job_count": 145,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -108,8 +108,8 @@
       "source_board": "ashby",
       "slug": "confluent",
       "job_count": 20,
-      "open_job_count": 20,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 18,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -118,7 +118,7 @@
       "slug": "count",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -127,7 +127,7 @@
       "slug": "cube",
       "job_count": 16,
       "open_job_count": 15,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -136,7 +136,7 @@
       "slug": "deel",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -145,7 +145,7 @@
       "slug": "deepl",
       "job_count": 22,
       "open_job_count": 20,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -154,7 +154,7 @@
       "slug": "deepnote",
       "job_count": 3,
       "open_job_count": 3,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -163,7 +163,7 @@
       "slug": "doctolib",
       "job_count": 156,
       "open_job_count": 151,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -171,8 +171,8 @@
       "source_board": "ashby",
       "slug": "elevenlabs",
       "job_count": 207,
-      "open_job_count": 201,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 198,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -181,7 +181,7 @@
       "slug": "frontify",
       "job_count": 16,
       "open_job_count": 15,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -190,7 +190,7 @@
       "slug": "fullstory",
       "job_count": 7,
       "open_job_count": 7,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -199,7 +199,7 @@
       "slug": "gainsight",
       "job_count": 17,
       "open_job_count": 17,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -208,7 +208,7 @@
       "slug": "gooddata",
       "job_count": 5,
       "open_job_count": 5,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -217,7 +217,7 @@
       "slug": "hex",
       "job_count": 3,
       "open_job_count": 3,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -226,7 +226,7 @@
       "slug": "hightouch",
       "job_count": 1,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -235,7 +235,7 @@
       "slug": "launchdarkly",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -244,7 +244,7 @@
       "slug": "lightspeed",
       "job_count": 3,
       "open_job_count": 3,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -253,7 +253,7 @@
       "slug": "linear",
       "job_count": 30,
       "open_job_count": 30,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -262,7 +262,7 @@
       "slug": "loom",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -270,8 +270,8 @@
       "source_board": "ashby",
       "slug": "materialize",
       "job_count": 3,
-      "open_job_count": 3,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 2,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -280,7 +280,7 @@
       "slug": "mercury",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -289,7 +289,7 @@
       "slug": "miro",
       "job_count": 29,
       "open_job_count": 26,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -298,7 +298,7 @@
       "slug": "mollie",
       "job_count": 43,
       "open_job_count": 41,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -307,7 +307,7 @@
       "slug": "montecarlodata",
       "job_count": 4,
       "open_job_count": 4,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -316,7 +316,7 @@
       "slug": "n8n",
       "job_count": 36,
       "open_job_count": 35,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -325,7 +325,7 @@
       "slug": "neon",
       "job_count": 4,
       "open_job_count": 4,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -333,8 +333,8 @@
       "source_board": "ashby",
       "slug": "notion",
       "job_count": 131,
-      "open_job_count": 131,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 130,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -343,7 +343,7 @@
       "slug": "paddle",
       "job_count": 22,
       "open_job_count": 21,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -352,7 +352,7 @@
       "slug": "pinecone",
       "job_count": 7,
       "open_job_count": 7,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -360,8 +360,8 @@
       "source_board": "ashby",
       "slug": "plaid",
       "job_count": 124,
-      "open_job_count": 123,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 122,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -370,7 +370,7 @@
       "slug": "posthog",
       "job_count": 8,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -378,8 +378,8 @@
       "source_board": "ashby",
       "slug": "prefect",
       "job_count": 9,
-      "open_job_count": 9,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 8,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -387,8 +387,8 @@
       "source_board": "ashby",
       "slug": "qonto",
       "job_count": 42,
-      "open_job_count": 40,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 39,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -397,7 +397,7 @@
       "slug": "railway",
       "job_count": 8,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -405,8 +405,8 @@
       "source_board": "ashby",
       "slug": "ramp",
       "job_count": 215,
-      "open_job_count": 160,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 158,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -415,7 +415,7 @@
       "slug": "redis",
       "job_count": 29,
       "open_job_count": 29,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -424,7 +424,7 @@
       "slug": "render",
       "job_count": 40,
       "open_job_count": 40,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -433,7 +433,7 @@
       "slug": "runway",
       "job_count": 4,
       "open_job_count": 4,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -442,7 +442,7 @@
       "slug": "sentry",
       "job_count": 41,
       "open_job_count": 41,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -451,7 +451,7 @@
       "slug": "sisense",
       "job_count": 7,
       "open_job_count": 7,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -460,7 +460,7 @@
       "slug": "sisu",
       "job_count": 2,
       "open_job_count": 2,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -469,16 +469,16 @@
       "slug": "smallpdf",
       "job_count": 3,
       "open_job_count": 2,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Snowflake",
       "source_board": "ashby",
       "slug": "snowflake",
-      "job_count": 349,
-      "open_job_count": 348,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 350,
+      "open_job_count": 343,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -487,16 +487,16 @@
       "slug": "supabase",
       "job_count": 56,
       "open_job_count": 55,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Temporal",
       "source_board": "ashby",
       "slug": "temporal",
-      "job_count": 63,
+      "job_count": 64,
       "open_job_count": 63,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -505,7 +505,7 @@
       "slug": "vercel",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -514,7 +514,7 @@
       "slug": "weaviate",
       "job_count": 3,
       "open_job_count": 3,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -523,7 +523,7 @@
       "slug": "zapier",
       "job_count": 10,
       "open_job_count": 10,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -531,8 +531,8 @@
       "source_board": "greenhouse",
       "slug": "adyen",
       "job_count": 220,
-      "open_job_count": 211,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 206,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -540,8 +540,8 @@
       "source_board": "greenhouse",
       "slug": "airbnb",
       "job_count": 167,
-      "open_job_count": 167,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 159,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -550,7 +550,7 @@
       "slug": "airtable",
       "job_count": 3,
       "open_job_count": 3,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -559,7 +559,7 @@
       "slug": "algolia",
       "job_count": 35,
       "open_job_count": 34,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -567,8 +567,8 @@
       "source_board": "greenhouse",
       "slug": "amplitude",
       "job_count": 37,
-      "open_job_count": 37,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 0,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -576,8 +576,8 @@
       "source_board": "greenhouse",
       "slug": "asana",
       "job_count": 101,
-      "open_job_count": 101,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 97,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -585,8 +585,8 @@
       "source_board": "greenhouse",
       "slug": "attentive",
       "job_count": 33,
-      "open_job_count": 33,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 31,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -594,8 +594,8 @@
       "source_board": "greenhouse",
       "slug": "braze",
       "job_count": 342,
-      "open_job_count": 342,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 341,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -603,8 +603,8 @@
       "source_board": "greenhouse",
       "slug": "brex",
       "job_count": 264,
-      "open_job_count": 264,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 263,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -612,8 +612,8 @@
       "source_board": "greenhouse",
       "slug": "calendly",
       "job_count": 12,
-      "open_job_count": 12,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 11,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -622,7 +622,7 @@
       "slug": "celigo",
       "job_count": 24,
       "open_job_count": 24,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -630,17 +630,17 @@
       "source_board": "greenhouse",
       "slug": "celonis",
       "job_count": 262,
-      "open_job_count": 254,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 252,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Cloudflare",
       "source_board": "greenhouse",
       "slug": "cloudflare",
-      "job_count": 408,
-      "open_job_count": 404,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 409,
+      "open_job_count": 401,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -649,7 +649,7 @@
       "slug": "contentful",
       "job_count": 20,
       "open_job_count": 20,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -658,16 +658,16 @@
       "slug": "customerio",
       "job_count": 27,
       "open_job_count": 27,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Databricks",
       "source_board": "greenhouse",
       "slug": "databricks",
-      "job_count": 895,
-      "open_job_count": 890,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 896,
+      "open_job_count": 884,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -675,8 +675,8 @@
       "source_board": "greenhouse",
       "slug": "datadog",
       "job_count": 628,
-      "open_job_count": 442,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 438,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -685,7 +685,7 @@
       "slug": "dataiku",
       "job_count": 26,
       "open_job_count": 25,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -694,7 +694,7 @@
       "slug": "doctolib",
       "job_count": 159,
       "open_job_count": 154,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -703,7 +703,7 @@
       "slug": "dremio",
       "job_count": 7,
       "open_job_count": 7,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -711,8 +711,8 @@
       "source_board": "greenhouse",
       "slug": "elastic",
       "job_count": 392,
-      "open_job_count": 392,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 386,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -721,7 +721,7 @@
       "slug": "figma",
       "job_count": 166,
       "open_job_count": 165,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -729,8 +729,8 @@
       "source_board": "greenhouse",
       "slug": "fivetran",
       "job_count": 192,
-      "open_job_count": 190,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 189,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -739,7 +739,7 @@
       "slug": "getyourguide",
       "job_count": 55,
       "open_job_count": 53,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -747,8 +747,8 @@
       "source_board": "greenhouse",
       "slug": "gitlab",
       "job_count": 202,
-      "open_job_count": 200,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 199,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -756,26 +756,26 @@
       "source_board": "greenhouse",
       "slug": "grafanalabs",
       "job_count": 151,
-      "open_job_count": 143,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 134,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Gusto",
       "source_board": "greenhouse",
       "slug": "gusto",
-      "job_count": 97,
-      "open_job_count": 97,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 100,
+      "open_job_count": 98,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "HelloFresh",
       "source_board": "greenhouse",
       "slug": "hellofresh",
-      "job_count": 472,
-      "open_job_count": 444,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 473,
+      "open_job_count": 433,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -784,7 +784,7 @@
       "slug": "hextechnologies",
       "job_count": 37,
       "open_job_count": 37,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -792,8 +792,8 @@
       "source_board": "greenhouse",
       "slug": "hightouch",
       "job_count": 82,
-      "open_job_count": 82,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 81,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -802,7 +802,7 @@
       "slug": "hubspot",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -811,7 +811,7 @@
       "slug": "imply",
       "job_count": 5,
       "open_job_count": 5,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -819,8 +819,8 @@
       "source_board": "greenhouse",
       "slug": "intercom",
       "job_count": 115,
-      "open_job_count": 113,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 110,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -828,8 +828,8 @@
       "source_board": "greenhouse",
       "slug": "iterable",
       "job_count": 16,
-      "open_job_count": 15,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 14,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -838,7 +838,7 @@
       "slug": "klaviyo",
       "job_count": 149,
       "open_job_count": 148,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -847,7 +847,7 @@
       "slug": "labelbox",
       "job_count": 10,
       "open_job_count": 10,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -855,8 +855,8 @@
       "source_board": "greenhouse",
       "slug": "launchdarkly",
       "job_count": 57,
-      "open_job_count": 57,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 56,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -865,7 +865,7 @@
       "slug": "make",
       "job_count": 12,
       "open_job_count": 12,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -873,17 +873,17 @@
       "source_board": "greenhouse",
       "slug": "mercury",
       "job_count": 64,
-      "open_job_count": 64,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 63,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Mixpanel",
       "source_board": "greenhouse",
       "slug": "mixpanel",
-      "job_count": 77,
-      "open_job_count": 77,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 78,
+      "open_job_count": 72,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -891,8 +891,8 @@
       "source_board": "greenhouse",
       "slug": "mongodb",
       "job_count": 400,
-      "open_job_count": 399,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 398,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -900,8 +900,8 @@
       "source_board": "greenhouse",
       "slug": "n26",
       "job_count": 74,
-      "open_job_count": 63,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 58,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -910,25 +910,25 @@
       "slug": "neo4j",
       "job_count": 61,
       "open_job_count": 61,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "New Relic",
       "source_board": "greenhouse",
       "slug": "newrelic",
-      "job_count": 53,
-      "open_job_count": 51,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 55,
+      "open_job_count": 50,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Okta",
       "source_board": "greenhouse",
       "slug": "okta",
-      "job_count": 348,
-      "open_job_count": 345,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 350,
+      "open_job_count": 341,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -937,7 +937,7 @@
       "slug": "onrunning",
       "job_count": 251,
       "open_job_count": 244,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -946,7 +946,7 @@
       "slug": "pagerduty",
       "job_count": 52,
       "open_job_count": 52,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -955,7 +955,7 @@
       "slug": "pendo",
       "job_count": 22,
       "open_job_count": 22,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -964,7 +964,7 @@
       "slug": "planetscale",
       "job_count": 11,
       "open_job_count": 11,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -973,7 +973,7 @@
       "slug": "postscript",
       "job_count": 6,
       "open_job_count": 6,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -982,7 +982,7 @@
       "slug": "remotecom",
       "job_count": 167,
       "open_job_count": 167,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -990,8 +990,8 @@
       "source_board": "greenhouse",
       "slug": "scaleai",
       "job_count": 203,
-      "open_job_count": 202,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 200,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1000,7 +1000,7 @@
       "slug": "scandit",
       "job_count": 10,
       "open_job_count": 10,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1008,8 +1008,8 @@
       "source_board": "greenhouse",
       "slug": "sigmacomputing",
       "job_count": 67,
-      "open_job_count": 67,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 66,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1018,7 +1018,7 @@
       "slug": "squirro",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1027,7 +1027,7 @@
       "slug": "stabilityai",
       "job_count": 6,
       "open_job_count": 6,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1036,7 +1036,7 @@
       "slug": "starburst",
       "job_count": 30,
       "open_job_count": 30,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1045,16 +1045,16 @@
       "slug": "storyblok",
       "job_count": 10,
       "open_job_count": 10,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Stripe",
       "source_board": "greenhouse",
       "slug": "stripe",
-      "job_count": 714,
-      "open_job_count": 710,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 719,
+      "open_job_count": 708,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1062,8 +1062,8 @@
       "source_board": "greenhouse",
       "slug": "twilio",
       "job_count": 143,
-      "open_job_count": 143,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 135,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1071,8 +1071,8 @@
       "source_board": "greenhouse",
       "slug": "typeform",
       "job_count": 17,
-      "open_job_count": 17,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 16,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1081,7 +1081,7 @@
       "slug": "vercel",
       "job_count": 90,
       "open_job_count": 90,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1090,7 +1090,7 @@
       "slug": "webflow",
       "job_count": 27,
       "open_job_count": 27,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1098,8 +1098,8 @@
       "source_board": "greenhouse",
       "slug": "workato",
       "job_count": 73,
-      "open_job_count": 72,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 71,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1108,7 +1108,7 @@
       "slug": "yotpo",
       "job_count": 15,
       "open_job_count": 15,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1116,8 +1116,8 @@
       "source_board": "lever",
       "slug": "aleph",
       "job_count": 103,
-      "open_job_count": 102,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 101,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1126,16 +1126,16 @@
       "slug": "blablacar",
       "job_count": 14,
       "open_job_count": 14,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Contentsquare",
       "source_board": "lever",
       "slug": "contentsquare",
-      "job_count": 34,
-      "open_job_count": 31,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 35,
+      "open_job_count": 32,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1144,7 +1144,7 @@
       "slug": "freshworks",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1153,7 +1153,7 @@
       "slug": "frontify",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1162,7 +1162,7 @@
       "slug": "labelbox",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1171,7 +1171,7 @@
       "slug": "logrocket",
       "job_count": 8,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1180,7 +1180,7 @@
       "slug": "metabase",
       "job_count": 19,
       "open_job_count": 19,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1189,7 +1189,7 @@
       "slug": "mistral",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1198,7 +1198,7 @@
       "slug": "neon",
       "job_count": 12,
       "open_job_count": 12,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1207,7 +1207,7 @@
       "slug": "palantir",
       "job_count": 321,
       "open_job_count": 321,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1216,7 +1216,7 @@
       "slug": "pipedrive",
       "job_count": 8,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1225,7 +1225,7 @@
       "slug": "plaid",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1233,8 +1233,8 @@
       "source_board": "lever",
       "slug": "qonto",
       "job_count": 42,
-      "open_job_count": 40,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 39,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1242,8 +1242,8 @@
       "source_board": "lever",
       "slug": "spotify",
       "job_count": 162,
-      "open_job_count": 82,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 81,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1252,7 +1252,7 @@
       "slug": "personio",
       "job_count": 1,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1261,7 +1261,7 @@
       "slug": "channable",
       "job_count": 16,
       "open_job_count": 10,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1270,7 +1270,7 @@
       "slug": "climeworks",
       "job_count": 5,
       "open_job_count": 4,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1279,7 +1279,7 @@
       "slug": "deepl",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1288,7 +1288,7 @@
       "slug": "logrocket",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1297,7 +1297,7 @@
       "slug": "make",
       "job_count": 2,
       "open_job_count": 2,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1306,7 +1306,7 @@
       "slug": "personio",
       "job_count": 1,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1315,7 +1315,7 @@
       "slug": "sisu",
       "job_count": 126,
       "open_job_count": 124,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1324,25 +1324,25 @@
       "slug": "swisscom",
       "job_count": 15,
       "open_job_count": 15,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 7523,
-      "open_job_count": 4821,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 7548,
+      "open_job_count": 4801,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Canva",
       "source_board": "smartrecruiters",
       "slug": "canva",
-      "job_count": 199,
+      "job_count": 201,
       "open_job_count": 172,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1351,7 +1351,7 @@
       "slug": "crealogix",
       "job_count": 4,
       "open_job_count": 4,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1360,16 +1360,16 @@
       "slug": "dataiku",
       "job_count": 1,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1040,
-      "open_job_count": 979,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 1042,
+      "open_job_count": 974,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1378,7 +1378,7 @@
       "slug": "freshworks",
       "job_count": 128,
       "open_job_count": 125,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1387,7 +1387,7 @@
       "slug": "gainsight",
       "job_count": 1,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1396,7 +1396,7 @@
       "slug": "glean",
       "job_count": 1,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1405,7 +1405,7 @@
       "slug": "newrelic",
       "job_count": 3,
       "open_job_count": 3,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1413,8 +1413,8 @@
       "source_board": "smartrecruiters",
       "slug": "nexthink",
       "job_count": 90,
-      "open_job_count": 88,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 87,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1423,7 +1423,7 @@
       "slug": "palantir",
       "job_count": 10,
       "open_job_count": 10,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1432,7 +1432,7 @@
       "slug": "SmartRecruiters",
       "job_count": 9,
       "open_job_count": 1,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1441,16 +1441,16 @@
       "slug": "swissquote",
       "job_count": 40,
       "open_job_count": 40,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
       "company_name": "Wise",
       "source_board": "smartrecruiters",
       "slug": "wise",
-      "job_count": 451,
-      "open_job_count": 422,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "job_count": 454,
+      "open_job_count": 420,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1459,7 +1459,7 @@
       "slug": "workato",
       "job_count": 6,
       "open_job_count": 6,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1468,7 +1468,7 @@
       "slug": "adyen",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1477,7 +1477,7 @@
       "slug": "airbnb",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1486,7 +1486,7 @@
       "slug": "airbyte",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1495,7 +1495,7 @@
       "slug": "aleph",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1504,7 +1504,7 @@
       "slug": "algolia",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1513,7 +1513,7 @@
       "slug": "also",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1522,7 +1522,7 @@
       "slug": "alteryx",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1530,8 +1530,8 @@
       "source_board": "workable",
       "slug": "amazingcarecareers",
       "job_count": 347,
-      "open_job_count": 271,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "open_job_count": 267,
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1540,7 +1540,7 @@
       "slug": "asana",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1549,7 +1549,7 @@
       "slug": "blablacar",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1558,7 +1558,7 @@
       "slug": "bubble",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1567,7 +1567,7 @@
       "slug": "canva",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1576,7 +1576,7 @@
       "slug": "celigo",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1585,7 +1585,7 @@
       "slug": "celonis",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1594,7 +1594,7 @@
       "slug": "chargebee",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1603,7 +1603,7 @@
       "slug": "chartio",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1612,7 +1612,7 @@
       "slug": "climeworks",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1621,7 +1621,7 @@
       "slug": "cloudera",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1630,7 +1630,7 @@
       "slug": "cohere",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1639,7 +1639,7 @@
       "slug": "confluent",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1648,7 +1648,7 @@
       "slug": "contentsquare",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1657,7 +1657,7 @@
       "slug": "cube",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1666,7 +1666,7 @@
       "slug": "datadog",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1675,7 +1675,7 @@
       "slug": "dataiku",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1684,7 +1684,7 @@
       "slug": "datarobot",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1693,7 +1693,7 @@
       "slug": "deel",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1702,7 +1702,7 @@
       "slug": "doctolib",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1711,7 +1711,7 @@
       "slug": "elastic",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1720,7 +1720,7 @@
       "slug": "ergon",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1729,7 +1729,7 @@
       "slug": "explo",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1738,7 +1738,7 @@
       "slug": "figma",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1747,7 +1747,7 @@
       "slug": "fivetran",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1756,7 +1756,7 @@
       "slug": "freshworks",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1765,7 +1765,7 @@
       "slug": "frontify",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1774,7 +1774,7 @@
       "slug": "fujifilm",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1783,7 +1783,7 @@
       "slug": "fullstory",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1792,7 +1792,7 @@
       "slug": "gainsight",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1801,7 +1801,7 @@
       "slug": "getyourguide",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1810,7 +1810,7 @@
       "slug": "gitlab",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1819,7 +1819,7 @@
       "slug": "gooddata",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1828,7 +1828,7 @@
       "slug": "grafana",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1837,7 +1837,7 @@
       "slug": "gusto",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1846,7 +1846,7 @@
       "slug": "hashicorp",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1855,7 +1855,7 @@
       "slug": "hellofresh",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1864,7 +1864,7 @@
       "slug": "hex-technologies",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1873,7 +1873,7 @@
       "slug": "holistics",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1882,7 +1882,7 @@
       "slug": "huggingface",
       "job_count": 8,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1891,7 +1891,7 @@
       "slug": "intercom",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1900,7 +1900,7 @@
       "slug": "klaviyo",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1909,7 +1909,7 @@
       "slug": "lightspeed",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1918,7 +1918,7 @@
       "slug": "logitech",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1927,7 +1927,7 @@
       "slug": "make",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1936,7 +1936,7 @@
       "slug": "meilisearch",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1945,7 +1945,7 @@
       "slug": "mercury",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1954,7 +1954,7 @@
       "slug": "metabase",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1963,7 +1963,7 @@
       "slug": "miro",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1972,7 +1972,7 @@
       "slug": "mode",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1981,7 +1981,7 @@
       "slug": "mongodb",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1990,7 +1990,7 @@
       "slug": "mulesoft",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -1999,7 +1999,7 @@
       "slug": "n26",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2008,7 +2008,7 @@
       "slug": "n8n",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2017,7 +2017,7 @@
       "slug": "neon",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2026,7 +2026,7 @@
       "slug": "netcetera",
       "job_count": 8,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2035,7 +2035,7 @@
       "slug": "new-relic",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2044,7 +2044,7 @@
       "slug": "nexthink",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2053,7 +2053,7 @@
       "slug": "notion",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2062,7 +2062,7 @@
       "slug": "okta",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2071,7 +2071,7 @@
       "slug": "paddle",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2080,7 +2080,7 @@
       "slug": "pagerduty",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2089,7 +2089,7 @@
       "slug": "pendo",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2098,7 +2098,7 @@
       "slug": "personio",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2107,7 +2107,7 @@
       "slug": "plaid",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2116,7 +2116,7 @@
       "slug": "prefect",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2125,7 +2125,7 @@
       "slug": "presto",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2134,7 +2134,7 @@
       "slug": "qdrant",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2143,7 +2143,7 @@
       "slug": "qonto",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2152,7 +2152,7 @@
       "slug": "railway",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2161,7 +2161,7 @@
       "slug": "recurly",
       "job_count": 9,
       "open_job_count": 8,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2170,7 +2170,7 @@
       "slug": "redpanda",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2179,7 +2179,7 @@
       "slug": "render",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2188,7 +2188,7 @@
       "slug": "revolut",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2197,7 +2197,7 @@
       "slug": "rippling",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2206,7 +2206,7 @@
       "slug": "runway",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2215,7 +2215,7 @@
       "slug": "scale",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2224,7 +2224,7 @@
       "slug": "scandit",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2233,7 +2233,7 @@
       "slug": "segment",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2242,7 +2242,7 @@
       "slug": "sentry",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2251,7 +2251,7 @@
       "slug": "sigma-computing",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2260,7 +2260,7 @@
       "slug": "sisense",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2269,7 +2269,7 @@
       "slug": "sisu",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2278,7 +2278,7 @@
       "slug": "smallpdf",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2287,7 +2287,7 @@
       "slug": "soda",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2296,7 +2296,7 @@
       "slug": "squirro",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2305,7 +2305,7 @@
       "slug": "stability",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2314,7 +2314,7 @@
       "slug": "stripe",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2323,7 +2323,7 @@
       "slug": "temenos",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2332,7 +2332,7 @@
       "slug": "thoughtspot",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2341,7 +2341,7 @@
       "slug": "travelperk",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2350,7 +2350,7 @@
       "slug": "twilio",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2359,7 +2359,7 @@
       "slug": "typeform",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2368,7 +2368,7 @@
       "slug": "usertesting",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2377,7 +2377,7 @@
       "slug": "whimsical",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2386,7 +2386,7 @@
       "slug": "workato",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2395,7 +2395,7 @@
       "slug": "zalando",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2404,7 +2404,7 @@
       "slug": "zapier",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2413,7 +2413,7 @@
       "slug": "zendesk",
       "job_count": 0,
       "open_job_count": 0,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": true
     },
     {
@@ -2422,7 +2422,7 @@
       "slug": "nvidia",
       "job_count": 3237,
       "open_job_count": 3237,
-      "updated_at": "2026-09-28T00:00:00+00:00",
+      "updated_at": "2026-09-29T00:00:00+00:00",
       "last_read_complete": false
     }
   ]

@@ -1,0 +1,33 @@
+name: Tests
+
+on:
+  push:
+    # The data commits come from the collector four times a day and cannot
+    # change the code, so running the suite on them would only burn minutes.
+    paths-ignore:
+      - "data/**"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install
+        run: pip install -e ".[dev]"
+
+      - name: Run the suite
+        # Offline by design: every fixture is a captured real response, so the
+        # suite never depends on a provider being up.
+        run: python -m pytest -q

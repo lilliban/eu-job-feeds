@@ -1,0 +1,63 @@
+name: Sync Zefix companies
+
+# Weekly. Zefix itself refreshes daily, but a full pull is ~543k rows over
+# ~109 SPARQL pages — pointless to repeat more often than the discovery batch
+# can work through anyway. See docs/DECISIONS.md #19.
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: zefix-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Download the previous Zefix snapshot from the "latest" release
+        run: |
+          mkdir -p state
+          if gh release view latest --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release download latest --repo "$GITHUB_REPOSITORY" \
+              --pattern 'zefix.sqlite.gz' --dir state --clobber || true
+            if [ -f state/zefix.sqlite.gz ]; then
+              gzip -dk -f state/zefix.sqlite.gz
+            fi
+          else
+            echo "No 'latest' release yet; starting with an empty snapshot."
+          fi
+
+      - name: Pull active AG/SA and GmbH/Sagl companies from Zefix
+        run: python -m eu_job_feeds.cli zefix-sync
+
+      - name: Publish the updated snapshot to the "latest" release
+        run: |
+          if gh release view latest --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload latest state/zefix.sqlite.gz \
+              --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create latest state/zefix.sqlite.gz \
+              --repo "$GITHUB_REPOSITORY" --title "Latest dataset" \
+              --notes "Continuously updated. See docs/DECISIONS.md #18 and #19." \
+              --target "${GITHUB_REF_NAME}"
+          fi

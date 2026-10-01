@@ -1,0 +1,335 @@
+"""Command line entry point.
+
+    eu-job-feeds update              read every registered company
+    eu-job-feeds update --only greenhouse:datadog
+    eu-job-feeds discover "Some Company"
+    eu-job-feeds probe greenhouse datadog
+    eu-job-feeds validate            check the dataset against the contract
+    eu-job-feeds stats               field coverage, honestly measured
+    eu-job-feeds zefix-sync          pull active AG/GmbH companies from Zefix
+    eu-job-feeds zefix-discover      probe the next batch for an ATS board
+"""
+
+from __future__ import annotations
+
+import argparse
+import asyncio
+import logging
+import os
+import sys
+from pathlib import Path
+
+from . import sqlite_store, zefix, zefix_store
+from .connectors import CONNECTORS, PROVIDERS
+from .discovery import candidate_slugs, discover, load_negative_cache, save_negative_cache
+from .http import RateLimitedClient
+from .models import FIELD_ORDER, JobPosting, utcnow_iso
+from .pipeline import run_update
+from .registry import CompanyEntry, Registry, load_registry, save_registry
+from .store import DATA_DIR
+
+log = logging.getLogger("eu_job_feeds")
+
+
+def _configure_logging(verbose: bool) -> None:
+    logging.basicConfig(
+        level=logging.DEBUG if verbose else logging.INFO,
+        format="%(levelname)-7s %(name)s: %(message)s",
+        stream=sys.stderr,
+    )
+
+
+def _filter_registry(registry: Registry, only: list[str] | None) -> Registry:
+    """Narrow the registry to `provider` or `provider:slug` selectors."""
+    if not only:
+        return registry
+    wanted = set(only)
+    kept = [
+        entry
+        for entry in registry.companies
+        if entry.provider in wanted or f"{entry.provider}:{entry.key}" in wanted
+    ]
+    if not kept:
+        raise SystemExit(f"no registry entry matches {', '.join(only)}")
+    return Registry(companies=kept)
+
+
+async def _cmd_update(args: argparse.Namespace) -> int:
+    registry = _filter_registry(load_registry(Path(args.registry)), args.only)
+    db_path = Path(args.db)
+    summary = await run_update(
+        registry, data_dir=Path(args.data_dir), db_path=db_path, concurrency=args.concurrency
+    )
+    sqlite_store.compress(db_path)
+
+    report = summary.as_markdown()
+    print(report)
+
+    # GitHub Actions renders this on the job page.
+    step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if step_summary:
+        with open(step_summary, "a", encoding="utf-8") as handle:
+            handle.write(report)
+
+    # A provider failing is not a reason to fail the job: the point of the
+    # `complete` flag is that a bad read changes nothing. It is reported, loudly.
+    return 0
+
+
+async def _cmd_discover(args: argparse.Namespace) -> int:
+    cache = load_negative_cache(Path(args.cache))
+    cache.purge_expired()
+    registry = load_registry(Path(args.registry))
+
+    async with RateLimitedClient() as client:
+        for company in args.company:
+            hits = await discover(
+                client,
+                company,
+                cache=cache,
+                slugs=args.slug or None,
+                providers=args.provider or None,
+            )
+            if not hits:
+                print(f"{company}: no public ATS board found")
+                continue
+            for hit in hits:
+                marker = "?" if hit.result.value == "ambiguous" else "+"
+                print(f"{marker} {company}: {hit.provider}/{hit.slug} ({hit.result.value})")
+                if hit.result.value == "ambiguous":
+                    # SmartRecruiters cannot prove a company exists. A person has
+                    # to confirm before this becomes a registry entry.
+                    print("    needs a human: this provider cannot confirm the slug")
+                    continue
+                if args.write:
+                    added = registry.upsert(
+                        CompanyEntry(
+                            name=company,
+                            provider=hit.provider,
+                            slug=hit.slug,
+                            source="discovered",
+                        )
+                    )
+                    if added:
+                        print(f"    added to {args.registry}")
+
+    if args.write:
+        save_registry(registry, Path(args.registry))
+    save_negative_cache(cache, Path(args.cache))
+    return 0
+
+
+async def _cmd_zefix_sync(args: argparse.Namespace) -> int:
+    """Pull every active AG/SA and GmbH/Sagl from Zefix; upsert the snapshot."""
+    zefix_db = Path(args.zefix_db)
+    async with RateLimitedClient() as client:
+        companies = {company.uid: company async for company in zefix.fetch_all(client)}
+
+    stats = zefix_store.write_snapshot(companies, zefix_db, at=utcnow_iso())
+    sqlite_store.compress(zefix_db)
+    print(
+        f"zefix-sync: {len(companies)} aziende attive (AG/SA + GmbH/Sagl) — "
+        f"+{stats.added} nuove, -{stats.removed} non più attive, {stats.unchanged} invariate"
+    )
+    return 0
+
+
+def _already_known(registry: Registry, legal_name: str) -> bool:
+    """True if `legal_name` (or an obvious slug match) is already registered.
+
+    Not a full fuzzy match — an exact name match, or a candidate slug
+    (`discovery.candidate_slugs`, the same guesses `discover()` itself would
+    try) that already belongs to a registry entry. Good enough to skip
+    re-probing companies already curated by hand or found in a prior batch;
+    misses are not costly, since `discover()` would find nothing new either.
+    """
+    normalized = legal_name.strip().lower()
+    if any(entry.name.strip().lower() == normalized for entry in registry.companies):
+        return True
+    candidates = {slug.lower() for slug in candidate_slugs(legal_name)}
+    return any(entry.key.lower() in candidates for entry in registry.companies)
+
+
+async def _cmd_zefix_discover(args: argparse.Namespace) -> int:
+    """Probe the next batch of not-yet-tried Zefix companies for an ATS board."""
+    zefix_db = Path(args.zefix_db)
+    registry = load_registry(Path(args.registry))
+    cache = load_negative_cache(Path(args.cache))
+    cache.purge_expired()
+
+    batch = zefix_store.next_batch(zefix_db, size=args.batch_size)
+    if not batch:
+        print("zefix-discover: nothing pending in the queue")
+        return 0
+
+    processed_uids: list[str] = []
+    already_known = added = ambiguous = 0
+    async with RateLimitedClient() as client:
+        for company in batch:
+            processed_uids.append(company.uid)
+            if _already_known(registry, company.legal_name):
+                already_known += 1
+                continue
+            safe_slugs = zefix.safe_candidate_slugs(company.legal_name)
+            for hit in await discover(client, company.legal_name, cache=cache, slugs=safe_slugs):
+                if hit.result.value == "ambiguous":
+                    ambiguous += 1
+                    continue
+                if registry.upsert(
+                    CompanyEntry(
+                        name=company.legal_name,
+                        provider=hit.provider,
+                        slug=hit.slug,
+                        source="zefix",
+                    )
+                ):
+                    added += 1
+
+    zefix_store.mark_processed(zefix_db, processed_uids, at=utcnow_iso())
+    save_registry(registry, Path(args.registry))
+    save_negative_cache(cache, Path(args.cache))
+    sqlite_store.compress(zefix_db)
+
+    queue = zefix_store.queue_stats(zefix_db)
+    print(
+        f"zefix-discover: {len(batch)} processate ({already_known} già note, "
+        f"{added} aggiunte, {ambiguous} ambigue) — coda: {queue['pending']} in attesa "
+        f"su {queue['total']}"
+    )
+    return 0
+
+
+async def _cmd_probe(args: argparse.Namespace) -> int:
+    connector = CONNECTORS.get(args.provider)
+    if connector is None:
+        raise SystemExit(f"unknown provider {args.provider!r}; known: {', '.join(CONNECTORS)}")
+    async with RateLimitedClient() as client:
+        result = await connector.probe(client, args.slug)
+        print(f"{args.provider}/{args.slug}: {result.value}")
+        if args.fetch:
+            outcome = await connector.fetch(client, args.slug)
+            print(
+                f"  complete={outcome.complete} jobs={len(outcome.jobs)} "
+                f"error={outcome.error}"
+            )
+    return 0
+
+
+def _cmd_validate(args: argparse.Namespace) -> int:
+    """Re-parse every stored posting against the model. Non-zero on any failure."""
+    problems = 0
+    checked = 0
+
+    for (provider, slug), postings in sqlite_store.load_all(Path(args.db)).items():
+        for posting in postings:
+            checked += 1
+            missing = [
+                f for f in ("content_hash", "title", "company_name", "source_url")
+                if not getattr(posting, f)
+            ]
+            if missing:
+                print(f"{provider}/{slug}: posting missing required values: {', '.join(missing)}")
+                problems += 1
+
+    print(f"validated {checked} postings; {problems} problem(s)")
+    return 1 if problems else 0
+
+
+def _cmd_stats(args: argparse.Namespace) -> int:
+    """Field coverage across the dataset, per provider.
+
+    Prints what is actually there, so the README can be written from measurement
+    rather than from hope.
+    """
+    per_provider: dict[str, list[JobPosting]] = {}
+    for (provider, _slug), postings in sqlite_store.load_all(Path(args.db)).items():
+        per_provider.setdefault(provider, []).extend(postings)
+
+    if not per_provider:
+        print("no data on disk yet; run `update` first")
+        return 0
+
+    fields = [f for f in FIELD_ORDER if f not in {"content_hash", "source_kind", "first_seen_at", "last_seen_at", "consecutive_misses", "is_closed", "external_id"}]
+    width = max(len(f) for f in fields)
+    for provider in sorted(per_provider):
+        postings = per_provider[provider]
+        print(f"\n{provider}  ({len(postings)} postings)")
+        for field_name in fields:
+            filled = sum(
+                1 for p in postings if getattr(p, field_name) not in (None, "", [])
+            )
+            pct = 100 * filled // len(postings)
+            bar = "#" * (pct // 5)
+            print(f"  {field_name:<{width}}  {pct:3d}%  {bar}")
+    return 0
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(prog="eu-job-feeds", description=__doc__)
+    parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("--registry", default="registry/companies.yaml")
+    parser.add_argument("--data-dir", default=str(DATA_DIR))
+    parser.add_argument("--db", default=str(sqlite_store.DB_PATH), help="postings database")
+    parser.add_argument(
+        "--zefix-db", default=str(zefix_store.DB_PATH), help="Zefix snapshot/queue database"
+    )
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    update = sub.add_parser("update", help="read every registered company and write changes")
+    update.add_argument(
+        "--only",
+        action="append",
+        metavar="PROVIDER[:SLUG]",
+        help="restrict to a provider or a single company; repeatable",
+    )
+    update.add_argument("--concurrency", type=int, default=6)
+
+    disc = sub.add_parser("discover", help="find which board a company is on")
+    disc.add_argument("company", nargs="+")
+    disc.add_argument("--slug", action="append", help="try this exact slug instead of guessing")
+    disc.add_argument("--provider", action="append", choices=list(CONNECTORS))
+    disc.add_argument("--write", action="store_true", help="add hits to the registry")
+    disc.add_argument("--cache", default="registry/negative.json")
+
+    probe = sub.add_parser("probe", help="check one provider/slug pair")
+    probe.add_argument("provider", choices=list(CONNECTORS))
+    probe.add_argument("slug")
+    probe.add_argument("--fetch", action="store_true", help="also fetch and count postings")
+
+    sub.add_parser("validate", help="check the stored dataset against the contract")
+    sub.add_parser("stats", help="field coverage per provider")
+
+    sub.add_parser("zefix-sync", help="pull active AG/SA and GmbH/Sagl companies from Zefix")
+
+    zdisc = sub.add_parser(
+        "zefix-discover", help="probe the next batch of Zefix companies for an ATS board"
+    )
+    zdisc.add_argument("--batch-size", type=int, default=200)
+    zdisc.add_argument("--cache", default="registry/negative.json")
+
+    return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+    _configure_logging(args.verbose)
+
+    if args.command == "update":
+        return asyncio.run(_cmd_update(args))
+    if args.command == "discover":
+        return asyncio.run(_cmd_discover(args))
+    if args.command == "probe":
+        return asyncio.run(_cmd_probe(args))
+    if args.command == "validate":
+        return _cmd_validate(args)
+    if args.command == "stats":
+        return _cmd_stats(args)
+    if args.command == "zefix-sync":
+        return asyncio.run(_cmd_zefix_sync(args))
+    if args.command == "zefix-discover":
+        return asyncio.run(_cmd_zefix_discover(args))
+    raise SystemExit(f"unknown command {args.command!r}")
+
+
+if __name__ == "__main__":
+    sys.exit(main())

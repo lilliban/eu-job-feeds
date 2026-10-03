@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T11:45:37+00:00",
+  "generated_at": "2026-10-03T16:27:23+00:00",
   "company_count": 269,
-  "job_count": 26878,
-  "open_job_count": 21289,
+  "job_count": 26884,
+  "open_job_count": 21293,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -99,7 +99,7 @@
       "source_board": "ashby",
       "slug": "cohere",
       "job_count": 152,
-      "open_job_count": 136,
+      "open_job_count": 137,
       "updated_at": "2026-10-03T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -171,7 +171,7 @@
       "source_board": "ashby",
       "slug": "elevenlabs",
       "job_count": 212,
-      "open_job_count": 170,
+      "open_job_count": 169,
       "updated_at": "2026-10-03T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -665,7 +665,7 @@
       "company_name": "Databricks",
       "source_board": "greenhouse",
       "slug": "databricks",
-      "job_count": 943,
+      "job_count": 944,
       "open_job_count": 886,
       "updated_at": "2026-10-03T00:00:00+00:00",
       "last_read_complete": true
@@ -1053,7 +1053,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 775,
-      "open_job_count": 715,
+      "open_job_count": 716,
       "updated_at": "2026-10-03T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1062,7 +1062,7 @@
       "source_board": "greenhouse",
       "slug": "twilio",
       "job_count": 161,
-      "open_job_count": 126,
+      "open_job_count": 125,
       "updated_at": "2026-10-03T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1115,8 +1115,8 @@
       "company_name": "Aleph Alpha",
       "source_board": "lever",
       "slug": "aleph",
-      "job_count": 116,
-      "open_job_count": 102,
+      "job_count": 119,
+      "open_job_count": 105,
       "updated_at": "2026-10-03T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1331,8 +1331,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 7996,
-      "open_job_count": 4825,
+      "job_count": 7998,
+      "open_job_count": 4826,
       "updated_at": "2026-10-03T00:00:00+00:00",
       "last_read_complete": true
     },

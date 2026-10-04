@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T06:02:07+00:00",
+  "generated_at": "2026-10-04T12:28:12+00:00",
   "company_count": 269,
-  "job_count": 26887,
-  "open_job_count": 21291,
+  "job_count": 26895,
+  "open_job_count": 21297,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -171,7 +171,7 @@
       "source_board": "ashby",
       "slug": "elevenlabs",
       "job_count": 212,
-      "open_job_count": 169,
+      "open_job_count": 171,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -666,7 +666,7 @@
       "source_board": "greenhouse",
       "slug": "databricks",
       "job_count": 944,
-      "open_job_count": 886,
+      "open_job_count": 887,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -675,7 +675,7 @@
       "source_board": "greenhouse",
       "slug": "datadog",
       "job_count": 660,
-      "open_job_count": 445,
+      "open_job_count": 444,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -711,7 +711,7 @@
       "source_board": "greenhouse",
       "slug": "elastic",
       "job_count": 419,
-      "open_job_count": 394,
+      "open_job_count": 392,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -774,7 +774,7 @@
       "source_board": "greenhouse",
       "slug": "hellofresh",
       "job_count": 524,
-      "open_job_count": 424,
+      "open_job_count": 422,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1331,8 +1331,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 7998,
-      "open_job_count": 4825,
+      "job_count": 7999,
+      "open_job_count": 4826,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1367,8 +1367,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1171,
-      "open_job_count": 971,
+      "job_count": 1177,
+      "open_job_count": 977,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1448,8 +1448,8 @@
       "company_name": "Wise",
       "source_board": "smartrecruiters",
       "slug": "wise",
-      "job_count": 547,
-      "open_job_count": 409,
+      "job_count": 548,
+      "open_job_count": 410,
       "updated_at": "2026-10-04T00:00:00+00:00",
       "last_read_complete": true
     },

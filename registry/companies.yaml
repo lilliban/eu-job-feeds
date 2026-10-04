@@ -899,12 +899,6 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:15:24+00:00'
   enabled: true
-- name: Jaeger-LeCoultre
-  provider: recruitee
-  slug: jaeger
-  source: discovered
-  added_at: '2026-09-27T08:10:35+00:00'
-  enabled: true
 - name: Kuoni
   provider: recruitee
   slug: kuoni
@@ -928,12 +922,6 @@ companies:
   slug: personio
   source: discovered
   added_at: '2026-09-26T17:20:49+00:00'
-  enabled: true
-- name: Sisu Data
-  provider: recruitee
-  slug: sisu
-  source: discovered
-  added_at: '2026-09-26T17:32:39+00:00'
   enabled: true
 - name: Swisscom
   provider: recruitee
@@ -1097,12 +1085,6 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:21:46+00:00'
   enabled: true
-- name: ALSO Holding AG
-  provider: workable
-  slug: also
-  source: zefix
-  added_at: '2026-09-26T17:45:46+00:00'
-  enabled: true
 - name: Alteryx
   provider: workable
   slug: alteryx
@@ -1258,12 +1240,6 @@ companies:
   slug: doctolib
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
-  enabled: true
-- name: EFG International
-  provider: workable
-  slug: efg
-  source: discovered
-  added_at: '2026-09-27T08:33:39+00:00'
   enabled: true
 - name: Elastic
   provider: workable

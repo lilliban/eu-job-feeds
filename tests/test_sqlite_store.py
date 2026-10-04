@@ -48,6 +48,14 @@ class TestRoundTrip:
         loaded = load_all(db_path)[("greenhouse", "acme")]
         assert loaded[0].languages == ["en", "de"]
 
+    def test_tags_round_trip_as_a_list(self, tmp_path: Path) -> None:
+        db_path = tmp_path / "jobs.sqlite"
+        jobs = [posting("1", tags=["python", "senior"])]
+        write_database([CompanyPostings("greenhouse", "acme", jobs)], db_path)
+
+        loaded = load_all(db_path)[("greenhouse", "acme")]
+        assert loaded[0].tags == ["python", "senior"]
+
     def test_is_closed_round_trips_as_a_bool(self, tmp_path: Path) -> None:
         db_path = tmp_path / "jobs.sqlite"
         jobs = [posting("1", is_closed=True)]

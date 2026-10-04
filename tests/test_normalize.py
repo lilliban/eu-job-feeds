@@ -229,8 +229,8 @@ class TestBuildPosting:
             "content_hash", "title", "company_name", "source_url", "source_board",
             "source_kind", "description", "requirements_raw", "location",
             "contract_type", "contract_type_norm", "work_mode", "seniority",
-            "department", "min_years_exp", "max_years_exp", "languages", "city",
-            "country_code", "salary_min", "salary_max", "salary_currency",
+            "department", "min_years_exp", "max_years_exp", "languages", "tags",
+            "city", "country_code", "salary_min", "salary_max", "salary_currency",
             "posted_date", "first_seen_at", "last_seen_at", "consecutive_misses",
             "is_closed",
         }
@@ -238,3 +238,13 @@ class TestBuildPosting:
 
     def test_source_kind_is_always_ats(self) -> None:
         assert build_posting(self.base_raw(), company_name="Acme").source_kind == "ats"
+
+    def test_tags_pass_through_verbatim(self) -> None:
+        """Only Recruitee sets this; everywhere else it stays the empty default."""
+        raw = self.base_raw(tags=["python", "remote-friendly"])
+        posting = build_posting(raw, company_name="Acme")
+        assert posting.tags == ["python", "remote-friendly"]
+
+    def test_no_tags_from_the_provider_is_an_empty_list_not_none(self) -> None:
+        posting = build_posting(self.base_raw(), company_name="Acme")
+        assert posting.tags == []

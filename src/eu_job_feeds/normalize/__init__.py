@@ -20,6 +20,7 @@ from .classify import (
     normalize_contract_type,
     normalize_work_mode,
 )
+from .dates import normalize_posted_date
 from .experience import extract_years, parse_structured_range
 from .languages import extract_languages
 from .location import normalize_country_code, split_location
@@ -34,6 +35,7 @@ __all__ = [
     "infer_work_mode",
     "normalize_contract_type",
     "normalize_country_code",
+    "normalize_posted_date",
     "normalize_work_mode",
     "parse_structured_range",
     "split_location",
@@ -116,12 +118,13 @@ def build_posting(
         min_years_exp=min_years,
         max_years_exp=max_years,
         languages=extract_languages(requirements, description),
+        tags=raw.tags,
         city=clean_text(city),
         country_code=country,
         salary_min=salary_min,
         salary_max=salary_max,
         salary_currency=currency,
-        posted_date=raw.posted_date,
+        posted_date=normalize_posted_date(raw.posted_date),
         first_seen_at=now,
         last_seen_at=now,
         consecutive_misses=0,

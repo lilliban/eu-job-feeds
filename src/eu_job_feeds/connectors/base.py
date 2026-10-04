@@ -73,6 +73,20 @@ class Connector(ABC):
             return ProbeResult.FOUND
         return ProbeResult.AMBIGUOUS
 
+    def account_name(self, payload: object) -> str | None:
+        """The company display name the provider itself reports, if any.
+
+        Only Greenhouse-family responses never carry one; Workable, Recruitee
+        and SmartRecruiters do (see their own overrides). Used to verify an
+        automatically-discovered slug actually belongs to the company it was
+        guessed for, not just to seed a registry entry — see
+        docs/DECISIONS.md #19, second addendum, where `cube`/`ergon`/`soda`
+        turned out to answer for unrelated companies despite a FOUND probe.
+        The default is "no signal available", not "no name" — callers must
+        treat `None` as *unverifiable*, never as a mismatch.
+        """
+        return None
+
     # -- helpers shared by subclasses -------------------------------------
 
     def _ok(self, slug: str, jobs: list[RawJob]) -> FetchOutcome:

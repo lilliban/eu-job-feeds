@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -185,3 +186,54 @@ async def discover(
             # ERROR: nothing was learned, so nothing is recorded.
 
     return hits
+
+
+def _significant_words(name: str) -> set[str]:
+    return {w for w in re.sub(r"[^a-z0-9\s]", " ", name.lower()).split() if w}
+
+
+def names_plausibly_match(expected: str, actual: str) -> bool:
+    """Whether a provider-reported display name is consistent with the
+    company a slug was guessed for.
+
+    Asymmetric on purpose: a provider's own name is often a shortened form of
+    the legal name ("Aleph" for "Aleph Alpha"), so every word of `actual` must
+    appear in `expected` — not the other way round. A word in `actual` that
+    `expected` does not have ("CUBE Edu Services Pte Ltd" has "edu",
+    "services", "pte", "ltd" that "Cube Dev" does not) is the signal that the
+    slug landed on an unrelated company — confirmed on real data: of 10
+    `source="discovered"` entries re-checked a week after being added, this
+    rule would have caught both confirmed mismatches (see docs/DECISIONS.md
+    #19, second addendum).
+    """
+    actual_words = _significant_words(actual)
+    expected_words = _significant_words(expected)
+    if not actual_words or not expected_words:
+        return True  # nothing to compare; absence of data is not a mismatch
+    return actual_words <= expected_words
+
+
+async def verify_name(
+    client: RateLimitedClient, provider: str, slug: str, expected_name: str
+) -> bool | None:
+    """Fetch the board and check its reported name against `expected_name`.
+
+    Returns `None` — not a verdict — when the provider carries no name at all
+    (Ashby, Lever: `Connector.account_name` returns `None` unconditionally)
+    or the fetch itself fails. Callers must treat `None` as *unverifiable*,
+    never as confirmation. Costs one extra request, only for a slug already
+    confirmed `FOUND`, so this never runs against the bulk of misses.
+    """
+    connector = CONNECTORS.get(provider)
+    if connector is None:
+        return None
+    try:
+        status, payload = await client.get_json(connector.list_url(slug))
+    except Exception:
+        return None
+    if status != 200:
+        return None
+    actual = connector.account_name(payload)
+    if actual is None:
+        return None
+    return names_plausibly_match(expected_name, actual)

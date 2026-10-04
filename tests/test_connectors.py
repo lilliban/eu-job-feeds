@@ -36,6 +36,12 @@ class TestGreenhouse:
         assert job.location
         assert job.department
 
+    def test_account_name_is_unsupported(self) -> None:
+        """The base `Connector.account_name` default: `None` means "no
+        signal", never a mismatch — Greenhouse's list response carries no
+        company name at all to verify against."""
+        assert GreenhouseConnector().account_name({"jobs": []}) is None
+
     async def test_content_is_entity_escaped(self) -> None:
         """Greenhouse sends `&lt;p&gt;`, which must survive to readable text."""
         client = FakeClient({"boards-api.greenhouse.io": (200, load_fixture("greenhouse_datadog.json"))})
@@ -143,6 +149,34 @@ class TestRecruitee:
         assert "T" in outcome.jobs[0].posted_date
         assert outcome.jobs[0].posted_date.endswith("+00:00")
 
+    async def test_account_name_reads_the_first_offer(self) -> None:
+        import json
+
+        payload = json.loads(load_fixture("recruitee_channable.json"))
+        assert RecruiteeConnector().account_name(payload) == payload["offers"][0]["company_name"]
+
+    async def test_account_name_is_none_with_no_offers(self) -> None:
+        assert RecruiteeConnector().account_name({"offers": []}) is None
+
+    async def test_tags_are_carried_through_verbatim(self) -> None:
+        """The only provider of the seven with a genuinely structured tag
+        field — `offers[].tags` — never derived from free text."""
+        client = FakeClient({
+            "recruitee.com": (
+                200,
+                '{"offers": [{"id": 1, "title": "Engineer", "status": "published", '
+                '"careers_url": "https://x.recruitee.com/o/engineer", '
+                '"tags": ["python", "remote-friendly"]}]}',
+            )
+        })
+        outcome = await RecruiteeConnector().fetch(client, "acme")
+        assert outcome.jobs[0].tags == ["python", "remote-friendly"]
+
+    async def test_a_missing_tags_field_is_an_empty_list(self) -> None:
+        client = FakeClient({"recruitee.com": (200, load_fixture("recruitee_channable.json"))})
+        outcome = await RecruiteeConnector().fetch(client, "channable")
+        assert outcome.jobs[0].tags == []
+
 
 class TestWorkable:
     async def test_details_query_returns_bodies(self) -> None:
@@ -172,6 +206,12 @@ class TestWorkable:
     async def test_live_account_with_no_roles_is_found(self) -> None:
         client = FakeClient({"apply.workable.com": (200, '{"name":"Deliveroo","jobs":[]}')})
         assert (await WorkableConnector().probe(client, "deliveroo")).value == "found"
+
+    def test_account_name_reads_the_top_level_name(self) -> None:
+        assert WorkableConnector().account_name({"name": "Deliveroo", "jobs": []}) == "Deliveroo"
+
+    def test_account_name_is_none_without_one(self) -> None:
+        assert WorkableConnector().account_name({"jobs": []}) is None
 
 
 class TestSmartRecruiters:
@@ -222,6 +262,15 @@ class TestSmartRecruiters:
         outcome = await SmartRecruitersConnector().fetch(client, "acme")
         assert outcome.complete is False
         assert "50" in outcome.error
+
+    def test_account_name_reads_the_first_postings_company(self) -> None:
+        import json
+
+        payload = json.loads(load_fixture("smartrecruiters_list.json"))
+        assert SmartRecruitersConnector().account_name(payload) == payload["content"][0]["company"]["name"]
+
+    def test_account_name_is_none_with_no_postings(self) -> None:
+        assert SmartRecruitersConnector().account_name({"content": []}) is None
 
 
 class TestWorkday:

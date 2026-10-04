@@ -123,6 +123,22 @@ class SmartRecruitersConnector(Connector):
         # indistinguishable here. Never cache this as "not found".
         return ProbeResult.AMBIGUOUS
 
+    def account_name(self, payload: object) -> str | None:
+        """`company.name` lives on each posting, not at the top level — an
+        account with zero postings has nothing to read it from (which is
+        exactly the AMBIGUOUS case above, so this is only ever useful for a
+        confirmed FOUND slug)."""
+        if not isinstance(payload, dict):
+            return None
+        content = payload.get("content")
+        if not isinstance(content, list) or not content or not isinstance(content[0], dict):
+            return None
+        company = content[0].get("company")
+        if not isinstance(company, dict):
+            return None
+        name = company.get("name")
+        return name.strip() if isinstance(name, str) and name.strip() else None
+
     async def _add_detail(self, client: RateLimitedClient, slug: str, job: RawJob) -> None:
         """Fill in the advert text. A failure here leaves the posting textless."""
         try:

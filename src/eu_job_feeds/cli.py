@@ -21,7 +21,7 @@ from pathlib import Path
 
 from . import sqlite_store, zefix, zefix_store
 from .connectors import CONNECTORS, PROVIDERS
-from .discovery import candidate_slugs, discover, load_negative_cache, save_negative_cache
+from .discovery import candidate_slugs, discover, load_negative_cache, save_negative_cache, verify_name
 from .http import RateLimitedClient
 from .models import FIELD_ORDER, JobPosting, utcnow_iso
 from .pipeline import run_update
@@ -163,7 +163,7 @@ async def _cmd_zefix_discover(args: argparse.Namespace) -> int:
         return 0
 
     processed_uids: list[str] = []
-    already_known = added = ambiguous = 0
+    already_known = added = ambiguous = rejected = 0
     async with RateLimitedClient() as client:
         for company in batch:
             processed_uids.append(company.uid)
@@ -174,6 +174,21 @@ async def _cmd_zefix_discover(args: argparse.Namespace) -> int:
             for hit in await discover(client, company.legal_name, cache=cache, slugs=safe_slugs):
                 if hit.result.value == "ambiguous":
                     ambiguous += 1
+                    continue
+                # One more check before this goes into the registry unreviewed:
+                # does the provider's own reported name actually match? `None`
+                # means the provider gives no name (Ashby, Lever) — proceed as
+                # before, since there is nothing to check against. `False` is a
+                # confirmed mismatch (docs/DECISIONS.md #19, second addendum —
+                # "cube"/"ergon"/"soda" all passed the slug guess but answered
+                # for unrelated companies) and the hit is dropped, not added.
+                verdict = await verify_name(client, hit.provider, hit.slug, company.legal_name)
+                if verdict is False:
+                    rejected += 1
+                    log.info(
+                        "%s/%s: rejected for %r, provider's own name does not match",
+                        hit.provider, hit.slug, company.legal_name,
+                    )
                     continue
                 if registry.upsert(
                     CompanyEntry(
@@ -193,8 +208,8 @@ async def _cmd_zefix_discover(args: argparse.Namespace) -> int:
     queue = zefix_store.queue_stats(zefix_db)
     print(
         f"zefix-discover: {len(batch)} processate ({already_known} già note, "
-        f"{added} aggiunte, {ambiguous} ambigue) — coda: {queue['pending']} in attesa "
-        f"su {queue['total']}"
+        f"{added} aggiunte, {ambiguous} ambigue, {rejected} scartate per nome non "
+        f"corrispondente) — coda: {queue['pending']} in attesa su {queue['total']}"
     )
     return 0
 

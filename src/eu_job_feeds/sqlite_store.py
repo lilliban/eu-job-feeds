@@ -36,7 +36,7 @@ _INTEGER_FIELDS = {"min_years_exp", "max_years_exp", "salary_min", "salary_max"}
 #: Integer columns that are never null (`is_closed` stored as 0/1).
 _ZERO_DEFAULT_INT_FIELDS = {"consecutive_misses", "is_closed"}
 #: Stored as a JSON-encoded string; SQLite has no array type.
-_JSON_FIELDS = {"languages"}
+_JSON_FIELDS = {"languages", "tags"}
 #: Mirrors the fields `JobPosting` never leaves blank.
 _NOT_NULL_FIELDS = {
     "content_hash", "title", "company_name", "source_url", "source_board",

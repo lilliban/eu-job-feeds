@@ -8,6 +8,7 @@ ever written down.
 
 from __future__ import annotations
 
+import json
 from datetime import datetime, timedelta, timezone
 
 import pytest
@@ -18,8 +19,12 @@ from eu_job_feeds.discovery import (
     candidate_slugs,
     discover,
     load_negative_cache,
+    names_plausibly_match,
     save_negative_cache,
+    verify_name,
 )
+
+from .conftest import FakeClient
 
 NOW = datetime(2026, 8, 2, tzinfo=timezone.utc)
 
@@ -181,3 +186,49 @@ class TestDiscover:
 
         assert [h.result.value for h in hits] == ["ambiguous"]
         assert cache.is_known_absent("smartrecruiters", "acme") is False
+
+
+class TestNamesPlausiblyMatch:
+    """docs/DECISIONS.md #19, second addendum: of 10 auto-added entries
+    re-checked a week later, 3 turned out to answer for an unrelated
+    company. This rule is the regression test for exactly that failure."""
+
+    def test_an_abbreviated_but_consistent_name_matches(self) -> None:
+        assert names_plausibly_match("Aleph Alpha", "Aleph") is True
+
+    def test_an_unrelated_company_does_not_match(self) -> None:
+        """The real "Cube Dev" false positive: workable/cube answered for
+        "CUBE Edu Services Pte Ltd"."""
+        assert names_plausibly_match("Cube Dev", "CUBE Edu Services Pte Ltd") is False
+
+    def test_an_exact_match_is_a_match(self) -> None:
+        assert names_plausibly_match("Grafana Labs", "Grafana Labs") is True
+
+    def test_missing_data_on_either_side_is_not_a_mismatch(self) -> None:
+        assert names_plausibly_match("Cube Dev", "") is True
+        assert names_plausibly_match("", "Cube Dev") is True
+
+
+class TestVerifyName:
+    async def test_a_consistent_name_verifies(self) -> None:
+        client = FakeClient({"apply.workable.com": (200, json.dumps({"name": "Aleph", "jobs": []}))})
+        assert await verify_name(client, "workable", "aleph", "Aleph Alpha") is True
+
+    async def test_an_inconsistent_name_is_rejected(self) -> None:
+        client = FakeClient({
+            "apply.workable.com": (200, json.dumps({"name": "CUBE Edu Services Pte Ltd", "jobs": []}))
+        })
+        assert await verify_name(client, "workable", "cube", "Cube Dev") is False
+
+    async def test_a_provider_without_a_name_field_is_unverifiable(self) -> None:
+        """Ashby's `account_name` always returns `None` — this must read as
+        "cannot check", never as a silent pass or a rejection."""
+        client = FakeClient({"api.ashbyhq.com": (200, json.dumps({"jobs": [], "apiVersion": "1"}))})
+        assert await verify_name(client, "ashby", "whatever", "Whatever Inc") is None
+
+    async def test_an_unknown_provider_is_unverifiable(self) -> None:
+        assert await verify_name(None, "not-a-real-provider", "x", "X") is None
+
+    async def test_a_failed_fetch_is_unverifiable_not_rejected(self) -> None:
+        client = FakeClient({"apply.workable.com": (500, "")})
+        assert await verify_name(client, "workable", "x", "X") is None

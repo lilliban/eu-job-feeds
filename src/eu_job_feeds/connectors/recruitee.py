@@ -95,6 +95,17 @@ class RecruiteeConnector(Connector):
             return ProbeResult.FOUND
         return ProbeResult.ERROR
 
+    def account_name(self, payload: object) -> str | None:
+        """`company_name` lives on each offer, not at the top level — an
+        account with zero offers has nothing to read it from."""
+        if not isinstance(payload, dict):
+            return None
+        offers = payload.get("offers")
+        if not isinstance(offers, list) or not offers or not isinstance(offers[0], dict):
+            return None
+        name = offers[0].get("company_name")
+        return name.strip() if isinstance(name, str) and name.strip() else None
+
     def _parse(self, entry: object, slug: str) -> RawJob | None:
         if not isinstance(entry, dict):
             return None
@@ -122,6 +133,9 @@ class RecruiteeConnector(Connector):
 
         salary_min, salary_max, currency = self._salary(entry.get("salary"))
 
+        tags_raw = entry.get("tags")
+        tags = [t for t in tags_raw if isinstance(t, str) and t.strip()] if isinstance(tags_raw, list) else []
+
         return RawJob(
             provider=self.provider,
             external_id=str(job_id),
@@ -148,6 +162,7 @@ class RecruiteeConnector(Connector):
             salary_min_hint=salary_min,
             salary_max_hint=salary_max,
             salary_currency_hint=currency,
+            tags=tags,
         )
 
     def _salary(self, raw: object) -> tuple[int | None, int | None, str | None]:

@@ -620,3 +620,98 @@ batch size from 200 to 100, since Personio's 3s-per-request floor
 generalizes: a `timeout-minutes` picked before measurement is a guess, and
 an unmonitored scheduled workflow can fail silently and completely, 100% of
 the time, for as long as nobody checks its run history.
+
+---
+
+## 20. `posted_date` is truncated to `YYYY-MM-DD`; `country_code` needed no change
+
+**Context.** job_matcher asked for two things, both framed the right way: only
+capture what the ATS already provides as structured data, never derive or
+guess. Audited both against every connector's real payload rather than
+assumed.
+
+**`country_code`.** Already structured-first everywhere it can be:
+Ashby reads `address.postalAddress.addressCountry` ("USA"), Lever reads
+`entry.country`, Recruitee reads `entry.country_code`, SmartRecruiters reads
+`location.country` ("pl"), Workable reads `locations[].countryCode`, Workday
+reads `country.descriptor` from the detail call (subject to the same
+per-run detail budget as advert text, #7). `normalize_country_code` already
+accepts ISO-2, ISO-3, and country names in several languages, so whatever
+shape a provider sends is handled. **Greenhouse and Personio have no country
+field anywhere in their public payloads** — confirmed by reading their actual
+JSON/XML, not assumed — so for these two, `split_location` on the free-text
+`location` string remains the only source, same as before. No code to write:
+the request was already satisfied for every provider that has the data.
+
+**`posted_date`.** Also already read from a structured field by every
+connector — never derived from free text — but passed through verbatim, and
+providers disagree on shape: Workable sends a bare date (`2026-07-13`), most
+others a full ISO 8601 datetime (`2026-07-14T08:29:20.852Z`), Lever an epoch
+in milliseconds that its own connector already converts to ISO 8601. A
+consumer filtering "postings from the last N days" had to handle several
+shapes for what is conceptually one value.
+
+**Decision.** Add `normalize.dates.normalize_posted_date`, called once in
+`build_posting`: takes the leading `YYYY-MM-DD` off whatever ISO-shaped
+string the connector produced. A value that does not start with a date is
+dropped to `None` rather than passed through — same reasoning as #15: a field
+whose contract promises `YYYY-MM-DD` is worse off holding something else than
+holding nothing. This only ever reformats a value already sourced from
+structured data; it invents nothing a connector did not already read from the
+ATS.
+
+**Consequences.** `posted_date` values written from this point on are always
+exactly `YYYY-MM-DD` or `None` — never a value with a time component, never a
+provider-specific shape. Postings already on record keep whatever timestamp
+shape they were written with until the next read refreshes them (`build_posting`
+runs on every fetch, so steady state converges within the lifecycle's normal
+two-miss window at worst). No connector or RawJob field changed — this is
+purely a normalisation step, consistent with "regex over text is the
+fallback, never the first resort" from the brief: here, the data was never
+textual guessing to begin with, only unformatted.
+
+---
+
+## 21. `tags` is new; only Recruitee fills it, and it is not called "skills"
+
+**Context.** job_matcher's third request: a structured skills list, when the
+ATS exposes one as tags rather than only inside free-text requirements, so a
+skill-match query can run without an LLM call where the data already allows
+it. Checked every connector's real payload for anything tag- or skill-shaped,
+not assumed.
+
+**What is actually there.** Only **Recruitee** has a genuinely structured,
+always-present field for this: `offers[].tags`, a plain list of strings.
+Greenhouse has `metadata`, a company-configured custom-field list (already
+used for `contract_type` via its "Time Type" entry) — some companies *could*
+add a field named "Skills" there, but nothing marks any entry as meaning
+that; detecting one by matching likely names ("Skills", "Tech Stack",
+"Required Skills", ...) would be exactly the kind of guessing the request
+asked not to do, since a false match would misreport an unrelated custom
+field as skills. Lever's `categories` (commitment/department/location/team),
+Personio's `occupation`/`occupationCategory`, and Workable's `function`/
+`industry` are job-classification fields, not skills lists. Ashby, SmartRecruiters
+and Workday expose nothing comparable in their list or detail payloads.
+
+**Decision.** Add `tags: list[str]` to `RawJob` and `JobPosting` (schema
+addition, same basis as `external_id` in #4 — the contract permits new
+fields). Populated only by `RecruiteeConnector`, straight from `offers[].tags`,
+filtered to non-empty strings. Every other connector leaves it at the default
+empty list — no custom-field name-matching anywhere.
+
+**Deliberately not called `skills`.** Recruitee's `tags` is a general-purpose
+label a company can use however it wants — diversity flags, urgency
+markers, internal routing codes, as well as skills. Naming the field `skills`
+would assert a meaning the source does not guarantee, the same category of
+error the second addendum to #19 is about (trusting a signal further than it
+actually supports). The field is named for what it verifiably is — the ATS's
+own tags, verbatim — and a consumer still has to decide whether a given
+tag reads as a skill; that judgment is exactly what this field cannot make
+for them, and no provider's data lets it be made automatically today.
+
+**Consequences.** `tags` is `[]` for the large majority of postings (six of
+seven providers never set it, and it is empty for untagged Recruitee offers
+too) — not a shortfall to fix, since nothing exists to read for the others.
+Any future provider found to expose a real, unambiguously-named skills field
+should populate this same field, not a new one, keeping one shape for "the
+ATS's own structured tags" across providers.

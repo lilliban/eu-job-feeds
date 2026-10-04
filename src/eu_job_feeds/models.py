@@ -35,6 +35,7 @@ FIELD_ORDER: tuple[str, ...] = (
     "min_years_exp",
     "max_years_exp",
     "languages",
+    "tags",
     "city",
     "country_code",
     "salary_min",
@@ -102,6 +103,12 @@ class JobPosting(BaseModel):
     min_years_exp: int | None = None
     max_years_exp: int | None = None
     languages: list[str] = Field(default_factory=list)
+    #: The ATS's own tags for this posting, verbatim — not a skills extraction.
+    #: Only Recruitee exposes a genuinely structured field for this
+    #: (`offers[].tags`); everywhere else it stays empty rather than guessed
+    #: from free text. See docs/DECISIONS.md #21: usage is company-controlled
+    #: and not guaranteed to mean "required skills" even where populated.
+    tags: list[str] = Field(default_factory=list)
     city: str | None = None
     country_code: str | None = None
     salary_min: int | None = None
@@ -160,6 +167,10 @@ class RawJob(BaseModel):
     contract_type: str | None = None
     seniority: str | None = None
     posted_date: str | None = None
+    #: The ATS's own structured tags, verbatim. Only set where a provider
+    #: genuinely exposes one (Recruitee's `offers[].tags`) — never derived
+    #: from free text.
+    tags: list[str] = Field(default_factory=list)
 
     # Structured hints the ATS already provides. Preferred over regex when set,
     # per the normalisation cost order: provider JSON > regex > nothing.

@@ -24,7 +24,13 @@ permissions:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Every scheduled run for a week was silently killed at almost exactly
+    # 45:00 (confirmed via the Actions run history: all 7 show "cancelled").
+    # Personio's 3s-per-request throttle (docs/DECISIONS.md #13) dominates the
+    # cost of a 200-company batch; the default batch size was lowered to 100
+    # (see cli.py) and this limit raised, so a slow day still finishes with
+    # margin instead of silently discarding the whole batch's progress.
+    timeout-minutes: 60
 
     env:
       GH_TOKEN: ${{ github.token }}

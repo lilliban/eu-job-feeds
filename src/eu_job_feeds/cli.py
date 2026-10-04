@@ -304,7 +304,10 @@ def build_parser() -> argparse.ArgumentParser:
     zdisc = sub.add_parser(
         "zefix-discover", help="probe the next batch of Zefix companies for an ATS board"
     )
-    zdisc.add_argument("--batch-size", type=int, default=200)
+    # 200 was the original guess; measured live it pushed a run past the
+    # workflow's timeout on Personio's 3s-per-request throttle alone (every
+    # scheduled run for a week was killed, see .github/workflows/zefix-discover.yml).
+    zdisc.add_argument("--batch-size", type=int, default=100)
     zdisc.add_argument("--cache", default="registry/negative.json")
 
     return parser

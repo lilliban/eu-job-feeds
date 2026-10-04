@@ -18,7 +18,12 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Measured live: a full pull of ~543k rows over ~109 SPARQL pages takes
+    # ~50 minutes. The original 30-minute limit was picked before that
+    # measurement existed, and every scheduled run was silently killed by it
+    # for a week (confirmed via the Actions run history: every run shows
+    # "cancelled" at almost exactly 30:00). 90 minutes leaves real margin.
+    timeout-minutes: 90
 
     env:
       GH_TOKEN: ${{ github.token }}

@@ -31,11 +31,18 @@ jobs:
 
       - name: Build the snapshot
         id: snapshot
+        # Built under state/, which is gitignored: anything written at the
+        # repo root here would otherwise be picked up by the collapse step's
+        # `git add -A` and committed into the squashed tree — which is
+        # exactly what happened before this comment existed (a 40 MB
+        # `jobs.sqlite.gz` and this tarball both ended up committed; see
+        # docs/DECISIONS.md #19, second addendum).
         run: |
+          mkdir -p state
           stamp=$(date -u +%Y-%m)
           echo "stamp=$stamp" >> "$GITHUB_OUTPUT"
-          tar -czf "eu-job-feeds-${stamp}.tar.gz" data registry
-          echo "Snapshot size: $(du -h eu-job-feeds-${stamp}.tar.gz | cut -f1)"
+          tar -czf "state/eu-job-feeds-${stamp}.tar.gz" data registry
+          echo "Snapshot size: $(du -h state/eu-job-feeds-${stamp}.tar.gz | cut -f1)"
 
       - name: Publish the snapshot as a Release
         # This is what makes the history disposable: the data is still
@@ -49,7 +56,7 @@ jobs:
             branch history was collapsed to a single commit. The postings
             themselves (`jobs.sqlite.gz`, if attached below) come from the
             `latest` release — see docs/DECISIONS.md #18.
-          files: eu-job-feeds-${{ steps.snapshot.outputs.stamp }}.tar.gz
+          files: state/eu-job-feeds-${{ steps.snapshot.outputs.stamp }}.tar.gz
 
       - name: Attach the current jobs.sqlite.gz to this snapshot, if available
         # `data/` now holds only index.json; the postings live in `jobs.sqlite`
@@ -58,9 +65,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          mkdir -p state
           if gh release download latest --repo "$GITHUB_REPOSITORY" \
-              --pattern 'jobs.sqlite.gz' --dir . --clobber; then
-            gh release upload "snapshot-${{ steps.snapshot.outputs.stamp }}" jobs.sqlite.gz \
+              --pattern 'jobs.sqlite.gz' --dir state --clobber; then
+            gh release upload "snapshot-${{ steps.snapshot.outputs.stamp }}" state/jobs.sqlite.gz \
               --repo "$GITHUB_REPOSITORY" --clobber
           else
             echo "No 'latest' release yet; snapshot has no jobs.sqlite.gz."

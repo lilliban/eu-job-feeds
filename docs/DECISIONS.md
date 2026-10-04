@@ -580,3 +580,43 @@ processed and will not be retried by `zefix-discover` again, but remains
 reachable through a manual `eu-job-feeds discover "Company Name"` (a human
 reviews the hit before it is added) or through a later phase that resolves a
 company to its actual domain instead of guessing from its name.
+
+**Second addendum: `safe_candidate_slugs` still collides, and the first
+production week ran neither workflow at all.** Two further things, both
+measured, not assumed.
+
+First, dropping the bare-first-word fallback narrows the risk but does not
+remove it: `safe_candidate_slugs` still tries the whole name squashed
+together, and a short, common first name can still produce a short, common
+slug on its own. Verified live against Workable (which, uniquely among the
+providers, echoes a company's own display name back — `WorkableConnector.
+account_name`, unused until now): of 10 `source="discovered"` entries
+re-checked a week after being added, 7 were correct (`Aleph Alpha` ->
+`"Aleph"`, `Grafana Labs` -> `"Grafana"`, etc.) and **3 were wrong** —
+`workable/cube` (added for "Cube Dev") answers for "CUBE Edu Services Pte
+Ltd"; `workable/ergon` (added for "Ergon Informatik") answers for "ERGON
+FOODS"; `workable/soda` (added for "Soda Data") very likely answers for an
+unrelated "SoDA". A 30% error rate on this small, reverified sample is a
+real number, not a worst case to round down from. The other ~10 risky
+entries live at the time (Ashby, Lever, Recruitee, SmartRecruiters) are not
+yet checkable this way — none of those providers' list endpoints return a
+company display name, so confirming them needs a different signal, not yet
+built.
+
+Second, `zefix-sync.yml` (`timeout-minutes: 30`) and `zefix-discover.yml`
+(`timeout-minutes: 45`) were given time limits picked before either had ever
+been run for real. The actual first full Zefix pull took 49m47s; every
+scheduled `zefix-sync` run in its first week (2 of 2) and every scheduled
+`zefix-discover` run (7 of 7) was silently killed by its own timeout,
+confirmed from the Actions run history by each run's wall-clock duration
+landing within seconds of its configured limit. Because the timeout fires
+mid-job, neither the registry commit nor the snapshot re-upload step was
+ever reached — so the batch's probing work was also thrown away each time,
+not merely delayed, and the Zefix discovery queue made zero measured
+progress in its first week in production. Fixed by raising both limits with
+real margin (90 and 60 minutes) and lowering `zefix-discover`'s default
+batch size from 200 to 100, since Personio's 3s-per-request floor
+(decision #13) was the dominant cost at the old batch size. The lesson
+generalizes: a `timeout-minutes` picked before measurement is a guess, and
+an unmonitored scheduled workflow can fail silently and completely, 100% of
+the time, for as long as nobody checks its run history.

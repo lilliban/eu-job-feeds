@@ -621,6 +621,23 @@ generalizes: a `timeout-minutes` picked before measurement is a guess, and
 an unmonitored scheduled workflow can fail silently and completely, 100% of
 the time, for as long as nobody checks its run history.
 
+**Third addendum: round-hour cron schedules did not fire at all.** The day
+after the timeout fix shipped, neither `zefix-sync.yml` (`cron: "0 4 * * 1"`)
+nor `zefix-discover.yml`'s nearby `"30 5 * * *"` produced a run by 90+
+minutes past their scheduled time — not cancelled, not queued, simply never
+triggered. GitHub's own documentation already warns that schedules landing
+on a round hour or half-hour are the most congested and the most likely to
+be delayed or silently dropped; `update.yml`'s existing `"17 */6 * * *"`
+(minute 17, never changed from the project's first commit) was already
+avoiding this, and its run history backs that up — a 100% fire rate across
+40+ scheduled runs, against zero fires for either Zefix schedule on their
+first opportunity after the timeout fix. Moved both, and `prune-history.yml`
+(also on the hour), to arbitrary off-peak minutes. The lesson: a schedule
+that looks reasonable can be silently unreliable for a structural reason
+with nothing to do with this project's own code, and `update.yml` already
+contained the fix as a convention nobody had written down or carried over
+to the workflows added after it.
+
 ---
 
 ## 20. `posted_date` is truncated to `YYYY-MM-DD`; `country_code` needed no change

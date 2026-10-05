@@ -6,7 +6,10 @@ name: Discover Zefix companies
 # time of day than update.yml so the two don't add up.
 on:
   schedule:
-    - cron: "30 5 * * *"
+    # ":30" is still a popular minute and GitHub's own docs warn those are
+    # more likely to be delayed or skipped than an arbitrary offset — see
+    # zefix-sync.yml for what this cost in practice.
+    - cron: "47 5 * * *"
   workflow_dispatch:
     inputs:
       batch_size:

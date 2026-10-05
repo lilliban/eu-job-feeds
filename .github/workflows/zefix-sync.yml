@@ -5,7 +5,12 @@ name: Sync Zefix companies
 # can work through anyway. See docs/DECISIONS.md #19.
 on:
   schedule:
-    - cron: "0 4 * * 1"
+    # Not ":00" — GitHub's own docs warn that round-hour schedules are the
+    # most congested and most likely to be delayed or skipped. Confirmed:
+    # neither this nor prune-history.yml (also on the hour) fired at all on
+    # their first scheduled occurrence after this file existed, while
+    # update.yml's minute-17 schedule has a 100% fire rate across 40+ runs.
+    - cron: "43 4 * * 1"
   workflow_dispatch:
 
 concurrency:

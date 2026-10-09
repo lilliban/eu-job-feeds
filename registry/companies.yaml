@@ -533,6 +533,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:23:08+00:00'
   enabled: true
+- name: Grassi AG
+  provider: greenhouse
+  slug: grassi
+  source: zefix
+  added_at: '2026-10-09T12:09:24+00:00'
+  enabled: true
 - name: Gusto
   provider: greenhouse
   slug: gusto
@@ -790,6 +796,12 @@ companies:
   slug: blablacar
   source: curated
   added_at: '2026-09-24T20:23:27+00:00'
+  enabled: true
+- name: Clari AG
+  provider: lever
+  slug: clari
+  source: zefix
+  added_at: '2026-10-09T12:13:11+00:00'
   enabled: true
 - name: Contentsquare
   provider: lever
@@ -1199,6 +1211,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:27:35+00:00'
   enabled: true
+- name: CMS Consulting GmbH
+  provider: workable
+  slug: cms-consulting
+  source: zefix
+  added_at: '2026-10-09T12:27:27+00:00'
+  enabled: true
 - name: Cohere
   provider: workable
   slug: cohere
@@ -1600,6 +1618,12 @@ companies:
   slug: omega
   source: discovered
   added_at: '2026-09-27T08:10:06+00:00'
+  enabled: true
+- name: Paca AG
+  provider: workable
+  slug: paca
+  source: zefix
+  added_at: '2026-10-09T12:18:07+00:00'
   enabled: true
 - name: Paddle
   provider: workable

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T12:43:05+00:00",
+  "generated_at": "2026-10-10T21:53:59+00:00",
   "company_count": 336,
-  "job_count": 25386,
-  "open_job_count": 22934,
+  "job_count": 25393,
+  "open_job_count": 22935,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -180,7 +180,7 @@
       "source_board": "ashby",
       "slug": "frontify",
       "job_count": 19,
-      "open_job_count": 16,
+      "open_job_count": 17,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -557,8 +557,8 @@
       "company_name": "Adyen",
       "source_board": "greenhouse",
       "slug": "adyen",
-      "job_count": 266,
-      "open_job_count": 238,
+      "job_count": 267,
+      "open_job_count": 239,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -567,7 +567,7 @@
       "source_board": "greenhouse",
       "slug": "airbnb",
       "job_count": 195,
-      "open_job_count": 161,
+      "open_job_count": 160,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -981,7 +981,7 @@
       "source_board": "greenhouse",
       "slug": "okta",
       "job_count": 427,
-      "open_job_count": 379,
+      "open_job_count": 378,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1116,7 +1116,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 800,
-      "open_job_count": 729,
+      "open_job_count": 728,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1430,8 +1430,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 5462,
-      "open_job_count": 4931,
+      "job_count": 5464,
+      "open_job_count": 4933,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1440,7 +1440,7 @@
       "source_board": "smartrecruiters",
       "slug": "canva",
       "job_count": 147,
-      "open_job_count": 126,
+      "open_job_count": 125,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1466,8 +1466,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1132,
-      "open_job_count": 948,
+      "job_count": 1136,
+      "open_job_count": 950,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1539,7 +1539,7 @@
       "source_board": "smartrecruiters",
       "slug": "sgs",
       "job_count": 4931,
-      "open_job_count": 4643,
+      "open_job_count": 4642,
       "updated_at": "2026-10-10T00:00:00+00:00",
       "last_read_complete": true
     },

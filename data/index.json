@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T12:59:04+00:00",
+  "generated_at": "2026-10-11T22:09:47+00:00",
   "company_count": 338,
-  "job_count": 25417,
-  "open_job_count": 22954,
+  "job_count": 25440,
+  "open_job_count": 22966,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -171,7 +171,7 @@
       "source_board": "ashby",
       "slug": "elevenlabs",
       "job_count": 204,
-      "open_job_count": 124,
+      "open_job_count": 125,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -495,7 +495,7 @@
       "source_board": "ashby",
       "slug": "snowflake",
       "job_count": 391,
-      "open_job_count": 359,
+      "open_job_count": 358,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -558,7 +558,7 @@
       "source_board": "greenhouse",
       "slug": "adyen",
       "job_count": 268,
-      "open_job_count": 240,
+      "open_job_count": 238,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -566,8 +566,8 @@
       "company_name": "Airbnb",
       "source_board": "greenhouse",
       "slug": "airbnb",
-      "job_count": 195,
-      "open_job_count": 160,
+      "job_count": 196,
+      "open_job_count": 161,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -764,8 +764,8 @@
       "company_name": "Figma",
       "source_board": "greenhouse",
       "slug": "figma",
-      "job_count": 173,
-      "open_job_count": 150,
+      "job_count": 174,
+      "open_job_count": 151,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1116,7 +1116,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 801,
-      "open_job_count": 729,
+      "open_job_count": 728,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1286,8 +1286,8 @@
       "company_name": "Palantir Technologies",
       "source_board": "lever",
       "slug": "palantir",
-      "job_count": 322,
-      "open_job_count": 309,
+      "job_count": 323,
+      "open_job_count": 310,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1430,8 +1430,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 5464,
-      "open_job_count": 4933,
+      "job_count": 5482,
+      "open_job_count": 4950,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1466,8 +1466,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1139,
-      "open_job_count": 952,
+      "job_count": 1141,
+      "open_job_count": 948,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1547,8 +1547,8 @@
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 4933,
-      "open_job_count": 4644,
+      "job_count": 4932,
+      "open_job_count": 4642,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1583,8 +1583,8 @@
       "company_name": "Wise",
       "source_board": "smartrecruiters",
       "slug": "wise",
-      "job_count": 504,
-      "open_job_count": 399,
+      "job_count": 505,
+      "open_job_count": 400,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },

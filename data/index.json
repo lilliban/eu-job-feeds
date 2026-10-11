@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T05:55:44+00:00",
-  "company_count": 336,
-  "job_count": 25397,
-  "open_job_count": 22936,
+  "generated_at": "2026-10-11T12:59:04+00:00",
+  "company_count": 338,
+  "job_count": 25417,
+  "open_job_count": 22954,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -495,7 +495,7 @@
       "source_board": "ashby",
       "slug": "snowflake",
       "job_count": 391,
-      "open_job_count": 360,
+      "open_job_count": 359,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -557,8 +557,8 @@
       "company_name": "Adyen",
       "source_board": "greenhouse",
       "slug": "adyen",
-      "job_count": 267,
-      "open_job_count": 239,
+      "job_count": 268,
+      "open_job_count": 240,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -711,7 +711,7 @@
       "source_board": "greenhouse",
       "slug": "databricks",
       "job_count": 948,
-      "open_job_count": 893,
+      "open_job_count": 892,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1433,7 +1433,7 @@
       "job_count": 5464,
       "open_job_count": 4933,
       "updated_at": "2026-10-11T00:00:00+00:00",
-      "last_read_complete": false
+      "last_read_complete": true
     },
     {
       "company_name": "Canva",
@@ -1466,8 +1466,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1136,
-      "open_job_count": 949,
+      "job_count": 1139,
+      "open_job_count": 952,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1535,11 +1535,20 @@
       "last_read_complete": true
     },
     {
+      "company_name": "PRT GmbH",
+      "source_board": "smartrecruiters",
+      "slug": "prt",
+      "job_count": 14,
+      "open_job_count": 14,
+      "updated_at": "2026-10-11T00:00:00+00:00",
+      "last_read_complete": true
+    },
+    {
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 4931,
-      "open_job_count": 4642,
+      "job_count": 4933,
+      "open_job_count": 4644,
       "updated_at": "2026-10-11T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -2537,6 +2546,15 @@
       "company_name": "Procter and Gamble",
       "source_board": "workable",
       "slug": "procter-and-gamble",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-10-11T00:00:00+00:00",
+      "last_read_complete": true
+    },
+    {
+      "company_name": "PRT GmbH",
+      "source_board": "workable",
+      "slug": "prt",
       "job_count": 0,
       "open_job_count": 0,
       "updated_at": "2026-10-11T00:00:00+00:00",

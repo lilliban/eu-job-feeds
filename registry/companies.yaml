@@ -1019,6 +1019,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:16:36+00:00'
   enabled: true
+- name: PRT GmbH
+  provider: smartrecruiters
+  slug: prt
+  source: zefix
+  added_at: '2026-10-11T11:56:21+00:00'
+  enabled: true
 - name: SGS Group
   provider: smartrecruiters
   slug: sgs
@@ -1690,6 +1696,12 @@ companies:
   slug: procter-and-gamble
   source: discovered
   added_at: '2026-09-27T08:22:47+00:00'
+  enabled: true
+- name: PRT GmbH
+  provider: workable
+  slug: prt
+  source: zefix
+  added_at: '2026-10-11T11:56:21+00:00'
   enabled: true
 - name: Qdrant
   provider: workable

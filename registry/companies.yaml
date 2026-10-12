@@ -1067,6 +1067,12 @@ companies:
   source: discovered
   added_at: '2026-09-27T08:25:21+00:00'
   enabled: true
+- name: AD S.A.
+  provider: workable
+  slug: ad
+  source: zefix
+  added_at: '2026-10-12T13:34:55+00:00'
+  enabled: true
 - name: ADAMS AG
   provider: workable
   slug: adams
@@ -1600,6 +1606,12 @@ companies:
   slug: nexthink
   source: curated
   added_at: '2026-09-24T22:21:41+00:00'
+  enabled: true
+- name: NMC SA
+  provider: workable
+  slug: nmc
+  source: zefix
+  added_at: '2026-10-12T13:39:25+00:00'
   enabled: true
 - name: Notion
   provider: workable

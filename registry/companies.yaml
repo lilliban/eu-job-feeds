@@ -791,6 +791,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:35:15+00:00'
   enabled: true
+- name: Aero AG
+  provider: lever
+  slug: aero
+  source: zefix
+  added_at: '2026-10-16T10:10:05+00:00'
+  enabled: true
 - name: Aleph Alpha
   provider: lever
   slug: aleph
@@ -1685,6 +1691,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:24:00+00:00'
   enabled: true
+- name: Pensa GmbH
+  provider: workable
+  slug: pensa
+  source: zefix
+  added_at: '2026-10-16T10:10:36+00:00'
+  enabled: true
 - name: Personio
   provider: workable
   slug: personio
@@ -1906,6 +1918,12 @@ companies:
   slug: solidus
   source: zefix
   added_at: '2026-10-14T10:41:48+00:00'
+  enabled: true
+- name: Sonesta SA
+  provider: workable
+  slug: sonesta
+  source: zefix
+  added_at: '2026-10-16T10:09:26+00:00'
   enabled: true
 - name: Sonova
   provider: workable

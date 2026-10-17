@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T15:46:26+00:00",
+  "generated_at": "2026-10-17T20:47:53+00:00",
   "company_count": 349,
   "job_count": 27939,
-  "open_job_count": 23058,
+  "open_job_count": 23057,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -99,7 +99,7 @@
       "source_board": "ashby",
       "slug": "clickhouse",
       "job_count": 228,
-      "open_job_count": 200,
+      "open_job_count": 198,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -909,7 +909,7 @@
       "source_board": "greenhouse",
       "slug": "launchdarkly",
       "job_count": 70,
-      "open_job_count": 51,
+      "open_job_count": 52,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },

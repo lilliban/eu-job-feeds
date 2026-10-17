@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:54:06+00:00",
+  "generated_at": "2026-10-17T15:46:26+00:00",
   "company_count": 349,
   "job_count": 27939,
   "open_job_count": 23058,
@@ -828,7 +828,7 @@
       "source_board": "greenhouse",
       "slug": "hellofresh",
       "job_count": 543,
-      "open_job_count": 406,
+      "open_job_count": 405,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1125,7 +1125,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 855,
-      "open_job_count": 731,
+      "open_job_count": 732,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },

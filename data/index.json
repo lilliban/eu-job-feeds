@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T04:37:19+00:00",
+  "generated_at": "2026-10-17T10:54:06+00:00",
   "company_count": 349,
   "job_count": 27939,
-  "open_job_count": 23108,
+  "open_job_count": 23058,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -99,7 +99,7 @@
       "source_board": "ashby",
       "slug": "clickhouse",
       "job_count": 228,
-      "open_job_count": 201,
+      "open_job_count": 200,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -351,7 +351,7 @@
       "source_board": "ashby",
       "slug": "notion",
       "job_count": 145,
-      "open_job_count": 129,
+      "open_job_count": 128,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -495,7 +495,7 @@
       "source_board": "ashby",
       "slug": "snowflake",
       "job_count": 437,
-      "open_job_count": 360,
+      "open_job_count": 359,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -675,7 +675,7 @@
       "source_board": "greenhouse",
       "slug": "cloudflare",
       "job_count": 494,
-      "open_job_count": 437,
+      "open_job_count": 435,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -873,7 +873,7 @@
       "source_board": "greenhouse",
       "slug": "intercom",
       "job_count": 126,
-      "open_job_count": 107,
+      "open_job_count": 106,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -927,7 +927,7 @@
       "source_board": "greenhouse",
       "slug": "mercury",
       "job_count": 90,
-      "open_job_count": 78,
+      "open_job_count": 77,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -936,7 +936,7 @@
       "source_board": "greenhouse",
       "slug": "mixpanel",
       "job_count": 69,
-      "open_job_count": 49,
+      "open_job_count": 47,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -945,7 +945,7 @@
       "source_board": "greenhouse",
       "slug": "mongodb",
       "job_count": 474,
-      "open_job_count": 403,
+      "open_job_count": 401,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -990,7 +990,7 @@
       "source_board": "greenhouse",
       "slug": "okta",
       "job_count": 497,
-      "open_job_count": 394,
+      "open_job_count": 393,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1053,7 +1053,7 @@
       "source_board": "greenhouse",
       "slug": "scaleai",
       "job_count": 208,
-      "open_job_count": 183,
+      "open_job_count": 182,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1125,7 +1125,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 855,
-      "open_job_count": 733,
+      "open_job_count": 731,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1296,7 +1296,7 @@
       "source_board": "lever",
       "slug": "neon",
       "job_count": 15,
-      "open_job_count": 10,
+      "open_job_count": 9,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1449,7 +1449,7 @@
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
       "job_count": 6142,
-      "open_job_count": 5079,
+      "open_job_count": 5074,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1485,7 +1485,7 @@
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
       "job_count": 1340,
-      "open_job_count": 948,
+      "open_job_count": 941,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1494,7 +1494,7 @@
       "source_board": "smartrecruiters",
       "slug": "freshworks",
       "job_count": 144,
-      "open_job_count": 128,
+      "open_job_count": 127,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1566,7 +1566,7 @@
       "source_board": "smartrecruiters",
       "slug": "sgs",
       "job_count": 5253,
-      "open_job_count": 4649,
+      "open_job_count": 4628,
       "updated_at": "2026-10-17T00:00:00+00:00",
       "last_read_complete": true
     },

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T11:14:29+00:00",
+  "generated_at": "2026-10-18T16:04:41+00:00",
   "company_count": 349,
-  "job_count": 27949,
+  "job_count": 27953,
   "open_job_count": 23070,
   "companies": [
     {
@@ -558,7 +558,7 @@
       "source_board": "greenhouse",
       "slug": "adyen",
       "job_count": 300,
-      "open_job_count": 249,
+      "open_job_count": 247,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -800,8 +800,8 @@
       "company_name": "Grafana Labs",
       "source_board": "greenhouse",
       "slug": "grafanalabs",
-      "job_count": 157,
-      "open_job_count": 112,
+      "job_count": 159,
+      "open_job_count": 114,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1125,7 +1125,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 855,
-      "open_job_count": 732,
+      "open_job_count": 731,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1439,8 +1439,8 @@
       "company_name": "Audemars Piguet",
       "source_board": "smartrecruiters",
       "slug": "audemarspiguet",
-      "job_count": 116,
-      "open_job_count": 96,
+      "job_count": 117,
+      "open_job_count": 97,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1484,8 +1484,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1340,
-      "open_job_count": 941,
+      "job_count": 1341,
+      "open_job_count": 942,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1566,7 +1566,7 @@
       "source_board": "smartrecruiters",
       "slug": "sgs",
       "job_count": 5256,
-      "open_job_count": 4630,
+      "open_job_count": 4629,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },

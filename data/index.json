@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T04:44:05+00:00",
+  "generated_at": "2026-10-18T11:14:29+00:00",
   "company_count": 349,
-  "job_count": 27944,
-  "open_job_count": 23066,
+  "job_count": 27949,
+  "open_job_count": 23070,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -566,8 +566,8 @@
       "company_name": "Airbnb",
       "source_board": "greenhouse",
       "slug": "airbnb",
-      "job_count": 237,
-      "open_job_count": 173,
+      "job_count": 238,
+      "open_job_count": 174,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1448,8 +1448,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 6145,
-      "open_job_count": 5077,
+      "job_count": 6147,
+      "open_job_count": 5079,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1539,7 +1539,7 @@
       "source_board": "smartrecruiters",
       "slug": "nexthink",
       "job_count": 98,
-      "open_job_count": 76,
+      "open_job_count": 75,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1565,8 +1565,8 @@
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 5254,
-      "open_job_count": 4628,
+      "job_count": 5256,
+      "open_job_count": 4630,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },

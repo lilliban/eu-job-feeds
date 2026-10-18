@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T16:04:41+00:00",
+  "generated_at": "2026-10-18T20:53:07+00:00",
   "company_count": 349,
-  "job_count": 27953,
-  "open_job_count": 23070,
+  "job_count": 27958,
+  "open_job_count": 23071,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -675,7 +675,7 @@
       "source_board": "greenhouse",
       "slug": "cloudflare",
       "job_count": 494,
-      "open_job_count": 435,
+      "open_job_count": 434,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -710,8 +710,8 @@
       "company_name": "Databricks",
       "source_board": "greenhouse",
       "slug": "databricks",
-      "job_count": 1002,
-      "open_job_count": 898,
+      "job_count": 1007,
+      "open_job_count": 903,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1485,7 +1485,7 @@
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
       "job_count": 1341,
-      "open_job_count": 942,
+      "open_job_count": 939,
       "updated_at": "2026-10-18T00:00:00+00:00",
       "last_read_complete": true
     },

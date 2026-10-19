@@ -2057,6 +2057,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:25:11+00:00'
   enabled: true
+- name: WTI AG
+  provider: workable
+  slug: wti
+  source: zefix
+  added_at: '2026-10-19T11:23:25+00:00'
+  enabled: true
 - name: Zalando
   provider: workable
   slug: zalando

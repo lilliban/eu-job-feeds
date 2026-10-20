@@ -953,6 +953,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:27:54+00:00'
   enabled: true
+- name: V.I.P. SA
+  provider: recruitee
+  slug: vip
+  source: zefix
+  added_at: '2026-10-20T10:47:18+00:00'
+  enabled: true
 - name: Audemars Piguet
   provider: smartrecruiters
   slug: audemarspiguet

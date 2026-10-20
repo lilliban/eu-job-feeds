@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T11:45:39+00:00",
+  "generated_at": "2026-10-20T17:12:05+00:00",
   "company_count": 351,
-  "job_count": 28490,
-  "open_job_count": 23068,
+  "job_count": 28550,
+  "open_job_count": 23023,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -26,7 +26,7 @@
       "company_name": "Alan",
       "source_board": "ashby",
       "slug": "alan",
-      "job_count": 189,
+      "job_count": 191,
       "open_job_count": 131,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
@@ -98,8 +98,8 @@
       "company_name": "ClickHouse",
       "source_board": "ashby",
       "slug": "clickhouse",
-      "job_count": 232,
-      "open_job_count": 200,
+      "job_count": 233,
+      "open_job_count": 201,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -161,8 +161,8 @@
       "company_name": "Doctolib",
       "source_board": "ashby",
       "slug": "doctolib",
-      "job_count": 188,
-      "open_job_count": 146,
+      "job_count": 191,
+      "open_job_count": 148,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -170,8 +170,8 @@
       "company_name": "ElevenLabs",
       "source_board": "ashby",
       "slug": "elevenlabs",
-      "job_count": 244,
-      "open_job_count": 157,
+      "job_count": 245,
+      "open_job_count": 158,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -306,7 +306,7 @@
       "source_board": "ashby",
       "slug": "miro",
       "job_count": 29,
-      "open_job_count": 22,
+      "open_job_count": 21,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -332,7 +332,7 @@
       "company_name": "n8n",
       "source_board": "ashby",
       "slug": "n8n",
-      "job_count": 53,
+      "job_count": 54,
       "open_job_count": 42,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
@@ -350,8 +350,8 @@
       "company_name": "Notion",
       "source_board": "ashby",
       "slug": "notion",
-      "job_count": 149,
-      "open_job_count": 133,
+      "job_count": 151,
+      "open_job_count": 135,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -368,8 +368,8 @@
       "company_name": "Pinecone",
       "source_board": "ashby",
       "slug": "pinecone",
-      "job_count": 5,
-      "open_job_count": 5,
+      "job_count": 6,
+      "open_job_count": 6,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -377,8 +377,8 @@
       "company_name": "Plaid",
       "source_board": "ashby",
       "slug": "plaid",
-      "job_count": 150,
-      "open_job_count": 132,
+      "job_count": 151,
+      "open_job_count": 133,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -405,7 +405,7 @@
       "source_board": "ashby",
       "slug": "qonto",
       "job_count": 85,
-      "open_job_count": 47,
+      "open_job_count": 45,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -422,8 +422,8 @@
       "company_name": "Ramp",
       "source_board": "ashby",
       "slug": "ramp",
-      "job_count": 183,
-      "open_job_count": 167,
+      "job_count": 185,
+      "open_job_count": 169,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -431,8 +431,8 @@
       "company_name": "Redis",
       "source_board": "ashby",
       "slug": "redis",
-      "job_count": 35,
-      "open_job_count": 28,
+      "job_count": 36,
+      "open_job_count": 29,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -494,8 +494,8 @@
       "company_name": "Snowflake",
       "source_board": "ashby",
       "slug": "snowflake",
-      "job_count": 447,
-      "open_job_count": 363,
+      "job_count": 448,
+      "open_job_count": 361,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -521,8 +521,8 @@
       "company_name": "Temporal",
       "source_board": "ashby",
       "slug": "temporal",
-      "job_count": 80,
-      "open_job_count": 70,
+      "job_count": 82,
+      "open_job_count": 72,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -557,8 +557,8 @@
       "company_name": "Adyen",
       "source_board": "greenhouse",
       "slug": "adyen",
-      "job_count": 305,
-      "open_job_count": 248,
+      "job_count": 306,
+      "open_job_count": 246,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -566,8 +566,8 @@
       "company_name": "Airbnb",
       "source_board": "greenhouse",
       "slug": "airbnb",
-      "job_count": 247,
-      "open_job_count": 179,
+      "job_count": 251,
+      "open_job_count": 183,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -602,8 +602,8 @@
       "company_name": "Asana",
       "source_board": "greenhouse",
       "slug": "asana",
-      "job_count": 135,
-      "open_job_count": 111,
+      "job_count": 136,
+      "open_job_count": 109,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -656,8 +656,8 @@
       "company_name": "Celonis",
       "source_board": "greenhouse",
       "slug": "celonis",
-      "job_count": 274,
-      "open_job_count": 204,
+      "job_count": 279,
+      "open_job_count": 208,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -674,7 +674,7 @@
       "company_name": "Cloudflare",
       "source_board": "greenhouse",
       "slug": "cloudflare",
-      "job_count": 503,
+      "job_count": 505,
       "open_job_count": 438,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
@@ -710,8 +710,8 @@
       "company_name": "Databricks",
       "source_board": "greenhouse",
       "slug": "databricks",
-      "job_count": 1023,
-      "open_job_count": 900,
+      "job_count": 1029,
+      "open_job_count": 905,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -728,8 +728,8 @@
       "company_name": "Dataiku",
       "source_board": "greenhouse",
       "slug": "dataiku",
-      "job_count": 23,
-      "open_job_count": 13,
+      "job_count": 24,
+      "open_job_count": 14,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -737,8 +737,8 @@
       "company_name": "Doctolib",
       "source_board": "greenhouse",
       "slug": "doctolib",
-      "job_count": 191,
-      "open_job_count": 149,
+      "job_count": 194,
+      "open_job_count": 151,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -755,8 +755,8 @@
       "company_name": "Elastic",
       "source_board": "greenhouse",
       "slug": "elastic",
-      "job_count": 483,
-      "open_job_count": 378,
+      "job_count": 487,
+      "open_job_count": 381,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -764,8 +764,8 @@
       "company_name": "Figma",
       "source_board": "greenhouse",
       "slug": "figma",
-      "job_count": 185,
-      "open_job_count": 141,
+      "job_count": 187,
+      "open_job_count": 143,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -782,8 +782,8 @@
       "company_name": "GetYourGuide",
       "source_board": "greenhouse",
       "slug": "getyourguide",
-      "job_count": 83,
-      "open_job_count": 72,
+      "job_count": 84,
+      "open_job_count": 73,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -791,8 +791,8 @@
       "company_name": "GitLab",
       "source_board": "greenhouse",
       "slug": "gitlab",
-      "job_count": 286,
-      "open_job_count": 229,
+      "job_count": 288,
+      "open_job_count": 231,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -801,7 +801,7 @@
       "source_board": "greenhouse",
       "slug": "grafanalabs",
       "job_count": 183,
-      "open_job_count": 137,
+      "open_job_count": 134,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -827,8 +827,8 @@
       "company_name": "HelloFresh",
       "source_board": "greenhouse",
       "slug": "hellofresh",
-      "job_count": 561,
-      "open_job_count": 397,
+      "job_count": 564,
+      "open_job_count": 398,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -873,7 +873,7 @@
       "source_board": "greenhouse",
       "slug": "intercom",
       "job_count": 127,
-      "open_job_count": 106,
+      "open_job_count": 107,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -890,7 +890,7 @@
       "company_name": "Klaviyo",
       "source_board": "greenhouse",
       "slug": "klaviyo",
-      "job_count": 180,
+      "job_count": 182,
       "open_job_count": 162,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
@@ -944,8 +944,8 @@
       "company_name": "MongoDB",
       "source_board": "greenhouse",
       "slug": "mongodb",
-      "job_count": 475,
-      "open_job_count": 394,
+      "job_count": 478,
+      "open_job_count": 397,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -954,7 +954,7 @@
       "source_board": "greenhouse",
       "slug": "n26",
       "job_count": 71,
-      "open_job_count": 34,
+      "open_job_count": 32,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -989,8 +989,8 @@
       "company_name": "Okta",
       "source_board": "greenhouse",
       "slug": "okta",
-      "job_count": 507,
-      "open_job_count": 393,
+      "job_count": 512,
+      "open_job_count": 397,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -999,7 +999,7 @@
       "source_board": "greenhouse",
       "slug": "onrunning",
       "job_count": 234,
-      "open_job_count": 206,
+      "open_job_count": 205,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1071,7 +1071,7 @@
       "source_board": "greenhouse",
       "slug": "scout24",
       "job_count": 22,
-      "open_job_count": 16,
+      "open_job_count": 15,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1116,7 +1116,7 @@
       "source_board": "greenhouse",
       "slug": "storyblok",
       "job_count": 18,
-      "open_job_count": 16,
+      "open_job_count": 14,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1124,8 +1124,8 @@
       "company_name": "Stripe",
       "source_board": "greenhouse",
       "slug": "stripe",
-      "job_count": 867,
-      "open_job_count": 728,
+      "job_count": 873,
+      "open_job_count": 733,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1142,8 +1142,8 @@
       "company_name": "Twilio",
       "source_board": "greenhouse",
       "slug": "twilio",
-      "job_count": 184,
-      "open_job_count": 134,
+      "job_count": 186,
+      "open_job_count": 137,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1160,8 +1160,8 @@
       "company_name": "Vercel",
       "source_board": "greenhouse",
       "slug": "vercel",
-      "job_count": 100,
-      "open_job_count": 94,
+      "job_count": 101,
+      "open_job_count": 95,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1187,8 +1187,8 @@
       "company_name": "Yotpo",
       "source_board": "greenhouse",
       "slug": "yotpo",
-      "job_count": 21,
-      "open_job_count": 16,
+      "job_count": 23,
+      "open_job_count": 18,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1205,8 +1205,8 @@
       "company_name": "Aleph Alpha",
       "source_board": "lever",
       "slug": "aleph",
-      "job_count": 123,
-      "open_job_count": 106,
+      "job_count": 124,
+      "open_job_count": 105,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1233,7 +1233,7 @@
       "source_board": "lever",
       "slug": "contentsquare",
       "job_count": 32,
-      "open_job_count": 19,
+      "open_job_count": 18,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1332,7 +1332,7 @@
       "source_board": "lever",
       "slug": "qonto",
       "job_count": 85,
-      "open_job_count": 47,
+      "open_job_count": 45,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1341,7 +1341,7 @@
       "source_board": "lever",
       "slug": "spotify",
       "job_count": 112,
-      "open_job_count": 83,
+      "open_job_count": 82,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1377,7 +1377,7 @@
       "source_board": "recruitee",
       "slug": "climeworks",
       "job_count": 7,
-      "open_job_count": 3,
+      "open_job_count": 2,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1431,7 +1431,7 @@
       "source_board": "recruitee",
       "slug": "swisscom",
       "job_count": 17,
-      "open_job_count": 14,
+      "open_job_count": 12,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1449,7 +1449,7 @@
       "source_board": "smartrecruiters",
       "slug": "audemarspiguet",
       "job_count": 120,
-      "open_job_count": 97,
+      "open_job_count": 96,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1457,17 +1457,17 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 6275,
-      "open_job_count": 5075,
+      "job_count": 6253,
+      "open_job_count": 5053,
       "updated_at": "2026-10-20T00:00:00+00:00",
-      "last_read_complete": true
+      "last_read_complete": false
     },
     {
       "company_name": "Canva",
       "source_board": "smartrecruiters",
       "slug": "canva",
       "job_count": 167,
-      "open_job_count": 108,
+      "open_job_count": 106,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1493,8 +1493,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1366,
-      "open_job_count": 915,
+      "job_count": 1369,
+      "open_job_count": 901,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1574,8 +1574,8 @@
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 5313,
-      "open_job_count": 4607,
+      "job_count": 5314,
+      "open_job_count": 4570,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1611,9 +1611,9 @@
       "source_board": "smartrecruiters",
       "slug": "wise",
       "job_count": 671,
-      "open_job_count": 430,
+      "open_job_count": 427,
       "updated_at": "2026-10-20T00:00:00+00:00",
-      "last_read_complete": false
+      "last_read_complete": true
     },
     {
       "company_name": "Workato",
@@ -2438,8 +2438,8 @@
       "company_name": "Netcetera",
       "source_board": "workable",
       "slug": "netcetera",
-      "job_count": 12,
-      "open_job_count": 12,
+      "job_count": 15,
+      "open_job_count": 15,
       "updated_at": "2026-10-20T00:00:00+00:00",
       "last_read_complete": true
     },

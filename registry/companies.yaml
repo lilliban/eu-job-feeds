@@ -1097,6 +1097,12 @@ companies:
   source: zefix
   added_at: '2026-10-08T12:17:36+00:00'
   enabled: true
+- name: ADMIN AG
+  provider: workable
+  slug: admin
+  source: zefix
+  added_at: '2026-10-21T10:38:05+00:00'
+  enabled: true
 - name: Admiral SA
   provider: workable
   slug: admiral
@@ -1330,6 +1336,12 @@ companies:
   slug: explo
   source: discovered
   added_at: '2026-09-26T17:32:40+00:00'
+  enabled: true
+- name: Fabo SA
+  provider: workable
+  slug: fabo
+  source: zefix
+  added_at: '2026-10-21T10:38:18+00:00'
   enabled: true
 - name: Figma
   provider: workable

@@ -1079,6 +1079,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:25:11+00:00'
   enabled: true
+- name: Aced SA
+  provider: workable
+  slug: aced
+  source: zefix
+  added_at: '2026-10-22T10:41:14+00:00'
+  enabled: true
 - name: Actelion
   provider: workable
   slug: actelion

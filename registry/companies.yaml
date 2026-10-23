@@ -977,6 +977,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:16:40+00:00'
   enabled: true
+- name: CCI CONSULTING AG
+  provider: smartrecruiters
+  slug: cciconsulting
+  source: zefix
+  added_at: '2026-10-23T10:34:58+00:00'
+  enabled: true
 - name: Crealogix
   provider: smartrecruiters
   slug: crealogix
@@ -1181,6 +1187,12 @@ companies:
   source: discovered
   added_at: '2026-09-27T08:20:16+00:00'
   enabled: true
+- name: BCH AG
+  provider: workable
+  slug: bch
+  source: zefix
+  added_at: '2026-10-23T10:46:43+00:00'
+  enabled: true
 - name: BlaBlaCar
   provider: workable
   slug: blablacar
@@ -1264,6 +1276,12 @@ companies:
   slug: cms-consulting
   source: zefix
   added_at: '2026-10-09T12:27:27+00:00'
+  enabled: true
+- name: Codem S.A.
+  provider: workable
+  slug: codem
+  source: zefix
+  added_at: '2026-10-23T10:44:03+00:00'
   enabled: true
 - name: Cohere
   provider: workable
@@ -1528,6 +1546,12 @@ companies:
   slug: lightspeed
   source: discovered
   added_at: '2026-09-26T17:21:12+00:00'
+  enabled: true
+- name: Linco AG
+  provider: workable
+  slug: linco
+  source: zefix
+  added_at: '2026-10-23T10:43:38+00:00'
   enabled: true
 - name: Logitech
   provider: workable

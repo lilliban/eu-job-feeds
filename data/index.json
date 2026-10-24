@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T16:09:00+00:00",
+  "generated_at": "2026-10-24T20:59:05+00:00",
   "company_count": 360,
-  "job_count": 30422,
-  "open_job_count": 23156,
+  "job_count": 30431,
+  "open_job_count": 23158,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -512,8 +512,8 @@
       "company_name": "Supabase",
       "source_board": "ashby",
       "slug": "supabase",
-      "job_count": 66,
-      "open_job_count": 59,
+      "job_count": 68,
+      "open_job_count": 61,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -558,7 +558,7 @@
       "source_board": "greenhouse",
       "slug": "adyen",
       "job_count": 325,
-      "open_job_count": 250,
+      "open_job_count": 248,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -602,8 +602,8 @@
       "company_name": "Asana",
       "source_board": "greenhouse",
       "slug": "asana",
-      "job_count": 141,
-      "open_job_count": 108,
+      "job_count": 142,
+      "open_job_count": 109,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -945,7 +945,7 @@
       "source_board": "greenhouse",
       "slug": "mongodb",
       "job_count": 502,
-      "open_job_count": 383,
+      "open_job_count": 382,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1125,7 +1125,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 908,
-      "open_job_count": 720,
+      "open_job_count": 719,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1457,8 +1457,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 6716,
-      "open_job_count": 5089,
+      "job_count": 6718,
+      "open_job_count": 5090,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1502,8 +1502,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1526,
-      "open_job_count": 951,
+      "job_count": 1530,
+      "open_job_count": 953,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },

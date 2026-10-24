@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T11:08:57+00:00",
+  "generated_at": "2026-10-24T16:09:00+00:00",
   "company_count": 360,
-  "job_count": 30415,
-  "open_job_count": 23154,
+  "job_count": 30422,
+  "open_job_count": 23156,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -171,7 +171,7 @@
       "source_board": "ashby",
       "slug": "elevenlabs",
       "job_count": 257,
-      "open_job_count": 161,
+      "open_job_count": 159,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1457,8 +1457,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 6715,
-      "open_job_count": 5088,
+      "job_count": 6716,
+      "open_job_count": 5089,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1502,8 +1502,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1523,
-      "open_job_count": 950,
+      "job_count": 1526,
+      "open_job_count": 951,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1583,8 +1583,8 @@
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 5610,
-      "open_job_count": 4644,
+      "job_count": 5613,
+      "open_job_count": 4647,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1620,7 +1620,7 @@
       "source_board": "smartrecruiters",
       "slug": "wise",
       "job_count": 770,
-      "open_job_count": 436,
+      "open_job_count": 435,
       "updated_at": "2026-10-24T00:00:00+00:00",
       "last_read_complete": true
     },

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T04:52:21+00:00",
-  "company_count": 360,
-  "job_count": 30436,
-  "open_job_count": 23153,
+  "generated_at": "2026-10-25T11:36:57+00:00",
+  "company_count": 363,
+  "job_count": 30444,
+  "open_job_count": 23158,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -378,7 +378,7 @@
       "source_board": "ashby",
       "slug": "plaid",
       "job_count": 161,
-      "open_job_count": 135,
+      "open_job_count": 134,
       "updated_at": "2026-10-25T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -657,7 +657,7 @@
       "source_board": "greenhouse",
       "slug": "celonis",
       "job_count": 296,
-      "open_job_count": 218,
+      "open_job_count": 217,
       "updated_at": "2026-10-25T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -710,8 +710,8 @@
       "company_name": "Databricks",
       "source_board": "greenhouse",
       "slug": "databricks",
-      "job_count": 1050,
-      "open_job_count": 896,
+      "job_count": 1051,
+      "open_job_count": 897,
       "updated_at": "2026-10-25T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1457,8 +1457,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 6718,
-      "open_job_count": 5087,
+      "job_count": 6724,
+      "open_job_count": 5093,
       "updated_at": "2026-10-25T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1502,8 +1502,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1530,
-      "open_job_count": 948,
+      "job_count": 1531,
+      "open_job_count": 949,
       "updated_at": "2026-10-25T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1620,7 +1620,7 @@
       "source_board": "smartrecruiters",
       "slug": "wise",
       "job_count": 770,
-      "open_job_count": 435,
+      "open_job_count": 434,
       "updated_at": "2026-10-25T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1727,6 +1727,15 @@
       "company_name": "Aleph Alpha",
       "source_board": "workable",
       "slug": "aleph",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-10-25T00:00:00+00:00",
+      "last_read_complete": true
+    },
+    {
+      "company_name": "Alexandra S.A.",
+      "source_board": "workable",
+      "slug": "alexandra",
       "job_count": 0,
       "open_job_count": 0,
       "updated_at": "2026-10-25T00:00:00+00:00",
@@ -2024,6 +2033,15 @@
       "company_name": "Doctolib",
       "source_board": "workable",
       "slug": "doctolib",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-10-25T00:00:00+00:00",
+      "last_read_complete": true
+    },
+    {
+      "company_name": "Dunex S.A.",
+      "source_board": "workable",
+      "slug": "dunex",
       "job_count": 0,
       "open_job_count": 0,
       "updated_at": "2026-10-25T00:00:00+00:00",
@@ -2825,6 +2843,15 @@
       "company_name": "Roche",
       "source_board": "workable",
       "slug": "roche",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-10-25T00:00:00+00:00",
+      "last_read_complete": true
+    },
+    {
+      "company_name": "Rod SA",
+      "source_board": "workable",
+      "slug": "rod",
       "job_count": 0,
       "open_job_count": 0,
       "updated_at": "2026-10-25T00:00:00+00:00",

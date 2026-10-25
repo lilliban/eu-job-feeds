@@ -1151,6 +1151,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:17:49+00:00'
   enabled: true
+- name: Alexandra S.A.
+  provider: workable
+  slug: alexandra
+  source: zefix
+  added_at: '2026-10-25T10:13:19+00:00'
+  enabled: true
 - name: Algolia
   provider: workable
   slug: algolia
@@ -1348,6 +1354,12 @@ companies:
   slug: doctolib
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
+  enabled: true
+- name: Dunex S.A.
+  provider: workable
+  slug: dunex
+  source: zefix
+  added_at: '2026-10-25T10:27:38+00:00'
   enabled: true
 - name: Elastic
   provider: workable
@@ -1882,6 +1894,12 @@ companies:
   slug: roche
   source: discovered
   added_at: '2026-09-27T08:10:45+00:00'
+  enabled: true
+- name: Rod SA
+  provider: workable
+  slug: rod
+  source: zefix
+  added_at: '2026-10-25T10:12:32+00:00'
   enabled: true
 - name: Runway
   provider: workable

@@ -791,6 +791,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:35:15+00:00'
   enabled: true
+- name: youcom gmbh
+  provider: greenhouse
+  slug: youcom
+  source: zefix
+  added_at: '2026-10-26T11:39:37+00:00'
+  enabled: true
 - name: Aero AG
   provider: lever
   slug: aero

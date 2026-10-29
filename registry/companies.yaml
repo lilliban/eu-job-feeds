@@ -29,6 +29,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:33:55+00:00'
   enabled: true
+- name: Arcturus SA
+  provider: ashby
+  slug: arcturus
+  source: zefix
+  added_at: '2026-10-29T12:01:27+00:00'
+  enabled: true
 - name: Astronomer
   provider: ashby
   slug: astronomer
@@ -700,6 +706,12 @@ companies:
   slug: postscript
   source: discovered
   added_at: '2026-09-26T17:35:08+00:00'
+  enabled: true
+- name: RAB AG
+  provider: greenhouse
+  slug: rab
+  source: zefix
+  added_at: '2026-10-29T12:01:24+00:00'
   enabled: true
 - name: Remote.com
   provider: greenhouse
@@ -1870,6 +1882,12 @@ companies:
   slug: qonto
   source: curated
   added_at: '2026-09-24T20:23:13+00:00'
+  enabled: true
+- name: RAB AG
+  provider: workable
+  slug: rab
+  source: zefix
+  added_at: '2026-10-29T12:01:24+00:00'
   enabled: true
 - name: Raiffeisen Switzerland
   provider: workable

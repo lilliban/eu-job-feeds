@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T12:37:14+00:00",
+  "generated_at": "2026-10-31T21:45:30+00:00",
   "company_count": 374,
-  "job_count": 32661,
-  "open_job_count": 22983,
+  "job_count": 32665,
+  "open_job_count": 22975,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -180,7 +180,7 @@
       "source_board": "ashby",
       "slug": "elevenlabs",
       "job_count": 269,
-      "open_job_count": 146,
+      "open_job_count": 145,
       "updated_at": "2026-10-31T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -431,8 +431,8 @@
       "company_name": "Ramp",
       "source_board": "ashby",
       "slug": "ramp",
-      "job_count": 203,
-      "open_job_count": 171,
+      "job_count": 204,
+      "open_job_count": 172,
       "updated_at": "2026-10-31T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -737,8 +737,8 @@
       "company_name": "Databricks",
       "source_board": "greenhouse",
       "slug": "databricks",
-      "job_count": 1112,
-      "open_job_count": 901,
+      "job_count": 1113,
+      "open_job_count": 902,
       "updated_at": "2026-10-31T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -900,7 +900,7 @@
       "source_board": "greenhouse",
       "slug": "intercom",
       "job_count": 145,
-      "open_job_count": 110,
+      "open_job_count": 109,
       "updated_at": "2026-10-31T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1358,8 +1358,8 @@
       "company_name": "Palantir Technologies",
       "source_board": "lever",
       "slug": "palantir",
-      "job_count": 346,
-      "open_job_count": 299,
+      "job_count": 348,
+      "open_job_count": 301,
       "updated_at": "2026-10-31T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1638,7 +1638,7 @@
       "source_board": "smartrecruiters",
       "slug": "sgs",
       "job_count": 5903,
-      "open_job_count": 4665,
+      "open_job_count": 4655,
       "updated_at": "2026-10-31T00:00:00+00:00",
       "last_read_complete": true
     },

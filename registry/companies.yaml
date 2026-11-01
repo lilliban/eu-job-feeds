@@ -1229,6 +1229,12 @@ companies:
   source: zefix
   added_at: '2026-10-14T10:40:20+00:00'
   enabled: true
+- name: ARO AG
+  provider: workable
+  slug: aro
+  source: zefix
+  added_at: '2026-11-01T12:10:57+00:00'
+  enabled: true
 - name: Asana
   provider: workable
   slug: asana

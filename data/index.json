@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T06:12:23+00:00",
-  "company_count": 374,
-  "job_count": 32669,
-  "open_job_count": 22971,
+  "generated_at": "2026-11-01T13:32:32+00:00",
+  "company_count": 375,
+  "job_count": 32673,
+  "open_job_count": 22965,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -180,7 +180,7 @@
       "source_board": "ashby",
       "slug": "elevenlabs",
       "job_count": 269,
-      "open_job_count": 144,
+      "open_job_count": 138,
       "updated_at": "2026-11-01T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -342,7 +342,7 @@
       "source_board": "ashby",
       "slug": "n8n",
       "job_count": 73,
-      "open_job_count": 51,
+      "open_job_count": 50,
       "updated_at": "2026-11-01T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -414,7 +414,7 @@
       "source_board": "ashby",
       "slug": "qonto",
       "job_count": 99,
-      "open_job_count": 49,
+      "open_job_count": 50,
       "updated_at": "2026-11-01T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1511,8 +1511,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 7301,
-      "open_job_count": 5018,
+      "job_count": 7302,
+      "open_job_count": 5016,
       "updated_at": "2026-11-01T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1556,8 +1556,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1690,
-      "open_job_count": 901,
+      "job_count": 1691,
+      "open_job_count": 902,
       "updated_at": "2026-11-01T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1637,7 +1637,7 @@
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 5904,
+      "job_count": 5905,
       "open_job_count": 4656,
       "updated_at": "2026-11-01T00:00:00+00:00",
       "last_read_complete": true
@@ -1846,6 +1846,15 @@
       "slug": "archetype",
       "job_count": 0,
       "open_job_count": 0,
+      "updated_at": "2026-11-01T00:00:00+00:00",
+      "last_read_complete": true
+    },
+    {
+      "company_name": "ARO AG",
+      "source_board": "workable",
+      "slug": "aro",
+      "job_count": 1,
+      "open_job_count": 1,
       "updated_at": "2026-11-01T00:00:00+00:00",
       "last_read_complete": true
     },

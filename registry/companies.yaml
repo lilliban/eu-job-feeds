@@ -1691,6 +1691,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:18:30+00:00'
   enabled: true
+- name: Midland AG
+  provider: workable
+  slug: midland
+  source: zefix
+  added_at: '2026-11-02T14:03:03+00:00'
+  enabled: true
 - name: Migros
   provider: workable
   slug: migros
@@ -2188,6 +2194,12 @@ companies:
   slug: usertesting
   source: discovered
   added_at: '2026-09-26T17:24:02+00:00'
+  enabled: true
+- name: Viana AG
+  provider: workable
+  slug: viana
+  source: zefix
+  added_at: '2026-11-02T14:07:11+00:00'
   enabled: true
 - name: Wander AG
   provider: workable

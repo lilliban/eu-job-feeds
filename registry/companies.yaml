@@ -299,6 +299,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:22:40+00:00'
   enabled: true
+- name: Rifa AG
+  provider: ashby
+  slug: rifa
+  source: zefix
+  added_at: '2026-11-03T13:11:57+00:00'
+  enabled: true
 - name: Runway
   provider: ashby
   slug: runway
@@ -1061,6 +1067,12 @@ companies:
   source: discovered
   added_at: '2026-09-27T08:23:54+00:00'
   enabled: true
+- name: MERITIS AG
+  provider: smartrecruiters
+  slug: meritis
+  source: zefix
+  added_at: '2026-11-03T13:14:55+00:00'
+  enabled: true
 - name: New Relic
   provider: smartrecruiters
   slug: newrelic
@@ -1234,6 +1246,12 @@ companies:
   slug: aro
   source: zefix
   added_at: '2026-11-01T12:10:57+00:00'
+  enabled: true
+- name: Artic SA
+  provider: workable
+  slug: artic
+  source: zefix
+  added_at: '2026-11-03T13:22:24+00:00'
   enabled: true
 - name: Asana
   provider: workable

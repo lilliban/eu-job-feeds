@@ -1655,6 +1655,12 @@ companies:
   source: discovered
   added_at: '2026-09-27T08:25:26+00:00'
   enabled: true
+- name: La Ruche SA
+  provider: workable
+  slug: la-ruche
+  source: zefix
+  added_at: '2026-11-06T13:25:11+00:00'
+  enabled: true
 - name: Lightspeed
   provider: workable
   slug: lightspeed

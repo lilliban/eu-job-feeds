@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T13:11:31+00:00",
+  "generated_at": "2026-11-07T22:00:45+00:00",
   "company_count": 382,
-  "job_count": 35341,
-  "open_job_count": 23026,
+  "job_count": 35350,
+  "open_job_count": 23019,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -512,8 +512,8 @@
       "company_name": "Snowflake",
       "source_board": "ashby",
       "slug": "snowflake",
-      "job_count": 546,
-      "open_job_count": 371,
+      "job_count": 547,
+      "open_job_count": 372,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -747,7 +747,7 @@
       "source_board": "greenhouse",
       "slug": "databricks",
       "job_count": 1186,
-      "open_job_count": 925,
+      "open_job_count": 924,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -791,8 +791,8 @@
       "company_name": "Elastic",
       "source_board": "greenhouse",
       "slug": "elastic",
-      "job_count": 607,
-      "open_job_count": 423,
+      "job_count": 609,
+      "open_job_count": 425,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1107,7 +1107,7 @@
       "source_board": "greenhouse",
       "slug": "scandit",
       "job_count": 32,
-      "open_job_count": 10,
+      "open_job_count": 9,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1169,8 +1169,8 @@
       "company_name": "Stripe",
       "source_board": "greenhouse",
       "slug": "stripe",
-      "job_count": 1061,
-      "open_job_count": 765,
+      "job_count": 1062,
+      "open_job_count": 766,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1521,7 +1521,7 @@
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
       "job_count": 7941,
-      "open_job_count": 5069,
+      "open_job_count": 5068,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1655,8 +1655,8 @@
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 6239,
-      "open_job_count": 4638,
+      "job_count": 6243,
+      "open_job_count": 4634,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1692,7 +1692,7 @@
       "source_board": "smartrecruiters",
       "slug": "wise",
       "job_count": 1001,
-      "open_job_count": 433,
+      "open_job_count": 428,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -2942,8 +2942,8 @@
       "company_name": "Recurly",
       "source_board": "workable",
       "slug": "recurly",
-      "job_count": 13,
-      "open_job_count": 5,
+      "job_count": 14,
+      "open_job_count": 6,
       "updated_at": "2026-11-07T00:00:00+00:00",
       "last_read_complete": true
     },

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T13:34:18+00:00",
+  "generated_at": "2026-11-08T22:15:22+00:00",
   "company_count": 383,
-  "job_count": 35358,
-  "open_job_count": 23016,
+  "job_count": 35369,
+  "open_job_count": 23025,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -170,8 +170,8 @@
       "company_name": "Doctolib",
       "source_board": "ashby",
       "slug": "doctolib",
-      "job_count": 228,
-      "open_job_count": 152,
+      "job_count": 229,
+      "open_job_count": 153,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -341,8 +341,8 @@
       "company_name": "n8n",
       "source_board": "ashby",
       "slug": "n8n",
-      "job_count": 77,
-      "open_job_count": 48,
+      "job_count": 78,
+      "open_job_count": 49,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -486,7 +486,7 @@
       "source_board": "ashby",
       "slug": "sisense",
       "job_count": 8,
-      "open_job_count": 5,
+      "open_job_count": 4,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -791,8 +791,8 @@
       "company_name": "Elastic",
       "source_board": "greenhouse",
       "slug": "elastic",
-      "job_count": 609,
-      "open_job_count": 425,
+      "job_count": 610,
+      "open_job_count": 426,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1268,8 +1268,8 @@
       "company_name": "Aleph Alpha",
       "source_board": "lever",
       "slug": "aleph",
-      "job_count": 170,
-      "open_job_count": 134,
+      "job_count": 175,
+      "open_job_count": 139,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1520,8 +1520,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 7943,
-      "open_job_count": 5070,
+      "job_count": 7944,
+      "open_job_count": 5071,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1566,7 +1566,7 @@
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
       "job_count": 1859,
-      "open_job_count": 903,
+      "open_job_count": 902,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1655,8 +1655,8 @@
       "company_name": "SGS Group",
       "source_board": "smartrecruiters",
       "slug": "sgs",
-      "job_count": 6244,
-      "open_job_count": 4634,
+      "job_count": 6246,
+      "open_job_count": 4636,
       "updated_at": "2026-11-08T00:00:00+00:00",
       "last_read_complete": true
     },

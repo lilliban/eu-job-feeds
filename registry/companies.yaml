@@ -1175,6 +1175,12 @@ companies:
   source: zefix
   added_at: '2026-10-08T12:17:54+00:00'
   enabled: true
+- name: Advance AG
+  provider: workable
+  slug: advance
+  source: zefix
+  added_at: '2026-11-09T14:28:24+00:00'
+  enabled: true
 - name: Adyen
   provider: workable
   slug: adyen
@@ -1439,6 +1445,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:22:50+00:00'
   enabled: true
+- name: Dominion GmbH
+  provider: workable
+  slug: dominion
+  source: zefix
+  added_at: '2026-11-09T14:35:09+00:00'
+  enabled: true
 - name: Dunex S.A.
   provider: workable
   slug: dunex
@@ -1660,6 +1672,12 @@ companies:
   slug: kuehnenagel
   source: discovered
   added_at: '2026-09-27T08:25:26+00:00'
+  enabled: true
+- name: Kyon AG
+  provider: workable
+  slug: kyon
+  source: zefix
+  added_at: '2026-11-09T14:25:48+00:00'
   enabled: true
 - name: La Ruche SA
   provider: workable

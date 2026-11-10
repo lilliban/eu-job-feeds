@@ -1301,6 +1301,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:23:27+00:00'
   enabled: true
+- name: Brainz SA
+  provider: workable
+  slug: brainz
+  source: zefix
+  added_at: '2026-11-10T14:03:43+00:00'
+  enabled: true
 - name: Bubble
   provider: workable
   slug: bubble
@@ -1949,6 +1955,12 @@ companies:
   source: zefix
   added_at: '2026-10-11T11:56:21+00:00'
   enabled: true
+- name: PTM SA
+  provider: workable
+  slug: ptm
+  source: zefix
+  added_at: '2026-11-10T14:02:31+00:00'
+  enabled: true
 - name: Qdrant
   provider: workable
   slug: qdrant
@@ -2038,6 +2050,12 @@ companies:
   slug: runway
   source: discovered
   added_at: '2026-09-26T17:17:55+00:00'
+  enabled: true
+- name: Sabo AG
+  provider: workable
+  slug: sabo
+  source: zefix
+  added_at: '2026-11-10T13:53:52+00:00'
   enabled: true
 - name: Salt Mobile
   provider: workable

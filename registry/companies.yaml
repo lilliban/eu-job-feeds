@@ -1277,6 +1277,12 @@ companies:
   source: zefix
   added_at: '2026-10-28T11:52:38+00:00'
   enabled: true
+- name: AVP GmbH
+  provider: workable
+  slug: avp
+  source: zefix
+  added_at: '2026-11-11T13:18:57+00:00'
+  enabled: true
 - name: AXA Switzerland
   provider: workable
   slug: axa
@@ -1534,6 +1540,12 @@ companies:
   slug: getyourguide
   source: curated
   added_at: '2026-09-24T20:20:53+00:00'
+  enabled: true
+- name: GIF S.A.
+  provider: workable
+  slug: gif
+  source: zefix
+  added_at: '2026-11-11T13:18:17+00:00'
   enabled: true
 - name: GitLab
   provider: workable

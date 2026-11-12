@@ -2135,6 +2135,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:32:39+00:00'
   enabled: true
+- name: SITEL S.A.
+  provider: workable
+  slug: sitel
+  source: zefix
+  added_at: '2026-11-12T14:10:43+00:00'
+  enabled: true
 - name: SIX Group
   provider: workable
   slug: six

@@ -713,6 +713,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:35:08+00:00'
   enabled: true
+- name: Proto SA
+  provider: greenhouse
+  slug: proto
+  source: zefix
+  added_at: '2026-11-13T13:43:53+00:00'
+  enabled: true
 - name: RAB AG
   provider: greenhouse
   slug: rab
@@ -1667,6 +1673,12 @@ companies:
   source: discovered
   added_at: '2026-09-27T08:21:11+00:00'
   enabled: true
+- name: JPS SA
+  provider: workable
+  slug: jps
+  source: zefix
+  added_at: '2026-11-13T13:36:14+00:00'
+  enabled: true
 - name: Julius Baer
   provider: workable
   slug: julius
@@ -1960,6 +1972,12 @@ companies:
   slug: procter-and-gamble
   source: discovered
   added_at: '2026-09-27T08:22:47+00:00'
+  enabled: true
+- name: Proto SA
+  provider: workable
+  slug: proto
+  source: zefix
+  added_at: '2026-11-13T13:43:53+00:00'
   enabled: true
 - name: PRT GmbH
   provider: workable

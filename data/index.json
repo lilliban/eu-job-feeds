@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T18:11:53+00:00",
+  "generated_at": "2026-11-14T22:36:06+00:00",
   "company_count": 395,
   "job_count": 37728,
-  "open_job_count": 23064,
+  "open_job_count": 23051,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -981,7 +981,7 @@
       "source_board": "greenhouse",
       "slug": "mongodb",
       "job_count": 612,
-      "open_job_count": 391,
+      "open_job_count": 390,
       "updated_at": "2026-11-14T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1116,7 +1116,7 @@
       "source_board": "greenhouse",
       "slug": "scandit",
       "job_count": 35,
-      "open_job_count": 12,
+      "open_job_count": 10,
       "updated_at": "2026-11-14T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1530,7 +1530,7 @@
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
       "job_count": 8565,
-      "open_job_count": 5093,
+      "open_job_count": 5092,
       "updated_at": "2026-11-14T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1575,7 +1575,7 @@
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
       "job_count": 1999,
-      "open_job_count": 881,
+      "open_job_count": 875,
       "updated_at": "2026-11-14T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1701,7 +1701,7 @@
       "source_board": "smartrecruiters",
       "slug": "wise",
       "job_count": 1105,
-      "open_job_count": 446,
+      "open_job_count": 443,
       "updated_at": "2026-11-14T00:00:00+00:00",
       "last_read_complete": true
     },

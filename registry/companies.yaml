@@ -1691,6 +1691,12 @@ companies:
   source: zefix
   added_at: '2026-10-24T10:09:08+00:00'
   enabled: true
+- name: Khalid GmbH
+  provider: workable
+  slug: khalid
+  source: zefix
+  added_at: '2026-11-15T12:58:42+00:00'
+  enabled: true
 - name: Klaviyo
   provider: workable
   slug: klaviyo

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T06:38:20+00:00",
-  "company_count": 395,
-  "job_count": 37730,
-  "open_job_count": 23050,
+  "generated_at": "2026-11-15T19:03:19+00:00",
+  "company_count": 396,
+  "job_count": 37749,
+  "open_job_count": 23061,
   "companies": [
     {
       "company_name": "Airbyte",
@@ -360,7 +360,7 @@
       "source_board": "ashby",
       "slug": "notion",
       "job_count": 205,
-      "open_job_count": 166,
+      "open_job_count": 165,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -576,7 +576,7 @@
       "source_board": "greenhouse",
       "slug": "adyen",
       "job_count": 399,
-      "open_job_count": 247,
+      "open_job_count": 246,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -747,7 +747,7 @@
       "source_board": "greenhouse",
       "slug": "databricks",
       "job_count": 1224,
-      "open_job_count": 897,
+      "open_job_count": 895,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -827,8 +827,8 @@
       "company_name": "GitLab",
       "source_board": "greenhouse",
       "slug": "gitlab",
-      "job_count": 397,
-      "open_job_count": 251,
+      "job_count": 401,
+      "open_job_count": 255,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1179,7 +1179,7 @@
       "source_board": "greenhouse",
       "slug": "stripe",
       "job_count": 1131,
-      "open_job_count": 786,
+      "open_job_count": 785,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1206,7 +1206,7 @@
       "source_board": "greenhouse",
       "slug": "twilio",
       "job_count": 242,
-      "open_job_count": 115,
+      "open_job_count": 114,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1529,8 +1529,8 @@
       "company_name": "Bosch Group",
       "source_board": "smartrecruiters",
       "slug": "BoschGroup",
-      "job_count": 8566,
-      "open_job_count": 5092,
+      "job_count": 8571,
+      "open_job_count": 5096,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1574,8 +1574,8 @@
       "company_name": "Delivery Hero",
       "source_board": "smartrecruiters",
       "slug": "deliveryhero",
-      "job_count": 1999,
-      "open_job_count": 874,
+      "job_count": 2008,
+      "open_job_count": 882,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -1700,8 +1700,8 @@
       "company_name": "Wise",
       "source_board": "smartrecruiters",
       "slug": "wise",
-      "job_count": 1105,
-      "open_job_count": 442,
+      "job_count": 1106,
+      "open_job_count": 443,
       "updated_at": "2026-11-15T00:00:00+00:00",
       "last_read_complete": true
     },
@@ -2537,6 +2537,15 @@
       "company_name": "Kawa AG",
       "source_board": "workable",
       "slug": "kawa",
+      "job_count": 0,
+      "open_job_count": 0,
+      "updated_at": "2026-11-15T00:00:00+00:00",
+      "last_read_complete": true
+    },
+    {
+      "company_name": "Khalid GmbH",
+      "source_board": "workable",
+      "slug": "khalid",
       "job_count": 0,
       "open_job_count": 0,
       "updated_at": "2026-11-15T00:00:00+00:00",

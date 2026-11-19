@@ -143,6 +143,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:24:01+00:00'
   enabled: true
+- name: Giò-Giò SA
+  provider: ashby
+  slug: gigi
+  source: zefix
+  added_at: '2026-11-19T15:04:19+00:00'
+  enabled: true
 - name: GoodData
   provider: ashby
   slug: gooddata
@@ -953,6 +959,12 @@ companies:
   source: discovered
   added_at: '2026-09-27T08:10:14+00:00'
   enabled: true
+- name: Giò-Giò SA
+  provider: personio
+  slug: gigi
+  source: zefix
+  added_at: '2026-11-19T15:04:20+00:00'
+  enabled: true
 - name: Personio
   provider: personio
   slug: personio
@@ -1733,6 +1745,12 @@ companies:
   source: zefix
   added_at: '2026-11-06T13:25:11+00:00'
   enabled: true
+- name: Lembro SA
+  provider: workable
+  slug: lembro
+  source: zefix
+  added_at: '2026-11-19T14:46:18+00:00'
+  enabled: true
 - name: Lightspeed
   provider: workable
   slug: lightspeed
@@ -1888,6 +1906,12 @@ companies:
   slug: notion
   source: discovered
   added_at: '2026-09-26T17:16:43+00:00'
+  enabled: true
+- name: Novamont GmbH
+  provider: workable
+  slug: novamont
+  source: zefix
+  added_at: '2026-11-19T14:52:42+00:00'
   enabled: true
 - name: Novartis
   provider: workable

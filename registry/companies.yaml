@@ -1721,6 +1721,12 @@ companies:
   source: zefix
   added_at: '2026-11-15T12:58:42+00:00'
   enabled: true
+- name: Kim AG
+  provider: workable
+  slug: kim
+  source: zefix
+  added_at: '2026-11-21T13:54:47+00:00'
+  enabled: true
 - name: Klaviyo
   provider: workable
   slug: klaviyo

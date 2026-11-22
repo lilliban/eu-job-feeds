@@ -971,6 +971,12 @@ companies:
   source: curated
   added_at: '2026-09-24T20:15:36+00:00'
   enabled: true
+- name: unex lighting AG
+  provider: personio
+  slug: unex-lighting
+  source: zefix
+  added_at: '2026-11-22T13:53:11+00:00'
+  enabled: true
 - name: Yin Yang GmbH
   provider: personio
   slug: yinyang
@@ -2146,6 +2152,12 @@ companies:
   slug: sabo
   source: zefix
   added_at: '2026-11-10T13:53:52+00:00'
+  enabled: true
+- name: Sabra SA
+  provider: workable
+  slug: sabra
+  source: zefix
+  added_at: '2026-11-22T13:38:48+00:00'
   enabled: true
 - name: Salt Mobile
   provider: workable

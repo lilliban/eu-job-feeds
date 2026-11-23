@@ -1121,6 +1121,12 @@ companies:
   source: curated
   added_at: '2026-09-24T22:21:41+00:00'
   enabled: true
+- name: Ondaï SA
+  provider: smartrecruiters
+  slug: onda
+  source: zefix
+  added_at: '2026-11-23T16:35:18+00:00'
+  enabled: true
 - name: Palantir Technologies
   provider: smartrecruiters
   slug: palantir
@@ -1306,6 +1312,12 @@ companies:
   slug: asana
   source: discovered
   added_at: '2026-09-26T17:20:13+00:00'
+  enabled: true
+- name: ASEC AG
+  provider: workable
+  slug: asec
+  source: zefix
+  added_at: '2026-11-23T16:41:33+00:00'
   enabled: true
 - name: Autodesk SA
   provider: workable
@@ -1559,6 +1571,12 @@ companies:
   source: zefix
   added_at: '2026-09-26T17:44:12+00:00'
   enabled: true
+- name: Fujitsu Technology Solutions AG
+  provider: workable
+  slug: fujitsu-technology-solutions
+  source: zefix
+  added_at: '2026-11-23T16:34:46+00:00'
+  enabled: true
 - name: FullStory
   provider: workable
   slug: fullstory
@@ -1600,6 +1618,12 @@ companies:
   slug: glencore
   source: discovered
   added_at: '2026-09-27T08:21:36+00:00'
+  enabled: true
+- name: Gloria AG
+  provider: workable
+  slug: gloria
+  source: zefix
+  added_at: '2026-11-23T16:35:26+00:00'
   enabled: true
 - name: GoodData
   provider: workable
@@ -1895,6 +1919,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:18:02+00:00'
   enabled: true
+- name: New Media GmbH
+  provider: workable
+  slug: new-media
+  source: zefix
+  added_at: '2026-11-23T16:33:35+00:00'
+  enabled: true
 - name: New Relic
   provider: workable
   slug: new-relic
@@ -1949,6 +1979,12 @@ companies:
   source: discovered
   added_at: '2026-09-27T08:10:06+00:00'
   enabled: true
+- name: Ondaï SA
+  provider: workable
+  slug: onda
+  source: zefix
+  added_at: '2026-11-23T16:35:17+00:00'
+  enabled: true
 - name: Osea SA
   provider: workable
   slug: osea
@@ -1972,6 +2008,12 @@ companies:
   slug: pagerduty
   source: discovered
   added_at: '2026-09-26T17:23:11+00:00'
+  enabled: true
+- name: peerless ag
+  provider: workable
+  slug: peerless
+  source: zefix
+  added_at: '2026-11-23T16:46:04+00:00'
   enabled: true
 - name: Pendo
   provider: workable
@@ -2380,6 +2422,12 @@ companies:
   slug: viana
   source: zefix
   added_at: '2026-11-02T14:07:11+00:00'
+  enabled: true
+- name: Visa SA
+  provider: workable
+  slug: visa
+  source: zefix
+  added_at: '2026-11-23T16:49:51+00:00'
   enabled: true
 - name: Wander AG
   provider: workable

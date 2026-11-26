@@ -425,6 +425,12 @@ companies:
   source: discovered
   added_at: '2026-09-26T17:16:59+00:00'
   enabled: true
+- name: Artest SA
+  provider: greenhouse
+  slug: artest
+  source: zefix
+  added_at: '2026-11-26T16:02:20+00:00'
+  enabled: true
 - name: Asana
   provider: greenhouse
   slug: asana

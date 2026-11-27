@@ -1223,6 +1223,12 @@ companies:
   source: zefix
   added_at: '2026-10-08T12:17:54+00:00'
   enabled: true
+- name: ADOS AG
+  provider: workable
+  slug: ados
+  source: zefix
+  added_at: '2026-11-27T15:55:37+00:00'
+  enabled: true
 - name: Advance AG
   provider: workable
   slug: advance
@@ -1828,6 +1834,12 @@ companies:
   slug: louis-vuitton
   source: discovered
   added_at: '2026-09-27T08:09:41+00:00'
+  enabled: true
+- name: lula GmbH
+  provider: workable
+  slug: lula
+  source: zefix
+  added_at: '2026-11-27T15:54:43+00:00'
   enabled: true
 - name: Make
   provider: workable
